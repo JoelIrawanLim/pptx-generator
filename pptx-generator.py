@@ -1,11 +1,18 @@
 from pptx import Presentation
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
 import yaml
 with open('data.yml', 'r') as file:
    data = yaml.safe_load(file)
 
-print(data['001']['lyrics'][0][0])
+def get_next_weekday(startdate, weekday):
+    """
+    @startdate: given date, in format '2013-05-25'
+    @weekday: week day as a integer, between 0 (Monday) to 6 (Sunday)
+    """
+    d = datetime.strptime(startdate, '%d %B %Y')
+    t = timedelta((7 + weekday - d.weekday()) % 7)
+    return (d + t).strftime('%d %B %Y')
 
 class song:
    def __init__(self, title, author, verse_number, lyrics):
@@ -18,10 +25,10 @@ script_path = os.path.abspath(__file__)
 script_dir = os.path.split(script_path)[0]
 prs = Presentation(os.path.join(script_dir, "presentations/Remaja_template.pptx"))
 output_presentation = './presentations/test4.pptx'
-
-song_1_id = '001'
-song_2_id = '002'
-song_3_id = '003'
+# ------------------- Song ID -------------------------------
+song_1_id = '003'
+song_2_id = '001'
+song_3_id = '004'
 
 def id_to_song():
     global song_1
@@ -47,7 +54,8 @@ def add_welcome_slide():
     date_text = slide.placeholders[10]
     church_name = slide.placeholders[11]
     title.text = "Welcome to Remaja"
-    date_text.text = datetime.today().strftime('%d %B %Y')
+    # date_text.text = datetime.strptime(saturday,'%d %B %Y')
+    date_text.text = get_next_weekday(datetime.today().strftime('%d %B %Y'), 5)
     church_name.text = "Reformed Evangelical Church Singapore"
 
 def add_first_song_title_slide():
