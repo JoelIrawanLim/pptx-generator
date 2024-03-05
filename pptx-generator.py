@@ -1,6 +1,11 @@
 from pptx import Presentation
 from datetime import datetime
 import os
+import yaml
+with open('data.yml', 'r') as file:
+   data = yaml.safe_load(file)
+
+print(data['001']['lyrics'][0][0])
 
 class song:
    def __init__(self, title, author, verse_number, lyrics):
@@ -14,23 +19,17 @@ script_dir = os.path.split(script_path)[0]
 prs = Presentation(os.path.join(script_dir, "presentations/Remaja_template.pptx"))
 output_presentation = './presentations/test4.pptx'
 
-song_1 = song("How Great Thou Art", "Carl Bobert", [1, "ref", 2, "ref"], 
-    [["O Lord my God, when I in awesome wonder", "Consider all the worlds Thy hands have made,", "I see the stars, I hear the rolling thunder,", "Thy power throughout the universe displayed."],
-    ["Then sings my soul, my Saviour God to Thee", "How great Thou art! How great Thou art!", "Then sings my soul, my Saviour God to Thee", "How great Thou art! How great Thou art!"], 
-    ["And when I think of God, His Son not sparing", "Sent Him to die, I scarce can take it in,", "That on the cross my burden gladly bearing,"],
-    [""]
-    ])
+song_1_id = '001'
+song_2_id = '002'
+song_3_id = '003'
 
-song_2 = song("Garry Alone", "Garqy", [1, 2, 3], 
-    [["hi", "hello"],
-    ["bye"],
-    [""]
-    ])
-
-song_3 = song("Garry Alone", "Garjy", [1, 2], 
-    [["hi", "hello"],
-    ["bye"]
-    ])
+def id_to_song():
+    global song_1
+    global song_2 
+    global song_3
+    song_1 = data[song_1_id]
+    song_2 = data[song_2_id]
+    song_3 = data[song_3_id]
 
 def generate_verse_number(verse_num): 
    if isinstance(verse_num, int):
@@ -57,10 +56,10 @@ def add_first_song_title_slide():
     title = slide.shapes.title
     for shape in slide.placeholders:
      print('%d %s' % (shape.placeholder_format.idx, shape.name))
-    title.text = song_1.title
+    title.text = song_1['title']
     number_text = slide.placeholders[10]
     author_text = slide.placeholders[11]
-    author_text.text = song_1.author
+    author_text.text = song_1['author']
     number_text.text = "1"
 
 def add_second_song_title_slide():
@@ -69,10 +68,10 @@ def add_second_song_title_slide():
     title = slide.shapes.title
     for shape in slide.placeholders:
      print('%d %s' % (shape.placeholder_format.idx, shape.name))
-    title.text = song_2.title
+    title.text = song_2['title']
     number_text = slide.placeholders[10]
     author_text = slide.placeholders[11]
-    author_text.text = song_2.author
+    author_text.text = song_2['author']
     number_text.text = "2"
 
 def add_third_song_title_slide():
@@ -81,10 +80,10 @@ def add_third_song_title_slide():
     title = slide.shapes.title
     for shape in slide.placeholders:
      print('%d %s' % (shape.placeholder_format.idx, shape.name))
-    title.text = song_3.title
+    title.text = song_3['title']
     number_text = slide.placeholders[10]
     author_text = slide.placeholders[11]
-    author_text.text = song_3.author
+    author_text.text = song_3['author']
     number_text.text = "3"
     
 def add_first_song_lyrics_slide(verse_number):
@@ -93,16 +92,17 @@ def add_first_song_lyrics_slide(verse_number):
     title = slide.shapes.title
     for shape in slide.placeholders:
      print('%d %s' % (shape.placeholder_format.idx, shape.name))
-    title.text = song_1.title
+    title.text = song_1['title']
     author_text = slide.placeholders[11]
     number_text = slide.placeholders[13]
     lyrics_text = slide.placeholders[12].text_frame
-    author_text.text = song_1.author
-    lyrics_text.text = song_1.lyrics[verse_number][0]
-    number_text.text = generate_verse_number(song_1.verse_number[verse_number])
-    for i in range(1, len(song_1.lyrics[verse_number])):
+    author_text.text = song_1['author']
+    print(verse_number)
+    lyrics_text.text = song_1['lyrics'][verse_number][0]
+    number_text.text = generate_verse_number(song_1['verse_number'][verse_number])
+    for i in range(1, len(song_1['lyrics'][verse_number])):
         p = lyrics_text.add_paragraph()
-        p.text = song_1.lyrics[verse_number][i]
+        p.text = song_1['lyrics'][verse_number][i]
 
 def add_second_song_lyrics_slide(verse_number):
     print("First Lyric Slide")
@@ -110,16 +110,16 @@ def add_second_song_lyrics_slide(verse_number):
     title = slide.shapes.title
     for shape in slide.placeholders:
      print('%d %s' % (shape.placeholder_format.idx, shape.name))
-    title.text = song_2.title
+    title.text = song_2['title']
     author_text = slide.placeholders[11]
     number_text = slide.placeholders[13]
     lyrics_text = slide.placeholders[12].text_frame
-    author_text.text = song_2.author
-    number_text.text = generate_verse_number(song_2.verse_number[verse_number])
-    lyrics_text.text = song_2.lyrics[verse_number][0]
-    for i in range(1, len(song_2.lyrics[verse_number])):
+    author_text.text = song_2['author']
+    number_text.text = generate_verse_number(song_2['verse_number'][verse_number])
+    lyrics_text.text = song_2['lyrics'][verse_number][0]
+    for i in range(1, len(song_2['lyrics'][verse_number])):
         p = lyrics_text.add_paragraph()
-        p.text = song_2.lyrics[verse_number][i]
+        p.text = song_2['lyrics'][verse_number][i]
 
 def add_third_song_lyrics_slide(verse_number):
     print("First Lyric Slide")
@@ -127,19 +127,19 @@ def add_third_song_lyrics_slide(verse_number):
     title = slide.shapes.title
     for shape in slide.placeholders:
      print('%d %s' % (shape.placeholder_format.idx, shape.name))
-    title.text = song_3.title
+    title.text = song_3['title']
     author_text = slide.placeholders[11]
     number_text = slide.placeholders[13]
     lyrics_text = slide.placeholders[12].text_frame
-    author_text.text = song_3.author
-    number_text.text = generate_verse_number(song_3.verse_number[verse_number])
-    lyrics_text.text = song_3.lyrics[verse_number][0]
-    for i in range(1, len(song_3.lyrics[verse_number])):
+    author_text.text = song_3['author']
+    number_text.text = generate_verse_number(song_3['verse_number'][verse_number])
+    lyrics_text.text = song_3['lyrics'][verse_number][0]
+    for i in range(1, len(song_3['lyrics'][verse_number])):
         p = lyrics_text.add_paragraph()
-        p.text = song_3.lyrics[verse_number][i]    
+        p.text = song_3['lyrics'][verse_number][i]    
 
 def add_black_slide():
-   slide = prs.slides.add_slide(prs.slide_layouts[7])
+    prs.slides.add_slide(prs.slide_layouts[7])
 
 def add_announcements():
     prs.slides.add_slide(prs.slide_layouts[8])
@@ -150,22 +150,22 @@ def add_announcements():
 
 def generate_first_song():
     add_first_song_title_slide()
-    for i in range(0, len(song_1.verse_number)):
+    for i in range(0, len(song_1['verse_number'])):
         add_first_song_lyrics_slide(i)
     add_black_slide()
 
 def generate_second_song():
     add_second_song_title_slide()
-    for i in range(0, len(song_2.verse_number)):
+    for i in range(0, len(song_2['verse_number'])):
         add_second_song_lyrics_slide(i)
     add_black_slide()
 
 def generate_third_song():
     add_third_song_title_slide()
-    for i in range(0, len(song_3.verse_number)):
+    for i in range(0, len(song_3['verse_number'])):
         add_third_song_lyrics_slide(i)
     add_black_slide()
-
+id_to_song()
 add_welcome_slide()
 generate_first_song()
 generate_second_song()
