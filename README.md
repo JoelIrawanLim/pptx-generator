@@ -1,4 +1,5 @@
 # pptx-generator
 Helps automatically generate slides
-
-Requires python-pptx installed
+## Dependencies
+Requires Python 3.7 and higher
+Requires python-pptx, pyyaml, setuptools
