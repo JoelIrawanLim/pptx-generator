@@ -12,6 +12,7 @@ setup(
     install_requires=[
         'python-pptx',  # Required for working with PowerPoint files
         'pyyaml',       # Required for YAML file operations
+        'rich',
     ],
     entry_points={
         'console_scripts': [

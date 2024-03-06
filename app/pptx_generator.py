@@ -6,7 +6,9 @@ import os
 import sys
 import yaml
 from importlib import resources
+from rich.console import Console
 
+console = Console()
 # print(f"Current Working Directory: {os.getcwd()}")
 script_path = os.path.abspath(__file__)
 script_dir = os.path.split(script_path)[0]
@@ -256,14 +258,14 @@ def search():
                     print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                     found = 1
             if found != 1: 
-                print(f"There is no '{sys.argv[1]}' in our song list.")
+                console.print(f"There is no [red underline bold]{sys.argv[1]}[/] in our song list.")
         elif sys.argv[2] == "-t":
             for key in data:
                 if sys.argv[1].lower().replace(" ", "") == data[key]['title'].lower().replace(" ", ""):
                     print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                     found = 1
             if found != 1: 
-                print(f"There is no '{sys.argv[1]}' in our song list.")
+                console.print(f"There is no [red underline bold]{sys.argv[1]}[/] in our song list.")
         elif sys.argv[2] == "-k":
             if sys.argv[1].isdigit():
                 for key in data:
@@ -271,9 +273,9 @@ def search():
                         print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                         found = 1
                 if found != 1: 
-                    print(f"There is no KRI'{sys.argv[1]}' in our song list.")
+                    console.print(f"There is no [red underline bold] KRI {sys.argv[1]}[/] in our song list.")
             else:
-                print("That is not a valid KRI number")
+                console.print("[red bold]That is not a valid KRI number")
     else: 
         print('pptx-generator-search requires 2 values. \nThe first is the author, title, or KRI number of the song surrounded in double quotes ("), \nNext is the flag. -a for author, -t for title, and -k for kri number\nExample: pptx-generator-search "Grace Alone" -t')
 if __name__ == "__main__":
