@@ -5,13 +5,21 @@ from datetime import datetime, timedelta
 import os
 import sys
 import yaml
-import pkg_resources
+from importlib import resources
+
 
 
 def main():
+    # print(f"Current Working Directory: {os.getcwd()}")
     script_path = os.path.abspath(__file__)
     script_dir = os.path.split(script_path)[0]
-    pptx_file = pkg_resources.resource_filename('app', 'data/Remaja_template.pptx')
+    # print(script_dir)
+    # print(f"Python Interpreter: {sys.executable}")
+    # pptx_file = importlib.resources.resource_filename('app', 'data/Remaja_template.pptx')
+    # with resources.files('app.data').joinpath('Remaja_template.pptx') as pptx_path:
+    #     prs = Presentation(pptx_path)
+    #     pptx_file = str(pptx_path)
+    pptx_path = os.path.join(script_dir, "data/Remaja_template.pptx")
 
     with open(os.path.join(script_dir, "data/data.yml"), 'r') as file:
         data = yaml.safe_load(file)
@@ -32,7 +40,7 @@ def main():
             self.verse_number = verse_number
             self.lyrics = lyrics
 
-    prs = Presentation(pptx_file)
+    prs = Presentation(pptx_path)
     output_presentation = './data/test4.pptx'
     # ------------------- Song ID -------------------------------
     song_1_id = '003'
@@ -215,4 +223,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
