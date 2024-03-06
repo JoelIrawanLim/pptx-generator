@@ -41,7 +41,7 @@ def main():
             self.lyrics = lyrics
 
     prs = Presentation(pptx_path)
-    output_presentation = './data/test4.pptx'
+    output_presentation = './presentation.pptx'
     # ------------------- Song ID -------------------------------
     song_1_id = '003'
     song_2_id = '001'
@@ -208,7 +208,10 @@ def main():
         song_1_id = sys.argv[1]
         song_2_id = sys.argv[2]
         song_3_id = sys.argv[3]
-        output_presentation = sys.argv[4]
+        if sys.argv[4].endswith(('.pptx')):
+            output_presentation = sys.argv[4]
+        else:
+            output_presentation = sys.argv[4] + ".pptx"
         id_to_song()
         add_welcome_slide()
         generate_first_song()
@@ -217,6 +220,7 @@ def main():
         add_announcements() 
         prs.save(output_presentation)
         print("Done!")
+       
     else:
         print("Not enough arguments provided. Requires at least 3 arguments")
         print(sys.argv)
