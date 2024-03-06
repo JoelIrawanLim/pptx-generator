@@ -5,3 +5,19 @@ Presentations/._test4.pptx
 Presentations/~$Remaja_template.pptx
 Presentations/~$test4.pptx
 Presentations/test4.pptx
+
+# Ignore all .pptx files
+*.pptx
+
+# But don't ignore .pptx files in app/data
+!app/data/*.pptx
+
+# Other files and directories to ignore
+.DS_Store
+__pycache__/
+*.pyc
+/build/
+/dist/
+*.egg-info/
+.venv/
+.env
