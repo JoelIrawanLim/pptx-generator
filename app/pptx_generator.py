@@ -7,6 +7,11 @@ import sys
 import yaml
 from importlib import resources
 from rich.console import Console
+from rich.table import Table
+# from textual.app import App, ComposeResult
+# from textual.widgets import Button, Digits
+
+
 
 console = Console()
 # print(f"Current Working Directory: {os.getcwd()}")
@@ -250,33 +255,53 @@ def main():
         print(sys.argv)
 
 def search():
+    table = Table(title="Search Results")
+    table.add_column("PPTX-Address", style="cyan")
+    table.add_column("Title", style="blue")
+    table.add_column("Author", style="green")
     if len(sys.argv) == 3: 
         found = 0
         if sys.argv[2] == "-a":
             for key in data:
                 if sys.argv[1].lower().replace(" ", "") == data[key]['author'].lower().replace(" ", ""):
-                    print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
+                    table.add_row(key, data[key]['title'], data[key]['author'])
+                    # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                     found = 1
             if found != 1: 
                 console.print(f"There is no [red underline bold]{sys.argv[1]}[/] in our song list.")
+            else:
+                console.print(table)
         elif sys.argv[2] == "-t":
             for key in data:
                 if sys.argv[1].lower().replace(" ", "") == data[key]['title'].lower().replace(" ", ""):
-                    print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
+                    table.add_row(key, data[key]['title'], data[key]['author'])
+                    # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                     found = 1
             if found != 1: 
                 console.print(f"There is no [red underline bold]{sys.argv[1]}[/] in our song list.")
+            else:
+                console.print(table)
         elif sys.argv[2] == "-k":
             if sys.argv[1].isdigit():
                 for key in data:
                     if int(sys.argv[1]) == data[key]['kri_number']:
-                        print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
+                        table.add_row(key, data[key]['title'], data[key]['author'])
+                        # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                         found = 1
                 if found != 1: 
                     console.print(f"There is no [red underline bold] KRI {sys.argv[1]}[/] in our song list.")
+                else:
+                    console.print(table)
             else:
                 console.print("[red bold]That is not a valid KRI number")
     else: 
         print('pptx-generator-search requires 2 values. \nThe first is the author, title, or KRI number of the song surrounded in double quotes ("), \nNext is the flag. -a for author, -t for title, and -k for kri number\nExample: pptx-generator-search "Grace Alone" -t')
+
+# class pptx_generator(App):
+#     def compose(self):
+#         yield Button("Start")
+
+
 if __name__ == "__main__":
+    # pptx_generator().run()
     main()
