@@ -2,6 +2,7 @@
   title: "We're Marching To Zion"
   author: "Isaac Watts"
   verse_number: [1, "ref", 2, "ref", 3, "ref", 4]
+  kri_number: 68
   lyrics: 
   - - "Come, we that love the Lord,"
     - "And let our joys be known"
@@ -64,6 +65,7 @@
   title: "How Great Thou Art"
   author: "Carl Rob"
   verse_number: [1, "ref"]
+  kri_number: 1
   lyrics: 
   - - "O Lord my God, when I in awesome wonder"
     - "Consider all the worlds Thy hands have made,"
@@ -78,6 +80,7 @@
   title: "H"
   author: "Mika"
   verse_number: [1, "ref"]
+  kri_number: a
   lyrics: 
   - - "O Lord my God, when I in awesome wonder"
     - "Consider all the worlds Thy hands have made,"
@@ -92,6 +95,7 @@
   title: "A"
   author: "Mika"
   verse_number: [1, "ref"]
+  kri_number: a
   lyrics: 
   - - "O Lord my God, when I in awesome wonder"
     - "Consider all the worlds Thy hands have made,"
@@ -106,6 +110,7 @@
   title: "B"
   author: "Mika"
   verse_number: [1, "ref"]
+  kri_number: a
   lyrics: 
   - - "O Lord my God, when I in awesome wonder"
     - "Consider all the worlds Thy hands have made,"
