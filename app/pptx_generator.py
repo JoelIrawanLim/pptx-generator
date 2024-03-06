@@ -253,25 +253,25 @@ def search():
         if sys.argv[2] == "-a":
             for key in data:
                 if sys.argv[1].lower().replace(" ", "") == data[key]['author'].lower().replace(" ", ""):
-                    print(key)
+                    print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                     found = 1
             if found != 1: 
                 print(f"There is no '{sys.argv[1]}' in our song list.")
         elif sys.argv[2] == "-t":
             for key in data:
                 if sys.argv[1].lower().replace(" ", "") == data[key]['title'].lower().replace(" ", ""):
-                    print(key)
+                    print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                     found = 1
             if found != 1: 
                 print(f"There is no '{sys.argv[1]}' in our song list.")
         elif sys.argv[2] == "-k":
-            if sys.argv[2].isdigit():
+            if sys.argv[1].isdigit():
                 for key in data:
-                    if sys.argv[1] == data[key]['kri_number']:
-                        print(key)
+                    if int(sys.argv[1]) == data[key]['kri_number']:
+                        print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                         found = 1
                 if found != 1: 
-                    print(f"There is no '{sys.argv[1]}' in our song list.")
+                    print(f"There is no KRI'{sys.argv[1]}' in our song list.")
             else:
                 print("That is not a valid KRI number")
     else: 
