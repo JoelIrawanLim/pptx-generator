@@ -8,8 +8,8 @@ import yaml
 from importlib import resources
 from rich.console import Console
 from rich.table import Table
-# from textual.app import App, ComposeResult
-# from textual.widgets import Button, Digits
+from textual.app import App, ComposeResult
+from textual.widgets import Button, Static
 
 
 
@@ -297,11 +297,11 @@ def search():
     else: 
         print('pptx-generator-search requires 2 values. \nThe first is the author, title, or KRI number of the song surrounded in double quotes ("), \nNext is the flag. -a for author, -t for title, and -k for kri number\nExample: pptx-generator-search "Grace Alone" -t')
 
-# class pptx_generator(App):
-#     def compose(self):
-#         yield Button("Start")
+class pptx_generator(App):
+    def compose(self):
+        yield Button("Start")
 
 
 if __name__ == "__main__":
-    # pptx_generator().run()
+    pptx_generator().run()
     main()
