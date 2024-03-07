@@ -12,21 +12,34 @@ from rich.table import Table
 # from textual.widgets import Button, Digits
 
 
+def initialize():
+    global console
+    global data 
+    global prs 
+    global output_presentation
+    global song_1_id
+    global song_2_id
+    global song_3_id
+    console = Console()
+    # print(f"Current Working Directory: {os.getcwd()}")
+    script_path = os.path.abspath(__file__)
+    script_dir = os.path.split(script_path)[0]
+    # print(script_dir)
+    # print(f"Python Interpreter: {sys.executable}")
+    # pptx_file = importlib.resources.resource_filename('app', 'data/Remaja_template.pptx')
+    # with resources.files('app.data').joinpath('Remaja_template.pptx') as pptx_path:
+    #     prs = Presentation(pptx_path)
+    #     pptx_file = str(pptx_path)
+    with open(os.path.join(script_dir, "data/data.yml"), 'r') as file:
+        data = yaml.safe_load(file)
 
-console = Console()
-# print(f"Current Working Directory: {os.getcwd()}")
-script_path = os.path.abspath(__file__)
-script_dir = os.path.split(script_path)[0]
-# print(script_dir)
-# print(f"Python Interpreter: {sys.executable}")
-# pptx_file = importlib.resources.resource_filename('app', 'data/Remaja_template.pptx')
-# with resources.files('app.data').joinpath('Remaja_template.pptx') as pptx_path:
-#     prs = Presentation(pptx_path)
-#     pptx_file = str(pptx_path)
-pptx_path = os.path.join(script_dir, "data/Remaja_template.pptx")
-
-with open(os.path.join(script_dir, "data/data.yml"), 'r') as file:
-    data = yaml.safe_load(file)
+    pptx_path = os.path.join(script_dir, "data/Remaja_template.pptx")
+    prs = Presentation(pptx_path)
+    output_presentation = "./presentation.pptx"
+    # ------------------- Song ID -------------------------------
+    song_1_id = '003'
+    song_2_id = '001'
+    song_3_id = '004'
 
 def get_next_weekday(startdate, weekday):
     """
@@ -37,18 +50,11 @@ def get_next_weekday(startdate, weekday):
     t = timedelta((7 + weekday - d.weekday()) % 7)
     return (d + t).strftime('%d %B %Y')
 
-prs = Presentation(pptx_path)
-output_presentation = './presentation.pptx'
-# ------------------- Song ID -------------------------------
-song_1_id = '003'
-song_2_id = '001'
-song_3_id = '004'
 
 def id_to_song():
     global song_1
     global song_2 
     global song_3
-    print(data)
     song_1 = data[song_1_id]
     song_2 = data[song_2_id]
     song_3 = data[song_3_id]
@@ -219,6 +225,8 @@ def song_id():
 #----------------------------- MAIN FUNCTION -----------------------------------------------------------------
 
 def main():
+    global output_presentation
+    initialize()
     if len(sys.argv) == 4:
         # song_1_id = sys.argv[1]
         # song_2_id = sys.argv[2]
@@ -231,7 +239,7 @@ def main():
         generate_third_song() 
         add_announcements() 
         prs.save(output_presentation)
-        print("Done!")
+        console.print(f"[green]Done! Saved [/]{output_presentation}")
     elif len(sys.argv) > 4: 
         # song_1_id = sys.argv[1]
         # song_2_id = sys.argv[2]
@@ -248,13 +256,14 @@ def main():
         generate_third_song() 
         add_announcements() 
         prs.save(output_presentation)
-        print("Done!")
+        console.print(f"[green]Done! Saved [/]{output_presentation}")
        
     else:
-        print("Not enough arguments provided. Requires at least 3 values")
-        print(sys.argv)
+        console.print("[red bold]Not enough arguments provided. Requires at least 3 values")
 
 def search():
+    global output_presentation
+    initialize()
     table = Table(title="Search Results")
     table.add_column("PPTX-Address", style="cyan")
     table.add_column("Title", style="blue")
