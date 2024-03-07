@@ -1,4 +1,4 @@
-'001':
+'kri68':
   title: "We're Marching To Zion"
   author: "Isaac Watts"
   verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
@@ -105,7 +105,7 @@
     - We're marching upward to Zion,
     - The beautiful city of God.
 
-'002':
+'kri1':
   title: "How Great Thou Art"
   author: "Carl Rob"
   verse_number: [1, "ref", 2, "ref", 3, "ref"]
@@ -136,7 +136,7 @@
     - "Then sings my soul, my Saviour God to Thee"
     - "How great Thou art! How great Thou art!"
 
-'003':
+'kri39':
   title: "Lead Me To Calvary"
   author: "Jennie Evelyn Hussey, William J. Kirkpatrick"
   verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
@@ -175,32 +175,33 @@
     - "Lest I forget Thy love for me,"
     - "Lead me to Calvary."
 
-'004':
-  title: "A"
-  author: "Mika"
-  verse_number: [1, "ref"]
-  kri_number: a
+'kri37':
+  title: "I Believe in a Hill called Mount Calvary"
+  author: "Dale Oldham, Gloria & William J. Gaither"
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: 37
   lyrics: 
-  - - "O Lord my God, when I in awesome wonder"
-    - "Consider all the worlds Thy hands have made,"
-    - I see the stars, I hear the rolling thunder,"
-    - "Thy power throughout the universe displayed."
-  - - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
-    - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
-
-'005':
-  title: "B"
-  author: "Mika"
-  verse_number: [1, "ref"]
-  kri_number: a
-  lyrics: 
-  - - "O Lord my God, when I in awesome wonder"
-    - "Consider all the worlds Thy hands have made,"
-    - I see the stars, I hear the rolling thunder,"
-    - "Thy power throughout the universe displayed."
-  - - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
-    - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
+  - - "There are things as we travel this earth's shifting sands,"
+    - "that transcend all the reason of man;"
+    - "But the things that matter the most in this world"
+    - "they can never be held in our hand."
+  - - "I believe in a hill called Mount Calv'ry."
+    - "I believe whatever the cost;"
+    - "And when time has surrendered and earth is no more,"
+    - "I'll still cling to the old rugged cross."
+  - - "I believe that the Christ who was slain on that cross,"
+    - "has the power to change lives today;"
+    - "For He changed me completely, a new life is mine,"
+    - "that is why by the cross I will stay."
+  - - "I believe in a hill called Mount Calv'ry."
+    - "I believe whatever the cost;"
+    - "And when time has surrendered and earth is no more,"
+    - "I'll still cling to the old rugged cross."
+  - - "I believe that this life with its great mysteries,"
+    - "surely someday will come to an end;"
+    - "But faith will conquer the darkness and death,"
+    - "And will lead me at last to my Friend."
+  - - "I believe in a hill called Mount Calv'ry."
+    - "I believe whatever the cost;"
+    - "And when time has surrendered and earth is no more,"
+    - "I'll still cling to the old rugged cross."

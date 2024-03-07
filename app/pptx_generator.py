@@ -195,29 +195,39 @@ def generate_third_song():
         add_third_song_lyrics_slide(i)
     add_black_slide()
 
+def text_formater(text):
+    text = text.lower().replace("_", "").replace("-", "")
+    if text[0] == "k":
+        if text[1] == "r" and text[2] == "i":
+            return text
+        else:
+            return text.replace("k", "kri")
 def song_id():
     global song_1_id
     global song_2_id
     global song_3_id
     global Fail
+    argv1=text_formater(sys.argv[1])
+    argv2=text_formater(sys.argv[2])
+    argv3=text_formater(sys.argv[3])
     Fail = 0
-    if data.get(sys.argv[1]):
-        song_1_id = sys.argv[1]
+    if data.get(argv1):
+        song_1_id = argv1
         Fail += 1
     else: 
-        song_1_id = sys.argv[1]
+        song_1_id = argv1
         print(f"{song_1_id} is not a valid song id" )
-    if data.get(sys.argv[2]):
-        song_2_id = sys.argv[2]
+    if data.get(argv2):
+        song_2_id = argv2
         Fail += 1
     else: 
-        song_2_id = sys.argv[2]
+        song_2_id = argv2
         print(f"{song_2_id} is not a valid song id" )
-    if data.get(sys.argv[3]):
-        song_3_id = sys.argv[3]
+    if data.get(argv3):
+        song_3_id = argv3
         Fail += 1
     else: 
-        song_3_id = sys.argv[3]
+        song_3_id = argv3
         print(f"{song_3_id} is not a valid song id" )
     if Fail != 3: 
         sys.exit()
