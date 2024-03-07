@@ -1,7 +1,7 @@
 '001':
   title: "We're Marching To Zion"
   author: "Isaac Watts"
-  verse_number: [1, "ref", 2, "ref", 3, "ref", 4]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
   kri_number: 68
   lyrics: 
   - - "Come, we that love the Lord,"
@@ -60,11 +60,55 @@
     - There, from the rivers of His grace,
     - Drink endless pleasures in,
     - Drink endless pleasures in.
+  - - We're marching to Zion,
+    - Beautiful, beautiful Zion
+    - We're marching upward to Zion,
+    - The beautiful city of God.
+  - - Yea, and before we rise,
+    - To that immortal state,
+    - The thoughts of such amazing bliss,
+    - The thoughts of such amazing bliss,
+    - Should constant joys create,
+    - Should constant joys create.
+  - - We're marching to Zion,
+    - Beautiful, beautiful Zion
+    - We're marching upward to Zion,
+    - The beautiful city of God.
+  - - The men of grace have found,
+    - Glory begun below.
+    - Celestial fruits on earthly ground
+    - Celestial fruits on earthly ground
+    - From faith and hope may grow,
+    - From faith and hope may grow.
+  - - We're marching to Zion,
+    - Beautiful, beautiful Zion
+    - We're marching upward to Zion,
+    - The beautiful city of God.
+  - - The hill of Zion yields
+    - A thousand sacred sweets
+    - Before we reach the heav'nly fields,
+    - Before we reach the heav'nly fields,
+    - Or walk the golden streets,
+    - Or walk the golden streets.
+  - - We're marching to Zion,
+    - Beautiful, beautiful Zion
+    - We're marching upward to Zion,
+    - The beautiful city of God.
+  - - Then let our songs abound,
+    - And every tear be dry;
+    - We're marching through Immanuel's ground,
+    - We're marching through Immanuel's ground,
+    - To fairer worlds on high,
+    - To fairer worlds on high.
+  - - We're marching to Zion,
+    - Beautiful, beautiful Zion
+    - We're marching upward to Zion,
+    - The beautiful city of God.
 
 '002':
   title: "How Great Thou Art"
   author: "Carl Rob"
-  verse_number: [1, "ref"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref"]
   kri_number: 1
   lyrics: 
   - - "O Lord my God, when I in awesome wonder"
@@ -75,21 +119,61 @@
     - "How great Thou art! How great Thou art!"
     - "Then sings my soul, my Saviour God to Thee"
     - "How great Thou art! How great Thou art!"
-
-'003':
-  title: "H"
-  author: "Mika"
-  verse_number: [1, "ref"]
-  kri_number: a
-  lyrics: 
-  - - "O Lord my God, when I in awesome wonder"
-    - "Consider all the worlds Thy hands have made,"
-    - I see the stars, I hear the rolling thunder,"
-    - "Thy power throughout the universe displayed."
+  - - And when I think of God, His Son not sparing
+    - Sent Him to die, I scarce can take it in,
+    - That on the cross my burden gladly bearing,
+    - He bled and died to take away my sin.
   - - "Then sings my soul, my Saviour God to Thee"
     - "How great Thou art! How great Thou art!"
     - "Then sings my soul, my Saviour God to Thee"
     - "How great Thou art! How great Thou art!"
+  - - "When Christ shall come with shouts of acclamation"
+    - "And lead me home, what joy shall fill my heart!"
+    - "Then I shall bow with humble adoration,"
+    - 'And then proclaim: "My God, how great Thou art!"'
+  - - "Then sings my soul, my Saviour God to Thee"
+    - "How great Thou art! How great Thou art!"
+    - "Then sings my soul, my Saviour God to Thee"
+    - "How great Thou art! How great Thou art!"
+
+'003':
+  title: "Lead Me To Calvary"
+  author: "Jennie Evelyn Hussey, William J. Kirkpatrick"
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: 39
+  lyrics: 
+  - - "King of my life, I crown Thee now,"
+    - "Thine shall the glory be;"
+    - "Lest I forget Thy thorn-crowned brow,"
+    - "Lead me to Calvary."
+  - - "Lest I forget Gethsemane,"
+    - "Lest I forget Thine agony;"
+    - "Lest I forget Thy love for me,"
+    - "Lead me to Calvary."
+  - - "Show me the tomb where Thou wast laid,"
+    - "Tenderly mourned and wept;"
+    - "Angels in robes of light arrayed"
+    - "Guarded Thee whilst Thou slept."
+  - - "Lest I forget Gethsemane,"
+    - "Lest I forget Thine agony;"
+    - "Lest I forget Thy love for me,"
+    - "Lead me to Calvary."
+  - - "Let me like Mary, through the gloom,"
+    - "Come with a gift to Thee;"
+    - "Show to me now the empty tomb,"
+    - "Lead me to Calvary."
+  - - "Lest I forget Gethsemane,"
+    - "Lest I forget Thine agony;"
+    - "Lest I forget Thy love for me,"
+    - "Lead me to Calvary."
+  - - "May I be willing, Lord, to bear"
+    - "Daily my cross for Thee;"
+    - "Even Thy cup of grief to share,"
+    - "Thou hast borne all for me."
+  - - "Lest I forget Gethsemane,"
+    - "Lest I forget Thine agony;"
+    - "Lest I forget Thy love for me,"
+    - "Lead me to Calvary."
 
 '004':
   title: "A"
