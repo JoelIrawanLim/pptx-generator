@@ -277,7 +277,7 @@ def search():
                     # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                     found = 1
             if found != 1: 
-                console.print(f"There is no [red underline bold]{sys.argv[1]}[/] in our song list.")
+                console.print(f"There is no author named [red underline bold]{sys.argv[1]}[/] in our song list.")
             else:
                 console.print(table)
         elif sys.argv[2] == "-t":
@@ -287,7 +287,7 @@ def search():
                     # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                     found = 1
             if found != 1: 
-                console.print(f"There is no author [red underline bold]{sys.argv[1]}[/] in our song list.")
+                console.print(f"There is no song named [red underline bold]{sys.argv[1]}[/] in our song list.")
             else:
                 console.print(table)
         elif sys.argv[2] == "-k":
