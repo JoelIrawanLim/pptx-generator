@@ -60,4 +60,8 @@ If a song is not inside the song list, you can ask pptx-generator to generator e
 ### pptx-generator command usage
 `pptx-generator` command requires at least three values. An optional fourth value is also accepted. 
 
-`pptx-generator` 
+`pptx-generator` first 3 values is to the id of the songs. The program will generate a songs in the order of left to right. This id of the song can be found using the `pptx-generator-search ` 
+Example: `pptx-generator kri1 kri68 kri5` will generate the songs with the first song being the one with the id kri1, second being the song wirh the id of kri68 and the third being the one with the id kri5. 
+The program accepts the id being in uppercased letters. Example: KRI1, and as a shortform. k is the shortform for kri. Example: k1 is the same as kri1
+
+The optional 4th value is the name of the output slide. `pptx-generator kri1 kri68 kri5 output` will generate a slide in the current working directory with the name output.pptx. If this value is not given, the default value of presentation.pptx will be used. The program allows for you to include the .pptx extention at the end of the file. For example, `pptx-generator kri1 kri68 kri5 output` and `pptx-generator kri1 kri68 kri5 output.pptx` is the same. 
