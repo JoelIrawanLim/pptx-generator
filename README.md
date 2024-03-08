@@ -1,5 +1,15 @@
 # pptx-generator
 Helps automatically generate slides
+## Zero-setup method
+You can use google collab to run an easy to use version of this script. 
+
+Go to: [collab link](https://colab.research.google.com/drive/1lYKa7aeWkkQcBxrcUAk-ytR3sFIZ-Xew?usp=sharing)
+
+Click the run button for first command at the very top. Do this everytime you open the link. 
+Google will tell you that it is not authored by Google, click run anyway. 
+
+You can now input you searches and generation inside the ui and click the run button
+
 ## Dependencies
 Requires Python 3.7 and higher.
 Requires Pip, which is usually preinstalled with python.
