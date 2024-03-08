@@ -8,7 +8,7 @@ Go to: [collab link](https://colab.research.google.com/drive/1lYKa7aeWkkQcBxrcUA
 Click the run button for first command at the very top. Do this everytime you open the link. 
 Google will tell you that it is not authored by Google, click run anyway. 
 
-You can now input you searches and generation inside the ui and click the run button
+You can now input you searches inside the ui and click the run button
 
 ## Dependencies
 Requires Python 3.7 and higher.
