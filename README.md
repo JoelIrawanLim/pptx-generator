@@ -5,7 +5,7 @@ You can use google collab to run an easy to use version of this script.
 
 Go to: [collab link](https://colab.research.google.com/drive/1lYKa7aeWkkQcBxrcUAk-ytR3sFIZ-Xew?usp=sharing)
 
-Click the run button for first command at the very top. Do this everytime you open the link. 
+Click on the one in brackets ([1]). It will become a run button. Do this everytime you open the link. 
 Google will tell you that it is not authored by Google, click run anyway. 
 
 You can now input you searches inside the ui and click the run button
