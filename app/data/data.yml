@@ -1,3 +1,12 @@
+'empty':
+  title: "Add your own title"
+  author: "Add the authors of the song"
+  verse_number: [1]
+  kri_number: 'none'
+  lyrics:
+  - - ""
+    - ""
+
 'kri68':
   title: "We're Marching To Zion"
   author: "Isaac Watts"

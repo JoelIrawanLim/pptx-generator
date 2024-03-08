@@ -35,7 +35,7 @@ def initialize():
 
     pptx_path = os.path.join(script_dir, "data/Remaja_template.pptx")
     prs = Presentation(pptx_path)
-    output_presentation = "./presentation.pptx"
+    output_presentation = "presentation.pptx"
     # ------------------- Song ID -------------------------------
     song_1_id = '003'
     song_2_id = '001'
@@ -202,6 +202,8 @@ def text_formater(text):
             return text
         else:
             return text.replace("k", "kri")
+    else:
+        return text
 def song_id():
     global song_1_id
     global song_2_id
@@ -210,7 +212,7 @@ def song_id():
     argv1=text_formater(sys.argv[1])
     argv2=text_formater(sys.argv[2])
     argv3=text_formater(sys.argv[3])
-    Fail = 0
+    Fail = 0 
     if data.get(argv1):
         song_1_id = argv1
         Fail += 1
@@ -313,6 +315,8 @@ def search():
                     console.print(table)
             else:
                 console.print("[red bold]That is not a valid KRI number")
+        else: 
+            console.print("[red bold]That is not a valid flag. pptx-generator-search only accepts -k, -a, and -t flags")
     else: 
         print('pptx-generator-search requires 2 values. \nThe first is the author, title, or KRI number of the song surrounded in double quotes ("), \nNext is the flag. -a for author, -t for title, and -k for kri number\nExample: pptx-generator-search "Grace Alone" -t')
 
