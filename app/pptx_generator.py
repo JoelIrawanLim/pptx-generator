@@ -199,9 +199,15 @@ def text_formater(text):
     text = text.lower().replace("_", "").replace("-", "")
     if text[0] == "k":
         if text[1] == "r" and text[2] == "i":
-            return text
+            text_temporary = text.replace("kri", "")
+            while text_temporary[0] == "0": 
+                text_temporary = text_temporary[1:]
+            return "kri" + text_temporary
         else:
-            return text.replace("k", "kri")
+            text_temporary = text.replace("k", "")
+            while text_temporary[0] == "0": 
+                text_temporary = text_temporary[1:]
+            return "kri" + text_temporary
     else:
         return text
 def song_id():
@@ -233,6 +239,13 @@ def song_id():
         print(f"{song_3_id} is not a valid song id" )
     if Fail != 3: 
         sys.exit()
+
+def author_find(key):
+    text = data[key]['author'][0]
+    for i in range(1, len(data[key]['author'])):
+        text = f"{text}, {data[key]['author'][i]}"
+    return text
+        
 
 #----------------------------- MAIN FUNCTION -----------------------------------------------------------------
 
@@ -284,10 +297,11 @@ def search():
         found = 0
         if sys.argv[2] == "-a":
             for key in data:
-                if sys.argv[1].lower().replace(" ", "") == data[key]['author'].lower().replace(" ", ""):
-                    table.add_row(key, data[key]['title'], data[key]['author'])
-                    # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
-                    found = 1
+                for i in range(0, len(data[key]['author'])):
+                    if sys.argv[1].lower().replace(" ", "") == data[key]['author'][i].lower().replace(" ", ""):
+                        table.add_row(key, data[key]['title'], author_find(key))
+                        # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
+                        found = 1
             if found != 1: 
                 console.print(f"There is no author named [red underline bold]{sys.argv[1]}[/] in our song list.")
             else:
@@ -295,7 +309,7 @@ def search():
         elif sys.argv[2] == "-t":
             for key in data:
                 if sys.argv[1].lower().replace(" ", "") == data[key]['title'].lower().replace(" ", ""):
-                    table.add_row(key, data[key]['title'], data[key]['author'])
+                    table.add_row(key, data[key]['title'], author_find(key))
                     # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                     found = 1
             if found != 1: 

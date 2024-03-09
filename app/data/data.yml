@@ -9,7 +9,7 @@
 
 'kri68':
   title: "We're Marching To Zion"
-  author: "Isaac Watts"
+  author: [Isaac Watts]
   verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
   kri_number: 68
   lyrics: 
@@ -116,7 +116,7 @@
 
 'kri1':
   title: "How Great Thou Art"
-  author: "Carl Rob"
+  author: [Carl Rob]
   verse_number: [1, "ref", 2, "ref", 3, "ref"]
   kri_number: 1
   lyrics: 
@@ -147,7 +147,7 @@
 
 'kri39':
   title: "Lead Me To Calvary"
-  author: "Jennie Evelyn Hussey, William J. Kirkpatrick"
+  author: ["Jennie Evelyn Hussey", "William J. Kirkpatrick"]
   verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
   kri_number: 39
   lyrics: 
@@ -186,7 +186,7 @@
 
 'kri37':
   title: "I Believe in a Hill called Mount Calvary"
-  author: "Dale Oldham, Gloria & William J. Gaither"
+  author: [Dale Oldham, Gloria & William J. Gaither]
   verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
   kri_number: 37
   lyrics: 
