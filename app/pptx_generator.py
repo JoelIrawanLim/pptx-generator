@@ -210,6 +210,22 @@ def text_formater(text):
             return "kri" + text_temporary
     else:
         return text
+    
+def int_formater(text):
+    if text[0] == "k":
+        if text[1] == "r" and text[2] == "i":
+            text_temporary = text.replace("kri", "")
+            while text_temporary[0] == "0": 
+                text_temporary = text_temporary[1:]
+            return "kri" + text_temporary
+        else:
+            text_temporary = text.replace("k", "")
+            while text_temporary[0] == "0": 
+                text_temporary = text_temporary[1:]
+            return "kri" + text_temporary
+    else:
+        return text
+
 def song_id():
     global song_1_id
     global song_2_id
@@ -241,10 +257,14 @@ def song_id():
         sys.exit()
 
 def author_find(key):
-    text = data[key]['author'][0]
-    for i in range(1, len(data[key]['author'])):
-        text = f"{text}, {data[key]['author'][i]}"
-    return text
+    if len(data[key]['author']) != 0:
+        print(data[key]['author'])
+        text = data[key]['author'][0]
+        for i in range(1, len(data[key]['author'])):
+            text = f"{text}, {data[key]['author'][i]}"
+        return text
+    else:
+        return "None"
         
 
 #----------------------------- MAIN FUNCTION -----------------------------------------------------------------
@@ -319,12 +339,14 @@ def search():
         elif sys.argv[2] == "-k":
             if sys.argv[1].isdigit():
                 for key in data:
-                    if int(sys.argv[1]) == data[key]['kri_number']:
-                        table.add_row(key, data[key]['title'], data[key]['author'])
+                    print(type(data[key]['kri_number']))
+                    print(int(data[key]['kri_number']))
+                    if int(sys.argv[1]) == int(data[key]['kri_number']):
+                        table.add_row(key, data[key]['title'], author_find(key))
                         # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                         found = 1
                 if found != 1: 
-                    console.print(f"There is no [red underline bold] KRI {sys.argv[1]}[/] in our song list.")
+                    console.print(f"There is no [red underline bold]KRI {sys.argv[1]}[/] in our song list.")
                 else:
                     console.print(table)
             else:

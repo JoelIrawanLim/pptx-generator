@@ -1,97 +1,8 @@
-krinumberTitle:
-  - title: numberTitle
-  - author: [Music]
-  - kri_number: numberTitle
-  - lyrics: 
-  - - "Part1Line01"
-    - "Part1Line02"
-    - "Part1Line03"
-    - "Part1Line04"
-    - "Part1Line05"
-    - "Part1Line06"
-    - "Part1Line07"
-    - "Part1Line08"
-    - "Part1Line09"
-    - "Part1Line10"
-    - "Part1Line11"
-    - "Part1Line12"
-    - "Part1Line13"
-    - "Part1Line14"
-    - "Part2Line01"
-  - - "Part1Line02"
-    - "Part1Line03"
-    - "Part1Line04"
-    - "Part1Line05"
-    - "Part1Line06"
-    - "Part1Line07"
-    - "Part1Line08"
-    - "Part1Line09"
-    - "Part1Line10"
-    - "Part1Line11"
-    - "Part1Line12"
-    - "Part1Line13"
-    - "Part1Line14"
-    - "Part2Line01"
-    - "Part2Line02"
-  - - "Part1Line03"
-    - "Part1Line04"
-    - "Part1Line05"
-    - "Part1Line06"
-    - "Part1Line07"
-    - "Part1Line08"
-    - "Part1Line09"
-    - "Part1Line10"
-    - "Part1Line11"
-    - "Part1Line12"
-    - "Part1Line13"
-    - "Part1Line14"
-    - "Part2Line01"
-    - "Part2Line02"
-    - "Part2Line03"
-  - - "Part1Line04"
-    - "Part1Line05"
-    - "Part1Line06"
-    - "Part1Line07"
-    - "Part1Line08"
-    - "Part1Line09"
-    - "Part1Line10"
-    - "Part1Line11"
-    - "Part1Line12"
-    - "Part1Line13"
-    - "Part1Line14"
-    - "Part2Line01"
-    - "Part2Line02"
-    - "Part2Line03"
-    - "Part2Line04"
-  - - "Part1Line05"
-    - "Part1Line06"
-    - "Part1Line07"
-    - "Part1Line08"
-    - "Part1Line09"
-    - "Part1Line10"
-    - "Part1Line11"
-    - "Part1Line12"
-    - "Part1Line13"
-    - "Part1Line14"
-    - "Part2Line01"
-    - "Part2Line02"
-    - "Part2Line03"
-    - "Part2Line04"
-    - "Part2Line05"
-
-
-kritopLevel:
-  - title: topLevel
-  - author: []
-  - kri_number: topLevel
-  - lyrics: 
-
-
 kri001:
-  - title: Besarlah Allahku
-  - author: [Swedish Folk]
-  - kri_number: 001
-  - lyrics: 
+  title: Besarlah Allahku
+  author: [Swedish Folk]
+  kri_number: 001
+  lyrics: 
   - - "O Tuhanku, bila ku mengagumi"
     - "semesta alam yang Kau ciptakan,"
     - "bintang-bintang dan guruh bersahutan"
@@ -145,10 +56,10 @@ kri001:
 
 
 kri002:
-  - title: Agungkan Kuasa Nama-Nya
-  - author: [Oliver Holden]
-  - kri_number: 002
-  - lyrics: 
+  title: Agungkan Kuasa Nama-Nya
+  author: [Oliver Holden]
+  kri_number: 002
+  lyrics: 
   - - "Agungkan kuasa nama-Nya, malaikat bersujud."
     - "Nobatkan Raja mulia dan puji Tuhanmu!"
     - "Nobatkan Raja mulia dan puji Yesus Tuhanmu!"
@@ -164,10 +75,10 @@ kri002:
 
 
 kri003:
-  - title: Terpujilah Nama Yesus
-  - author: [James Ellor]
-  - kri_number: 003
-  - lyrics: 
+  title: Terpujilah Nama Yesus
+  author: [James Ellor]
+  kri_number: 003
+  lyrics: 
   - - "Terpujilah nama Yesus,"
     - "sujud malaikat-Nya, malaikat-Nya semua,"
     - "sembahkan mahkota mulia."
@@ -206,10 +117,10 @@ kri003:
 
 
 kri004:
-  - title: Rajakanlah Yesus
-  - author: [G. J. Elvey]
-  - kri_number: 004
-  - lyrics: 
+  title: Rajakanlah Yesus
+  author: [G. J. Elvey]
+  kri_number: 004
+  lyrics: 
   - - "Rajakanlah Yesus, Domba di takhta-Nya."
     - "Dengarlah suara pujian kumandang di surga."
     - "Bangunlah jiwaku, bersama pujilah."
@@ -233,10 +144,10 @@ kri004:
 
 
 kri005:
-  - title: Worthy of Worship
-  - author: [Mark Blankenship]
-  - kri_number: 005
-  - lyrics: 
+  title: Worthy of Worship
+  author: [Mark Blankenship]
+  kri_number: 005
+  lyrics: 
   - - "Worthy of worship, worthy of praise,"
     - "worthy of honor and glory,"
     - "worthy of all the glad songs we can sing,"
@@ -290,10 +201,10 @@ kri005:
 
 
 kri006:
-  - title: Puji! Puji!
-  - author: [Chester G. Allen]
-  - kri_number: 006
-  - lyrics: 
+  title: Puji! Puji!
+  author: [Chester G. Allen]
+  kri_number: 006
+  lyrics: 
   - - "Puji! Puji! Yesuslah Jurus'lamatku."
     - "Seg'nap bumi masyhurkan nama-Nya."
     - "Puji! Puji! Yesus yang sudah bertakhta."
@@ -347,10 +258,10 @@ kri006:
 
 
 kri007:
-  - title: Walau Seribu Lidahku
-  - author: [Thomas Jarman]
-  - kri_number: 007
-  - lyrics: 
+  title: Walau Seribu Lidahku
+  author: [Thomas Jarman]
+  kri_number: 007
+  lyrics: 
   - - "Walau seribu lidahku,"
     - "tak sampai ya Tuhan,"
     - "tak sampai ya Tuhan,"
@@ -394,10 +305,10 @@ kri007:
 
 
 kri008:
-  - title: Terpujilah Allah
-  - author: [William H. Doane]
-  - kri_number: 008
-  - lyrics: 
+  title: Terpujilah Allah
+  author: [William H. Doane]
+  kri_number: 008
+  lyrics: 
   - - "Terpujilah Allah hikmat-Nya besar,"
     - "begitu kasih-Nya tuk dunia cemar,"
     - "sehingga dib'rikan Putra-Nya kudus,"
@@ -451,10 +362,10 @@ kri008:
 
 
 kri009:
-  - title: Atas Bumi nan Permai
-  - author: [Conrad Kocher]
-  - kri_number: 009
-  - lyrics: 
+  title: Atas Bumi nan Permai
+  author: [Conrad Kocher]
+  kri_number: 009
+  lyrics: 
   - - "Atas bumi nan permai,"
     - "atas langit nan cerah;"
     - "atas kasih tersemai"
@@ -498,10 +409,10 @@ kri009:
 
 
 kri010:
-  - title: Ini Dunia Bapa
-  - author: [Adapted by Franklin L. Sheppard]
-  - kri_number: 010
-  - lyrics: 
+  title: Ini Dunia Bapa
+  author: [Adapted by Franklin L. Sheppard]
+  kri_number: 010
+  lyrics: 
   - - "Ini dunia Bapa, hai mari dengarlah!"
     - "Langit bumi memuji Dia, bintang pun menggema."
     - "Ini dunia Bapa, hatiku tenanglah."
@@ -525,10 +436,10 @@ kri010:
 
 
 kri011:
-  - title: Psalm 15
-  - author: [Felix Mendelssohn]
-  - kri_number: 011
-  - lyrics: 
+  title: Psalm 15
+  author: [Felix Mendelssohn]
+  kri_number: 011
+  lyrics: 
   - - "Lord, who may dwell in Your tent,"
     - "who may live on Your holy hill?"
     - "He, whose walk is blameless"
@@ -577,10 +488,10 @@ kri011:
 
 
 kri012:
-  - title: Allah Baik
-  - author: []
-  - kri_number: 012
-  - lyrics: 
+  title: Allah Baik
+  author: []
+  kri_number: 012
+  lyrics: 
   - - "Mari kita nyanyi semua: Allah baik!"
     - "Surga dan dunia puji Dia: Allah baik!"
     - "Mari semua datanglah, nyanyilah di muka Allah,"
@@ -624,10 +535,10 @@ kri012:
 
 
 kri013:
-  - title: God Is Our Refuge and Our Strength
-  - author: [Samuel A. Ward]
-  - kri_number: 013
-  - lyrics: 
+  title: God Is Our Refuge and Our Strength
+  author: [Samuel A. Ward]
+  kri_number: 013
+  lyrics: 
   - - "God is our refuge and our strength,"
     - "our ever present aid."
     - "And therefore, though the earth be moved,"
@@ -676,10 +587,10 @@ kri013:
 
 
 kri014:
-  - title: Besar Setia-Mu
-  - author: [William M. Runyan]
-  - kri_number: 014
-  - lyrics: 
+  title: Besar Setia-Mu
+  author: [William M. Runyan]
+  kri_number: 014
+  lyrics: 
   - - "Besar setia-Mu, Allah Bapaku,"
     - "besarlah kasih-Mu berk'limpahan."
     - "Tiada kurang dan tidak berubah,"
@@ -733,10 +644,10 @@ kri014:
 
 
 kri015:
-  - title: Allah Jadi Benteng Kukuh
-  - author: []
-  - kri_number: 015
-  - lyrics: 
+  title: Allah Jadi Benteng Kukuh
+  author: []
+  kri_number: 015
+  lyrics: 
   - - "Allah jadi benteng kukuh,"
     - "perlindunganku yang teguh."
     - "Meski banyak susah sukar,"
@@ -780,10 +691,10 @@ kri015:
 
 
 kri016:
-  - title: Nyamanlah Jiwaku
-  - author: [Philip P. Bliss]
-  - kri_number: 016
-  - lyrics: 
+  title: Nyamanlah Jiwaku
+  author: [Philip P. Bliss]
+  kri_number: 016
+  lyrics: 
   - - "Bila damai mengiring jalan hidupku,"
     - "rasa aman di hatiku."
     - "Tiap keadaan yang menimpaku,"
@@ -827,10 +738,10 @@ kri016:
 
 
 kri017:
-  - title: Engkau Milikku Abadi
-  - author: [Silas J. Vail]
-  - kri_number: 017
-  - lyrics: 
+  title: Engkau Milikku Abadi
+  author: [Silas J. Vail]
+  kri_number: 017
+  lyrics: 
   - - "Engkau milikku abadi, segalanya bagiku;"
     - "di sepanjang ziarahku ingin ku bersama-Mu."
     - "Ref:"
@@ -864,10 +775,10 @@ kri017:
 
 
 kri018:
-  - title: Ku Bersandar pada yang Kekal
-  - author: [A. J. Showalter]
-  - kri_number: 018
-  - lyrics: 
+  title: Ku Bersandar pada yang Kekal
+  author: [A. J. Showalter]
+  kri_number: 018
+  lyrics: 
   - - "Alangkah girang dan bahagia,"
     - "ku bersandar pada yang kekal."
     - "Karunia besar dib'ri oleh-Nya,"
@@ -911,10 +822,10 @@ kri018:
 
 
 kri019:
-  - title: Tuntun Aku, Tuhan Allah
-  - author: [John Hughes]
-  - kri_number: 019
-  - lyrics: 
+  title: Tuntun Aku, Tuhan Allah
+  author: [John Hughes]
+  kri_number: 019
+  lyrics: 
   - - "Tuntun aku Tuhan Allah lewat gurun dunia."
     - "Kau perkasa dan setia, bimbing aku yang lemah."
     - "Roti surga, Roti surga, puaskanlah jiwaku,"
@@ -938,10 +849,10 @@ kri019:
 
 
 kri020:
-  - title: Be Strong in the Lord
-  - author: [Tom Fettke]
-  - kri_number: 020
-  - lyrics: 
+  title: Be Strong in the Lord
+  author: [Tom Fettke]
+  kri_number: 020
+  lyrics: 
   - - "Be strong in the Lord, and be of good courage;"
     - "your mighty Defender is always the same."
     - "Mount up with wings, as the eagle ascending;"
@@ -995,10 +906,10 @@ kri020:
 
 
 kri021:
-  - title: Sepanjang Jalan Tuhan Pimpin
-  - author: [Robert S. Lowry]
-  - kri_number: 021
-  - lyrics: 
+  title: Sepanjang Jalan Tuhan Pimpin
+  author: [Robert S. Lowry]
+  kri_number: 021
+  lyrics: 
   - - "S'panjang jalan Tuhan pimpin, itu cukup bagiku."
     - "Rahmat-Nya selalu serta dan melindungi daku."
     - "Penghiburan dari surga jika Tuhan sertaku."
@@ -1032,10 +943,10 @@ kri021:
 
 
 kri022:
-  - title: Ku Tahu Siapa yang Kupercaya
-  - author: [James McGranahan]
-  - kri_number: 022
-  - lyrics: 
+  title: Ku Tahu Siapa yang Kupercaya
+  author: [James McGranahan]
+  kri_number: 022
+  lyrics: 
   - - "Ku tak mengerti anug'rah Tuhan"
     - "yang diperbuat-Nya bagiku."
     - "Tak layak ku men'rima kasih-Nya,"
@@ -1089,10 +1000,10 @@ kri022:
 
 
 kri023:
-  - title: Jaminan Mulia
-  - author: [Mrs. Joseph F. Knapp]
-  - kri_number: 023
-  - lyrics: 
+  title: Jaminan Mulia
+  author: [Mrs. Joseph F. Knapp]
+  kri_number: 023
+  lyrics: 
   - - "Sungguh dan pasti jaminan Hu,"
     - "Yesus milikku selamanya."
     - "Ku mendapatkan kes'lamatan,"
@@ -1146,10 +1057,10 @@ kri023:
 
 
 kri024:
-  - title: Bapa Surgawi Memeliharaku
-  - author: [Charles H. Gabriel]
-  - kri_number: 024
-  - lyrics: 
+  title: Bapa Surgawi Memeliharaku
+  author: [Charles H. Gabriel]
+  kri_number: 024
+  lyrics: 
   - - "Kepada Allah aku berharap,"
     - "di darat atau di laut yang gelap."
     - "Setiap saat waktu penat,"
@@ -1203,10 +1114,10 @@ kri024:
 
 
 kri025:
-  - title: Malam Kudus
-  - author: [Franz X. Gruber]
-  - kri_number: 025
-  - lyrics: 
+  title: Malam Kudus
+  author: [Franz X. Gruber]
+  kri_number: 025
+  lyrics: 
   - - "Malam kudus, sunyi senyap,"
     - "siapa yang b'lum lelap;"
     - "ayah bunda yang tinggallah t'rus,"
@@ -1241,14 +1152,14 @@ kri025:
     - "kabar baik menggegap;"
     - "bala surga menyanyikannya,"
     - "kaum gembala menyaksikannya,"
-    - ""Lahir Raja Syalom."
+    - "“Lahir Raja Syalom."
 
 
 kri026:
-  - title: Karena Allah Cinta
-  - author: [Frances Townsend]
-  - kri_number: 026
-  - lyrics: 
+  title: Karena Allah Cinta
+  author: [Frances Townsend]
+  kri_number: 026
+  lyrics: 
   - - "Kar'na Allah cinta, dib'rikan Anak-Nya,"
     - "mati di Golgota, membebaskan saya."
     - "Ia kan datang pula, alangkah mulia,"
@@ -1272,10 +1183,10 @@ kri026:
 
 
 kri027:
-  - title: Dunia Gemar dan Soraklah
-  - author: [G. F. Handel]
-  - kri_number: 027
-  - lyrics: 
+  title: Dunia Gemar dan Soraklah
+  author: [G. F. Handel]
+  kri_number: 027
+  lyrics: 
   - - "Dunia gemar dan soraklah, Penebus datanglah."
     - "B'ri hatimu kepada-Nya, s'kalian nyanyilah."
     - "S'kalian nyanyilah, s'kalian nyanyilah,"
@@ -1299,10 +1210,10 @@ kri027:
 
 
 kri028:
-  - title: Jesus, the Very Thought of Thee
-  - author: [Bernard of Clairvaux]
-  - kri_number: 028
-  - lyrics: 
+  title: Jesus, the Very Thought of Thee
+  author: [Bernard of Clairvaux]
+  kri_number: 028
+  lyrics: 
   - - "Jesus, the very thought of Thee,"
     - "with sweetness fills my heart;"
     - "but sweeter far Thy face to see,"
@@ -1326,12 +1237,12 @@ kri028:
 
 
 kri029:
-  - title: Dengarlah Malak Menyanyi
-  - author: [Felix Mendelssohn]
-  - kri_number: 029
-  - lyrics: 
+  title: Dengarlah Malak Menyanyi
+  author: [Felix Mendelssohn]
+  kri_number: 029
+  lyrics: 
   - - "Dengarlah malak menyanyi,"
-    - ""Mulia bagi Raja!""
+    - "“Mulia bagi Raja!”"
     - "Dib'ri damai atas bumi,"
     - "Anak Allah lahirlah."
     - "S'kalian bangsa bersukalah,"
@@ -1339,9 +1250,9 @@ kri029:
     - "Yesus Anak Allah"
     - "t'lah lahir di Betlehem."
     - "Dengarlah malak nyanyi,"
-    - ""Mulia bagi Sang Raja!""
+    - "“Mulia bagi Sang Raja!”"
     - "Isi surga menyembah"
-  - - ""Mulia bagi Raja!""
+  - - "“Mulia bagi Raja!”"
     - "Dib'ri damai atas bumi,"
     - "Anak Allah lahirlah."
     - "S'kalian bangsa bersukalah,"
@@ -1349,7 +1260,7 @@ kri029:
     - "Yesus Anak Allah"
     - "t'lah lahir di Betlehem."
     - "Dengarlah malak nyanyi,"
-    - ""Mulia bagi Sang Raja!""
+    - "“Mulia bagi Sang Raja!”"
     - "Isi surga menyembah"
     - "Kristus Tuhan yang kekal."
   - - "Dib'ri damai atas bumi,"
@@ -1359,17 +1270,16 @@ kri029:
     - "Yesus Anak Allah"
     - "t'lah lahir di Betlehem."
     - "Dengarlah malak nyanyi,"
-    - ""Mulia bagi Sang Raja!""
+    - "“Mulia bagi Sang Raja!”"
     - "Isi surga menyembah"
     - "Kristus Tuhan yang kekal."
     - "S'karang Yesus t'lah menjelma,"
-  - - "Anak Allah lahirlah."
     - "S'kalian bangsa bersukalah,"
     - "ikut nyanyian di surga."
     - "Yesus Anak Allah"
     - "t'lah lahir di Betlehem."
     - "Dengarlah malak nyanyi,"
-    - ""Mulia bagi Sang Raja!""
+    - "“Mulia bagi Sang Raja!”"
     - "Isi surga menyembah"
     - "Kristus Tuhan yang kekal."
     - "S'karang Yesus t'lah menjelma,"
@@ -1379,7 +1289,7 @@ kri029:
     - "Yesus Anak Allah"
     - "t'lah lahir di Betlehem."
     - "Dengarlah malak nyanyi,"
-    - ""Mulia bagi Sang Raja!""
+    - "“Mulia bagi Sang Raja!”"
     - "Isi surga menyembah"
     - "Kristus Tuhan yang kekal."
     - "S'karang Yesus t'lah menjelma,"
@@ -1388,10 +1298,10 @@ kri029:
 
 
 kri030:
-  - title: Di Malam Sunyi Betlehem
-  - author: [Lewis H. Redner]
-  - kri_number: 030
-  - lyrics: 
+  title: Di Malam Sunyi Betlehem
+  author: [Lewis H. Redner]
+  kri_number: 030
+  lyrics: 
   - - "Di malam sunyi Betlehem, nyenyak kau tidurlah,"
     - "sehingga tak kau lihat t'rang abadi dan cerah,"
     - "yang terbit di tengahmu di masa yang genap."
@@ -1415,10 +1325,10 @@ kri030:
 
 
 kri031:
-  - title: Pada Tengah Malam Itu
-  - author: [Richard S. William]
-  - kri_number: 031
-  - lyrics: 
+  title: Pada Tengah Malam Itu
+  author: [Richard S. William]
+  kri_number: 031
+  lyrics: 
   - - "Pada tengah malam itu, terdengarlah pujian."
     - "Tunduklah s'gala malaikat serta main kecapi mas."
     - "Sejaht'ra bagi manusia, berkat rahmat limpah."
@@ -1442,10 +1352,10 @@ kri031:
 
 
 kri032:
-  - title: Oh, Malam Kudus
-  - author: [John S. Dwight]
-  - kri_number: 032
-  - lyrics: 
+  title: Oh, Malam Kudus
+  author: [John S. Dwight]
+  kri_number: 032
+  lyrics: 
   - - "Malam kudus bintang terang bercah'ya,"
     - "malam ini Tuhan Yesus lahir."
     - "Manusia binasa dalam dosa"
@@ -1499,10 +1409,10 @@ kri032:
 
 
 kri033:
-  - title: Adalah di Kota Daud
-  - author: [H. John Gauntlett]
-  - kri_number: 033
-  - lyrics: 
+  title: Adalah di Kota Daud
+  author: [H. John Gauntlett]
+  kri_number: 033
+  lyrics: 
   - - "Adalah di kota Daud, satu kandang yang hina."
     - "Di palungan bayi itu dibaringkan ibu-Nya."
     - "Anak Maria lahirlah, Yesus Kristus nama-Nya."
@@ -1518,10 +1428,10 @@ kri033:
 
 
 kri034:
-  - title: Kasih yang Ajaib
-  - author: []
-  - kri_number: 034
-  - lyrics: 
+  title: Kasih yang Ajaib
+  author: []
+  kri_number: 034
+  lyrics: 
   - - "Kasih yang ajaib, kasih dari Golgota."
     - "Kasih yang ajaib membawa Tuhan dari surga."
     - "Walaupun ku pernah jadi seteru-Mu,"
@@ -1560,10 +1470,10 @@ kri034:
 
 
 kri035:
-  - title: O Mighty Cross
-  - author: [David Baroni, John Chisum]
-  - kri_number: 035
-  - lyrics: 
+  title: O Mighty Cross
+  author: [David Baroni, John Chisum]
+  kri_number: 035
+  lyrics: 
   - - "O mighty cross, love lifted high;"
     - "the Lord of life raised there to die."
     - "Ref:"
@@ -1597,10 +1507,10 @@ kri035:
 
 
 kri036:
-  - title: Di Bukit Golgota
-  - author: []
-  - kri_number: 036
-  - lyrics: 
+  title: Di Bukit Golgota
+  author: []
+  kri_number: 036
+  lyrics: 
   - - "Di bukit Golgota nampaklah salib Hu,"
     - "matahari bersuramlah."
     - "Yesus Anak Allah meninggalkan surga,"
@@ -1608,8 +1518,8 @@ kri036:
     - "Ref:"
     - "Maka kutinggikan salib-Nya,"
     - "sampai bertemu dengan Bapa,"
-    - "dengar kata-Nya, "Hamba setia,"
-    - "salib Kuganti d'ngan mahkota.""
+    - "dengar kata-Nya, “Hamba setia,"
+    - "salib Kuganti d'ngan mahkota.”"
     - "Meski manusia menghina salib-Nya,"
   - - "matahari bersuramlah."
     - "Yesus Anak Allah meninggalkan surga,"
@@ -1617,8 +1527,8 @@ kri036:
     - "Ref:"
     - "Maka kutinggikan salib-Nya,"
     - "sampai bertemu dengan Bapa,"
-    - "dengar kata-Nya, "Hamba setia,"
-    - "salib Kuganti d'ngan mahkota.""
+    - "dengar kata-Nya, “Hamba setia,"
+    - "salib Kuganti d'ngan mahkota.”"
     - "Meski manusia menghina salib-Nya,"
     - "namun bagiku lambang mulia."
   - - "Yesus Anak Allah meninggalkan surga,"
@@ -1626,8 +1536,8 @@ kri036:
     - "Ref:"
     - "Maka kutinggikan salib-Nya,"
     - "sampai bertemu dengan Bapa,"
-    - "dengar kata-Nya, "Hamba setia,"
-    - "salib Kuganti d'ngan mahkota.""
+    - "dengar kata-Nya, ”Hamba setia,"
+    - "salib Kuganti d'ngan mahkota.”"
     - "Meski manusia menghina salib-Nya,"
     - "namun bagiku lambang mulia."
     - "Hatiku sungguh k'ras makin tak tergerak,"
@@ -1635,8 +1545,8 @@ kri036:
     - "Ref:"
     - "Maka kutinggikan salib-Nya,"
     - "sampai bertemu dengan Bapa,"
-    - "dengar kata-Nya, "Hamba setia,"
-    - "salib Kuganti d'ngan mahkota.""
+    - "dengar kata-Nya, “Hamba setia,"
+    - "salib Kuganti d'ngan mahkota.”"
     - "Meski manusia menghina salib-Nya,"
     - "namun bagiku lambang mulia."
     - "Hatiku sungguh k'ras makin tak tergerak,"
@@ -1644,8 +1554,8 @@ kri036:
   - - "Ref:"
     - "Maka kutinggikan salib-Nya,"
     - "sampai bertemu dengan Bapa,"
-    - "dengar kata-Nya, "Hamba setia,"
-    - "salib Kuganti d'ngan mahkota.""
+    - "dengar kata-Nya, “Hamba setia,"
+    - "salib Kuganti d'ngan mahkota.”"
     - "Meski manusia menghina salib-Nya,"
     - "namun bagiku lambang mulia."
     - "Hatiku sungguh k'ras makin tak tergerak,"
@@ -1654,10 +1564,10 @@ kri036:
 
 
 kri037:
-  - title: I Believe in a Hill Called Mount Calvary
-  - author: [Gloria & William J. Gaither]
-  - kri_number: 037
-  - lyrics: 
+  title: I Believe in a Hill Called Mount Calvary
+  author: [Gloria & William J. Gaither]
+  kri_number: 037
+  lyrics: 
   - - "There are things as we travel this earth's shifting sands,"
     - "that transcend all the reason of man."
     - "But the things that matter the most in this world,"
@@ -1711,10 +1621,10 @@ kri037:
 
 
 kri038:
-  - title: Bawalah Aku Dekat ke Salib
-  - author: [W. H. Doane]
-  - kri_number: 038
-  - lyrics: 
+  title: Bawalah Aku Dekat ke Salib
+  author: [W. H. Doane]
+  kri_number: 038
+  lyrics: 
   - - "Bawalah aku, Yesus, dekat ke salib-Mu."
     - "Air hidup dan darah-Mu sucikan hatiku."
     - "Ref:"
@@ -1748,10 +1658,10 @@ kri038:
 
 
 kri039:
-  - title: Pimpin ke Kalvari
-  - author: [William J. Kirkpatrick]
-  - kri_number: 039
-  - lyrics: 
+  title: Pimpin ke Kalvari
+  author: [William J. Kirkpatrick]
+  kri_number: 039
+  lyrics: 
   - - "Mahkotailah Raja Hidup, mulia bagi-Mu."
     - "Ingat mahkota duri-Mu, pimpin ke Kalvari."
     - "Ref:"
@@ -1785,10 +1695,10 @@ kri039:
 
 
 kri040:
-  - title: Kisah Salib Tuhan Yesus
-  - author: []
-  - kri_number: 040
-  - lyrics: 
+  title: Kisah Salib Tuhan Yesus
+  author: []
+  kri_number: 040
+  lyrics: 
   - - "Pernahkah kaurenungkan kisah"
     - "salib Tuhan Yesus?"
     - "Darah-Nya mengalir dari rusuk"
@@ -1818,7 +1728,7 @@ kri040:
     - "Yesus mati bagimu."
     - "Pernahkah kaulihat k'pala-Nya"
     - "bermahkota duri?"
-    - ""M'reka tak tau apa yang diperbuat,"
+    - "“M'reka tak tau apa yang diperbuat,"
   - - "untuk menghapus dosa."
     - "Ref:"
     - "Yesus menderita bagimu,"
@@ -1827,8 +1737,8 @@ kri040:
     - "Yesus mati bagimu."
     - "Pernahkah kaulihat k'pala-Nya"
     - "bermahkota duri?"
-    - ""M'reka tak tau apa yang diperbuat,"
-    - "ampunilah ya Bapa.""
+    - "“M'reka tak tau apa yang diperbuat,"
+    - "ampunilah ya Bapa.”"
   - - "Ref:"
     - "Yesus menderita bagimu,"
     - "Yesus mati bagimu."
@@ -1836,16 +1746,16 @@ kri040:
     - "Yesus mati bagimu."
     - "Pernahkah kaulihat k'pala-Nya"
     - "bermahkota duri?"
-    - ""M'reka tak tau apa yang diperbuat,"
-    - "ampunilah ya Bapa.""
+    - "“M'reka tak tau apa yang diperbuat,"
+    - "ampunilah ya Bapa.”"
     - "Ref:"
 
 
 kri041:
-  - title: Di Bawah Salib Yesus
-  - author: [Frederick C. Maker]
-  - kri_number: 041
-  - lyrics: 
+  title: Di Bawah Salib Yesus
+  author: [Frederick C. Maker]
+  kri_number: 041
+  lyrics: 
   - - "Di bawah salib Yesus, ku ingin berteduh,"
     - "terlindung oleh batu karang di tanah gersang;"
     - "tempat senang jika lelah, tempat perhentian"
@@ -1869,10 +1779,10 @@ kri041:
 
 
 kri042:
-  - title: Hanya oleh Darah Yesus
-  - author: []
-  - kri_number: 042
-  - lyrics: 
+  title: Hanya oleh Darah Yesus
+  author: []
+  kri_number: 042
+  lyrics: 
   - - "Dosaku t'lah dihapus,"
     - "hanya oleh darah Yesus."
     - "Kudapat hidup baru,"
@@ -1916,10 +1826,10 @@ kri042:
 
 
 kri043:
-  - title: Mulia dan Menang
-  - author: [George F. Handel]
-  - kri_number: 043
-  - lyrics: 
+  title: Mulia dan Menang
+  author: [George F. Handel]
+  kri_number: 043
+  lyrics: 
   - - "Mulia dan menang Kristus yang bangkit."
     - "Kemenangan kekal atas kuasa maut."
     - "Malak menyingkirkan batu yang besar"
@@ -1963,10 +1873,10 @@ kri043:
 
 
 kri044:
-  - title: Dalam Taman
-  - author: []
-  - kri_number: 044
-  - lyrics: 
+  title: Dalam Taman
+  author: []
+  kri_number: 044
+  lyrics: 
   - - "Ku masuk ke dalam taman"
     - "bertemu dengan Putra Allah."
     - "Kudengar suara yang lembut segar"
@@ -2020,10 +1930,10 @@ kri044:
 
 
 kri044:
-  - title: In the Garden
-  - author: []
-  - kri_number: 044
-  - lyrics: 
+  title: In the Garden
+  author: []
+  kri_number: 044
+  lyrics: 
   - - "I come to the garden alone"
     - "while the dew is still on the roses."
     - "And the voice I hear falling on my ear,"
@@ -2077,10 +1987,10 @@ kri044:
 
 
 kri045:
-  - title: Kristus Hidup
-  - author: []
-  - kri_number: 045
-  - lyrics: 
+  title: Kristus Hidup
+  author: []
+  kri_number: 045
+  lyrics: 
   - - "Ku melayani Tuhan, Sahabat yang benar."
     - "Ku yakin Dia hidup s'karang dan s'lamanya."
     - "Rahmat-Nya kualami, suara-Nya kudengar;"
@@ -2134,10 +2044,10 @@ kri045:
 
 
 kri046:
-  - title: Kristus Bangkit
-  - author: []
-  - kri_number: 046
-  - lyrics: 
+  title: Kristus Bangkit
+  author: []
+  kri_number: 046
+  lyrics: 
   - - "Di dalam kubur g'lap, Tuhanku Yesus,"
     - "dibaringkan senyap, Tuhan Yesus."
     - "Ref:"
@@ -2191,27 +2101,27 @@ kri046:
 
 
 kri047:
-  - title: Ada Lagu dalam Hatiku
-  - author: []
-  - kri_number: 047
-  - lyrics: 
+  title: Ada Lagu dalam Hatiku
+  author: []
+  kri_number: 047
+  lyrics: 
   - - "Ada lagu dalam hatiku,"
     - "kudengar suara Yesus,"
-    - ""Jangan takut! Ku besertamu.""
+    - "“Jangan takut! Ku besertamu.”"
     - "Hidupku sentosa t'rus."
     - "Ref:"
     - "Yesus, Yesus, Yesus, nama yang merdu,"
     - "yang mengaruniakan lagu dalam hatiku."
     - "Amat hina dulu hidupku,"
   - - "kudengar suara Yesus,"
-    - ""Jangan takut! Ku besertamu.""
+    - "“Jangan takut! Ku besertamu.”"
     - "Hidupku sentosa t'rus."
     - "Ref:"
     - "Yesus, Yesus, Yesus, nama yang merdu,"
     - "yang mengaruniakan lagu dalam hatiku."
     - "Amat hina dulu hidupku,"
     - "jauh dari kesukaan;"
-  - - ""Jangan takut! Ku besertamu.""
+  - - "“Jangan takut! Ku besertamu.”"
     - "Hidupku sentosa t'rus."
     - "Ref:"
     - "Yesus, Yesus, Yesus, nama yang merdu,"
@@ -2238,10 +2148,10 @@ kri047:
 
 
 kri048:
-  - title: There Is a Redeemer
-  - author: []
-  - kri_number: 048
-  - lyrics: 
+  title: There Is a Redeemer
+  author: []
+  kri_number: 048
+  lyrics: 
   - - "There is a Redeemer,"
     - "Jesus, God's own Son;"
     - "precious Lamb of God, Messiah,"
@@ -2295,10 +2205,10 @@ kri048:
 
 
 kri049:
-  - title: Sukacita Tuhan Penuhiku
-  - author: []
-  - kri_number: 049
-  - lyrics: 
+  title: Sukacita Tuhan Penuhiku
+  author: []
+  kri_number: 049
+  lyrics: 
   - - "Ku penuh sukacita, darah Yesus sucikan hatiku."
     - "Kasih Hu penuhiku, Roh Tuhan memimpin jalanku."
     - "Masyhurkan Hu, pujilah Hu,"
@@ -2328,10 +2238,10 @@ kri049:
 
 
 kri050:
-  - title: Ku Bernyanyi tentang Yesus
-  - author: []
-  - kri_number: 050
-  - lyrics: 
+  title: Ku Bernyanyi tentang Yesus
+  author: []
+  kri_number: 050
+  lyrics: 
   - - "Hatiku penuhlah girang,"
     - "Yesus t'lah s'lamatkanku."
     - "Puji muliakan nama Hu,"
@@ -2375,10 +2285,10 @@ kri050:
 
 
 kri051:
-  - title: Sejak Yesus di Hatiku
-  - author: [Charles H. Gabriel]
-  - kri_number: 051
-  - lyrics: 
+  title: Sejak Yesus di Hatiku
+  author: [Charles H. Gabriel]
+  kri_number: 051
+  lyrics: 
   - - "Perubahan ajaib terjadi padaku,"
     - "sejak Yesus di hatiku."
     - "Dalam hati ada t'rang dan harap penuh,"
@@ -2432,10 +2342,10 @@ kri051:
 
 
 kri052:
-  - title: Dahulu Ku Tersesatlah
-  - author: []
-  - kri_number: 052
-  - lyrics: 
+  title: Dahulu Ku Tersesatlah
+  author: []
+  kri_number: 052
+  lyrics: 
   - - "Dahulu ku tersesatlah,"
     - "jauh dari jalan kasih Allah."
     - "Sungguh pun ku s'lalu tolak"
@@ -2489,10 +2399,10 @@ kri052:
 
 
 kri053:
-  - title: Surga Turun
-  - author: []
-  - kri_number: 053
-  - lyrics: 
+  title: Surga Turun
+  author: []
+  kri_number: 053
+  lyrics: 
   - - "Alangkah indahnya hari itu,"
     - "hari yang tak kulupa."
     - "Setelah ku keliling dalam g'lap,"
@@ -2561,10 +2471,10 @@ kri053:
 
 
 kri054:
-  - title: Aku Sedang Berjalan
-  - author: []
-  - kri_number: 054
-  - lyrics: 
+  title: Aku Sedang Berjalan
+  author: []
+  kri_number: 054
+  lyrics: 
   - - "Aku sedang berjalan dengan Tuhanku,"
     - "sinar surga penuh di hatiku."
     - "Aku bergandeng tangan dengan Tuhanku,"
@@ -2598,10 +2508,10 @@ kri054:
 
 
 kri055:
-  - title: Oh, Kasih Hu Ajaib Indah
-  - author: []
-  - kri_number: 055
-  - lyrics: 
+  title: Oh, Kasih Hu Ajaib Indah
+  author: []
+  kri_number: 055
+  lyrics: 
   - - "Oh, Tuhanku, Kau panggilku pulang,"
     - "dan cinta-Mu mengg'rakkan hatiku."
     - "Ku yang hina, Engkau masih cinta,"
@@ -2611,7 +2521,7 @@ kri055:
     - "dalam, lebar, sungguh tak terduga."
     - "Meski aku mendukakan Dikau,"
     - "oh, cinta-Mu memanggilku pulang."
-    - "Ku t'lah janji, "Ku cinta pada-Mu,""
+    - "Ku t'lah janji, “Ku cinta pada-Mu,”"
   - - "dan cinta-Mu mengg'rakkan hatiku."
     - "Ku yang hina, Engkau masih cinta,"
     - "oh, kasih-Mu sungguh tak terduga."
@@ -2620,8 +2530,8 @@ kri055:
     - "dalam, lebar, sungguh tak terduga."
     - "Meski aku mendukakan Dikau,"
     - "oh, cinta-Mu memanggilku pulang."
-    - "Ku t'lah janji, "Ku cinta pada-Mu,""
-    - "dan berkata, "ku tak tinggalkan-Mu.""
+    - "Ku t'lah janji, “Ku cinta pada-Mu,”"
+    - "dan berkata, “ku tak tinggalkan-Mu.”"
   - - "Ku yang hina, Engkau masih cinta,"
     - "oh, kasih-Mu sungguh tak terduga."
     - "Ref:"
@@ -2629,8 +2539,8 @@ kri055:
     - "dalam, lebar, sungguh tak terduga."
     - "Meski aku mendukakan Dikau,"
     - "oh, cinta-Mu memanggilku pulang."
-    - "Ku t'lah janji, "Ku cinta pada-Mu,""
-    - "dan berkata, "ku tak tinggalkan-Mu.""
+    - "Ku t'lah janji, “Ku cinta pada-Mu,”"
+    - "dan berkata, “ku tak tinggalkan-Mu.”"
     - "Sesungguhnya kuingkari janji,"
   - - "oh, kasih-Mu sungguh tak terduga."
     - "Ref:"
@@ -2638,8 +2548,8 @@ kri055:
     - "dalam, lebar, sungguh tak terduga."
     - "Meski aku mendukakan Dikau,"
     - "oh, cinta-Mu memanggilku pulang."
-    - "Ku t'lah janji, "Ku cinta pada-Mu,""
-    - "dan berkata, "ku tak tinggalkan-Mu.""
+    - "Ku t'lah janji, “Ku cinta pada-Mu,”"
+    - "dan berkata, “ku tak tinggalkan-Mu.”"
     - "Sesungguhnya kuingkari janji,"
     - "m'ninggalkan-Mu, dukakan hati-Mu."
   - - "Ref:"
@@ -2647,18 +2557,18 @@ kri055:
     - "dalam, lebar, sungguh tak terduga."
     - "Meski aku mendukakan Dikau,"
     - "oh, cinta-Mu memanggilku pulang."
-    - "Ku t'lah janji, "Ku cinta pada-Mu,""
-    - "dan berkata, "ku tak tinggalkan-Mu.""
+    - "Ku t'lah janji, “Ku cinta pada-Mu,”"
+    - "dan berkata, “ku tak tinggalkan-Mu.”"
     - "Sesungguhnya kuingkari janji,"
     - "m'ninggalkan-Mu, dukakan hati-Mu."
     - "Ref:"
 
 
 kri056:
-  - title: S'karang Ku Milik Yesus
-  - author: []
-  - kri_number: 056
-  - lyrics: 
+  title: S'karang Ku Milik Yesus
+  author: []
+  kri_number: 056
+  lyrics: 
   - - "Tuhan Yesus mengasihi aku,"
     - "tak kuasa lain mengalahkan Dia;"
     - "Yesus berkorban bagi aku,"
@@ -2712,10 +2622,10 @@ kri056:
 
 
 kri057:
-  - title: Sangat Besar Anug'rah-Mu
-  - author: [William Cowper]
-  - kri_number: 057
-  - lyrics: 
+  title: Sangat Besar Anug'rah-Mu
+  author: [William Cowper]
+  kri_number: 057
+  lyrics: 
   - - "Sangat besar anug'rah-Mu,"
     - "memb'ri aku s'lamat."
     - "Hilanglah jiwaku dulu"
@@ -2739,10 +2649,10 @@ kri057:
 
 
 kri058:
-  - title: Grace Alone
-  - author: []
-  - kri_number: 058
-  - lyrics: 
+  title: Grace Alone
+  author: []
+  kri_number: 058
+  lyrics: 
   - - "Ev'ry promise we can make, ev'ry prayer and step of faith,"
     - "ev'ry difference we will make, is only by His grace."
     - "Ev'ry mountain we will climb, ev'ry ray of hope we shine,"
@@ -2796,10 +2706,10 @@ kri058:
 
 
 kri059:
-  - title: Karena Kasih-Nya
-  - author: []
-  - kri_number: 059
-  - lyrics: 
+  title: Karena Kasih-Nya
+  author: []
+  kri_number: 059
+  lyrics: 
   - - "M'ngapa Yesus turun dari surga,"
     - "masuk dunia g'lap penuh cela;"
     - "berdoa, bergumul dalam taman,"
@@ -2848,10 +2758,10 @@ kri059:
 
 
 kri060:
-  - title: Not What My Hands Have Done
-  - author: [George William Martin]
-  - kri_number: 060
-  - lyrics: 
+  title: Not What My Hands Have Done
+  author: [George William Martin]
+  kri_number: 060
+  lyrics: 
   - - "Not what my hands have done"
     - "can save my guilty soul."
     - "Not what my toiling flesh has borne"
@@ -2900,10 +2810,10 @@ kri060:
 
 
 kri061:
-  - title: Jesus, Thou Joy of Loving Hearts
-  - author: [Billy Kristanto]
-  - kri_number: 061
-  - lyrics: 
+  title: Jesus, Thou Joy of Loving Hearts
+  author: [Billy Kristanto]
+  kri_number: 061
+  lyrics: 
   - - "Jesus, Thou joy of loving hearts,"
     - "Thou fount of life, Thou light of men;"
     - "from the best bliss that earth imparts,"
@@ -2952,10 +2862,10 @@ kri061:
 
 
 kri062:
-  - title: Yesus Kristus Juruselamat Dunia
-  - author: []
-  - kri_number: 062
-  - lyrics: 
+  title: Yesus Kristus Juruselamat Dunia
+  author: []
+  kri_number: 062
+  lyrics: 
   - - "Siapa yang hibur hatiku?"
     - "Siapa hapus air mataku?"
     - "Siapa yang tanggung dosaku?"
@@ -2969,10 +2879,10 @@ kri062:
 
 
 kri063:
-  - title: Kidung Agung
-  - author: []
-  - kri_number: 063
-  - lyrics: 
+  title: Kidung Agung
+  author: []
+  kri_number: 063
+  lyrics: 
   - - "Oh Tuhan, tarikku cepat mengikut-Mu, "
     - "hatiku dengan-Mu berpadu."
     - "Biar angin bertiup dan badai mengamuk, "
@@ -3001,15 +2911,15 @@ kri063:
     - "kan kuiring Dikau selalu."
   - - "Tuhan, Kau terindah, yang puaskan hatiku, "
     - "Kau milikku dan ku milik-Mu."
-    - "Biar ombak menderu, gelombang menempuh, "
+    - "Biar ombak menderu, gelombang menempuh,"
     - "kan kuiring Dikau selalu."
 
 
 kri064:
-  - title: Ingat Akan Nama Yesus
-  - author: [W. H. Doane]
-  - kri_number: 064
-  - lyrics: 
+  title: Ingat Akan Nama Yesus
+  author: [W. H. Doane]
+  kri_number: 64
+  lyrics: 
   - - "Ingat akan nama Yesus,"
     - "kamu yang menanggung b'rat."
     - "Nama itu b'ri kekuatan,"
@@ -3053,10 +2963,10 @@ kri064:
 
 
 kri065:
-  - title: Yesus Segala-galanya
-  - author: []
-  - kri_number: 065
-  - lyrics: 
+  title: Yesus Segala-galanya
+  author: []
+  kri_number: 065
+  lyrics: 
   - - "Yesus segala-galanya, Mentari hidupku."
     - "Sehari-hari Dialah Penopang yang teguh."
     - "Bila ku sedih dan susah, aku datang kepada-Nya,"
@@ -3080,10 +2990,10 @@ kri065:
 
 
 kri066:
-  - title: Bukan Aku
-  - author: [Ira D. Sankey]
-  - kri_number: 066
-  - lyrics: 
+  title: Bukan Aku
+  author: [Ira D. Sankey]
+  kri_number: 066
+  lyrics: 
   - - "Bukan aku tapi Tuhanku Yesus,"
     - "ditinggikan dan dipermuliakan."
     - "Baik tutur, pikir, dan perbuatanku,"
@@ -3137,10 +3047,10 @@ kri066:
 
 
 kri067:
-  - title: Why Have You Chosen Me?
-  - author: []
-  - kri_number: 067
-  - lyrics: 
+  title: Why Have You Chosen Me?
+  author: []
+  kri_number: 067
+  lyrics: 
   - - "Why have You chosen me out of millions Your child to be?"
     - "You know all the wrong that I've done."
     - "O how could You pardon me, forgive my iniquity,"
@@ -3194,10 +3104,10 @@ kri067:
 
 
 kri068:
-  - title: Berjalan ke Sion
-  - author: [Robert Lowry]
-  - kri_number: 068
-  - lyrics: 
+  title: Berjalan ke Sion
+  author: [Robert Lowry]
+  kri_number: 068
+  lyrics: 
   - - "Hai s'kalian orang yang"
     - "mengasihi Tuhan."
     - "Hendaklah kamu pun datang,"
@@ -3251,10 +3161,10 @@ kri068:
 
 
 kri069:
-  - title: Seperti Tuhanku
-  - author: []
-  - kri_number: 069
-  - lyrics: 
+  title: Seperti Tuhanku
+  author: []
+  kri_number: 069
+  lyrics: 
   - - "S'perti Tuhanku yang kurindukan,"
     - "yang lemah lembut dan rendah hati,"
     - "rajin bekerja, b'rani dalam benar,"
@@ -3308,10 +3218,10 @@ kri069:
 
 
 kri070:
-  - title: Ku Mau Setia
-  - author: [Joseph Yates Peek]
-  - kri_number: 070
-  - lyrics: 
+  title: Ku Mau Setia
+  author: [Joseph Yates Peek]
+  kri_number: 070
+  lyrics: 
   - - "Ku mau setia kar'na ku dipercaya."
     - "Ku mau suci kar'na ku dikasih."
     - "Ku mau gagah menanggung s'gala susah."
@@ -3345,10 +3255,10 @@ kri070:
 
 
 kri071:
-  - title: From Glory to Glory
-  - author: []
-  - kri_number: 071
-  - lyrics: 
+  title: From Glory to Glory
+  author: []
+  kri_number: 071
+  lyrics: 
   - - "From glory to glory He's changing me,"
     - "changing me, changing me."
     - "His likeness and image to perfect in me;"
@@ -3382,10 +3292,10 @@ kri071:
 
 
 kri072:
-  - title: May the Mind of Christ, My Savior
-  - author: [A. Cyril Barham Gould]
-  - kri_number: 072
-  - lyrics: 
+  title: May the Mind of Christ, My Savior
+  author: [A. Cyril Barham Gould]
+  kri_number: 072
+  lyrics: 
   - - "May the mind of Christ, my Savior,"
     - "live in me from day to day."
     - "By His love and pow'r controlling"
@@ -3409,10 +3319,10 @@ kri072:
 
 
 kri073:
-  - title: Belum Pernah Ku Rendah Hati
-  - author: []
-  - kri_number: 073
-  - lyrics: 
+  title: Belum Pernah Ku Rendah Hati
+  author: []
+  kri_number: 073
+  lyrics: 
   - - "Dulu ku bertinggi hati,"
     - "b'lum pernah rendah hati,"
     - "hingga Tuhan nyatakan diri,"
@@ -3461,10 +3371,10 @@ kri073:
 
 
 kri074:
-  - title: Pujilah, Hai Jiwaku
-  - author: []
-  - kri_number: 074
-  - lyrics: 
+  title: Pujilah, Hai Jiwaku
+  author: []
+  kri_number: 074
+  lyrics: 
   - - "Pujilah, hai jiwaku, akan Tuhanku."
     - "Jangan lupakan anug'rah-Nya."
     - "Dia yang mengampuni s'gala dosamu,"
@@ -3518,10 +3428,10 @@ kri074:
 
 
 kri075:
-  - title: Dosa Keluar
-  - author: []
-  - kri_number: 075
-  - lyrics: 
+  title: Dosa Keluar
+  author: []
+  kri_number: 075
+  lyrics: 
   - - "Dosa k'luar, air hidup masuk"
     - "dengan berk'limpahan,"
     - "makin memancar, makin ajaiblah"
@@ -3535,10 +3445,10 @@ kri075:
 
 
 kri076:
-  - title: Ada Kuasa dalam Darah-Nya
-  - author: []
-  - kri_number: 076
-  - lyrics: 
+  title: Ada Kuasa dalam Darah-Nya
+  author: []
+  kri_number: 076
+  lyrics: 
   - - "Maukah engkau bebas dari dosa?"
     - "Dalam darah-Nya, ada kuasa."
     - "Maukah menang atas kejahatan?"
@@ -3592,10 +3502,10 @@ kri076:
 
 
 kri077:
-  - title: Siapakah Juruselamat?
-  - author: [Charles C. Converse]
-  - kri_number: 077
-  - lyrics: 
+  title: Siapakah Juruselamat?
+  author: [Charles C. Converse]
+  kri_number: 077
+  lyrics: 
   - - "Siapakah Jurus'lamat, bagi orang berdosa?"
     - "Siapakah Jurus'lamat? Dialah Yesus!"
     - "Dia di salib di Golgota mend'rita bagi kita."
@@ -3619,10 +3529,10 @@ kri077:
 
 
 kri078:
-  - title: Mengikut Yesus Keputusanku
-  - author: [Lagu Tradisional India]
-  - kri_number: 078
-  - lyrics: 
+  title: Mengikut Yesus Keputusanku
+  author: ["Lagu Tradisional India"]
+  kri_number: 078
+  lyrics: 
   - - "Mengikut Yesus keputusanku;"
     - "mengikut Yesus keputusanku;"
     - "mengikut Yesus keputusanku;"
@@ -3646,10 +3556,10 @@ kri078:
 
 
 kri079:
-  - title: Di Atas Satu Alas
-  - author: [Samuel S. Wesley]
-  - kri_number: 079
-  - lyrics: 
+  title: Di Atas Satu Alas
+  author: [Samuel S. Wesley]
+  kri_number: 079
+  lyrics: 
   - - "Di atas satu alas yang kuat dan baka,"
     - "berdirilah Gereja di tengah dunia;"
     - "yaitu Yesus Kristus yang t'lah menjadikan"
@@ -3673,10 +3583,10 @@ kri079:
 
 
 kri080:
-  - title: Puji Hu!
-  - author: [Johannes A. Hultman]
-  - kri_number: 080
-  - lyrics: 
+  title: Puji Hu!
+  author: [Johannes A. Hultman]
+  kri_number: 080
+  lyrics: 
   - - "Puji Hu meny'lamatkanku, puji Hu berkatiku!"
     - "Puji Hu menyertaiku, puji Hu menguatkanku!"
     - "Puji Hu saat yang indah, puji Hu saat susah!"
@@ -3700,10 +3610,10 @@ kri080:
 
 
 kri081:
-  - title: Indahlah Saat Berdoa
-  - author: [William B. Bradbury]
-  - kri_number: 081
-  - lyrics: 
+  title: Indahlah Saat Berdoa
+  author: [William B. Bradbury]
+  kri_number: 081
+  lyrics: 
   - - "Indahlah saat berdoa,"
     - "lepas beban dunia fana."
     - "Menghadap hadirat Tuhan,"
@@ -3752,10 +3662,10 @@ kri081:
 
 
 kri082:
-  - title: O Love That Will Not Let Me Go
-  - author: [Albert L. Peace]
-  - kri_number: 082
-  - lyrics: 
+  title: O Love That Will Not Let Me Go
+  author: [Albert L. Peace]
+  kri_number: 082
+  lyrics: 
   - - "O Love that will not let me go,"
     - "I rest my weary soul in Thee."
     - "I give Thee back the life I owe,"
@@ -3789,10 +3699,10 @@ kri082:
 
 
 kri083:
-  - title: Ku Berdoa Bagimu
-  - author: [Ira D. Sankey]
-  - kri_number: 083
-  - lyrics: 
+  title: Ku Berdoa Bagimu
+  author: [Ira D. Sankey]
+  kri_number: 083
+  lyrics: 
   - - "Tuhan di surga berdoa bagimu,"
     - "Ia Jurus'lamatku dan sobatku."
     - "Dengan lemah lembut Ia memperhatikanku,"
@@ -3836,10 +3746,10 @@ kri083:
 
 
 kri084:
-  - title: Nyatakan Kehendak-Mu
-  - author: []
-  - kri_number: 084
-  - lyrics: 
+  title: Nyatakan Kehendak-Mu
+  author: []
+  kri_number: 084
+  lyrics: 
   - - "Nyatakan kehendak-Mu di dalam hatiku."
     - "Nyatakanlah, ya Yesus, tenangkan jiwaku."
     - "Ref:"
@@ -3873,10 +3783,10 @@ kri084:
 
 
 kri085:
-  - title: Yesus Berdoa bagi Daku
-  - author: []
-  - kri_number: 085
-  - lyrics: 
+  title: Yesus Berdoa bagi Daku
+  author: []
+  kri_number: 085
+  lyrics: 
   - - "Yesus berdoa untukku dalam Getsemani."
     - "Ia mengecap cawan pahit, peluh bagai darah."
     - "Ref:"
@@ -3890,35 +3800,35 @@ kri085:
     - "Darah-Nya tebus dosaku,"
     - "Ia mend'rita, kar'na daku, daku."
     - "Ia berkorban kar'na daku, di bukit Golgota."
-    - "Hai dengarlah Ia berkata, "Genap, genap, g'naplah.""
+    - "Hai dengarlah Ia berkata, “Genap, genap, g'naplah.”"
   - - "Ref:"
     - "Kar'na daku, Tuhan disalibkan!"
     - "Darah-Nya tebus dosaku,"
     - "Ia mend'rita, kar'na daku, daku."
     - "Ia berkorban kar'na daku, di bukit Golgota."
-    - "Hai dengarlah Ia berkata, "Genap, genap, g'naplah.""
+    - "Hai dengarlah Ia berkata, “Genap, genap, g'naplah.”"
     - "Ref:"
   - - "Kar'na daku, Tuhan disalibkan!"
     - "Darah-Nya tebus dosaku,"
     - "Ia mend'rita, kar'na daku, daku."
     - "Ia berkorban kar'na daku, di bukit Golgota."
-    - "Hai dengarlah Ia berkata, "Genap, genap, g'naplah.""
+    - "Hai dengarlah Ia berkata, “Genap, genap, g'naplah.”"
     - "Ref:"
     - "Kar'na daku, Tuhan disalibkan!"
   - - "Darah-Nya tebus dosaku,"
     - "Ia mend'rita, kar'na daku, daku."
     - "Ia berkorban kar'na daku, di bukit Golgota."
-    - "Hai dengarlah Ia berkata, "Genap, genap, g'naplah.""
+    - "Hai dengarlah Ia berkata, “Genap, genap, g'naplah.”"
     - "Ref:"
     - "Kar'na daku, Tuhan disalibkan!"
     - "Darah-Nya tebus dosaku,"
 
 
 kri086:
-  - title: Ke Tempat Tinggi
-  - author: [Charles H. Gabriel]
-  - kri_number: 086
-  - lyrics: 
+  title: Ke Tempat Tinggi
+  author: [Charles H. Gabriel]
+  kri_number: 086
+  lyrics: 
   - - "Ke tempat tinggi kutuju, s'luruh jiwaku merindu."
     - "Kunaikkan doa tiap waktu, Tuhan tetapkan jiwaku."
     - "Ref:"
@@ -3952,10 +3862,10 @@ kri086:
 
 
 kri087:
-  - title: Thy Loving Kindness
-  - author: []
-  - kri_number: 087
-  - lyrics: 
+  title: Thy Loving Kindness
+  author: []
+  kri_number: 087
+  lyrics: 
   - - "Thy loving kindness is better than life."
     - "Thy loving kindness is better than life."
     - "Ref:"
@@ -3989,10 +3899,10 @@ kri087:
 
 
 kri088:
-  - title: Lord of the Universe
-  - author: []
-  - kri_number: 088
-  - lyrics: 
+  title: Lord of the Universe
+  author: []
+  kri_number: 088
+  lyrics: 
   - - "Lord of the universe, hope of the world,"
     - "Lord of the limitless reaches of space,"
     - "here on this planet You put on our flesh,"
@@ -4046,10 +3956,10 @@ kri088:
 
 
 kri089:
-  - title: Mazmur 42
-  - author: [Ludwig van Beethoven]
-  - kri_number: 089
-  - lyrics: 
+  title: Mazmur 42
+  author: [Ludwig van Beethoven]
+  kri_number: 089
+  lyrics: 
   - - "S'perti rusa rindu sungai yang berair,"
     - "demikianlah jiwaku rindu Engkau, ya Allah;"
     - "jiwaku haus pada Allah, pada Allah yang hidup."
@@ -4065,10 +3975,10 @@ kri089:
 
 
 kri090:
-  - title: Pandanglah pada Yesus
-  - author: []
-  - kri_number: 090
-  - lyrics: 
+  title: Pandanglah pada Yesus
+  author: []
+  kri_number: 090
+  lyrics: 
   - - "Lelah dan kacaukah jiwamu?"
     - "Semua g'lap gulitakah?"
     - "Bahagia dan bebas bagimu,"
@@ -4122,10 +4032,10 @@ kri090:
 
 
 kri091:
-  - title: Near to the Heart of God
-  - author: []
-  - kri_number: 091
-  - lyrics: 
+  title: Near to the Heart of God
+  author: []
+  kri_number: 091
+  lyrics: 
   - - "There is a place of quiet rest,"
     - "near to the heart of God;"
     - "a place where sin cannot molest,"
@@ -4179,10 +4089,10 @@ kri091:
 
 
 kri092:
-  - title: Kehendak Tuhan Jadikanlah
-  - author: [George C. Stebbins]
-  - kri_number: 092
-  - lyrics: 
+  title: Kehendak Tuhan Jadikanlah
+  author: [George C. Stebbins]
+  kri_number: 092
+  lyrics: 
   - - "Kehendak Tuhan jadikanlah,"
     - "ku tanah liat, Kau Penjunan."
     - "Bentuklah aku sesuka-Mu,"
@@ -4206,10 +4116,10 @@ kri092:
 
 
 kri093:
-  - title: Kenal Kau Kan Yesus?
-  - author: [V. B. Ellis]
-  - kri_number: 093
-  - lyrics: 
+  title: Kenal Kau Kan Yesus?
+  author: [V. B. Ellis]
+  kri_number: 093
+  lyrics: 
   - - "B'ratkah beban hidupmu dalam dunia gelap?"
     - "O rindukah jiwamu kan perhentian tetap?"
     - "Ref:"
@@ -4243,10 +4153,10 @@ kri093:
 
 
 kri094:
-  - title: Sebenarnya Ku Tak Layak
-  - author: [William B. Bradbury]
-  - kri_number: 094
-  - lyrics: 
+  title: Sebenarnya Ku Tak Layak
+  author: [William B. Bradbury]
+  kri_number: 094
+  lyrics: 
   - - "Sebenarnya ku tak layak,"
     - "namun ku dib'ri darah-Mu."
     - "Dan Engkau memanggil aku,"
@@ -4270,10 +4180,10 @@ kri094:
 
 
 kri095:
-  - title: Jangan Engkau Lalu
-  - author: [W. H. Doane]
-  - kri_number: 095
-  - lyrics: 
+  title: Jangan Engkau Lalu
+  author: [W. H. Doane]
+  kri_number: 095
+  lyrics: 
   - - "Yesus Juruselamatku,"
     - "dengar doaku."
     - "Janganlah Tuhan lalui,"
@@ -4317,10 +4227,10 @@ kri095:
 
 
 kri096:
-  - title: Bukakan Mataku, Tuhan
-  - author: []
-  - kri_number: 096
-  - lyrics: 
+  title: Bukakan Mataku, Tuhan
+  author: []
+  kri_number: 096
+  lyrics: 
   - - "Bukakan mataku, Tuhan,"
     - "tuk lihat kebenaran-Mu."
     - "B'ri padaku kunci ajaib,"
@@ -4364,10 +4274,10 @@ kri096:
 
 
 kri097:
-  - title: Ajaiblah Firman Hidup
-  - author: []
-  - kri_number: 097
-  - lyrics: 
+  title: Ajaiblah Firman Hidup
+  author: []
+  kri_number: 097
+  lyrics: 
   - - "Nyanyikan lagu pujian tentang firman hidup."
     - "Nyatakanlah keindahan dari firman hidup."
     - "Firman hidup dan indah, kuatkanlah imanku."
@@ -4406,10 +4316,10 @@ kri097:
 
 
 kri098:
-  - title: Roh Kebenaran Penuhi Daku
-  - author: [John R. Sweney]
-  - kri_number: 098
-  - lyrics: 
+  title: Roh Kebenaran Penuhi Daku
+  author: [John R. Sweney]
+  kri_number: 098
+  lyrics: 
   - - "Roh Kebenaran berdiam dan bekerja dalamku,"
     - "memberi sinar cahaya agar ku mengenal Hu."
     - "Ref:"
@@ -4443,14 +4353,14 @@ kri098:
 
 
 kri099:
-  - title: Penuhi Cawanku
-  - author: []
-  - kri_number: 099
-  - lyrics: 
+  title: Penuhi Cawanku
+  author: []
+  kri_number: 099
+  lyrics: 
   - - "S'perti p'rempuan Samaria ku mencari"
     - "hal yang tak puaskan hati."
     - "Ku mendengar Yesus berkata,"
-    - ""Minum air hidup kau tak dahaga.""
+    - "“Minum air hidup kau tak dahaga.”"
     - "Ref:"
     - "P'nuhi cawanku ini, Tuhan,"
     - "puaskan dahaga jiwaku!"
@@ -4459,7 +4369,7 @@ kri099:
     - "Tak terbilang orang yang merindukan"
   - - "hal yang tak puaskan hati."
     - "Ku mendengar Yesus berkata,"
-    - ""Minum air hidup kau tak dahaga.""
+    - "“Minum air hidup kau tak dahaga.”"
     - "Ref:"
     - "P'nuhi cawanku ini, Tuhan,"
     - "puaskan dahaga jiwaku!"
@@ -4468,7 +4378,7 @@ kri099:
     - "Tak terbilang orang yang merindukan"
     - "nikmatnya dunia yang fana,"
   - - "Ku mendengar Yesus berkata,"
-    - ""Minum air hidup kau tak dahaga.""
+    - "“Minum air hidup kau tak dahaga.”"
     - "Ref:"
     - "P'nuhi cawanku ini, Tuhan,"
     - "puaskan dahaga jiwaku!"
@@ -4477,7 +4387,7 @@ kri099:
     - "Tak terbilang orang yang merindukan"
     - "nikmatnya dunia yang fana,"
     - "tetapi tiada harta indah"
-  - - ""Minum air hidup kau tak dahaga.""
+  - - "“Minum air hidup kau tak dahaga.”"
     - "Ref:"
     - "P'nuhi cawanku ini, Tuhan,"
     - "puaskan dahaga jiwaku!"
@@ -4500,10 +4410,10 @@ kri099:
 
 
 kri100:
-  - title: Jalan Salib Perlulah Korban
-  - author: [Ada Rose Gibbs]
-  - kri_number: 100
-  - lyrics: 
+  title: Jalan Salib Perlulah Korban
+  author: [Ada Rose Gibbs]
+  kri_number: 100
+  lyrics: 
   - - "Jalan salib perlulah korban,"
     - "s'rahkan semua pada Hu."
     - "Letakkanlah s'mua di atas mezbah,"
@@ -4557,10 +4467,10 @@ kri100:
 
 
 kri101:
-  - title: Hidup bagi Yesus
-  - author: [C. Harold Lowden]
-  - kri_number: 101
-  - lyrics: 
+  title: Hidup bagi Yesus
+  author: [C. Harold Lowden]
+  kri_number: 101
+  lyrics: 
   - - "Hidup bagi Yesus hidup yang b'nar,"
     - "tinggalkan dunia dan dosa cemar."
     - "S'rahkan s'muanya k'lak hati gemar,"
@@ -4614,10 +4524,10 @@ kri101:
 
 
 kri102:
-  - title: Pakai Hidupku Ini
-  - author: [Henri A. Cesar Malan]
-  - kri_number: 102
-  - lyrics: 
+  title: Pakai Hidupku Ini
+  author: [Henri A. Cesar Malan]
+  kri_number: 102
+  lyrics: 
   - - "Pakai hidupku ini,"
     - "s'luruh roh dan jiwaku."
     - "Pakai tanganku ini,"
@@ -4651,10 +4561,10 @@ kri102:
 
 
 kri103:
-  - title: Memancarkan Keindahan-Mu
-  - author: [Tom Jones]
-  - kri_number: 103
-  - lyrics: 
+  title: Memancarkan Keindahan-Mu
+  author: [Tom Jones]
+  kri_number: 103
+  lyrics: 
   - - "Tuhan, ku ingin dapat memancarkan"
     - "kasih-Mu indah penuh kemurnian."
     - "Budi bahasaku dihaluskan Roh-Mu,"
@@ -4678,10 +4588,10 @@ kri103:
 
 
 kri104:
-  - title: Bagi Yesus Tuhanku
-  - author: []
-  - kri_number: 104
-  - lyrics: 
+  title: Bagi Yesus Tuhanku
+  author: []
+  kri_number: 104
+  lyrics: 
   - - "Kuserahkan bagi Yesus, semua yang kumiliki."
     - "Pikiran perbuatanku, kuserahkan bagi-Mu."
     - "Bagi Yesus, bagi Yesus, semua yang kumiliki."
@@ -4705,10 +4615,10 @@ kri104:
 
 
 kri105:
-  - title: Ku Mau seperti Hu
-  - author: [William J. Kirkpatrick]
-  - kri_number: 105
-  - lyrics: 
+  title: Ku Mau seperti Hu
+  author: [William J. Kirkpatrick]
+  kri_number: 105
+  lyrics: 
   - - "Ku mau s'perti Hu, Yesus yang mulia,"
     - "inilah doa dan harapan."
     - "Ku mau sampahkan kekayaanku"
@@ -4762,10 +4672,10 @@ kri105:
 
 
 kri106:
-  - title: Ke Mana Saja
-  - author: []
-  - kri_number: 106
-  - lyrics: 
+  title: Ke Mana Saja
+  author: []
+  kri_number: 106
+  lyrics: 
   - - "Ke mana saja ku telah sedia,"
     - "pimpinan Tuhan tak pernah bersalah."
     - "Tolong ku taat memikul salibku;"
@@ -4795,10 +4705,10 @@ kri106:
 
 
 kri107:
-  - title: Utus Aku dalam Misi-Mu
-  - author: []
-  - kri_number: 107
-  - lyrics: 
+  title: Utus Aku dalam Misi-Mu
+  author: []
+  kri_number: 107
+  lyrics: 
   - - "Utus aku dalam misi-Mu,"
     - "oh Tuhanku, nyatakan k'hendak-Mu."
     - "Pakaiku sebagai alat-Mu,"
@@ -4828,10 +4738,10 @@ kri107:
 
 
 kri108:
-  - title: Pimpinlah Niat Hamba
-  - author: [Wendell P. Loveless]
-  - kri_number: 108
-  - lyrics: 
+  title: Pimpinlah Niat Hamba
+  author: [Wendell P. Loveless]
+  kri_number: 108
+  lyrics: 
   - - "Pimpinlah niat hamba"
     - "mengantar jiwa pada-Mu."
     - "Banyaklah dalam dosa"
@@ -4871,10 +4781,10 @@ kri108:
 
 
 kri109:
-  - title: Sukacita dalam Melayani Raja
-  - author: [B. D. Ackley]
-  - kri_number: 109
-  - lyrics: 
+  title: Sukacita dalam Melayani Raja
+  author: [B. D. Ackley]
+  kri_number: 109
+  lyrics: 
   - - "Ku bersukacita kerja bagi Dia,"
     - "Raja atas s'gala raja."
     - "Hatiku penuh sukacita damai"
@@ -4928,10 +4838,10 @@ kri109:
 
 
 kri110:
-  - title: Angkat Suaramu
-  - author: []
-  - kri_number: 110
-  - lyrics: 
+  title: Angkat Suaramu
+  author: []
+  kri_number: 110
+  lyrics: 
   - - "Angkat suaramu, pandanglah musuh,"
     - "turut p'rintah-Nya, maju t'rus."
     - "Pakai firman-Nya, tinggal setia,"
@@ -4939,7 +4849,7 @@ kri110:
     - "Ref:"
     - "Maju, maju, tetaplah percaya."
     - "Maju, maju, maju dalam p'rang."
-    - "Maju, maju, sorak, "Haleluya!""
+    - "Maju, maju, sorak, “Haleluya!”"
     - "Tuhan Raja G'reja yang menang."
     - "Kami hamba-Nya dengan kuasa-Nya"
   - - "turut p'rintah-Nya, maju t'rus."
@@ -4948,7 +4858,7 @@ kri110:
     - "Ref:"
     - "Maju, maju, tetaplah percaya."
     - "Maju, maju, maju dalam p'rang."
-    - "Maju, maju, sorak, "Haleluya!""
+    - "Maju, maju, sorak, “Haleluya!”"
     - "Tuhan Raja G'reja yang menang."
     - "Kami hamba-Nya dengan kuasa-Nya"
     - "membawa kabar kasih-Nya."
@@ -4957,7 +4867,7 @@ kri110:
     - "Ref:"
     - "Maju, maju, tetaplah percaya."
     - "Maju, maju, maju dalam p'rang."
-    - "Maju, maju, sorak, "Haleluya!""
+    - "Maju, maju, sorak, “Haleluya!”"
     - "Tuhan Raja G'reja yang menang."
     - "Kami hamba-Nya dengan kuasa-Nya"
     - "membawa kabar kasih-Nya."
@@ -4966,7 +4876,7 @@ kri110:
     - "Ref:"
     - "Maju, maju, tetaplah percaya."
     - "Maju, maju, maju dalam p'rang."
-    - "Maju, maju, sorak, "Haleluya!""
+    - "Maju, maju, sorak, “Haleluya!”"
     - "Tuhan Raja G'reja yang menang."
     - "Kami hamba-Nya dengan kuasa-Nya"
     - "membawa kabar kasih-Nya."
@@ -4975,7 +4885,7 @@ kri110:
   - - "Ref:"
     - "Maju, maju, tetaplah percaya."
     - "Maju, maju, maju dalam p'rang."
-    - "Maju, maju, sorak, "Haleluya!""
+    - "Maju, maju, sorak, “Haleluya!”"
     - "Tuhan Raja G'reja yang menang."
     - "Kami hamba-Nya dengan kuasa-Nya"
     - "membawa kabar kasih-Nya."
@@ -4985,10 +4895,10 @@ kri110:
 
 
 kri111:
-  - title: Pakailah Ku Bagai Pelita
-  - author: [Matilda B. B. Edward]
-  - kri_number: 111
-  - lyrics: 
+  title: Pakailah Ku Bagai Pelita
+  author: [Matilda B. B. Edward]
+  kri_number: 111
+  lyrics: 
   - - "Pakailah ku bagai p'lita"
     - "menyinari dunia,"
     - "meski kecil namun terang"
@@ -5012,10 +4922,10 @@ kri111:
 
 
 kri112:
-  - title: Korban Hidup
-  - author: []
-  - kri_number: 112
-  - lyrics: 
+  title: Korban Hidup
+  author: []
+  kri_number: 112
+  lyrics: 
   - - "Tuhan ku berserah jadi korban hidup."
     - "Roh-Mu dan darah-Mu bakar sucikan t'rus."
     - "B'rikanku firman-Mu, curahkan kasih-Mu."
@@ -5029,10 +4939,10 @@ kri112:
 
 
 kri113:
-  - title: Api Roh Kudus
-  - author: [A. Compain]
-  - kri_number: 113
-  - lyrics: 
+  title: Api Roh Kudus
+  author: [A. Compain]
+  kri_number: 113
+  lyrics: 
   - - "Api Roh Kudus, bakar hatiku"
     - "dengan kasih yang murni dari Kalvari."
     - "Roh Pentakosta, giat bagi nama Hu;"
@@ -5056,12 +4966,12 @@ kri113:
 
 
 kri114:
-  - title: B'rilah Terang
-  - author: []
-  - kri_number: 114
-  - lyrics: 
+  title: B'rilah Terang
+  author: []
+  kri_number: 114
+  lyrics: 
   - - "Berkumandang suara dari seberang,"
-    - ""B'rilah t'rang, b'rilah t'rang.""
+    - "“B'rilah t'rang, b'rilah t'rang.”"
     - "Banyak jiwa dalam dosa mengerang,"
     - "b'rilah t'rang, b'rilah t'rang."
     - "Ref:"
@@ -5070,7 +4980,7 @@ kri114:
     - "B'rilah t'rang, pelita Injili"
     - "menyentak yang terlelap."
     - "Kita t'lah dengar jeritan dari jauh,"
-  - - ""B'rilah t'rang, b'rilah t'rang.""
+  - - "“B'rilah t'rang, b'rilah t'rang.”"
     - "Banyak jiwa dalam dosa mengerang,"
     - "b'rilah t'rang, b'rilah t'rang."
     - "Ref:"
@@ -5079,7 +4989,7 @@ kri114:
     - "B'rilah t'rang, pelita Injili"
     - "menyentak yang terlelap."
     - "Kita t'lah dengar jeritan dari jauh,"
-    - ""B'rilah t'rang, b'rilah t'rang.""
+    - "“B'rilah t'rang, b'rilah t'rang.”"
   - - "Banyak jiwa dalam dosa mengerang,"
     - "b'rilah t'rang, b'rilah t'rang."
     - "Ref:"
@@ -5088,7 +4998,7 @@ kri114:
     - "B'rilah t'rang, pelita Injili"
     - "menyentak yang terlelap."
     - "Kita t'lah dengar jeritan dari jauh,"
-    - ""B'rilah t'rang, b'rilah t'rang.""
+    - "“B'rilah t'rang, b'rilah t'rang.”"
     - "Bantuanmu b'rikan janganlah jemu,"
   - - "b'rilah t'rang, b'rilah t'rang."
     - "Ref:"
@@ -5097,7 +5007,7 @@ kri114:
     - "B'rilah t'rang, pelita Injili"
     - "menyentak yang terlelap."
     - "Kita t'lah dengar jeritan dari jauh,"
-    - ""B'rilah t'rang, b'rilah t'rang.""
+    - "“B'rilah t'rang, b'rilah t'rang.”"
     - "Bantuanmu b'rikan janganlah jemu,"
     - "b'rilah t'rang, b'rilah t'rang."
   - - "Ref:"
@@ -5106,17 +5016,17 @@ kri114:
     - "B'rilah t'rang, pelita Injili"
     - "menyentak yang terlelap."
     - "Kita t'lah dengar jeritan dari jauh,"
-    - ""B'rilah t'rang, b'rilah t'rang.""
+    - "“B'rilah t'rang, b'rilah t'rang.”"
     - "Bantuanmu b'rikan janganlah jemu,"
     - "b'rilah t'rang, b'rilah t'rang."
     - "Ref:"
 
 
 kri115:
-  - title: Hai, Bangkit bagi Yesus
-  - author: [G. J. Webb, Jr.]
-  - kri_number: 115
-  - lyrics: 
+  title: Hai, Bangkit bagi Yesus
+  author: [G. J. Webb, Jr.]
+  kri_number: 115
+  lyrics: 
   - - "Hai, bangkit bagi Yesus, pahlawan salib-Nya!"
     - "Kibarkan panji Raja yang kalahkan dunia."
     - "Dia pimpin serdadu-Nya menang senantiasa,"
@@ -5140,10 +5050,10 @@ kri115:
 
 
 kri116:
-  - title: Dari Kutub ke Kutub
-  - author: [Lowell Mason]
-  - kri_number: 116
-  - lyrics: 
+  title: Dari Kutub ke Kutub
+  author: [Lowell Mason]
+  kri_number: 116
+  lyrics: 
   - - "Dari kutub ke kutub, dari gurun padang,"
     - "dari pantai ke pantai, dari semua benua,"
     - "dari pulau ke pulau, dari lembah gunung,"
@@ -5167,10 +5077,10 @@ kri116:
 
 
 kri117:
-  - title: Api Zaman
-  - author: [Stephen Tong]
-  - kri_number: 117
-  - lyrics: 
+  title: Api Zaman
+  author: [Stephen Tong]
+  kri_number: 117
+  lyrics: 
   - - "Darah kaum martir yang belum kering,"
     - "yang menyirami jalan salib."
     - "Rumah Allah yang telah senyap,"
@@ -5224,10 +5134,10 @@ kri117:
 
 
 kri118:
-  - title: Jadikan Aku Saluran Berkat
-  - author: [George B. Schuler]
-  - kri_number: 118
-  - lyrics: 
+  title: Jadikan Aku Saluran Berkat
+  author: [George B. Schuler]
+  kri_number: 118
+  lyrics: 
   - - "Di dalam hidup berliku-liku,"
     - "banyak keluh dan kesah."
     - "B'ri terang-Mu di tempat g'lap itu,"
@@ -5281,10 +5191,10 @@ kri118:
 
 
 kri119:
-  - title: Kita Harus Membawa Berita
-  - author: []
-  - kri_number: 119
-  - lyrics: 
+  title: Kita Harus Membawa Berita
+  author: []
+  kri_number: 119
+  lyrics: 
   - - "Kita harus membawa berita"
     - "pada dunia dalam gelap"
     - "tentang kebenaran dan kasih,"
@@ -5343,10 +5253,10 @@ kri119:
 
 
 kri120:
-  - title: Psalm 84
-  - author: []
-  - kri_number: 120
-  - lyrics: 
+  title: Psalm 84
+  author: []
+  kri_number: 120
+  lyrics: 
   - - "How lovely, O Lord, is Your dwelling place."
     - "My heart yearns, even faints, for the court of the Lord;"
     - "my heart, my flesh, cry out for You."
@@ -5380,10 +5290,10 @@ kri120:
 
 
 kri121:
-  - title: Aku Tuhan Semesta
-  - author: []
-  - kri_number: 121
-  - lyrics: 
+  title: Aku Tuhan Semesta
+  author: []
+  kri_number: 121
+  lyrics: 
   - - "Aku Tuhan semesta, jeritanmu Kudengar."
     - "Kau di dunia yang gelap, Kus'lamatkan."
     - "Akulah Pencipta t'rang; malam jadi benderang."
@@ -5437,10 +5347,10 @@ kri121:
 
 
 kri122:
-  - title: Bangkit bagi Kristus
-  - author: []
-  - kri_number: 122
-  - lyrics: 
+  title: Bangkit bagi Kristus
+  author: []
+  kri_number: 122
+  lyrics: 
   - - "Bangkitlah hai Saudara, mari kita hidup bagi Kristus."
     - "Sucikanlah hatimu, pancarkan cahaya Injil-Nya."
     - "Dunia seg'ra lalu, serta s'gala nafsunya yang fana."
@@ -5462,10 +5372,10 @@ kri122:
 
 
 kri123:
-  - title: Tuhan Ampuni Dosaku
-  - author: []
-  - kri_number: 123
-  - lyrics: 
+  title: Tuhan Ampuni Dosaku
+  author: []
+  kri_number: 123
+  lyrics: 
   - - "Tuhan, ampuni dosaku,"
     - "Tuhan, dengarlah doaku."
     - "Darah-Mu sucikanku."
@@ -5489,10 +5399,10 @@ kri123:
 
 
 kri124:
-  - title: Bila Kau Pernah Cinta Yesus
-  - author: []
-  - kri_number: 124
-  - lyrics: 
+  title: Bila Kau Pernah Cinta Yesus
+  author: []
+  kri_number: 124
+  lyrics: 
   - - "Bila kau pernah cinta Yesus,"
     - "m'gapa tak cinta Dia s'karang?"
     - "Meski kau t'lah menjauhkan Dia,"
@@ -5514,10 +5424,10 @@ kri124:
 
 
 kri125:
-  - title: Song for the Nations
-  - author: []
-  - kri_number: 125
-  - lyrics: 
+  title: Song for the Nations
+  author: []
+  kri_number: 125
+  lyrics: 
   - - "May we be a shining light to the nations,"
     - "a shining light to the peoples of the earth,"
     - "till the whole world sees the glory of Your name."
@@ -5541,10 +5451,10 @@ kri125:
 
 
 kri126:
-  - title: Hujan Berkat Akan Turun
-  - author: [James McGranahan]
-  - kri_number: 126
-  - lyrics: 
+  title: Hujan Berkat Akan Turun
+  author: [James McGranahan]
+  kri_number: 126
+  lyrics: 
   - - "Jurus'lamat menjanjikan mengirimkan Roh Kudus."
     - "Jiwa kita disegarkan, itu berkat sejati."
     - "Ref:"
@@ -5578,67 +5488,67 @@ kri126:
 
 
 kri127:
-  - title: Waktu Namaku Dipanggil
-  - author: []
-  - kri_number: 127
-  - lyrics: 
+  title: Waktu Namaku Dipanggil
+  author: []
+  kri_number: 127
+  lyrics: 
   - - "Bila tiba hari Tuhan dan di dalam dunia"
     - "terdengar nafiri Hu berbunyilah,"
     - "serta Tuhan Yesus datang dengan kemuliaan-Nya,"
-    - "waktu ku dipanggil, ku menjawab, "Ya.""
+    - "waktu ku dipanggil, ku menjawab, “Ya.”"
     - "Ref:"
     - "Bila tiba hari Tuhan,"
     - "bila tiba hari Tuhan,"
     - "bila tiba hari Tuhan,"
-    - "serta ku dipanggil, ku menjawab, "Ya.""
+    - "serta ku dipanggil, ku menjawab, “Ya.”"
     - "Pada fajar yang abadi orang saleh segenap"
   - - "terdengar nafiri Hu berbunyilah,"
     - "serta Tuhan Yesus datang dengan kemuliaan-Nya,"
-    - "waktu ku dipanggil, ku menjawab, "Ya.""
+    - "waktu ku dipanggil, ku menjawab, “Ya.”"
     - "Ref:"
     - "Bila tiba hari Tuhan,"
     - "bila tiba hari Tuhan,"
     - "bila tiba hari Tuhan,"
-    - "serta ku dipanggil, ku menjawab, "Ya.""
+    - "serta ku dipanggil, ku menjawab, “Ya.”"
     - "Pada fajar yang abadi orang saleh segenap"
     - "k'lak berhimpun dalam surga yang baka,"
   - - "serta Tuhan Yesus datang dengan kemuliaan-Nya,"
-    - "waktu ku dipanggil, ku menjawab, "Ya.""
+    - "waktu ku dipanggil, ku menjawab, “Ya.”"
     - "Ref:"
     - "Bila tiba hari Tuhan,"
     - "bila tiba hari Tuhan,"
     - "bila tiba hari Tuhan,"
-    - "serta ku dipanggil, ku menjawab, "Ya.""
+    - "serta ku dipanggil, ku menjawab, “Ya.”"
     - "Pada fajar yang abadi orang saleh segenap"
     - "k'lak berhimpun dalam surga yang baka,"
     - "dan memuji Jurus'lamat dengan pujian sedap;"
-  - - "waktu ku dipanggil, ku menjawab, "Ya.""
+  - - "waktu ku dipanggil, ku menjawab, “Ya.”"
     - "Ref:"
     - "Bila tiba hari Tuhan,"
     - "bila tiba hari Tuhan,"
     - "bila tiba hari Tuhan,"
-    - "serta ku dipanggil, ku menjawab, "Ya.""
+    - "serta ku dipanggil, ku menjawab, “Ya.”"
     - "Pada fajar yang abadi orang saleh segenap"
     - "k'lak berhimpun dalam surga yang baka,"
     - "dan memuji Jurus'lamat dengan pujian sedap;"
-    - "bila ku dipanggil, ku menjawab, "Ya.""
+    - "bila ku dipanggil, ku menjawab, “Ya.”"
   - - "Ref:"
     - "Bila tiba hari Tuhan,"
     - "bila tiba hari Tuhan,"
     - "bila tiba hari Tuhan,"
-    - "serta ku dipanggil, ku menjawab, "Ya.""
+    - "serta ku dipanggil, ku menjawab, “Ya.”"
     - "Pada fajar yang abadi orang saleh segenap"
     - "k'lak berhimpun dalam surga yang baka,"
     - "dan memuji Jurus'lamat dengan pujian sedap;"
-    - "bila ku dipanggil, ku menjawab, "Ya.""
+    - "bila ku dipanggil, ku menjawab, “Ya.”"
     - "Ref:"
 
 
 kri128:
-  - title: Battle Hymn of the Republic
-  - author: [American Traditional]
-  - kri_number: 128
-  - lyrics: 
+  title: Battle Hymn of the Republic
+  author: [American Traditional]
+  kri_number: 128
+  lyrics: 
   - - "Mine eyes have seen the glory"
     - "of the coming of the Lord."
     - "He is trampling out the vintage"
@@ -5707,10 +5617,10 @@ kri128:
 
 
 kri129:
-  - title: When We All Get to Heaven
-  - author: [Emily D. Wilson]
-  - kri_number: 129
-  - lyrics: 
+  title: When We All Get to Heaven
+  author: [Emily D. Wilson]
+  kri_number: 129
+  lyrics: 
   - - "Sing the wondrous love of Jesus,"
     - "sing His mercy and His grace."
     - "In the mansions bright and blessed,"
@@ -5764,10 +5674,10 @@ kri129:
 
 
 kri130:
-  - title: According to Thy Gracious Word
-  - author: [H. W. Greatorex' Collection]
-  - kri_number: 130
-  - lyrics: 
+  title: According to Thy Gracious Word
+  author: [H. W. Greatorex' Collection]
+  kri_number: 130
+  lyrics: 
   - - "According to Thy gracious word,"
     - "in meek humility,"
     - "this will I do, my dying Lord,"
@@ -5791,10 +5701,10 @@ kri130:
 
 
 kri131:
-  - title: Psalm 23
-  - author: []
-  - kri_number: 131
-  - lyrics: 
+  title: Psalm 23
+  author: []
+  kri_number: 131
+  lyrics: 
   - - "The Lord is my shepherd; I shall not want."
     - "He makes me to lie down in green pastures."
     - "He leads me beside the still waters."
@@ -5828,10 +5738,10 @@ kri131:
 
 
 kri132:
-  - title: Above All
-  - author: []
-  - kri_number: 132
-  - lyrics: 
+  title: Above All
+  author: []
+  kri_number: 132
+  lyrics: 
   - - "Above all powers, above all kings;"
     - "above all nature, and all created things;"
     - "above all wisdom and all the ways of man,"
@@ -5890,10 +5800,10 @@ kri132:
 
 
 kri133:
-  - title: Agungkan Allahmu, Junjungan Abraham
-  - author: [Traditional Hebrew, adapted by Meyer Lyon]
-  - kri_number: 133
-  - lyrics: 
+  title: Agungkan Allahmu, Junjungan Abraham
+  author: [Traditional Hebrew, adapted by Meyer Lyon]
+  kri_number: 133
+  lyrics: 
   - - "Agungkan Allahmu, junjungan Abraham,"
     - "Yang takhta rahmat-Nya teguh, Sang Raja Am!"
     - "Yang Ada, Yang Esa, dipuji, disembah"
@@ -5917,10 +5827,10 @@ kri133:
 
 
 kri134:
-  - title: Ajarku dan Pimpinku
-  - author: [Wendell P. Loveless]
-  - kri_number: 134
-  - lyrics: 
+  title: Ajarku dan Pimpinku
+  author: [Wendell P. Loveless]
+  kri_number: 134
+  lyrics: 
   - - "Ajarku dan pimpinku"
     - "membawa jiwa pada-Mu."
     - "Banyaklah dalam dosa"
@@ -5960,10 +5870,10 @@ kri134:
 
 
 kri135:
-  - title: Aku Milik Tuhan
-  - author: []
-  - kri_number: 135
-  - lyrics: 
+  title: Aku Milik Tuhan
+  author: []
+  kri_number: 135
+  lyrics: 
   - - "Aku milik Tuhan, s'lama-lamanya,"
     - "Seb'lum dunia jadi, Ia telah memilih daku."
     - "Dia mati dan bangkit menebus jiwa daku,"
@@ -5987,10 +5897,10 @@ kri135:
 
 
 kri136:
-  - title: Allah Hadir
-  - author: [John R. Sweney]
-  - kri_number: 136
-  - lyrics: 
+  title: Allah Hadir
+  author: [John R. Sweney]
+  kri_number: 136
+  lyrics: 
   - - "Dengan kuasa Roh Kudus-Nya,"
     - "Tuhan memberi berkat."
     - "Tuhan hadir pada kita,"
@@ -6034,10 +5944,10 @@ kri136:
 
 
 kri137:
-  - title: Allah Panggil Kaum Muda
-  - author: []
-  - kri_number: 137
-  - lyrics: 
+  title: Allah Panggil Kaum Muda
+  author: []
+  kri_number: 137
+  lyrics: 
   - - "Allah panggil kaum muda masa kalut ini,"
     - "menjadi laskar Allah bers'rah jiwa raga,"
     - "yang harap kuasa baru, bukan hasrat diri;"
@@ -6061,10 +5971,10 @@ kri137:
 
 
 kri138:
-  - title: Be Still for the Presence of the Lord
-  - author: []
-  - kri_number: 138
-  - lyrics: 
+  title: Be Still for the Presence of the Lord
+  author: []
+  kri_number: 138
+  lyrics: 
   - - "Be still for the presence of the Lord"
     - "The Holy One is here"
     - "Come, bow before Him now"
@@ -6113,10 +6023,10 @@ kri138:
 
 
 kri139:
-  - title: Amin
-  - author: []
-  - kri_number: 139
-  - lyrics: 
+  title: Amin
+  author: []
+  kri_number: 139
+  lyrics: 
   - - "Amin,"
     - "Amin,"
     - "Amin."
@@ -6130,10 +6040,10 @@ kri139:
 
 
 kri140:
-  - title: Before the Throne of God Above
-  - author: [Vikki Cook]
-  - kri_number: 140
-  - lyrics: 
+  title: Before the Throne of God Above
+  author: [Vikki Cook]
+  kri_number: 140
+  lyrics: 
   - - "Before the throne of God above,"
     - "I have a strong and perfect plea,"
     - "a great High Priest whose name is Love,"
@@ -6177,10 +6087,10 @@ kri140:
 
 
 kri141:
-  - title: Beban Terlepas di Kalvari
-  - author: []
-  - kri_number: 141
-  - lyrics: 
+  title: Beban Terlepas di Kalvari
+  author: []
+  kri_number: 141
+  lyrics: 
   - - "Hariku penuh khawatir, dan jiwaku penat."
     - "Beban terlepas di Kalvari, Yesus amat dekat."
     - "Beban terlepas di Kalvari, Kalvari, Kalvari."
@@ -6204,10 +6114,10 @@ kri141:
 
 
 kri142:
-  - title: Berdiamlah, Berdiamlah
-  - author: [William H. Doane]
-  - kri_number: 142
-  - lyrics: 
+  title: Berdiamlah, Berdiamlah
+  author: [William H. Doane]
+  kri_number: 142
+  lyrics: 
   - - "Berdiamlah, berdiamlah, sembah sujud Dia."
     - "Berdiamlah, t'rimalah sabda yang mulia."
     - "Ref:"
@@ -6241,10 +6151,10 @@ kri142:
 
 
 kri143:
-  - title: Beritakan Injil Selamanya
-  - author: []
-  - kri_number: 143
-  - lyrics: 
+  title: Beritakan Injil Selamanya
+  author: []
+  kri_number: 143
+  lyrics: 
   - - "Kasih Tuhan mendorong daku"
     - "memb'ritakan Injil-Nya,"
     - "pada umat yang hidup dalam dosa,"
@@ -6274,10 +6184,10 @@ kri143:
 
 
 kri144:
-  - title: Umat-Nya Pujilah
-  - author: []
-  - kri_number: 144
-  - lyrics: 
+  title: Umat-Nya Pujilah
+  author: []
+  kri_number: 144
+  lyrics: 
   - - "Umat-Nya pujilah, haleluya! Amin!"
     - "Pada Kristus Raja, haleluya! Amin!"
     - "Bersama bernyanyi di depan takhta-Nya,"
@@ -6301,10 +6211,10 @@ kri144:
 
 
 kri145:
-  - title: Bila Kerjaku Selesai
-  - author: [John R. Sweney]
-  - kri_number: 145
-  - lyrics: 
+  title: Bila Kerjaku Selesai
+  author: [John R. Sweney]
+  kri_number: 145
+  lyrics: 
   - - "Jikalau pekerjaanku di sini t'lah lengkap,"
     - "ku akan pulang ke neg'ri yang terang."
     - "Pertama ku tentu merasa girang dan senang"
@@ -6358,10 +6268,10 @@ kri145:
 
 
 kri146:
-  - title: Penuhi Daku
-  - author: [B. D. Ackley]
-  - kri_number: 146
-  - lyrics: 
+  title: Penuhi Daku
+  author: [B. D. Ackley]
+  kri_number: 146
+  lyrics: 
   - - "Jika kudukakan Roh-Mu,"
     - "atau ragu kuasa-Mu,"
     - "Tuhan ampuni dosaku,"
@@ -6415,10 +6325,10 @@ kri146:
 
 
 kri147:
-  - title: Bangkitkan Jiwaku
-  - author: []
-  - kri_number: 147
-  - lyrics: 
+  title: Bangkitkan Jiwaku
+  author: []
+  kri_number: 147
+  lyrics: 
   - - "Ku datang pada-Mu, Tuhanku,"
     - "ku bersandar pada firman-Mu."
     - "Dengarlah doaku yang hina"
@@ -6472,10 +6382,10 @@ kri147:
 
 
 kri148:
-  - title: Penebus yang Mulia
-  - author: [Harry Dixon Loes]
-  - kri_number: 148
-  - lyrics: 
+  title: Penebus yang Mulia
+  author: [Harry Dixon Loes]
+  kri_number: 148
+  lyrics: 
   - - "Yesus tersalib di Golgota,"
     - "d'rita sengsara bagi kita."
     - "Segala dosa ditanggung-Nya"
@@ -6485,7 +6395,7 @@ kri148:
     - "Maha Suci, Kau mati disalib."
     - "Darah tercurah kar'na dosaku,"
     - "jadi tebusan penuh rahmat."
-    - ""Bapa, ampuni dosa m'reka,""
+    - "“Bapa, ampuni dosa m'reka,”"
   - - "d'rita sengsara bagi kita."
     - "Segala dosa ditanggung-Nya"
     - "tuk s'lamatkanku yang berdosa."
@@ -6494,7 +6404,7 @@ kri148:
     - "Maha Suci, Kau mati disalib."
     - "Darah tercurah kar'na dosaku,"
     - "jadi tebusan penuh rahmat."
-    - ""Bapa, ampuni dosa m'reka,""
+    - "“Bapa, ampuni dosa m'reka,”"
     - "Ia berdoa bagi kita."
   - - "Segala dosa ditanggung-Nya"
     - "tuk s'lamatkanku yang berdosa."
@@ -6503,7 +6413,7 @@ kri148:
     - "Maha Suci, Kau mati disalib."
     - "Darah tercurah kar'na dosaku,"
     - "jadi tebusan penuh rahmat."
-    - ""Bapa, ampuni dosa m'reka,""
+    - "“Bapa, ampuni dosa m'reka,”"
     - "Ia berdoa bagi kita."
     - "Darah tercurah s'lamatkanku,"
   - - "tuk s'lamatkanku yang berdosa."
@@ -6512,7 +6422,7 @@ kri148:
     - "Maha Suci, Kau mati disalib."
     - "Darah tercurah kar'na dosaku,"
     - "jadi tebusan penuh rahmat."
-    - ""Bapa, ampuni dosa m'reka,""
+    - "“Bapa, ampuni dosa m'reka,”"
     - "Ia berdoa bagi kita."
     - "Darah tercurah s'lamatkanku,"
     - "besar kasih-Nya kepadaku."
@@ -6521,7 +6431,7 @@ kri148:
     - "Maha Suci, Kau mati disalib."
     - "Darah tercurah kar'na dosaku,"
     - "jadi tebusan penuh rahmat."
-    - ""Bapa, ampuni dosa m'reka,""
+    - "“Bapa, ampuni dosa m'reka,”"
     - "Ia berdoa bagi kita."
     - "Darah tercurah s'lamatkanku,"
     - "besar kasih-Nya kepadaku."
@@ -6529,10 +6439,10 @@ kri148:
 
 
 kri149:
-  - title: Imanku Menengadah
-  - author: [Lowell Mason]
-  - kri_number: 149
-  - lyrics: 
+  title: Imanku Menengadah
+  author: [Lowell Mason]
+  kri_number: 149
+  lyrics: 
   - - "Imanku m'nengadah,"
     - "pada Domba Allah,"
     - "Jurus'lamat."
@@ -6571,10 +6481,10 @@ kri149:
 
 
 kri150:
-  - title: Rohku Tenang
-  - author: [J. Sibelius]
-  - kri_number: 150
-  - lyrics: 
+  title: Rohku Tenang
+  author: [J. Sibelius]
+  kri_number: 150
+  lyrics: 
   - - "Rohku tenang! Tuhan besertaku,"
     - "salib susah, sabar ku memikul."
     - "Ku bersandar kar'na Ia pimpinku,"
@@ -6613,10 +6523,10 @@ kri150:
 
 
 kri151:
-  - title: Berita Natal
-  - author: []
-  - kri_number: 151
-  - lyrics: 
+  title: Berita Natal
+  author: []
+  kri_number: 151
+  lyrics: 
   - - "B'rita Natal dikabarkan"
     - "oleh malak surga pada gembala,"
     - "yang menjaga kawanan domba"
@@ -6660,10 +6570,10 @@ kri151:
 
 
 kri152:
-  - title: Kiranya Langit Terbelah
-  - author: [Jerman 1666]
-  - kri_number: 152
-  - lyrics: 
+  title: Kiranya Langit Terbelah
+  author: [Jerman 1666]
+  kri_number: 152
+  lyrics: 
   - - "Kiranya langit terbelah;"
     - "ya Jurus'lamat, datanglah,"
     - "bukalah surga segera,"
@@ -6687,10 +6597,10 @@ kri152:
 
 
 kri153:
-  - title: Hadir Kau?
-  - author: []
-  - kri_number: 153
-  - lyrics: 
+  title: Hadir Kau?
+  author: []
+  kri_number: 153
+  lyrics: 
   - - "Hadir kau waktu Tuhan disalib?"
     - "Hadir kau waktu Tuhan disalib?"
     - "O! Itu membuat aku gentar, gentar, gentar."
@@ -6714,10 +6624,10 @@ kri153:
 
 
 kri154:
-  - title: Kau Allah Benteng yang Baka
-  - author: [William Croft]
-  - kri_number: 154
-  - lyrics: 
+  title: Kau Allah Benteng yang Baka
+  author: [William Croft]
+  kri_number: 154
+  lyrics: 
   - - "Kau Allah, benteng yang baka,"
     - "suaka yang teguh;"
     - "Dahulu dan selamanya"
@@ -6741,10 +6651,10 @@ kri154:
 
 
 kri155:
-  - title: Hai Umat, Nyanyilah
-  - author: [Johann Sebastian Bach]
-  - kri_number: 155
-  - lyrics: 
+  title: Hai Umat, Nyanyilah
+  author: [Johann Sebastian Bach]
+  kri_number: 155
+  lyrics: 
   - - "Hai umat, nyanyilah, rayakan hari ini!"
     - "Mujizat Allahmu masyhurkanlah di sini!"
     - "T'lah turun Roh Kudus membangunkan umat-Nya,"
@@ -6768,56 +6678,56 @@ kri155:
 
 
 kri156:
-  - title: Kau Tak Kulupakan
-  - author: []
-  - kri_number: 156
-  - lyrics: 
-  - - "Janji yang manis, "Kau tak Kulupakan.""
+  title: Kau Tak Kulupakan
+  author: []
+  kri_number: 156
+  lyrics: 
+  - - "Janji yang manis, “Kau tak Kulupakan.”"
     - "Tak terombang-ambing lagi jiwaku."
     - "Walau lembah hidupku penuh awan,"
     - "nanti kan cerahlah langit d'atasku."
     - "Ref:"
-    - ""Kau tidak kan Aku lupakan."
+    - "“Kau tidak kan Aku lupakan."
     - "Aku membimbingmu, Aku memimpinmu."
     - "Kau tidak kan Aku lupakan,"
-    - "Aku Penolongmu, yakinlah teguh.""
-    - "Yakinkan janji, "Kau tak Kulupakan.""
+    - "Aku Penolongmu, yakinlah teguh.”"
+    - "Yakinkan janji, “Kau tak Kulupakan.”"
   - - "Tak terombang-ambing lagi jiwaku."
     - "Walau lembah hidupku penuh awan,"
     - "nanti kan cerahlah langit d'atasku."
     - "Ref:"
-    - ""Kau tidak kan Aku lupakan."
+    - "“Kau tidak kan Aku lupakan."
     - "Aku membimbingmu, Aku memimpinmu."
     - "Kau tidak kan Aku lupakan,"
-    - "Aku Penolongmu, yakinlah teguh.""
-    - "Yakinkan janji, "Kau tak Kulupakan.""
+    - "Aku Penolongmu, yakinlah teguh.”"
+    - "Yakinkan janji, “Kau tak Kulupakan.”"
     - "Dengan sukacita aku jalan t'rus."
   - - "Walau lembah hidupku penuh awan,"
     - "nanti kan cerahlah langit d'atasku."
     - "Ref:"
-    - ""Kau tidak kan Aku lupakan."
+    - "“Kau tidak kan Aku lupakan."
     - "Aku membimbingmu, Aku memimpinmu."
     - "Kau tidak kan Aku lupakan,"
-    - "Aku Penolongmu, yakinlah teguh.""
-    - "Yakinkan janji, "Kau tak Kulupakan.""
+    - "Aku Penolongmu, yakinlah teguh.”"
+    - "Yakinkan janji, “Kau tak Kulupakan.”"
     - "Dengan sukacita aku jalan t'rus."
     - "Dunia dan kawan tiada kuharapkan,"
   - - "nanti kan cerahlah langit d'atasku."
     - "Ref:"
-    - ""Kau tidak kan Aku lupakan."
+    - "“Kau tidak kan Aku lupakan."
     - "Aku membimbingmu, Aku memimpinmu."
     - "Kau tidak kan Aku lupakan,"
-    - "Aku Penolongmu, yakinlah teguh.""
-    - "Yakinkan janji, "Kau tak Kulupakan.""
+    - "Aku Penolongmu, yakinlah teguh.“"
+    - "Yakinkan janji, ”Kau tak Kulupakan.”"
     - "Dengan sukacita aku jalan t'rus."
     - "Dunia dan kawan tiada kuharapkan,"
     - "satu yang setia Yesus Penebus."
   - - "Ref:"
-    - ""Kau tidak kan Aku lupakan."
+    - "“Kau tidak kan Aku lupakan."
     - "Aku membimbingmu, Aku memimpinmu."
     - "Kau tidak kan Aku lupakan,"
-    - "Aku Penolongmu, yakinlah teguh.""
-    - "Yakinkan janji, "Kau tak Kulupakan.""
+    - "Aku Penolongmu, yakinlah teguh.”"
+    - "Yakinkan janji, “Kau tak Kulupakan.”"
     - "Dengan sukacita aku jalan t'rus."
     - "Dunia dan kawan tiada kuharapkan,"
     - "satu yang setia Yesus Penebus."
@@ -6825,10 +6735,10 @@ kri156:
 
 
 kri157:
-  - title: Siapakah Bayi yang Tidur
-  - author: []
-  - kri_number: 157
-  - lyrics: 
+  title: Siapakah Bayi yang Tidur
+  author: []
+  kri_number: 157
+  lyrics: 
   - - "Siapakah bayi yang tidur"
     - "di pelukan Maria?"
     - "Yang dib'ri salam malaikat"
@@ -6868,10 +6778,10 @@ kri157:
 
 
 kri158:
-  - title: Roh Allah Maha Hidup
-  - author: []
-  - kri_number: 158
-  - lyrics: 
+  title: Roh Allah Maha Hidup
+  author: []
+  kri_number: 158
+  lyrics: 
   - - "Roh Allah Maha hidup, bangkitkan rohku,"
     - "Roh Allah Maha hidup, bangkitkan rohku."
     - "Bakar, uji, pakai daku,"
@@ -6895,10 +6805,10 @@ kri158:
 
 
 kri159:
-  - title: Kupercaya pada Yesus
-  - author: [William J. Kirkpatrick]
-  - kri_number: 159
-  - lyrics: 
+  title: Kupercaya pada Yesus
+  author: [William J. Kirkpatrick]
+  kri_number: 159
+  lyrics: 
   - - "Kupercaya pada Yesus dan firman-Nya yang kekal."
     - "Ku bersandarkan janji-Nya, turut sabda yang mulia."
     - "Ref:"
@@ -6932,26 +6842,26 @@ kri159:
 
 
 kri160:
-  - title: Yesus, seperti Kehendak-Mu
-  - author: [Carl M. von Weber]
-  - kri_number: 160
-  - lyrics: 
+  title: Yesus, seperti Kehendak-Mu
+  author: [Carl M. von Weber]
+  kri_number: 160
+  lyrics: 
   - - "Yesus kehendak-Mu jadilah dalamku;"
     - "kuserahkan semua dalam tangan Bapa."
     - "Dalam suka duka, ku tetap milik-Mu;"
-    - "ajarku berseru, "Kehendak-Mu jadilah.""
+    - "ajarku berseru, “Kehendak-Mu jadilah.”"
     - "Kehendak-Mu jadi meski dalam lembah;"
   - - "kuserahkan semua dalam tangan Bapa."
     - "Dalam suka duka, ku tetap milik-Mu;"
-    - "ajarku berseru, "Kehendak-Mu jadilah.""
+    - "ajarku berseru, “Kehendak-Mu jadilah.”"
     - "Kehendak-Mu jadi meski dalam lembah;"
     - "bila dalam dunia kualami susah."
   - - "Dalam suka duka, ku tetap milik-Mu;"
-    - "ajarku berseru, "Kehendak-Mu jadilah.""
+    - "ajarku berseru, “Kehendak-Mu jadilah.”"
     - "Kehendak-Mu jadi meski dalam lembah;"
     - "bila dalam dunia kualami susah."
     - "Jangan pengharapanku jadi pudar, layu;"
-  - - "ajarku berseru, "Kehendak-Mu jadilah.""
+  - - "ajarku berseru, “Kehendak-Mu jadilah.”"
     - "Kehendak-Mu jadi meski dalam lembah;"
     - "bila dalam dunia kualami susah."
     - "Jangan pengharapanku jadi pudar, layu;"
@@ -6959,10 +6869,10 @@ kri160:
 
 
 kri161:
-  - title: Datang Bersyukurlah
-  - author: [Johann Cruger]
-  - kri_number: 161
-  - lyrics: 
+  title: Datang Bersyukurlah
+  author: [Johann Cruger]
+  kri_number: 161
+  lyrics: 
   - - "Sekarang bersyukur kepada Tuhan kita."
     - "Sempurna dan besar s'gala pekerjaan-Nya;"
     - "memberkati kita dengan kasih limpah,"
@@ -6986,10 +6896,10 @@ kri161:
 
 
 kri162:
-  - title: Kami Kenang Akan Tuhan
-  - author: []
-  - kri_number: 162
-  - lyrics: 
+  title: Kami Kenang Akan Tuhan
+  author: []
+  kri_number: 162
+  lyrics: 
   - - "Kami datang ke hadirat-Mu,"
     - "kenang kan Tuhanku."
     - "Kasih-Mu bernyala-nyala,"
@@ -7043,10 +6953,10 @@ kri162:
 
 
 kri163:
-  - title: Bekerja Selama Siang
-  - author: [Lowell Mason]
-  - kri_number: 163
-  - lyrics: 
+  title: Bekerja Selama Siang
+  author: [Lowell Mason]
+  kri_number: 163
+  lyrics: 
   - - "Bekerja s'lama siang, tatkala fajar t'rang."
     - "Jangan engkau menunggu, waktu kan lalu."
     - "Dengar p'rintah Tuhanmu, berjagalah kamu."
@@ -7070,10 +6980,10 @@ kri163:
 
 
 kri164:
-  - title: Yesus seperti Gembala
-  - author: [W. B. Bradbury]
-  - kri_number: 164
-  - lyrics: 
+  title: Yesus seperti Gembala
+  author: [W. B. Bradbury]
+  kri_number: 164
+  lyrics: 
   - - "Yesus seperti gembala, kami s'perti domba-Nya,"
     - "dipimpin dan dijaga-Nya selama di dunia."
     - "Tuhan Yesus, Tuhan Yesus, s'karang kami milik-Mu,"
@@ -7097,10 +7007,10 @@ kri164:
 
 
 kri165:
-  - title: Sandar Tuhan Selalu
-  - author: [Ira D. Sankey]
-  - kri_number: 165
-  - lyrics: 
+  title: Sandar Tuhan Selalu
+  author: [Ira D. Sankey]
+  kri_number: 165
+  lyrics: 
   - - "Sandar Tuhan selalu, s'panjang jalan hidupku;"
     - "Meski lemah imanku, ku bersandar Tuhanku."
     - "Ref:"
@@ -7134,10 +7044,10 @@ kri165:
 
 
 kri166:
-  - title: Makin Dekat Tuhan
-  - author: [Lowell Mason]
-  - kri_number: 166
-  - lyrics: 
+  title: Makin Dekat Tuhan
+  author: [Lowell Mason]
+  kri_number: 166
+  lyrics: 
   - - "Makin dekat Tuhan kepada-Mu,"
     - "Salib-Mu sajalah mengangkatku."
     - "Inilah doaku, dekat kepada-Mu."
@@ -7161,47 +7071,47 @@ kri166:
 
 
 kri167:
-  - title: Tuhan Ingat Daku
-  - author: [Edmund S. Lorenz]
-  - kri_number: 167
-  - lyrics: 
+  title: Tuhan Ingat Daku
+  author: [Edmund S. Lorenz]
+  kri_number: 167
+  lyrics: 
   - - "Bila ku ditimpa bah'ya, jalan p'nuh duri s'rigala,"
-    - "ku ada ingatan indah: "Tuhan ingat daku.""
+    - "ku ada ingatan indah: “Tuhan ingat daku.”"
     - "Ref:"
     - "Tuhan ingat daku, Tuhan ingat daku."
     - "Ku tak takut, Tuhan serta, bahkan ingat daku."
     - "Meski menderita susah, kh'watir keluh tak berdaya,"
-  - - "ku ada ingatan indah: "Tuhan ingat daku.""
+  - - "ku ada ingatan indah: “Tuhan ingat daku.”"
     - "Ref:"
     - "Tuhan ingat daku, Tuhan ingat daku."
     - "Ku tak takut, Tuhan serta, bahkan ingat daku."
     - "Meski menderita susah, kh'watir keluh tak berdaya,"
-    - "s'galanya ingatkan daku: "Tuhan ingat daku.""
+    - "s'galanya ingatkan daku: “Tuhan ingat daku.”"
   - - "Ref:"
     - "Tuhan ingat daku, Tuhan ingat daku."
     - "Ku tak takut, Tuhan serta, bahkan ingat daku."
     - "Meski menderita susah, kh'watir keluh tak berdaya,"
-    - "s'galanya ingatkan daku: "Tuhan ingat daku.""
+    - "s'galanya ingatkan daku: “Tuhan ingat daku.”"
     - "Ref:"
   - - "Tuhan ingat daku, Tuhan ingat daku."
     - "Ku tak takut, Tuhan serta, bahkan ingat daku."
     - "Meski menderita susah, kh'watir keluh tak berdaya,"
-    - "s'galanya ingatkan daku: "Tuhan ingat daku.""
+    - "s'galanya ingatkan daku: “Tuhan ingat daku.”"
     - "Ref:"
     - "Tuhan ingat daku, Tuhan ingat daku."
   - - "Ku tak takut, Tuhan serta, bahkan ingat daku."
     - "Meski menderita susah, kh'watir keluh tak berdaya,"
-    - "s'galanya ingatkan daku: "Tuhan ingat daku.""
+    - "s'galanya ingatkan daku: “Tuhan ingat daku.”"
     - "Ref:"
     - "Tuhan ingat daku, Tuhan ingat daku."
     - "Ku tak takut, Tuhan serta, bahkan ingat daku."
 
 
 kri168:
-  - title: Kristus Tuhan Memerintah Semesta
-  - author: [John Hatton]
-  - kri_number: 168
-  - lyrics: 
+  title: Kristus Tuhan Memerintah Semesta
+  author: [John Hatton]
+  kri_number: 168
+  lyrics: 
   - - "Kristus Tuhan, mem'rintah semesta,"
     - "Ia bertakhta di arasnya,"
     - "dari segala jurusan,"
@@ -7225,10 +7135,10 @@ kri168:
 
 
 kri169:
-  - title: Panggilan-Mu Kami Dengar
-  - author: [Johann Michael Haydn]
-  - kri_number: 169
-  - lyrics: 
+  title: Panggilan-Mu Kami Dengar
+  author: [Johann Michael Haydn]
+  kri_number: 169
+  lyrics: 
   - - "Panggilan-Mu kami dengar ya Tuhan Yesus,"
     - "kami berdoa segera tuk panggilan kudus."
     - "Tiap benih yang t'lah disebar, seg'ra tumbuh dan memekar,"
@@ -7267,10 +7177,10 @@ kri169:
 
 
 kri170:
-  - title: Kita Pecahkan Roti
-  - author: [American Folk Melody]
-  - kri_number: 170
-  - lyrics: 
+  title: Kita Pecahkan Roti
+  author: [American Folk Melody]
+  kri_number: 170
+  lyrics: 
   - - "Kita pecahkan roti kenang Dia,"
     - "kita pecahkan roti kenang Dia."
     - "Ref:"
@@ -7304,10 +7214,10 @@ kri170:
 
 
 kri171:
-  - title: Beritakanlah di Gunung
-  - author: [American Folk Song]
-  - kri_number: 171
-  - lyrics: 
+  title: Beritakanlah di Gunung
+  author: [American Folk Song]
+  kri_number: 171
+  lyrics: 
   - - "O, gembala di padang menjaga dombanya,"
     - "tiba-tiba terpancar cahaya yang mulia."
     - "Ref:"
@@ -7341,10 +7251,10 @@ kri171:
 
 
 kri172:
-  - title: Damai di Hatiku
-  - author: [Will L. Murphy]
-  - kri_number: 172
-  - lyrics: 
+  title: Damai di Hatiku
+  author: [Will L. Murphy]
+  kri_number: 172
+  lyrics: 
   - - "Damai di hatiku bukan dari dunia,"
     - "s'lamanya jadi milikku."
     - "Meski awan gelap yang menutupiku,"
@@ -7353,7 +7263,7 @@ kri172:
     - "Di dalam hatiku, Dia milikku."
     - "Di dalam hatiku ada senang."
     - "Dia tak kan tinggalkanku, 'nilah janji-Nya,"
-    - ""Ku tak tinggalkanmu." Dia milikku."
+    - "“Ku tak tinggalkanmu.” Dia milikku."
     - "Damai-Nya yang indah penuhi hatiku,"
   - - "s'lamanya jadi milikku."
     - "Meski awan gelap yang menutupiku,"
@@ -7362,7 +7272,7 @@ kri172:
     - "Di dalam hatiku, Dia milikku."
     - "Di dalam hatiku ada senang."
     - "Dia tak kan tinggalkanku, 'nilah janji-Nya,"
-    - ""Ku tak tinggalkanmu." Dia milikku."
+    - "“Ku tak tinggalkanmu.” Dia milikku."
     - "Damai-Nya yang indah penuhi hatiku,"
     - "umat semua memuji-Nya."
   - - "Meski awan gelap yang menutupiku,"
@@ -7371,7 +7281,7 @@ kri172:
     - "Di dalam hatiku, Dia milikku."
     - "Di dalam hatiku ada senang."
     - "Dia tak kan tinggalkanku, 'nilah janji-Nya,"
-    - ""Ku tak tinggalkanmu." Dia milikku."
+    - "“Ku tak tinggalkanmu.” Dia milikku."
     - "Damai-Nya yang indah penuhi hatiku,"
     - "umat semua memuji-Nya."
     - "Gelap jadi terang, susah pun lenyaplah,"
@@ -7380,7 +7290,7 @@ kri172:
     - "Di dalam hatiku, Dia milikku."
     - "Di dalam hatiku ada senang."
     - "Dia tak kan tinggalkanku, 'nilah janji-Nya,"
-    - ""Ku tak tinggalkanmu." Dia milikku."
+    - "“Ku tak tinggalkanmu.” Dia milikku."
     - "Damai-Nya yang indah penuhi hatiku,"
     - "umat semua memuji-Nya."
     - "Gelap jadi terang, susah pun lenyaplah,"
@@ -7389,7 +7299,7 @@ kri172:
     - "Di dalam hatiku, Dia milikku."
     - "Di dalam hatiku ada senang."
     - "Dia tak kan tinggalkanku, 'nilah janji-Nya,"
-    - ""Ku tak tinggalkanmu." Dia milikku."
+    - "“Ku tak tinggalkanmu.” Dia milikku."
     - "Damai-Nya yang indah penuhi hatiku,"
     - "umat semua memuji-Nya."
     - "Gelap jadi terang, susah pun lenyaplah,"
@@ -7398,10 +7308,10 @@ kri172:
 
 
 kri173:
-  - title: Sebagai Keledai
-  - author: []
-  - kri_number: 173
-  - lyrics: 
+  title: Sebagai Keledai
+  author: []
+  kri_number: 173
+  lyrics: 
   - - "S'bagai k'ledai kus'rahkan,"
     - "pakai hamba-Mu, Tuhanku."
     - "Ku mau taat pimpinan-Mu,"
@@ -7415,10 +7325,10 @@ kri173:
 
 
 kri174:
-  - title: Allah Maha Kuasa
-  - author: []
-  - kri_number: 174
-  - lyrics: 
+  title: Allah Maha Kuasa
+  author: []
+  kri_number: 174
+  lyrics: 
   - - "Allah Maha Kuasa,"
     - "umat-Mu tolonglah,"
     - "memuji-Mu."
@@ -7452,10 +7362,10 @@ kri174:
 
 
 kri175:
-  - title: Yang Letih Datanglah pada-Nya
-  - author: [William H. Callcott/F. Mendelssohn]
-  - kri_number: 175
-  - lyrics: 
+  title: Yang Letih Datanglah pada-Nya
+  author: [William H. Callcott/F. Mendelssohn]
+  kri_number: 175
+  lyrics: 
   - - "Yang letih bergegaslah, datang pada-Nya;"
     - "yang menanggung beban b'rat, s'rahkan pada-Nya;"
     - "yang resah memohonlah kan sentosa-Nya;"
@@ -7499,10 +7409,10 @@ kri175:
 
 
 kri176:
-  - title: Tercurah Darah Tuhanku
-  - author: [Lowell Mason]
-  - kri_number: 176
-  - lyrics: 
+  title: Tercurah Darah Tuhanku
+  author: [Lowell Mason]
+  kri_number: 176
+  lyrics: 
   - - "Tercurah darah Tuhanku di bukit Golgota;"
     - "yang mau bertobat, ditebus, terhapus dosanya,"
     - "terhapus dosanya, terhapus dosanya"
@@ -7526,10 +7436,10 @@ kri176:
 
 
 kri177:
-  - title: Sungguh Hidup Penebusku
-  - author: [J. H. Fillmore]
-  - kri_number: 177
-  - lyrics: 
+  title: Sungguh Hidup Penebusku
+  author: [J. H. Fillmore]
+  kri_number: 177
+  lyrics: 
   - - "Sungguh hiduplah Penebusku"
     - "dan kini pun di dunia."
     - "Sungguh hidup kekal bagiku"
@@ -7583,10 +7493,10 @@ kri177:
 
 
 kri178:
-  - title: Ikut Dikau Saja Tuhan
-  - author: []
-  - kri_number: 178
-  - lyrics: 
+  title: Ikut Dikau Saja Tuhan
+  author: []
+  kri_number: 178
+  lyrics: 
   - - "Ikut Dikau saja, Tuhan, jalan damai bagiku;"
     - "aku s'lamat dan sentosa hanya oleh darah-Mu."
     - "Ref:"
@@ -7620,10 +7530,10 @@ kri178:
 
 
 kri179:
-  - title: Maukah Engkau Menang
-  - author: []
-  - kri_number: 179
-  - lyrics: 
+  title: Maukah Engkau Menang
+  author: []
+  kri_number: 179
+  lyrics: 
   - - "Maukah engkau menang atas tiap musuh"
     - "Kalahkan cobaan di dalam dunia"
     - "Lawan pencobaan, setiap hari"
@@ -7677,10 +7587,10 @@ kri179:
 
 
 kri180:
-  - title: Ku Rindu Kerajaan-Mu
-  - author: [Aaron Williams]
-  - kri_number: 180
-  - lyrics: 
+  title: Ku Rindu Kerajaan-Mu
+  author: [Aaron Williams]
+  kri_number: 180
+  lyrics: 
   - - "Ku rindu K'rajaan-Mu,"
     - "tempat Kau bertakhta,"
     - "gereja yang t'lah Kau tebus"
@@ -7704,10 +7614,10 @@ kri180:
 
 
 kri181:
-  - title: Alam Semesta Memuliakan Allah
-  - author: [Franz Joseph Haydn]
-  - kri_number: 181
-  - lyrics: 
+  title: Alam Semesta Memuliakan Allah
+  author: [Franz Joseph Haydn]
+  kri_number: 181
+  lyrics: 
   - - "Alam semesta yang luas,"
     - "cakrawala yang membentang,"
     - "bintang di langit bersinar,"
@@ -7756,10 +7666,10 @@ kri181:
 
 
 kri182:
-  - title: Muka dengan Muka
-  - author: [Grant C. Tullar]
-  - kri_number: 182
-  - lyrics: 
+  title: Muka dengan Muka
+  author: [Grant C. Tullar]
+  kri_number: 182
+  lyrics: 
   - - "Muka dengan muka nanti, tampak Tuhan padaku."
     - "Sangat indah dan mulia Yesus Jurus'lamatku."
     - "Ref:"
@@ -7793,10 +7703,10 @@ kri182:
 
 
 kri183:
-  - title: Ya Anak Kecil
-  - author: [J. S. Bach]
-  - kri_number: 183
-  - lyrics: 
+  title: Ya Anak Kecil
+  author: [J. S. Bach]
+  kri_number: 183
+  lyrics: 
   - - "Ya Anak kecil, ya Anak lembut,"
     - "Engkau diutus Bapa-Mu"
     - "dan dari surga mulia Kau jadi hamba terendah,"
@@ -7820,10 +7730,10 @@ kri183:
 
 
 kri184:
-  - title: Roti Hidup Jiwa
-  - author: [William F. Sherwin]
-  - kri_number: 184
-  - lyrics: 
+  title: Roti Hidup Jiwa
+  author: [William F. Sherwin]
+  kri_number: 184
+  lyrics: 
   - - "Roti hidup jiwa, Kau Tuhanku,"
     - "bagikanlah kepada murid-Mu."
     - "Seb'rang kitab kudus, kucari Hu."
@@ -7847,10 +7757,10 @@ kri184:
 
 
 kri185:
-  - title: Yesus Aku Berjanji
-  - author: [J. W. Elliott]
-  - kri_number: 185
-  - lyrics: 
+  title: Yesus Aku Berjanji
+  author: [J. W. Elliott]
+  kri_number: 185
+  lyrics: 
   - - "Yesus, aku berjanji menjadi hamba-Mu."
     - "Tinggallah dekat aku, Tuhan sahabatku."
     - "Tiada aku takut kan bahaya dahsyat;"
@@ -7874,10 +7784,10 @@ kri185:
 
 
 kri186:
-  - title: Berilah Hormat pada Hu
-  - author: []
-  - kri_number: 186
-  - lyrics: 
+  title: Berilah Hormat pada Hu
+  author: []
+  kri_number: 186
+  lyrics: 
   - - "B'rilah hormat pada Hu, b'rilah hormat pada Allah"
     - "B'rilah hormat pada Hu, patut pujilah t'rus."
     - "Puji Allah Pemb'ri berkat, "
@@ -7936,10 +7846,10 @@ kri186:
 
 
 kri187:
-  - title: Yesus Sahabat Sejati
-  - author: [C. Crozat Converse]
-  - kri_number: 187
-  - lyrics: 
+  title: Yesus Sahabat Sejati
+  author: [C. Crozat Converse]
+  kri_number: 187
+  lyrics: 
   - - "Yesus sahabat sejati yang memb'rikan sentosa"
     - "Tiap hal boleh kubawa dalam doa pada-Nya"
     - "Bila hatiku gelisah aku salah dan lemah"
@@ -7963,10 +7873,10 @@ kri187:
 
 
 kri188:
-  - title: T'lah Tumbuh Tunas Baru
-  - author: [Michael Praetorius]
-  - kri_number: 188
-  - lyrics: 
+  title: T'lah Tumbuh Tunas Baru
+  author: [Michael Praetorius]
+  kri_number: 188
+  lyrics: 
   - - "T'lah tumbuh tunas baru, di keturunan Daud"
     - "Yang pada masa lalu nabi bernubuat"
     - "Sekarang t'lah genap, t'rang kasih-Nya bersinar"
@@ -7990,10 +7900,10 @@ kri188:
 
 
 kri189:
-  - title: Iman Umat-Mu yang Hidup
-  - author: [Henry F. Hemy]
-  - kri_number: 189
-  - lyrics: 
+  title: Iman Umat-Mu yang Hidup
+  author: [Henry F. Hemy]
+  kri_number: 189
+  lyrics: 
   - - "Iman umat-Mu hidup t'rus,"
     - "walau pedang mengancamnya."
     - "Hati kami pun bersuka,"
@@ -8037,10 +7947,10 @@ kri189:
 
 
 kri190:
-  - title: Adakah Tempat bagi Yesus?
-  - author: [C. C. Williams]
-  - kri_number: 190
-  - lyrics: 
+  title: Adakah Tempat bagi Yesus?
+  author: [C. C. Williams]
+  kri_number: 190
+  lyrics: 
   - - "Adakah tempat buat Yesus, "
     - "Dia yang memikul dosamu."
     - "Ia ketuk pintu hatimu, "
@@ -8094,10 +8004,10 @@ kri190:
 
 
 kri191:
-  - title: Tunjukkan Jalan-Mu, O Tuhanku
-  - author: []
-  - kri_number: 191
-  - lyrics: 
+  title: Tunjukkan Jalan-Mu, O Tuhanku
+  author: []
+  kri_number: 191
+  lyrics: 
   - - "Tunjukkan jalan-Mu, o, Tuhanku!"
     - "Mohon Kau pimpinku ke jalan-Mu!"
     - "Ke jalan yang lurus, memandang Tuhanku,"
@@ -8121,10 +8031,10 @@ kri191:
 
 
 kri192:
-  - title: Kasih Allah
-  - author: [Claudia L. Mays]
-  - kri_number: 192
-  - lyrics: 
+  title: Kasih Allah
+  author: [Claudia L. Mays]
+  kri_number: 192
+  lyrics: 
   - - "Kasih Allah amat besar dan tak dapat dilukiskan,"
     - "lebih tinggi dari bintang namun mencapai dunia,"
     - "mengaruniakan Anak-Nya, memberi kemenangan,"
@@ -8168,10 +8078,10 @@ kri192:
 
 
 kri193:
-  - title: Tuhan Menjagamu
-  - author: [Walter Stilman Martin]
-  - kri_number: 193
-  - lyrics: 
+  title: Tuhan Menjagamu
+  author: [Walter Stilman Martin]
+  kri_number: 193
+  lyrics: 
   - - "Apa pun juga menimpamu, Tuhan menjagamu"
     - "Kasih-Nya memliharamu, Tuhan menjagamu"
     - "Ref:"
@@ -8205,10 +8115,10 @@ kri193:
 
 
 kri194:
-  - title: Bernyanyilah Merdu
-  - author: []
-  - kri_number: 194
-  - lyrics: 
+  title: Bernyanyilah Merdu
+  author: []
+  kri_number: 194
+  lyrics: 
   - - "Bernyanyilah merdu penuh dengan syukur"
     - "Jurus'lamat dunia dan Surya Hidupmu"
     - "Terbaring di palungan di malam yang kudus"
@@ -8232,10 +8142,10 @@ kri194:
 
 
 kri195:
-  - title: Jadilah Visiku
-  - author: [Tradisional Irlandia abad ke-8]
-  - kri_number: 195
-  - lyrics: 
+  title: Jadilah Visiku
+  author: [Tradisional Irlandia abad ke-8]
+  kri_number: 195
+  lyrics: 
   - - "Kaulah, ya Tuhan, Surya hidupku"
     - "Asal kau ada, yang lain tak perlu"
     - "Siang dan malam Engkau kukenang"
@@ -8259,10 +8169,10 @@ kri195:
 
 
 kri196:
-  - title: Pakailah Waktumu
-  - author: [George C. Stebbins]
-  - kri_number: 196
-  - lyrics: 
+  title: Pakailah Waktumu
+  author: [George C. Stebbins]
+  kri_number: 196
+  lyrics: 
   - - "Pakailah waktumu, doa pada-Nya,"
     - "carilah Tuhanmu, t'rima firman-Nya."
     - "Kasihi umat-Nya, tolong yang lemah,"
@@ -8286,10 +8196,10 @@ kri196:
 
 
 kri197:
-  - title: Juruselamat yang Ajaib
-  - author: []
-  - kri_number: 197
-  - lyrics: 
+  title: Juruselamat yang Ajaib
+  author: []
+  kri_number: 197
+  lyrics: 
   - - "Kristus menebus dosaku, Jurus'lamat yang Ajaib"
     - "Kubebaslah dari dosa, Jurus'lamat yang Ajaib"
     - "Ref:"
@@ -8323,10 +8233,10 @@ kri197:
 
 
 kri198:
-  - title: Sudahkah yang Terbaik Kuberikan?
-  - author: [Harry E. Storrs]
-  - kri_number: 198
-  - lyrics: 
+  title: Sudahkah yang Terbaik Kuberikan?
+  author: [Harry E. Storrs]
+  kri_number: 198
+  lyrics: 
   - - "Sudahkah yang terbaik kuberikan"
     - "kepada Yesus, Tuhanku?"
     - "Besar pengorbanan-Nya di Kalvari!"
@@ -8380,10 +8290,10 @@ kri198:
 
 
 kri199:
-  - title: Tuhan Kau Kuperlukan
-  - author: [Robert Lowry]
-  - kri_number: 199
-  - lyrics: 
+  title: Tuhan Kau Kuperlukan
+  author: [Robert Lowry]
+  kri_number: 199
+  lyrics: 
   - - "Ya Tuhan Maha Baik, Kau kuperlukan"
     - "Suara-Mu yang lembut memb'ri damai"
     - "Ref:"
@@ -8417,10 +8327,10 @@ kri199:
 
 
 kri200:
-  - title: Sungguh Mulia
-  - author: [Italia (Sicilia)]
-  - kri_number: 200
-  - lyrics: 
+  title: Sungguh Mulia
+  author: [Italia (Sicilia)]
+  kri_number: 200
+  lyrics: 
   - - "Sungguh mulia, berkarunia"
     - "Hari Natal yang kudus."
     - "Duka berakhir: Kristus t'lah lahir."
@@ -8444,10 +8354,10 @@ kri200:
 
 
 kri201:
-  - title: Setia Sampai Mati
-  - author: [John E. Su]
-  - kri_number: 201
-  - lyrics: 
+  title: Setia Sampai Mati
+  author: [John E. Su]
+  kri_number: 201
+  lyrics: 
   - - "Domba Allah cerai-berai, tiada bergembala,"
     - "bilakah kucari jiwa, kalau bukan sekarang?"
     - "Oh, Tuhan sucikan daku, uji dan pakai daku,"
@@ -8471,10 +8381,10 @@ kri201:
 
 
 kri202:
-  - title: Hai Masyhurkanlah
-  - author: [Charles Hubert Hastings Parry]
-  - kri_number: 202
-  - lyrics: 
+  title: Hai Masyhurkanlah
+  author: [Charles Hubert Hastings Parry]
+  kri_number: 202
+  lyrics: 
   - - "Hai masyhurkanlah Allahmu kudus;"
     - "besar nama-Nya b'ritakan terus,"
     - "Agungkanlah Dia yang p'nuh kuasa,"
@@ -8498,10 +8408,10 @@ kri202:
 
 
 kri203:
-  - title: Beruntungkah Aku?
-  - author: [Thomas Campbell]
-  - kri_number: 203
-  - lyrics: 
+  title: Beruntungkah Aku?
+  author: [Thomas Campbell]
+  kri_number: 203
+  lyrics: 
   - - "Beruntungkah aku dalam kasih akan darah Tuhan?"
     - "Menderita serta mati oleh tuntutan hidupku."
     - "Betapakah anug'rah-Nya, Tuhan t'lah mati untukku."
@@ -8525,10 +8435,10 @@ kri203:
 
 
 kri204:
-  - title: Yesus Ku Cinta-Mu
-  - author: []
-  - kri_number: 204
-  - lyrics: 
+  title: Yesus Ku Cinta-Mu
+  author: []
+  kri_number: 204
+  lyrics: 
   - - "Yesus ku cinta-Mu, aku milik-Mu."
     - "Ku benci dosaku kar'na kasih-Mu."
     - "Engkau Jurus'lamat dan Penebusku."
@@ -8552,10 +8462,10 @@ kri204:
 
 
 kri205:
-  - title: O Tuhanku, Sucikan Hatiku
-  - author: [Maori Melody]
-  - kri_number: 205
-  - lyrics: 
+  title: O Tuhanku, Sucikan Hatiku
+  author: [Maori Melody]
+  kri_number: 205
+  lyrics: 
   - - "O Tuhanku, s'lidiki hatiku,"
     - "Ujilah Tuhan, g'nap pikiranku;"
     - "Jangan ada dosa di dalamku,"
@@ -8579,10 +8489,10 @@ kri205:
 
 
 kri206:
-  - title: Umat Tuhan Menantikan
-  - author: [Rowland H. Prichard]
-  - kri_number: 206
-  - lyrics: 
+  title: Umat Tuhan Menantikan
+  author: [Rowland H. Prichard]
+  kri_number: 206
+  lyrics: 
   - - "Umat Tuhan menantikan kedatangan Kristus;"
     - "b'ri damai, bebaskan takut, dosa kami dihapus."
     - "Kaulah kekuatan, penghiburan, pengharapan kami;"
@@ -8606,10 +8516,10 @@ kri206:
 
 
 kri207:
-  - title: Rahmat Yesus yang Indah
-  - author: []
-  - kri_number: 207
-  - lyrics: 
+  title: Rahmat Yesus yang Indah
+  author: []
+  kri_number: 207
+  lyrics: 
   - - "Rahmat Yesus yang indah hapuskan dosaku;"
     - "tak dapat kulukiskan dengan pujianku."
     - "Dosaku ditanggung-Nya, jiwaku bebaslah,"
@@ -8668,10 +8578,10 @@ kri207:
 
 
 kri208:
-  - title: Diri-Nya
-  - author: []
-  - kri_number: 208
-  - lyrics: 
+  title: Diri-Nya
+  author: []
+  kri_number: 208
+  lyrics: 
   - - "Dulu ku mau berkat, kini mau Tuhan."
     - "Dulu ku mau sembuh, kini Penyembuh."
     - "Dulu tamak kurnia, kini Pemb'ri-Nya."
@@ -8715,10 +8625,10 @@ kri208:
 
 
 kri209:
-  - title: Ku Tahu Siapa Menguasai Hari Esok
-  - author: []
-  - kri_number: 209
-  - lyrics: 
+  title: Ku Tahu Siapa Menguasai Hari Esok
+  author: []
+  kri_number: 209
+  lyrics: 
   - - "Tak ku tahu kan hari esok,"
     - "namun langkahku tegap."
     - "Bukan surya ku harapkan"
@@ -8792,10 +8702,10 @@ kri209:
 
 
 kri210:
-  - title: Ikut Yesus
-  - author: [Robert Lowry]
-  - kri_number: 210
-  - lyrics: 
+  title: Ikut Yesus
+  author: [Robert Lowry]
+  kri_number: 210
+  lyrics: 
   - - "Bersama Yesus berjalan m'nuju lembah,"
     - "sumber air yang sejuk, dan mekar bunga."
     - "Hatiku tenang bila Yesus memimpinku,"
@@ -8849,10 +8759,10 @@ kri210:
 
 
 kri211:
-  - title: Memandang Salib yang Agung
-  - author: [Edward Miller]
-  - kri_number: 211
-  - lyrics: 
+  title: Memandang Salib yang Agung
+  author: [Edward Miller]
+  kri_number: 211
+  lyrics: 
   - - "Memandang salib yang agung,"
     - "Raja mulia mati di sana."
     - "Kemuliaan pada diriku"
@@ -8876,10 +8786,10 @@ kri211:
 
 
 kri212:
-  - title: Kami Puji Nama-Mu
-  - author: [Katholisches Gesangbuch]
-  - kri_number: 212
-  - lyrics: 
+  title: Kami Puji Nama-Mu
+  author: [Katholisches Gesangbuch]
+  kri_number: 212
+  lyrics: 
   - - "Kami puji nama-Mu, dan bertelut menyembah."
     - "S'luruh bumi memuji, isi surga menyanyi,"
     - "Tak terbatas kuasa-Mu, kekal sampai s'lamanya."
@@ -8891,14 +8801,14 @@ kri212:
   - - "Tak terbatas kuasa-Mu, kekal sampai s'lamanya."
     - "Bersorak memuji-Mu, surga pun penuh nyanyi."
     - "Kerubim dan Serafim tak henti memuji-Mu,"
-    - "Kidung surga menggema, "Kudus, kudus, kuduslah.""
+    - "Kidung surga menggema, “Kudus, kudus, kuduslah.”"
 
 
 kri213:
-  - title: Dia Memeliharakan Burung
-  - author: [Charles H. Gabriel]
-  - kri_number: 213
-  - lyrics: 
+  title: Dia Memeliharakan Burung
+  author: [Charles H. Gabriel]
+  kri_number: 213
+  lyrics: 
   - - "Mengapa keluh kesah? Mengapa kecewa?"
     - "Mengapa hati susah? Dan gundah gulana?"
     - "Yesuslah sahabatku yang memberkatiku."
@@ -8907,7 +8817,7 @@ kri213:
     - "Ref:"
     - "Sekarang ku memuji, laguku menggema,"
     - "kar'na aku pun dijaga oleh Bapa semesta."
-    - "Kudengar suara Tuhan, "Buangkanlah k'susahan.""
+    - "Kudengar suara Tuhan, ”Buangkanlah k'susahan.“"
   - - "Mengapa hati susah? Dan gundah gulana?"
     - "Yesuslah sahabatku yang memberkatiku."
     - "Dia p'liharakan burung, juga p'liharakanku,"
@@ -8915,7 +8825,7 @@ kri213:
     - "Ref:"
     - "Sekarang ku memuji, laguku menggema,"
     - "kar'na aku pun dijaga oleh Bapa semesta."
-    - "Kudengar suara Tuhan, "Buangkanlah k'susahan.""
+    - "Kudengar suara Tuhan, ”Buangkanlah k'susahan.“"
     - "Ku beroleh perhentian, tiada ketakutan."
   - - "Yesuslah sahabatku yang memberkatiku."
     - "Dia p'liharakan burung, juga p'liharakanku,"
@@ -8923,7 +8833,7 @@ kri213:
     - "Ref:"
     - "Sekarang ku memuji, laguku menggema,"
     - "kar'na aku pun dijaga oleh Bapa semesta."
-    - "Kudengar suara Tuhan, "Buangkanlah k'susahan.""
+    - "Kudengar suara Tuhan, “Buangkanlah k'susahan.”"
     - "Ku beroleh perhentian, tiada ketakutan."
     - "Tuhan pimpin jalanku, ku mau ikut serta."
   - - "Dia p'liharakan burung, juga p'liharakanku,"
@@ -8931,7 +8841,7 @@ kri213:
     - "Ref:"
     - "Sekarang ku memuji, laguku menggema,"
     - "kar'na aku pun dijaga oleh Bapa semesta."
-    - "Kudengar suara Tuhan, "Buangkanlah k'susahan.""
+    - "Kudengar suara Tuhan, “Buangkanlah k'susahan.”"
     - "Ku beroleh perhentian, tiada ketakutan."
     - "Tuhan pimpin jalanku, ku mau ikut serta."
     - "Dia p'liharakan burung, juga p'liharakanku,"
@@ -8939,7 +8849,7 @@ kri213:
     - "Ref:"
     - "Sekarang ku memuji, laguku menggema,"
     - "kar'na aku pun dijaga oleh Bapa semesta."
-    - "Kudengar suara Tuhan, "Buangkanlah k'susahan.""
+    - "Kudengar suara Tuhan, “Buangkanlah k'susahan.”"
     - "Ku beroleh perhentian, tiada ketakutan."
     - "Tuhan pimpin jalanku, ku mau ikut serta."
     - "Dia p'liharakan burung, juga p'liharakanku,"
@@ -8947,21 +8857,21 @@ kri213:
 
 
 kri214:
-  - title: Kemuliaan dan Hormat
-  - author: [Melcior Teschner]
-  - kri_number: 214
-  - lyrics: 
+  title: Kemuliaan dan Hormat
+  author: [Melcior Teschner]
+  kri_number: 214
+  lyrics: 
   - - "Kemuliaan dan hormat, pada-Mu Rajaku,"
     - "Nyanyian anak-anak manis memuji-mu,"
-    - ""Hosana Anak Daud, diberkatilah Kau,""
+    - "”Hosana Anak Daud, diberkatilah Kau,“"
     - "Raja Israel datang, dalam nama Tuhan."
     - "Malaikat yang di surga, muliakan nama-Mu;"
   - - "Nyanyian anak-anak manis memuji-mu,"
-    - ""Hosana Anak Daud, diberkatilah Kau,""
+    - "”Hosana Anak Daud, diberkatilah Kau,“"
     - "Raja Israel datang, dalam nama Tuhan."
     - "Malaikat yang di surga, muliakan nama-Mu;"
     - "Seluruh yang dicipta, membalas puji Hu,"
-  - - ""Hosana Anak Daud, diberkatilah Kau,""
+  - - "”Hosana Anak Daud, diberkatilah Kau,“"
     - "Raja Israel datang, dalam nama Tuhan."
     - "Malaikat yang di surga, muliakan nama-Mu;"
     - "Seluruh yang dicipta, membalas puji Hu,"
@@ -8974,67 +8884,67 @@ kri214:
 
 
 kri215:
-  - title: Dengar Juruselamat Berseru
-  - author: [Herbert G. Tovey]
-  - kri_number: 215
-  - lyrics: 
+  title: Dengar Juruselamat Berseru
+  author: [Herbert G. Tovey]
+  kri_number: 215
+  lyrics: 
   - - "Dengar Jurus'lamat berseru:"
-    - ""Ikutlah, ikutlah pada-Ku.""
+    - "”Ikutlah, ikutlah pada-Ku.“"
     - "Siang malam terus berseru:"
-    - ""Ikutlah, ikutlah pada-Ku.""
+    - "”Ikutlah, ikutlah pada-Ku.“"
     - "Ref:"
-    - ""Kutinggalkan takhta bagimu,"
+    - "“Kutinggalkan takhta bagimu,"
     - "darah-Ku tercurah bagimu."
     - "Bagimu, Ku rela mend'rita,"
-    - "Ikutlah, ikutlah pada-Ku.""
+    - ”Ikutlah, ikutlah pada-Ku.“"
     - "Dosamu akan Kuhapuskan,"
-  - - ""Ikutlah, ikutlah pada-Ku.""
+  - - "”Ikutlah, ikutlah pada-Ku.“"
     - "Siang malam terus berseru:"
-    - ""Ikutlah, ikutlah pada-Ku.""
+    - "”Ikutlah, ikutlah pada-Ku.“"
     - "Ref:"
-    - ""Kutinggalkan takhta bagimu,"
+    - "“Kutinggalkan takhta bagimu,"
     - "darah-Ku tercurah bagimu."
     - "Bagimu, Ku rela mend'rita,"
-    - "Ikutlah, ikutlah pada-Ku.""
+    - ”Ikutlah, ikutlah pada-Ku.“"
     - "Dosamu akan Kuhapuskan,"
-    - ""Ikutlah, ikutlah pada-Ku.""
+    - "”Ikutlah, ikutlah pada-Ku.“"
   - - "Siang malam terus berseru:"
-    - ""Ikutlah, ikutlah pada-Ku.""
+    - "”Ikutlah, ikutlah pada-Ku.“"
     - "Ref:"
-    - ""Kutinggalkan takhta bagimu,"
+    - "“Kutinggalkan takhta bagimu,"
     - "darah-Ku tercurah bagimu."
     - "Bagimu, Ku rela mend'rita,"
-    - "Ikutlah, ikutlah pada-Ku.""
+    - ”Ikutlah, ikutlah pada-Ku.“"
     - "Dosamu akan Kuhapuskan,"
-    - ""Ikutlah, ikutlah pada-Ku.""
+    - "”Ikutlah, ikutlah pada-Ku.“"
     - "Hidupmu kan Kusempurnakan,"
-  - - ""Ikutlah, ikutlah pada-Ku.""
+  - - "”Ikutlah, ikutlah pada-Ku.“"
     - "Ref:"
-    - ""Kutinggalkan takhta bagimu,"
+    - "“Kutinggalkan takhta bagimu,"
     - "darah-Ku tercurah bagimu."
     - "Bagimu, Ku rela mend'rita,"
-    - "Ikutlah, ikutlah pada-Ku.""
+    - ”Ikutlah, ikutlah pada-Ku.“"
     - "Dosamu akan Kuhapuskan,"
-    - ""Ikutlah, ikutlah pada-Ku.""
+    - "”Ikutlah, ikutlah pada-Ku.“"
     - "Hidupmu kan Kusempurnakan,"
-    - ""Ikutlah, ikutlah pada-Ku.""
+    - "”Ikutlah, ikutlah pada-Ku.“"
   - - "Ref:"
-    - ""Kutinggalkan takhta bagimu,"
+    - "“Kutinggalkan takhta bagimu,"
     - "darah-Ku tercurah bagimu."
     - "Bagimu, Ku rela mend'rita,"
-    - "Ikutlah, ikutlah pada-Ku.""
+    - ”Ikutlah, ikutlah pada-Ku.“"
     - "Dosamu akan Kuhapuskan,"
-    - ""Ikutlah, ikutlah pada-Ku.""
+    - "”Ikutlah, ikutlah pada-Ku.“"
     - "Hidupmu kan Kusempurnakan,"
-    - ""Ikutlah, ikutlah pada-Ku.""
+    - "”Ikutlah, ikutlah pada-Ku.“"
     - "Ref:"
 
 
 kri216:
-  - title: Tambahlah Kasihku Akan Tuhan
-  - author: [William H. Doane]
-  - kri_number: 216
-  - lyrics: 
+  title: Tambahlah Kasihku Akan Tuhan
+  author: [William H. Doane]
+  kri_number: 216
+  lyrics: 
   - - "Tambahlah kasihku akan Tuhan."
     - "Inilah doaku, oh dengarkan."
     - "Hiburkan hatiku, tambahlah kasihku,"
@@ -9058,10 +8968,10 @@ kri216:
 
 
 kri217:
-  - title: Seluruh Umat Tuhan oleh-Nya Dikenal
-  - author: [Felix Mendelssohn]
-  - kri_number: 217
-  - lyrics: 
+  title: Seluruh Umat Tuhan oleh-Nya Dikenal
+  author: [Felix Mendelssohn]
+  kri_number: 217
+  lyrics: 
   - - "Seluruh umat Tuhan oleh-Nya dikenal,"
     - "besar kecil semua, sekarang dan kekal."
     - "Mereka dip'lihara di dalam dunia;"
@@ -9095,10 +9005,10 @@ kri217:
 
 
 kri218:
-  - title: Pintuku Telah Tutup
-  - author: []
-  - kri_number: 218
-  - lyrics: 
+  title: Pintuku Telah Tutup
+  author: []
+  kri_number: 218
+  lyrics: 
   - - "Pintu t'lah ku tutup, oh, Tuhanku."
     - "Sabdalah padaku, aku menunggu."
     - "Hatiku tenanglah di had'rat-Mu."
@@ -9122,10 +9032,10 @@ kri218:
 
 
 kri219:
-  - title: Setia! Setia!
-  - author: []
-  - kri_number: 219
-  - lyrics: 
+  title: Setia! Setia!
+  author: []
+  kri_number: 219
+  lyrics: 
   - - "Dalam zaman yang bengkok ini"
     - "s'gala berubah, langit goncanglah."
     - "Iblis sedang giat bekerja"
@@ -9199,10 +9109,10 @@ kri219:
 
 
 kri220:
-  - title: Hormat bagi Allah Bapa
-  - author: [Henry T. Smart]
-  - kri_number: 220
-  - lyrics: 
+  title: Hormat bagi Allah Bapa
+  author: [Henry T. Smart]
+  kri_number: 220
+  lyrics: 
   - - "Hormat bagi Allah Bapa,"
     - "hormat bagi Anak-Nya,"
     - "hormat bagi Rohul Kudus;"
@@ -9234,47 +9144,47 @@ kri220:
 
 
 kri221:
-  - title: Kelak Kulihat Wajah-Nya
-  - author: [George C. Stebbins]
-  - kri_number: 221
-  - lyrics: 
+  title: Kelak Kulihat Wajah-Nya
+  author: [George C. Stebbins]
+  kri_number: 221
+  lyrics: 
   - - "Bila waktunya tibalah, kutinggalkan dunia fana."
     - "Amat gemarlah hatiku, aku berjumpa Tuhanku."
     - "Ref:"
     - "Kelak kulihat wajah-Nya, ku bersuka di dalam Dia."
-    - "Kukatakan pada Tuhan, "Ku s'lamat kar'na anug'rah.""
+    - "Kukatakan pada Tuhan, ”Ku s'lamat kar'na anug'rah.“"
     - "Bila waktunya tibalah, rumahku ini robohlah."
   - - "Amat gemarlah hatiku, aku berjumpa Tuhanku."
     - "Ref:"
     - "Kelak kulihat wajah-Nya, ku bersuka di dalam Dia."
-    - "Kukatakan pada Tuhan, "Ku s'lamat kar'na anug'rah.""
+    - "Kukatakan pada Tuhan, ”Ku s'lamat kar'na anug'rah.“"
     - "Bila waktunya tibalah, rumahku ini robohlah."
     - "Hanyalah satu yang tentu, aku k'lak masuk rumahku."
   - - "Ref:"
     - "Kelak kulihat wajah-Nya, ku bersuka di dalam Dia."
-    - "Kukatakan pada Tuhan, "Ku s'lamat kar'na anug'rah.""
+    - "Kukatakan pada Tuhan, ”Ku s'lamat kar'na anug'rah.“"
     - "Bila waktunya tibalah, rumahku ini robohlah."
     - "Hanyalah satu yang tentu, aku k'lak masuk rumahku."
     - "Ref:"
   - - "Kelak kulihat wajah-Nya, ku bersuka di dalam Dia."
-    - "Kukatakan pada Tuhan, "Ku s'lamat kar'na anug'rah.""
+    - "Kukatakan pada Tuhan, ”Ku s'lamat kar'na anug'rah.“"
     - "Bila waktunya tibalah, rumahku ini robohlah."
     - "Hanyalah satu yang tentu, aku k'lak masuk rumahku."
     - "Ref:"
     - "Kelak kulihat wajah-Nya, ku bersuka di dalam Dia."
-  - - "Kukatakan pada Tuhan, "Ku s'lamat kar'na anug'rah.""
+  - - "Kukatakan pada Tuhan, ”Ku s'lamat kar'na anug'rah.“"
     - "Bila waktunya tibalah, rumahku ini robohlah."
     - "Hanyalah satu yang tentu, aku k'lak masuk rumahku."
     - "Ref:"
     - "Kelak kulihat wajah-Nya, ku bersuka di dalam Dia."
-    - "Kukatakan pada Tuhan, "Ku s'lamat kar'na anug'rah.""
+    - "Kukatakan pada Tuhan, ”Ku s'lamat kar'na anug'rah.“"
 
 
 kri222:
-  - title: Ku Suka Mengabarkan
-  - author: [William G. Fischer]
-  - kri_number: 222
-  - lyrics: 
+  title: Ku Suka Mengabarkan
+  author: [William G. Fischer]
+  kri_number: 222
+  lyrics: 
   - - "Ku suka mengabarkan, tentang hal di surga,"
     - "Tentang kasih Tuhanku, yang mati bagiku,"
     - "Ku suka mengabarkan tentang kuasa Injil,"
@@ -9313,10 +9223,10 @@ kri222:
 
 
 kri223:
-  - title: Pikul Salib
-  - author: [J. H. Burke]
-  - kri_number: 223
-  - lyrics: 
+  title: Pikul Salib
+  author: [J. H. Burke]
+  kri_number: 223
+  lyrics: 
   - - "Banyak yang mau masuk surga, tak mau salib-Nya;"
     - "Banyak yang rindu pahala serta dunia;"
     - "Tak hiraukan, tak hiraukan hanya mau berkat;"
@@ -9340,10 +9250,10 @@ kri223:
 
 
 kri224:
-  - title: Nyatakan Yesus Dalammu
-  - author: []
-  - kri_number: 224
-  - lyrics: 
+  title: Nyatakan Yesus Dalammu
+  author: []
+  kri_number: 224
+  lyrics: 
   - - "Di dunia yang penuh cemar, antara sesamamu,"
     - "hiduplah saleh dan benar; nyatakan Yesus dalammu."
     - "Ref:"
@@ -9387,10 +9297,10 @@ kri224:
 
 
 kri225:
-  - title: Ku Datang Tuhan
-  - author: []
-  - kri_number: 225
-  - lyrics: 
+  title: Ku Datang Tuhan
+  author: []
+  kri_number: 225
+  lyrics: 
   - - "Kudengar suara-Mu memanggil diriku."
     - "Darah Kaub'rikan padaku di bukit Golgota."
     - "Ref:"
@@ -9424,10 +9334,10 @@ kri225:
 
 
 kri226:
-  - title: Aku Berserah
-  - author: [W.S. Weeden]
-  - kri_number: 226
-  - lyrics: 
+  title: Aku Berserah
+  author: [W.S. Weeden]
+  kri_number: 226
+  lyrics: 
   - - "Berserah kepada Yesus, dengan tangan yang bebas."
     - "S'lalu bersandar cinta , hidup di hadapan-Nya."
     - "Ref:"
@@ -9461,10 +9371,10 @@ kri226:
 
 
 kri227:
-  - title: Batu Zaman
-  - author: [Dr. Thomas Hastings]
-  - kri_number: 227
-  - lyrics: 
+  title: Batu Zaman
+  author: [Dr. Thomas Hastings]
+  kri_number: 227
+  lyrics: 
   - - "Pada-Mu batu zaman, aku minta lindungan."
     - "Kausucikan hatiku oleh darah rusuk-Mu."
     - "Dari dosa ku lepas, dari hukuman bebas."
@@ -9480,10 +9390,10 @@ kri227:
 
 
 kri228:
-  - title: Dunia Kedinginan
-  - author: [Gustav Holst]
-  - kri_number: 228
-  - lyrics: 
+  title: Dunia Kedinginan
+  author: [Gustav Holst]
+  kri_number: 228
+  lyrics: 
   - - "Dunia kedinginan, kaku membeku;"
     - "damai yang sejati, tiada bertemu."
     - "Wabah kekerasan siksa tirani"
@@ -9507,10 +9417,10 @@ kri228:
 
 
 kri229:
-  - title: Serahkan yang Terbaik pada Hu
-  - author: [Charlotte A. Barnard]
-  - kri_number: 229
-  - lyrics: 
+  title: Serahkan yang Terbaik pada Hu
+  author: [Charlotte A. Barnard]
+  kri_number: 229
+  lyrics: 
   - - "S'rahkan yang terbaik pada Hu, s'rahkan t'naga mudamu."
     - "S'rahkan tubuh, jiwa, rohmu, berp'rang tuk kebenaran."
     - "Yesuslah t'ladan terindah, b'rani teguh tak gentar."
@@ -9554,10 +9464,10 @@ kri229:
 
 
 kri230:
-  - title: Penuhilah Pialamu Hari Ini
-  - author: []
-  - kri_number: 230
-  - lyrics: 
+  title: Penuhilah Pialamu Hari Ini
+  author: []
+  kri_number: 230
+  lyrics: 
   - - "Rindukah kau hari ini bagi s'mua berkat Hu"
     - "dalam kehidupanmu?"
     - "Dan beroleh s'gala janji, serta turut firman-Nya,"
@@ -9611,10 +9521,10 @@ kri230:
 
 
 kri231:
-  - title: Hu Ku Milik-Mu
-  - author: [William H. Doane]
-  - kri_number: 231
-  - lyrics: 
+  title: Hu Ku Milik-Mu
+  author: [William H. Doane]
+  kri_number: 231
+  lyrics: 
   - - "Hu ku milik-Mu, Kau pun milikku,"
     - "kasih-Mu puaskan daku."
     - "Tambahkan iman 'gar ku beterbang,"
@@ -9668,10 +9578,10 @@ kri231:
 
 
 kri232:
-  - title: Tuhanku Yesus
-  - author: []
-  - kri_number: 232
-  - lyrics: 
+  title: Tuhanku Yesus
+  author: []
+  kri_number: 232
+  lyrics: 
   - - "Tuhanku Yesus, Raja seg'nap alam,"
     - "Ilahi dan manusia,"
     - "Hendak ku turut dan kukasihi,"
@@ -9695,10 +9605,10 @@ kri232:
 
 
 kri233:
-  - title: Ku Tak Tahu
-  - author: [Tradisional Irlandia]
-  - kri_number: 233
-  - lyrics: 
+  title: Ku Tak Tahu
+  author: [Tradisional Irlandia]
+  kri_number: 233
+  lyrics: 
   - - "Ku tak tahu, yang disembah malaikat,"
     - "mengapa Ia mengasihi dunia,"
     - "bagaikan gembala cari domba-Nya,"
@@ -9747,10 +9657,10 @@ kri233:
 
 
 kri234:
-  - title: Yesus Sayang padaku
-  - author: [William B. Bradbury]
-  - kri_number: 234
-  - lyrics: 
+  title: Yesus Sayang padaku
+  author: [William B. Bradbury]
+  kri_number: 234
+  lyrics: 
   - - "Yesus sayang padaku, Alkitab memb'ri tahu,"
     - "Walau ku kecil lemah tapi Yesus sayanglah."
     - "Yesus Tuhanku, sayang padaku,"
@@ -9774,10 +9684,10 @@ kri234:
 
 
 kri235:
-  - title: Mari Datanglah, Sembah Sang Raja
-  - author: [William Gardiner]
-  - kri_number: 235
-  - lyrics: 
+  title: Mari Datanglah, Sembah Sang Raja
+  author: [William Gardiner]
+  kri_number: 235
+  lyrics: 
   - - "Mari datanglah, sembah Sang Raja,"
     - "Puji kasih-Nya, megahkan kuasa-Nya."
     - "Sejak dahulu Dialah Pelindungku."
@@ -9801,10 +9711,10 @@ kri235:
 
 
 kri236:
-  - title: Kudus, Kudus, Kudus
-  - author: [J.B. Dykes]
-  - kri_number: 236
-  - lyrics: 
+  title: Kudus, Kudus, Kudus
+  author: [J.B. Dykes]
+  kri_number: 236
+  lyrics: 
   - - "Kudus, kudus, kudus, Allah Maha Kuasa,"
     - "Pada dini hari kami memuji-Mu."
     - "Kudus, kudus, kudus, kuasa dan rahmani"
@@ -9828,10 +9738,10 @@ kri236:
 
 
 kri237:
-  - title: Putri Sion, Nyanyilah
-  - author: [Georg F. Handel]
-  - kri_number: 237
-  - lyrics: 
+  title: Putri Sion, Nyanyilah
+  author: [Georg F. Handel]
+  kri_number: 237
+  lyrics: 
   - - "Putri Sion, nyanyilah,"
     - "soraklah, Yerusalem!"
     - "Mari sambut Rajamu,"
@@ -9870,10 +9780,10 @@ kri237:
 
 
 kri238:
-  - title: O Bangkitlah, Kabarkan Injil Tuhan
-  - author: [James Watch]
-  - kri_number: 238
-  - lyrics: 
+  title: O Bangkitlah, Kabarkan Injil Tuhan
+  author: [James Watch]
+  kri_number: 238
+  lyrics: 
   - - "O bangkitlah, kabarkan Injil Tuhan"
     - "pada umat di seluruh dunia,"
     - "agar tahu Allah mengasihinya,"
@@ -9916,11 +9826,11 @@ kri238:
     - "Ref:"
 
 
-kri238A:
-  - title: Bergegaslah, Tunaikanlah Misimu
-  - author: [James Watch]
-  - kri_number: 238A
-  - lyrics: 
+kri238a:
+  title: Bergegaslah, Tunaikanlah Misimu
+  author: [James Watch]
+  kri_number: 238
+  lyrics: 
   - - "Bergegaslah, tunaikanlah misimu,"
     - "b'ritakanlah Allah terang dunia."
     - "Dia tidak mau satu jiwa binasa,"
@@ -9964,10 +9874,10 @@ kri238A:
 
 
 kri239:
-  - title: Janji Tuhan Setia
-  - author: []
-  - kri_number: 239
-  - lyrics: 
+  title: Janji Tuhan Setia
+  author: []
+  kri_number: 239
+  lyrics: 
   - - "Janji Tuhan itu setia,"
     - "tiap kata benar;"
     - "Darah Yesus jaminannya,"
@@ -10021,10 +9931,10 @@ kri239:
 
 
 kri240:
-  - title: Kristus Yesus Bangkitlah
-  - author: [Lyra Davidica]
-  - kri_number: 240
-  - lyrics: 
+  title: Kristus Yesus Bangkitlah
+  author: [Lyra Davidica]
+  kri_number: 240
+  lyrics: 
   - - "Kristus Yesus bangkitlah,"
     - "Haleluya!"
     - "Malak makhluk soraklah,"
@@ -10073,10 +9983,10 @@ kri240:
 
 
 kri241:
-  - title: O, Datanglah Imanuel
-  - author: [Latin, abad 9]
-  - kri_number: 241
-  - lyrics: 
+  title: O, Datanglah Imanuel
+  author: [Latin, abad 9]
+  kri_number: 241
+  lyrics: 
   - - "O, datanglah Imanuel,"
     - "tebus umat-Mu Israel,"
     - "yang sedang berkeluh kesah,"
@@ -10120,10 +10030,10 @@ kri241:
 
 
 kri242:
-  - title: Kasih Mengangkatku
-  - author: [Howard E. Smith]
-  - kri_number: 242
-  - lyrics: 
+  title: Kasih Mengangkatku
+  author: [Howard E. Smith]
+  kri_number: 242
+  lyrics: 
   - - "Dalam lautan yang kelam terancam jiwaku;"
     - "dalam dosa tenggelam hilang harapanku;"
     - "tapi Tuhan berkenan dengar seruanku,"
@@ -10177,10 +10087,10 @@ kri242:
 
 
 kri243:
-  - title: Dengar Malak Bersorak
-  - author: []
-  - kri_number: 243
-  - lyrics: 
+  title: Dengar Malak Bersorak
+  author: []
+  kri_number: 243
+  lyrics: 
   - - "Dengar malak bersoraklah,"
     - "suara dari surga,"
     - "Suara merdu bergemalah,"
@@ -10224,10 +10134,10 @@ kri243:
 
 
 kri244:
-  - title: Juruselamat Kita yang Besar
-  - author: [R. H. Prichard]
-  - kri_number: 244
-  - lyrics: 
+  title: Juruselamat Kita yang Besar
+  author: [R. H. Prichard]
+  kri_number: 244
+  lyrics: 
   - - "Yesus! Sobat kaum berdosa, "
     - "dan kekasih jiwaku;"
     - "Kawan, set'ru melawanku, "
@@ -10281,10 +10191,10 @@ kri244:
 
 
 kri245:
-  - title: Roh Penghibur Datang
-  - author: [William J. Kirkpatrick]
-  - kri_number: 245
-  - lyrics: 
+  title: Roh Penghibur Datang
+  author: [William J. Kirkpatrick]
+  kri_number: 245
+  lyrics: 
   - - "B'ritakan kabar t'rang, ke seluruh dunia,"
     - "kar'na manusia tertindih dosa b'rat."
     - "Mulia Injil Tuhan bersorak masyhurkan,"
@@ -10338,10 +10248,10 @@ kri245:
 
 
 kri246:
-  - title: Tiap Langkahku
-  - author: []
-  - kri_number: 246
-  - lyrics: 
+  title: Tiap Langkahku
+  author: []
+  kri_number: 246
+  lyrics: 
   - - "Tiap langkahku diatur oleh Tuhan"
     - "dan tangan kasih-Nya memimpinku."
     - "O senangnya berjalan dengan Tuhan,"
@@ -10395,10 +10305,10 @@ kri246:
 
 
 kri247:
-  - title: Sucikan Hatiku
-  - author: [James H. Fillmore]
-  - kri_number: 247
-  - lyrics: 
+  title: Sucikan Hatiku
+  author: [James H. Fillmore]
+  kri_number: 247
+  lyrics: 
   - - "Sucikan hatiku, ya, Tuhanku."
     - "Semuanya kus'rahkan kepada-Mu."
     - "Tuhan, pimpin aku pada jalan benar."
@@ -10422,10 +10332,10 @@ kri247:
 
 
 kri248:
-  - title: Ku Bertemu Yesus Sobatku
-  - author: []
-  - kri_number: 248
-  - lyrics: 
+  title: Ku Bertemu Yesus Sobatku
+  author: []
+  kri_number: 248
+  lyrics: 
   - - "Ku bertemu Yesus Sobatku,"
     - "kasih-Nya sempurna."
     - "Ku mau saksikan anug'rah-Nya"
@@ -10469,10 +10379,10 @@ kri248:
 
 
 kri249:
-  - title: Puji Nama Tuhan
-  - author: [Ralph E. Hudson]
-  - kri_number: 249
-  - lyrics: 
+  title: Puji Nama Tuhan
+  author: [Ralph E. Hudson]
+  kri_number: 249
+  lyrics: 
   - - "Marilah semua makhluk-Nya puji nama Tuhan,"
     - "Allah Raja yang mulia, puji nama Tuhan."
     - "Ref:"
@@ -10516,10 +10426,10 @@ kri249:
 
 
 kri250:
-  - title: Ia Melindungi Jiwaku
-  - author: [William J. Kirkpatrick]
-  - kri_number: 250
-  - lyrics: 
+  title: Ia Melindungi Jiwaku
+  author: [William J. Kirkpatrick]
+  kri_number: 250
+  lyrics: 
   - - "Yesus Kristus Jurus'lamat yang ajaib,"
     - "dan Tuhan sungguh milikku."
     - "Ia genggamku dalam tangan yang teguh,"
@@ -10578,10 +10488,10 @@ kri250:
 
 
 kri251:
-  - title: Tertunduk Kepala-Mu
-  - author: [Harmonisasi: J. S. Bach]
-  - kri_number: 251
-  - lyrics: 
+  title: Tertunduk Kepala-Mu
+  author: [Harmonisasi: J. S. Bach]
+  kri_number: 251
+  lyrics: 
   - - "Tertunduk kepala-Mu, oh, Yesus Tuhanku."
     - "Dan duri tajam itu, jadi mahkota-Mu."
     - "Sungguh pun dalam surga, Engkau sangat mulia."
@@ -10605,10 +10515,10 @@ kri251:
 
 
 kri252:
-  - title: Hai Semua Ciptaan-Nya
-  - author: []
-  - kri_number: 252
-  - lyrics: 
+  title: Hai Semua Ciptaan-Nya
+  author: []
+  kri_number: 252
+  lyrics: 
   - - "Hai, semua ciptaan-Nya,"
     - "bernyanyi dan memujilah!"
     - "Haleluya! Haleluya!"
@@ -10652,10 +10562,10 @@ kri252:
 
 
 kri253:
-  - title: Masyhurkan Raja-Mu
-  - author: [John Darwall]
-  - kri_number: 253
-  - lyrics: 
+  title: Masyhurkan Raja-Mu
+  author: [John Darwall]
+  kri_number: 253
+  lyrics: 
   - - "Masyhurkan Rajamu, dan sembahlah Dia;"
     - "Angkatlah suaramu, bernyanyi bergemar."
     - "Bernyanyilah, dengan hati bergemar memuji Dia!"
@@ -10671,10 +10581,10 @@ kri253:
 
 
 kri254:
-  - title: Tinggal Sertaku
-  - author: [William H. Monk]
-  - kri_number: 254
-  - lyrics: 
+  title: Tinggal Sertaku
+  author: [William H. Monk]
+  kri_number: 254
+  lyrics: 
   - - "Tinggal sertaku, Kawan yang Kudus!"
     - "T'lah hampir malam, jangan jalan t'rus!"
     - "Tiada penolong, hanya Tuhanku."
@@ -10698,10 +10608,10 @@ kri254:
 
 
 kri255:
-  - title: Hai, Bangkitlah! Sambut Hari Mulia
-  - author: [John Weinwright]
-  - kri_number: 255
-  - lyrics: 
+  title: Hai, Bangkitlah! Sambut Hari Mulia
+  author: [John Weinwright]
+  kri_number: 255
+  lyrics: 
   - - "Hai, bangkitlah sambut hari mulia,"
     - "Kristus telah lahir di dunia."
     - "Puji Dia yang Maha Pengasih;"
@@ -10740,10 +10650,10 @@ kri255:
 
 
 kri256:
-  - title: Tuhan Memegang Pimpinan
-  - author: [William B. Bradbury]
-  - kri_number: 256
-  - lyrics: 
+  title: Tuhan Memegang Pimpinan
+  author: [William B. Bradbury]
+  kri_number: 256
+  lyrics: 
   - - "Tuhan memegang pimpinan"
     - "dalam tiap perbuatanku."
     - "Hatiku senang dan aman,"
@@ -10797,10 +10707,10 @@ kri256:
 
 
 kri257:
-  - title: Hitung Berkatmu
-  - author: [Edwin O. Excell]
-  - kri_number: 257
-  - lyrics: 
+  title: Hitung Berkatmu
+  author: [Edwin O. Excell]
+  kri_number: 257
+  lyrics: 
   - - "Bila g'lombang kehidupan menimpa,"
     - "hati jadi takut dan putus asa,"
     - "hitunglah berkat-Nya satu per satu,"
@@ -10854,10 +10764,10 @@ kri257:
 
 
 kri258:
-  - title: Puji Tuhan yang Maha Kuasa
-  - author: [Stralsund Gesangbuch]
-  - kri_number: 258
-  - lyrics: 
+  title: Puji Tuhan yang Maha Kuasa
+  author: [Stralsund Gesangbuch]
+  kri_number: 258
+  lyrics: 
   - - "Puji Tuhan Raja dan Pencipta Maha Kuasa,"
     - "Puji Tuhan kar'na Dia Penebus yang kekal."
     - "Mari kita menghampiri takhta-Nya,"
@@ -10881,10 +10791,10 @@ kri258:
 
 
 kri259:
-  - title: Yang Ku Persembahkan
-  - author: [Mason and Webb's Cantica Laudis]
-  - kri_number: 259
-  - lyrics: 
+  title: Yang Ku Persembahkan
+  author: [Mason and Webb's Cantica Laudis]
+  kri_number: 259
+  lyrics: 
   - - "Yang ku persembahkan, berasal dari-Mu,"
     - "ku sembahkan kepada-Mu ku jadi hamba-Mu."
     - "Dan semua milikku, ku t'rima dari-Mu,"
@@ -10894,10 +10804,10 @@ kri259:
 
 
 kri260:
-  - title: Berlutut di Palungan-Mu
-  - author: [Johann Sebastian Bach]
-  - kri_number: 260
-  - lyrics: 
+  title: Berlutut di Palungan-Mu
+  author: [Johann Sebastian Bach]
+  kri_number: 260
+  lyrics: 
   - - "Berlutut di palungan-Mu, "
     - "ya Yesus Sumber Hidup,"
     - "ku bawa persembahanku "
@@ -10941,10 +10851,10 @@ kri260:
 
 
 kri261:
-  - title: Apa yang Kau Perbuat bagi Yesus?
-  - author: [J. Lincoln Hall]
-  - kri_number: 261
-  - lyrics: 
+  title: Apa yang Kau Perbuat bagi Yesus?
+  author: [J. Lincoln Hall]
+  kri_number: 261
+  lyrics: 
   - - "Apa yang kau buat bagi-Nya?"
     - "Tiap hari giatkah?"
     - "Rajinkah engkau b'ritakan"
@@ -10998,10 +10908,10 @@ kri261:
 
 
 kri262:
-  - title: Hai, Mari Berhimpun
-  - author: [John F. Wade]
-  - kri_number: 262
-  - lyrics: 
+  title: Hai, Mari Berhimpun
+  author: [John F. Wade]
+  kri_number: 262
+  lyrics: 
   - - "Hai, mari berhimpun dan bersukaria!"
     - "Hai, mari semua ke Betlehem."
     - "Lihat yang lahir, Raja bala surga."
@@ -11045,10 +10955,10 @@ kri262:
 
 
 kri263:
-  - title: Ku Tahu Alkitab Sungguh Benar
-  - author: []
-  - kri_number: 263
-  - lyrics: 
+  title: Ku Tahu Alkitab Sungguh Benar
+  author: []
+  kri_number: 263
+  lyrics: 
   - - "Ku tau Alkitab anugerah"
     - "yang datang dari Allah,"
     - "Ku tau Alkitab sungguh benar,"
@@ -11102,10 +11012,10 @@ kri263:
 
 
 kri264:
-  - title: Hai Dunia, Lihat Tuhan
-  - author: [Heinrich Isaak]
-  - kri_number: 264
-  - lyrics: 
+  title: Hai Dunia, Lihat Tuhan
+  author: [Heinrich Isaak]
+  kri_number: 264
+  lyrics: 
   - - "Hai dunia, lihat Tuhan, Sang Surya kehidupan"
     - "tergantung di salib, Sang Raja Kemuliaan,"
     - "menanggung penghinaan, sengsara siksa yang keji."
@@ -11121,10 +11031,10 @@ kri264:
 
 
 kri265:
-  - title: Tuhan Allah Hadir
-  - author: [Joachim Neander]
-  - kri_number: 265
-  - lyrics: 
+  title: Tuhan Allah Hadir
+  author: [Joachim Neander]
+  kri_number: 265
+  lyrics: 
   - - "Tuhan Allah hadir dalam rumah ini,"
     - "Mari sujud menyembah Dia."
     - "Tunduk dan berbakti, hikmat dan sehati"
@@ -11163,10 +11073,10 @@ kri265:
 
 
 kri266:
-  - title: O Kalam yang Menjelma
-  - author: [Felix Mendelssohn]
-  - kri_number: 266
-  - lyrics: 
+  title: O Kalam yang Menjelma
+  author: [Felix Mendelssohn]
+  kri_number: 266
+  lyrics: 
   - - "O Kalam yang menjelma, budi dari surga,"
     - "Pancaran sinar yang mulia ku puji nama-Nya,"
     - "O Kebenaran baka, cah'ya dari surga,"
@@ -11190,10 +11100,10 @@ kri266:
 
 
 kri267:
-  - title: Dari Lembah Sengsara-Mu
-  - author: [J. S. Bach]
-  - kri_number: 267
-  - lyrics: 
+  title: Dari Lembah Sengsara-Mu
+  author: [J. S. Bach]
+  kri_number: 267
+  lyrics: 
   - - "Dari lembah sengsaraku, ku berseru ya Tuhan,"
     - "Dengarlah suara hamba-Mu, doaku pun kabulkan."
     - "Jika dosa kesalahanku, terus teringat oleh-Mu,"
@@ -11217,10 +11127,10 @@ kri267:
 
 
 kri268:
-  - title: Haruskah Ia Pikul Salib
-  - author: [George N. Allen]
-  - kri_number: 268
-  - lyrics: 
+  title: Haruskah Ia Pikul Salib
+  author: [George N. Allen]
+  kri_number: 268
+  lyrics: 
   - - "Haruskah Ia pikul salib,"
     - "tuk melepaskanku?"
     - "Ku pun harus pikul salib,"
@@ -11244,10 +11154,10 @@ kri268:
 
 
 kri269:
-  - title: Kunyanyikan Kuasa-Nya
-  - author: [Buku Wurtemburg]
-  - kri_number: 269
-  - lyrics: 
+  title: Kunyanyikan Kuasa-Nya
+  author: [Buku Wurtemburg]
+  kri_number: 269
+  lyrics: 
   - - "Kunyanyikan kuasa-Nya yang tegakkan gunung,"
     - "dan lautan luas terbentang dan langit menudung."
     - "Kunyanyikan hikmat Tuhan yang atur semesta,"
@@ -11271,10 +11181,10 @@ kri269:
 
 
 kri270:
-  - title: Di Hadapan Tuhan Yesus
-  - author: [Huugo Nyberg]
-  - kri_number: 270
-  - lyrics: 
+  title: Di Hadapan Tuhan Yesus
+  author: [Huugo Nyberg]
+  kri_number: 270
+  lyrics: 
   - - "Di hadapan Tuhan Yesus,"
     - "betapa hina diriku,"
     - "Kubawa dosa-dosaku,"
@@ -11298,10 +11208,10 @@ kri270:
 
 
 kri271:
-  - title: Biar Ku Tumbuh di Batang-Mu
-  - author: [Georg Neumark]
-  - kri_number: 271
-  - lyrics: 
+  title: Biar Ku Tumbuh di Batang-Mu
+  author: [Georg Neumark]
+  kri_number: 271
+  lyrics: 
   - - "Biar ku tumbuh di batang-Mu"
     - "ya, pokok anggur yang benar,"
     - "supaya Kau hidupkan daku"
@@ -11340,10 +11250,10 @@ kri271:
 
 
 kri272:
-  - title: Mari Puji Raja Surga
-  - author: [John Goss]
-  - kri_number: 272
-  - lyrics: 
+  title: Mari Puji Raja Surga
+  author: [John Goss]
+  kri_number: 272
+  lyrics: 
   - - "Mari puji Raja Surga,"
     - "persembahan bawalah;"
     - "Ditebus-Nya jiwa raga,"
@@ -11382,10 +11292,10 @@ kri272:
 
 
 kri273:
-  - title: Dunia Bukan Rumahku
-  - author: []
-  - kri_number: 273
-  - lyrics: 
+  title: Dunia Bukan Rumahku
+  author: []
+  kri_number: 273
+  lyrics: 
   - - "Dunia yang fana bukanlah rumahku,"
     - "hartaku di sana seb'rang langit biru;"
     - "malaikat melambai di pintu yang cer'lang"
@@ -11439,10 +11349,10 @@ kri273:
 
 
 kri274:
-  - title: Tuhan Yesus Gembalaku
-  - author: [Jessie S. Irvine / T. C. L. Pritchard]
-  - kri_number: 274
-  - lyrics: 
+  title: Tuhan Yesus Gembalaku
+  author: [Jessie S. Irvine / T. C. L. Pritchard]
+  kri_number: 274
+  lyrics: 
   - - "Tuhan Yesus gembalaku, dihantar-Nya aku;"
     - "Ke padang rumput yang hijau telaga air tenang."
     - "Dib'ri-Nya jiwaku segar dan kar'na nama-Nya;"
@@ -11452,10 +11362,10 @@ kri274:
 
 
 kri275:
-  - title: Jesu, Joy of Man's Desiring
-  - author: []
-  - kri_number: 275
-  - lyrics: 
+  title: Jesu, Joy of Man's Desiring
+  author: []
+  kri_number: 275
+  lyrics: 
   - - "Jesu, joy of man's desiring,"
     - "Holy wisdom, love most bright."
     - "Drawn by Thee our souls aspiring,"
@@ -11489,10 +11399,10 @@ kri275:
 
 
 kri276:
-  - title: Yang Mau Dibimbing oleh Tuhan
-  - author: []
-  - kri_number: 276
-  - lyrics: 
+  title: Yang Mau Dibimbing oleh Tuhan
+  author: []
+  kri_number: 276
+  lyrics: 
   - - "Yang mau dibimbing oleh Tuhan,"
     - "dan yang berharap tak henti,"
     - "akan mendapat pertolongan,"
@@ -11531,10 +11441,10 @@ kri276:
 
 
 kri277:
-  - title: Kekuatan serta Penghiburan
-  - author: [Oscar Ahnfelt]
-  - kri_number: 277
-  - lyrics: 
+  title: Kekuatan serta Penghiburan
+  author: [Oscar Ahnfelt]
+  kri_number: 277
+  lyrics: 
   - - "Kekuatan serta penghiburan"
     - "diberikan Tuhan padaku."
     - "Tiap hari aku dibimbing-Nya;"
@@ -11583,10 +11493,10 @@ kri277:
 
 
 kri278:
-  - title: Hatiku Memuji Tuhan
-  - author: [Thomas Haweis]
-  - kri_number: 278
-  - lyrics: 
+  title: Hatiku Memuji Tuhan
+  author: [Thomas Haweis]
+  kri_number: 278
+  lyrics: 
   - - "Hatiku memuji Tuhan, dengan hati bebas;"
     - "Kuasa darah-Mu kualami tercurah di hati."
     - "Hatiku rendah bertobat, bersih dan percaya;"
@@ -11596,10 +11506,10 @@ kri278:
 
 
 kri279:
-  - title: Yesus, Sumber Penghiburan
-  - author: [Kitab Freylinghausen]
-  - kri_number: 279
-  - lyrics: 
+  title: Yesus, Sumber Penghiburan
+  author: [Kitab Freylinghausen]
+  kri_number: 279
+  lyrics: 
   - - "Yesus, sumber penghiburan, yang disalib, dikuburkan,"
     - "kini bangkit dan menang, Raja Hidup dan Terang."
     - "Kubur tak menahan lagi Sang Pahlawan yang Ilahi."
@@ -11623,10 +11533,10 @@ kri279:
 
 
 kri280:
-  - title: Tinggalkan Jalan Susah dan Gelap
-  - author: [George C. Stebbins]
-  - kri_number: 280
-  - lyrics: 
+  title: Tinggalkan Jalan Susah dan Gelap
+  author: [George C. Stebbins]
+  kri_number: 280
+  lyrics: 
   - - "Tinggalkan jalan susah dan g'lap, pada Yesus ku datanglah."
     - "Ku masuk tempat s'nang dan terang, Yesus ku datanglah."
     - "Tinggalkan lemah dikuatkan, dari miskin menjadi kaya."
@@ -11650,10 +11560,10 @@ kri280:
 
 
 kri281:
-  - title: Bangunkan Kami
-  - author: [John J. Husband]
-  - kri_number: 281
-  - lyrics: 
+  title: Bangunkan Kami
+  author: [John J. Husband]
+  kri_number: 281
+  lyrics: 
   - - "Terpuji Allah karena kasih-Nya,"
     - "yang mengutus Anak-Nya mati disalib;"
     - "Ref:"
@@ -11687,10 +11597,10 @@ kri281:
 
 
 kri282:
-  - title: Ya Tuhan Bimbing Aku
-  - author: [Friedrich Silcher]
-  - kri_number: 282
-  - lyrics: 
+  title: Ya Tuhan Bimbing Aku
+  author: [Friedrich Silcher]
+  kri_number: 282
+  lyrics: 
   - - "Ya Tuhan bimbing aku di jalanku,"
     - "supaya ku selalu bersama-Mu."
     - "Ku tak mau melangkah setapak pun,"
@@ -11714,10 +11624,10 @@ kri282:
 
 
 kri283:
-  - title: Yesus Mencariku
-  - author: [Arr. E. E. Hasty]
-  - kri_number: 283
-  - lyrics: 
+  title: Yesus Mencariku
+  author: [Arr. E. E. Hasty]
+  kri_number: 283
+  lyrics: 
   - - "Yesus telah lahir di Betlehem,"
     - "terbaring di palungan yang hina."
     - "Oh, betapa ajaib anug'rah-Nya,"
@@ -11771,10 +11681,10 @@ kri283:
 
 
 kri284:
-  - title: Lebih Baik Yesus
-  - author: [Beverly Shea]
-  - kri_number: 284
-  - lyrics: 
+  title: Lebih Baik Yesus
+  author: [Beverly Shea]
+  kri_number: 284
+  lyrics: 
   - - "Lebih baik Yesus, bukan harta,"
     - "ku milik Yesus, bukan milik harta."
     - "Lebih baik Yesus, bukan gedung,"
@@ -11828,10 +11738,10 @@ kri284:
 
 
 kri285:
-  - title: Raja Mulia
-  - author: []
-  - kri_number: 285
-  - lyrics: 
+  title: Raja Mulia
+  author: []
+  kri_number: 285
+  lyrics: 
   - - "Jurus'lamat, Raja mulia, atas set'ru menanglah."
     - "Dengan awan yang mulia, ke surga Tuhan naik."
     - "Haleluya bersoraklah, malaikat memuji Dia."
@@ -11855,10 +11765,10 @@ kri285:
 
 
 kri286:
-  - title: Ku Perlukan Juruselamat
-  - author: [John R. Sweney]
-  - kri_number: 286
-  - lyrics: 
+  title: Ku Perlukan Juruselamat
+  author: [John R. Sweney]
+  kri_number: 286
+  lyrics: 
   - - "Ku perlukan Jurus'lamat agar ku tak tersesat,"
     - "dan ku harus merasakan bahwa Tuhanku dekat."
     - "Ref:"
@@ -11892,10 +11802,10 @@ kri286:
 
 
 kri287:
-  - title: Indahlah Ikatan dalam Kasih-Nya
-  - author: [Johann G. Naegell]
-  - kri_number: 287
-  - lyrics: 
+  title: Indahlah Ikatan dalam Kasih-Nya
+  author: [Johann G. Naegell]
+  kri_number: 287
+  lyrics: 
   - - "Indahlah ikatan dalam kasih Tuhan,"
     - "sehati dan bersekutu, laksana di surga."
     - "Bersama semua ketika berbakti,"
@@ -11905,10 +11815,10 @@ kri287:
 
 
 kri288:
-  - title: Menjadi Seorang Kristen
-  - author: [Spiritual melody]
-  - kri_number: 288
-  - lyrics: 
+  title: Menjadi Seorang Kristen
+  author: [Spiritual melody]
+  kri_number: 288
+  lyrics: 
   - - "Menjadi seorang Kristen, ku ingin ya Tuhan,"
     - "Menjadi seorang Kristen, dalamku."
     - "di dalam, hatiku,"
@@ -11932,10 +11842,10 @@ kri288:
 
 
 kri289:
-  - title: Moment by Moment
-  - author: [M. Whittle Moody]
-  - kri_number: 289
-  - lyrics: 
+  title: Moment by Moment
+  author: [M. Whittle Moody]
+  kri_number: 289
+  lyrics: 
   - - "Dying with Jesus, by death reckoned mine,"
     - "Living with Jesus a new life divine;"
     - "Looking to Jesus till glory doth shine,"
@@ -11989,10 +11899,10 @@ kri289:
 
 
 kri290:
-  - title: Kota Sion Kota Allah
-  - author: [Franz Joseph Haydn]
-  - kri_number: 290
-  - lyrics: 
+  title: Kota Sion Kota Allah
+  author: [Franz Joseph Haydn]
+  kri_number: 290
+  lyrics: 
   - - "Besar, Perkasa dan mulia, O Sion, kota Allah,"
     - "Kau dibangun oleh Dia, sumber firman yang benar,"
     - "Tak berguncang, kokoh, teguh, Batu Karang dasarmu,"
@@ -12016,10 +11926,10 @@ kri290:
 
 
 kri291:
-  - title: Lemah Lembut Tuhan Yesus Memanggil
-  - author: []
-  - kri_number: 291
-  - lyrics: 
+  title: Lemah Lembut Tuhan Yesus Memanggil
+  author: []
+  kri_number: 291
+  lyrics: 
   - - "Lemah lembut Tuhan Yesus memanggil,"
     - "memanggil kau dan aku."
     - "Lihatlah Ia sekarang menunggu,"
@@ -12073,10 +11983,10 @@ kri291:
 
 
 kri292:
-  - title: Mari Bersukacita
-  - author: [Johann Cruger]
-  - kri_number: 292
-  - lyrics: 
+  title: Mari Bersukacita
+  author: [Johann Cruger]
+  kri_number: 292
+  lyrics: 
   - - "Mari bersukacita, terima kabar baik!"
     - "Habislah dukacita, terbitlah t'rang ajaib!"
     - "Yesus yang tersekap, di kubur yang gelap"
@@ -12100,10 +12010,10 @@ kri292:
 
 
 kri293:
-  - title: Engkau Bersuka dalam Derita
-  - author: [Giovanni Gacomo Gastoldi]
-  - kri_number: 293
-  - lyrics: 
+  title: Engkau Bersuka dalam Derita
+  author: [Giovanni Gacomo Gastoldi]
+  kri_number: 293
+  lyrics: 
   - - "Engkau bersuka, dalam derita, Yesus Kristus mulia."
     - "Sudah Kau bawa anug'rah surga, Jurus'lamat dunia."
     - "Kau melepaskan kami yang malang; pada-Mu saja"
@@ -12142,10 +12052,10 @@ kri293:
 
 
 kri294:
-  - title: Layakkah Ku Pergi dengan Tangan Hampa?
-  - author: [George C. Stabbins]
-  - kri_number: 294
-  - lyrics: 
+  title: Layakkah Ku Pergi dengan Tangan Hampa?
+  author: [George C. Stabbins]
+  kri_number: 294
+  lyrics: 
   - - "Bila Tuhan memanggilku, layakkah ku jumpa Dia?"
     - "B'lum seorang pun kubawa kembali pada Bapa."
     - "Ref:"
@@ -12179,10 +12089,10 @@ kri294:
 
 
 kri295:
-  - title: Take the World, but Give Me Jesus
-  - author: [John R. Sweney]
-  - kri_number: 295
-  - lyrics: 
+  title: Take the World, but Give Me Jesus
+  author: [John R. Sweney]
+  kri_number: 295
+  lyrics: 
   - - "Take the world but give me Jesus,"
     - "all its joys are but a name;"
     - "But His love abideth ever;"
@@ -12236,10 +12146,10 @@ kri295:
 
 
 kri296:
-  - title: Dapatkah Ku Tak Cinta Dia?
-  - author: []
-  - kri_number: 296
-  - lyrics: 
+  title: Dapatkah Ku Tak Cinta Dia?
+  author: []
+  kri_number: 296
+  lyrics: 
   - - "Yesus Kristus meninggalkan surga, datang menderita."
     - "Ia tanggung s'gala dosa dan hina, ajaiblah cinta-Nya."
     - "Ref:"
@@ -12273,10 +12183,10 @@ kri296:
 
 
 kri297:
-  - title: Bumi, Langit, Mari Puji
-  - author: [Thomas Haweis]
-  - kri_number: 297
-  - lyrics: 
+  title: Bumi, Langit, Mari Puji
+  author: [Thomas Haweis]
+  kri_number: 297
+  lyrics: 
   - - "Bumi, langit, mari puji"
     - "Tuhan Maha Suci."
     - "Firman-Nya Maha Mulia,"
@@ -12300,10 +12210,10 @@ kri297:
 
 
 kri298:
-  - title: Batu Karang yang Teguh
-  - author: [W. B. Bradbury]
-  - kri_number: 298
-  - lyrics: 
+  title: Batu Karang yang Teguh
+  author: [W. B. Bradbury]
+  kri_number: 298
+  lyrics: 
   - - "Tiada lain pengharapan, hanya pada darah Yesus."
     - "Semuanya ku sandarkan, hanya pada nama Yesus."
     - "Ref:"
@@ -12337,10 +12247,10 @@ kri298:
 
 
 kri299:
-  - title: Tuhan Pencipta Semesta
-  - author: [John B. Dyke]
-  - kri_number: 299
-  - lyrics: 
+  title: Tuhan Pencipta Semesta
+  author: [John B. Dyke]
+  kri_number: 299
+  lyrics: 
   - - "Tuhan Pencipta semesta, s'gala pujian kami naikkan,"
     - "Kasih-Mu, kami nyatakan, Oh Tuhanku."
     - "Tuhan memb'rikan Anak-Nya, mati menggantikan kita,"
@@ -12350,10 +12260,10 @@ kri299:
 
 
 kri300:
-  - title: O, Ku Cinta Yesus
-  - author: []
-  - kri_number: 300
-  - lyrics: 
+  title: O, Ku Cinta Yesus
+  author: []
+  kri_number: 300
+  lyrics: 
   - - "Ku suka dengar satu nama, ku suka menyanyikannya,"
     - "Indah benar suara-Nya, nama yang terindah."
     - "Ref:"
@@ -12387,10 +12297,10 @@ kri300:
 
 
 kri301:
-  - title: Hidupkan Gereja-Mu
-  - author: [William H. Doane]
-  - kri_number: 301
-  - lyrics: 
+  title: Hidupkan Gereja-Mu
+  author: [William H. Doane]
+  kri_number: 301
+  lyrics: 
   - - "Hidupkan g'reja-Mu, perbuatan tangan-Mu."
     - "Yang mati dihidupkan oleh firman, sadarkan umat-Mu."
     - "Ref:"
@@ -12424,10 +12334,10 @@ kri301:
 
 
 kri302:
-  - title: Serta Tuhan ketika Terbit Fajar
-  - author: [Felix Mendelssohn]
-  - kri_number: 302
-  - lyrics: 
+  title: Serta Tuhan ketika Terbit Fajar
+  author: [Felix Mendelssohn]
+  kri_number: 302
+  lyrics: 
   - - "Serta Tuhan ketika terbit fajar,"
     - "bayang malam s'kalian lenyaplah."
     - "Serta Tuhan, terang surya bersinar,"
@@ -12451,10 +12361,10 @@ kri302:
 
 
 kri303:
-  - title: Pakailah Waktu Anugerah Tuhan-Mu
-  - author: []
-  - kri_number: 303
-  - lyrics: 
+  title: Pakailah Waktu Anugerah Tuhan-Mu
+  author: []
+  kri_number: 303
+  lyrics: 
   - - "Pakailah waktu anug'rah Tuhanmu,"
     - "hidupmu singkat bagaikan kembang."
     - "Mana benda yang kekal di hidupmu?"
@@ -12508,10 +12418,10 @@ kri303:
 
 
 kri304:
-  - title: Di Sini Ku Menghadap Wajah-Mu
-  - author: [Edward Dearle]
-  - kri_number: 304
-  - lyrics: 
+  title: Di Sini Ku Menghadap Wajah-Mu
+  author: [Edward Dearle]
+  kri_number: 304
+  lyrics: 
   - - "Di sini ku menghadap wajah-Mu,"
     - "dan kepadaku, Kau nyatakanlah,"
     - "ku pegang erat rahmat kasih-Mu,"
@@ -12535,10 +12445,10 @@ kri304:
 
 
 kri305:
-  - title: Thank You Lord
-  - author: [Seth and Bessy Sykes]
-  - kri_number: 305
-  - lyrics: 
+  title: Thank You Lord
+  author: [Seth and Bessy Sykes]
+  kri_number: 305
+  lyrics: 
   - - "Some thank the Lord for friends and home,"
     - "for mercies sure and sweet;"
     - "But I would praise Him for His grace"
@@ -12592,10 +12502,10 @@ kri305:
 
 
 kri306:
-  - title: T'rus Berjalan Serta-Mu
-  - author: [Arr. John T. Benson]
-  - kri_number: 306
-  - lyrics: 
+  title: T'rus Berjalan Serta-Mu
+  author: [Arr. John T. Benson]
+  kri_number: 306
+  lyrics: 
   - - "Tuhan hamba mengaku, akan kelemahanku;"
     - "Pimpin aku hamba-Mu, di dunia sepanjang jalanku."
     - "Lebih dekat kepada-Mu, itu permohonanku,"
@@ -12619,10 +12529,10 @@ kri306:
 
 
 kri307:
-  - title: Tuhan Ku Cinta Dikau
-  - author: []
-  - kri_number: 307
-  - lyrics: 
+  title: Tuhan Ku Cinta Dikau
+  author: []
+  kri_number: 307
+  lyrics: 
   - - "Tuhan ku cinta Dikau, karna ku milik-Mu,"
     - "Tinggallah di dalamku, untuk s'lamanya,"
     - "Tuhan ku cinta Dikau, s'lalu ku milik-Mu,"
@@ -12646,10 +12556,10 @@ kri307:
 
 
 kri308:
-  - title: Iman yang Beri Menang
-  - author: [John H. Yates]
-  - kri_number: 308
-  - lyrics: 
+  title: Iman yang Beri Menang
+  author: [John H. Yates]
+  kri_number: 308
+  lyrics: 
   - - "Serdadu Masehi yang dapat t'rang kau bangunlah,"
     - "berp'rang sebelum malam g'lap selimuti langit."
     - "Melawan musuh pakailah seg'nap tenagamu,"
@@ -12693,10 +12603,10 @@ kri308:
 
 
 kri309:
-  - title: O God Beyond All Praising
-  - author: [Gustav Holst]
-  - kri_number: 309
-  - lyrics: 
+  title: O God Beyond All Praising
+  author: [Gustav Holst]
+  kri_number: 309
+  lyrics: 
   - - "O God beyond all praising we worship You today;"
     - "and sing the love amazing that songs cannot repay;"
     - "for we can only wonder at every gift You send,"
@@ -12735,10 +12645,10 @@ kri309:
 
 
 kri310:
-  - title: Apa Tuhan Selalu Peduli?
-  - author: [J. Lincoln Hall]
-  - kri_number: 310
-  - lyrics: 
+  title: Apa Tuhan Selalu Peduli?
+  author: [J. Lincoln Hall]
+  kri_number: 310
+  lyrics: 
   - - "Apa Tuhan s'lalu peduli waktu ku hancur hati,"
     - "diserang Iblis, jalan p'nuh duri, apakah Tuhan peduli?"
     - "Ref:"
@@ -12772,10 +12682,10 @@ kri310:
 
 
 kri311:
-  - title: Doxology
-  - author: [Jimmy Owens]
-  - kri_number: 311
-  - lyrics: 
+  title: Doxology
+  author: [Jimmy Owens]
+  kri_number: 311
+  lyrics: 
   - - "Puji Bapa, Putra dan Roh,"
     - "Pujilah Allah sumber berkat;"
     - "Pujilah Dia hai ciptaan-Nya,"
@@ -12799,10 +12709,10 @@ kri311:
 
 
 kri312:
-  - title: Kasih Kristus Beritakan ke Dunia
-  - author: [Michael R. Newbolt]
-  - kri_number: 312
-  - lyrics: 
+  title: Kasih Kristus Beritakan ke Dunia
+  author: [Michael R. Newbolt]
+  kri_number: 312
+  lyrics: 
   - - "Kasih Kristus b'ritakan ke dunia"
     - "dan tinggikan salib, sembahlah Dia"
     - "Kemenangan-Nya pimpin hidupku,"
@@ -12826,10 +12736,10 @@ kri312:
 
 
 kri313:
-  - title: Will Jesus Find Us Watching?
-  - author: [William H. Doane]
-  - kri_number: 313
-  - lyrics: 
+  title: Will Jesus Find Us Watching?
+  author: [William H. Doane]
+  kri_number: 313
+  lyrics: 
   - - "When Jesus comes to reward His servants, "
     - "whether it be noon or night,"
     - "faithful to Him will He find us watching"
@@ -12869,7 +12779,7 @@ kri313:
     - "If at the dawn of the early morning"
     - "He shall call us one by one,"
     - "when to the Lord we restore our talents,"
-    - "will He answer us, "Well done?""
+    - "will He answer us, “Well done?”"
   - - "Ref:"
     - "O can we say we are ready, brother?"
     - "Ready for the soul's bright home?"
@@ -12878,15 +12788,15 @@ kri313:
     - "If at the dawn of the early morning"
     - "He shall call us one by one,"
     - "when to the Lord we restore our talents,"
-    - "will He answer us, "Well done?""
+    - "will He answer us, “Well done?”"
     - "Ref:"
 
 
 kri314:
-  - title: Berdoalah
-  - author: []
-  - kri_number: 314
-  - lyrics: 
+  title: Berdoalah
+  author: []
+  kri_number: 314
+  lyrics: 
   - - "Berdoalah pada pagi, berdoalah pada siang,"
     - "berdoalah pada malam, agar tetap tent'ram."
     - "Allah mendengarkan doa, menjawab tiap permohonan,"
@@ -12896,10 +12806,10 @@ kri314:
 
 
 kri315:
-  - title: Ikut Tuhanku
-  - author: []
-  - kri_number: 315
-  - lyrics: 
+  title: Ikut Tuhanku
+  author: []
+  kri_number: 315
+  lyrics: 
   - - "Aku ikut, aku ikut, ikut Tuhanku,"
     - "ke sini, ke sana, hanya ikut Hu."
     - "Ikut Yesus, ikut Yesus, ikut ke surga,"
@@ -12948,10 +12858,10 @@ kri315:
 
 
 kri316:
-  - title: In Christ Alone
-  - author: [Keith Getty]
-  - kri_number: 316
-  - lyrics: 
+  title: In Christ Alone
+  author: [Keith Getty]
+  kri_number: 316
+  lyrics: 
   - - "In Christ alone my hope is found;"
     - "He is my light, my strength, my song;"
     - "This Cornerstone, this solid ground,"
@@ -13000,10 +12910,10 @@ kri316:
 
 
 kri317:
-  - title: Haleluya Puji Tuhan
-  - author: []
-  - kri_number: 317
-  - lyrics: 
+  title: Haleluya Puji Tuhan
+  author: []
+  kri_number: 317
+  lyrics: 
   - - "Haleluya Puji Tuhan!"
     - "Yesus naik ke surga terang,"
     - "Dia mem'rintah selama-lamanya,"
@@ -13027,10 +12937,10 @@ kri317:
 
 
 kri318:
-  - title: When the Weary Seeking Rest
-  - author: [William H. Callcott/F. Mendelssohn]
-  - kri_number: 318
-  - lyrics: 
+  title: When the Weary Seeking Rest
+  author: [William H. Callcott/F. Mendelssohn]
+  kri_number: 318
+  lyrics: 
   - - "When the weary, seeking rest,"
     - "to Thy goodness flee;"
     - "when the heavy laden cast"
@@ -13094,10 +13004,10 @@ kri318:
 
 
 kri319:
-  - title: Declare His Glory
-  - author: []
-  - kri_number: 319
-  - lyrics: 
+  title: Declare His Glory
+  author: []
+  kri_number: 319
+  lyrics: 
   - - "Our God is mighty, worthy of all praising;"
     - "Sing unto Him a glad triumphant song,"
     - "He is the Lord, supreme in earth and heaven,"
@@ -13151,11 +13061,11 @@ kri319:
 
 
 kri320:
-  - title: Hallelujah, What A Savior!
-  - author: []
-  - kri_number: 320
-  - lyrics: 
-  - - ""Man of sorrows!" What a name for the Son of God, who came,"
+  title: Hallelujah, What A Savior!
+  author: []
+  kri_number: 320
+  lyrics: 
+  - - "“Man of sorrows!” What a name for the Son of God, who came,"
     - "Ruined sinners to reclaim! Halleujah, what a Saviour!"
     - "Bearing shame and scoffing rude, In my place condemn'd He stood,"
   - - "Ruined sinners to reclaim! Halleujah, what a Saviour!"
@@ -13164,10 +13074,10 @@ kri320:
 
 
 kri321:
-  - title: Meekness and Majesty
-  - author: []
-  - kri_number: 321
-  - lyrics: 
+  title: Meekness and Majesty
+  author: []
+  kri_number: 321
+  lyrics: 
   - - "Meekness and majesty, manhood and Deity,"
     - "in perfect harmony, the man who is God."
     - "Lord of eternity dwells in humanity,"
@@ -13199,22 +13109,22 @@ kri321:
     - "Father's pure radiance, perfect in innocence,"
     - "yet learns obedience to death on the cross."
     - "Suff'ring to give us life, conqu'ring through sacrifice,"
-    - "and as they crucify prays, "Father, forgive.""
+    - "and as they crucify prays, “Father, forgive.”"
   - - "Ref:"
     - "Oh what a mystery, meekness and majesty."
     - "Bow down and worship, for this is your God."
     - "Father's pure radiance, perfect in innocence,"
     - "yet learns obedience to death on the cross."
     - "Suff'ring to give us life, conqu'ring through sacrifice,"
-    - "and as they crucify prays, "Father, forgive.""
+    - "and as they crucify prays, “Father, forgive.”"
     - "Ref:"
 
 
 kri322:
-  - title: It Passeth Knowledge
-  - author: [Mary Shekleton]
-  - kri_number: 322
-  - lyrics: 
+  title: It Passeth Knowledge
+  author: [Mary Shekleton]
+  kri_number: 322
+  lyrics: 
   - - "It passeth knowledge, that dear love of Thine,"
     - "my Jesus Savior! Yet this soul of mine"
     - "would of that love, in all its depth and length,"
@@ -13248,10 +13158,10 @@ kri322:
 
 
 kri323:
-  - title: Immortal, Invisible, God Only Wise
-  - author: [Walter C. Smith]
-  - kri_number: 323
-  - lyrics: 
+  title: Immortal, Invisible, God Only Wise
+  author: [Walter C. Smith]
+  kri_number: 323
+  lyrics: 
   - - "Immortal, Invisible, God only wise,"
     - "in light in accessible hid from our eyes;"
     - "Most blessed, most glorious, the Ancient of Days,"
@@ -13275,10 +13185,10 @@ kri323:
 
 
 kri324:
-  - title: Haleluya, bagi Anak Domba Allah
-  - author: []
-  - kri_number: 324
-  - lyrics: 
+  title: Haleluya, bagi Anak Domba Allah
+  author: []
+  kri_number: 324
+  lyrics: 
   - - "Haleluya, Haleluya, bagi anak Domba Allah,"
     - "Haleluya, Haleluya, kar'na aku ditebus-Nya."
     - "Haleluya, Haleluya, bagi anak Domba Allah,"
@@ -13302,10 +13212,10 @@ kri324:
 
 
 kri325:
-  - title: Doxology
-  - author: [Louis Bourgeois]
-  - kri_number: 325
-  - lyrics: 
+  title: Doxology
+  author: [Louis Bourgeois]
+  kri_number: 325
+  lyrics: 
   - - "Puji Allah Bapa, Putra,"
     - "Puji Allah Rohul Kudus,"
     - "Ketiganya yang Esa;"
@@ -13339,10 +13249,10 @@ kri325:
 
 
 kri326:
-  - title: Glorious Freedom
-  - author: [Alfred Judson]
-  - kri_number: 326
-  - lyrics: 
+  title: Glorious Freedom
+  author: [Alfred Judson]
+  kri_number: 326
+  lyrics: 
   - - "Once I was bound by sin's galling fetters,"
     - "chain'd like a slave, I struggled in vain."
     - "But I received a glorious freedom,"
@@ -13396,10 +13306,10 @@ kri326:
 
 
 kri327:
-  - title: Doxology
-  - author: [Thomas Tallis]
-  - kri_number: 327
-  - lyrics: 
+  title: Doxology
+  author: [Thomas Tallis]
+  kri_number: 327
+  lyrics: 
   - - "Puji Allah Bapa, Putra,"
     - "Puji Allah Rohul Kudus,"
     - "Ketiganya yang Esa;"
@@ -13433,10 +13343,10 @@ kri327:
 
 
 kri328:
-  - title: Dalam Gelap Terang-Nya Bercahaya
-  - author: [Ronald A. Turner]
-  - kri_number: 328
-  - lyrics: 
+  title: Dalam Gelap Terang-Nya Bercahaya
+  author: [Ronald A. Turner]
+  kri_number: 328
+  lyrics: 
   - - "Dalam g'lap t'rang-Nya bercah'ya, Alleluia,"
     - "sekarang sampai s'lamanya, Alleluia."
     - "Firman jadi manusia, Alleluia,"
@@ -13470,10 +13380,10 @@ kri328:
 
 
 kri329:
-  - title: Hendaklah Hidupmu Sesuai Injil-Nya
-  - author: []
-  - kri_number: 329
-  - lyrics: 
+  title: Hendaklah Hidupmu Sesuai Injil-Nya
+  author: []
+  kri_number: 329
+  lyrics: 
   - - "Bagimu dib'ri kuasa, kabarkan Injil-Nya,"
     - "Dengan b'rani tak gentar lawan musuh kita,"
     - "B'rita Injil b'rita s'lamat, terus kumandangkanlah,"
@@ -13517,10 +13427,10 @@ kri329:
 
 
 kri330:
-  - title: Intan dan Permata
-  - author: []
-  - kri_number: 330
-  - lyrics: 
+  title: Intan dan Permata
+  author: []
+  kri_number: 330
+  lyrics: 
   - - "Engkau cari intankah untuk mahkota Yesus?"
     - "Ingat di kubangan pun ada intan yang permai."
     - "Ref:"
@@ -13554,10 +13464,10 @@ kri330:
 
 
 kri331:
-  - title: Hari Kebangkitan
-  - author: [Gesangbuch der Herzog, Wittenberg]
-  - kri_number: 331
-  - lyrics: 
+  title: Hari Kebangkitan
+  author: [Gesangbuch der Herzog, Wittenberg]
+  kri_number: 331
+  lyrics: 
   - - "B'ritakanlah pada dunia kebangkitan Tuhan;"
     - "Paskah hari sukacita, Tuhan membebaskan."
     - "Yesus mati s'karang hidup, dan naik ke surga;"
@@ -13581,10 +13491,10 @@ kri331:
 
 
 kri332:
-  - title: Jesus, My Lord, My God, My All
-  - author: [Joseph Barnby]
-  - kri_number: 332
-  - lyrics: 
+  title: Jesus, My Lord, My God, My All
+  author: [Joseph Barnby]
+  kri_number: 332
+  lyrics: 
   - - "Jesus, my Lord, my God, my all"
     - "hear me, O Savior, when I call;"
     - "Hear me, and from Thy dwelling place"
@@ -13628,10 +13538,10 @@ kri332:
 
 
 kri333:
-  - title: Tell Out, My Soul
-  - author: [Timothy Dudley-Smith]
-  - kri_number: 333
-  - lyrics: 
+  title: Tell Out, My Soul
+  author: [Timothy Dudley-Smith]
+  kri_number: 333
+  lyrics: 
   - - "Tell out, my soul, the greatness of the Lord!"
     - "Unnumbered blessings give my spirit voice;"
     - "tender to me the promise of His word;"
