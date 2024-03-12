@@ -1,9 +1,7 @@
 # The issue:
 During Remaja sessions, while preparing slides, the AVs have to painstakingly go about searching for scores. This is both inefficient and time-consuming, as the time spent on searching for songs is quite long. In addition, the version of the songs would not be accurate sometimes, or have incomplete/ invalid lyrics. 
 # The solution:
-We have come up with an app that generates powerpoint slides with music included. This can help to solve problems such having incomplete lyrics, inaccuracy and saves a lot of time. 
-# pptx-generator
-Helps automatically generate slides
+We have come up with an app that generates powerpoint slides with music included. This can help to solve problems such having incomplete lyrics, inaccuracy and saves a lot of time.
 ## Zero-setup method
 You can use google collab to run an easy to use version of this script. 
 
