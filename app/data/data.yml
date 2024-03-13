@@ -7,6 +7,138 @@
   - - ""
     - ""
 
+'kri1':
+  title: "How Great Thou Art"
+  author: [Carl Rob]
+  verse_number: [1, "ref", 2, "ref", 3, "ref"]
+  kri_number: 1
+  lyrics: 
+  - - "O Lord my God, when I in awesome wonder"
+    - "Consider all the worlds Thy hands have made,"
+    - I see the stars, I hear the rolling thunder,"
+    - "Thy power throughout the universe displayed."
+  - - "Then sings my soul, my Saviour God to Thee"
+    - "How great Thou art! How great Thou art!"
+    - "Then sings my soul, my Saviour God to Thee"
+    - "How great Thou art! How great Thou art!"
+  - - And when I think of God, His Son not sparing
+    - Sent Him to die, I scarce can take it in,
+    - That on the cross my burden gladly bearing,
+    - He bled and died to take away my sin.
+  - - "Then sings my soul, my Saviour God to Thee"
+    - "How great Thou art! How great Thou art!"
+    - "Then sings my soul, my Saviour God to Thee"
+    - "How great Thou art! How great Thou art!"
+  - - "When Christ shall come with shouts of acclamation"
+    - "And lead me home, what joy shall fill my heart!"
+    - "Then I shall bow with humble adoration,"
+    - 'And then proclaim: "My God, how great Thou art!"'
+  - - "Then sings my soul, my Saviour God to Thee"
+    - "How great Thou art! How great Thou art!"
+    - "Then sings my soul, my Saviour God to Thee"
+    - "How great Thou art! How great Thou art!"
+
+'kri37':
+  title: "I Believe in a Hill called Mount Calvary"
+  author: [Dale Oldham, Gloria & William J. Gaither]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: 37
+  lyrics: 
+  - - "There are things as we travel this earth's shifting sands,"
+    - "that transcend all the reason of man;"
+    - "But the things that matter the most in this world"
+    - "they can never be held in our hand."
+  - - "I believe in a hill called Mount Calv'ry."
+    - "I believe whatever the cost;"
+    - "And when time has surrendered and earth is no more,"
+    - "I'll still cling to the old rugged cross."
+  - - "I believe that the Christ who was slain on that cross,"
+    - "has the power to change lives today;"
+    - "For He changed me completely, a new life is mine,"
+    - "that is why by the cross I will stay."
+  - - "I believe in a hill called Mount Calv'ry."
+    - "I believe whatever the cost;"
+    - "And when time has surrendered and earth is no more,"
+    - "I'll still cling to the old rugged cross."
+  - - "I believe that this life with its great mysteries,"
+    - "surely someday will come to an end;"
+    - "But faith will conquer the darkness and death,"
+    - "And will lead me at last to my Friend."
+  - - "I believe in a hill called Mount Calv'ry."
+    - "I believe whatever the cost;"
+    - "And when time has surrendered and earth is no more,"
+    - "I'll still cling to the old rugged cross."
+
+'kri39':
+  title: "Lead Me To Calvary"
+  author: ["Jennie Evelyn Hussey", "William J. Kirkpatrick"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: 39
+  lyrics: 
+  - - "King of my life, I crown Thee now,"
+    - "Thine shall the glory be;"
+    - "Lest I forget Thy thorn-crowned brow,"
+    - "Lead me to Calvary."
+  - - "Lest I forget Gethsemane,"
+    - "Lest I forget Thine agony;"
+    - "Lest I forget Thy love for me,"
+    - "Lead me to Calvary."
+  - - "Show me the tomb where Thou wast laid,"
+    - "Tenderly mourned and wept;"
+    - "Angels in robes of light arrayed"
+    - "Guarded Thee whilst Thou slept."
+  - - "Lest I forget Gethsemane,"
+    - "Lest I forget Thine agony;"
+    - "Lest I forget Thy love for me,"
+    - "Lead me to Calvary."
+  - - "Let me like Mary, through the gloom,"
+    - "Come with a gift to Thee;"
+    - "Show to me now the empty tomb,"
+    - "Lead me to Calvary."
+  - - "Lest I forget Gethsemane,"
+    - "Lest I forget Thine agony;"
+    - "Lest I forget Thy love for me,"
+    - "Lead me to Calvary."
+  - - "May I be willing, Lord, to bear"
+    - "Daily my cross for Thee;"
+    - "Even Thy cup of grief to share,"
+    - "Thou hast borne all for me."
+  - - "Lest I forget Gethsemane,"
+    - "Lest I forget Thine agony;"
+    - "Lest I forget Thy love for me,"
+    - "Lead me to Calvary."
+
+'kri67':
+  title: "Why Have You Chosen Me?"
+  author: [Rodger Strader]
+  verse_number: [1, "ref", 2, "ref", 3, "ref"]
+  kri_number: 67
+  lyrics: 
+  - - "Why have You chosen me out of millions Your child to be?"
+    - "You know all the wrong that I've done."
+    - "O how could you pardon me, forgive my iniquity,"
+    - "to save me give Jesus Your Son?"
+  - - "But Lord help me be what You want me to be."
+    - "Your word I will strive to obey."
+    - "My life I now give, for You I will live,"
+    - "and walk by Your side all the way."
+  - - "I am amazed to know that a God so great could love me so,"
+    - "He's willing and wanting to bless."
+    - "His grace is so wonderful, His mercy's so bountiful,"
+    - "I can't understand it I confess."
+  - - "But Lord help me be what You want me to be."
+    - "Your word I will strive to obey."
+    - "My life I now give, for You I will live,"
+    - "and walk by Your side all the way."
+  - - "In this world of darkness many lives are filled with emptiness,"
+    - "They too need to know of Your love."
+    - "O Lord help me point to them the truth, the life, the way,"
+    - "and bless each life I meet day to day."
+  - - "But Lord help me be what You want me to be."
+    - "Your word I will strive to obey."
+    - "My life I now give, for You I will live,"
+    - "and walk by Your side all the way."
+
 'kri68':
   title: "We're Marching To Zion"
   author: [Isaac Watts]
@@ -114,103 +246,63 @@
     - We're marching upward to Zion,
     - The beautiful city of God.
 
-'kri1':
-  title: "How Great Thou Art"
-  author: [Carl Rob]
-  verse_number: [1, "ref", 2, "ref", 3, "ref"]
-  kri_number: 1
+'kri71':
+  title: From Glory to Glory
+  author: ["2 Korintus 3:18"]
+  verse_number: [1, 1]
+  kri_number: 071
   lyrics: 
-  - - "O Lord my God, when I in awesome wonder"
-    - "Consider all the worlds Thy hands have made,"
-    - I see the stars, I hear the rolling thunder,"
-    - "Thy power throughout the universe displayed."
-  - - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
-    - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
-  - - And when I think of God, His Son not sparing
-    - Sent Him to die, I scarce can take it in,
-    - That on the cross my burden gladly bearing,
-    - He bled and died to take away my sin.
-  - - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
-    - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
-  - - "When Christ shall come with shouts of acclamation"
-    - "And lead me home, what joy shall fill my heart!"
-    - "Then I shall bow with humble adoration,"
-    - 'And then proclaim: "My God, how great Thou art!"'
-  - - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
-    - "Then sings my soul, my Saviour God to Thee"
-    - "How great Thou art! How great Thou art!"
+  - - "From glory to glory He's changing me,"
+    - "changing me, changing me."
+    - "His likeness and image to perfect in me;"
+    - "the love of God shown to the world."
+  - - "For He's changing, changing me"
+    - "from earthly things to the heavenly."
+    - "His likeness and image to perfect in me"
+    - "the love of God shown to the world."
 
-'kri39':
-  title: "Lead Me To Calvary"
-  author: ["Jennie Evelyn Hussey", "William J. Kirkpatrick"]
-  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
-  kri_number: 39
-  lyrics: 
-  - - "King of my life, I crown Thee now,"
-    - "Thine shall the glory be;"
-    - "Lest I forget Thy thorn-crowned brow,"
-    - "Lead me to Calvary."
-  - - "Lest I forget Gethsemane,"
-    - "Lest I forget Thine agony;"
-    - "Lest I forget Thy love for me,"
-    - "Lead me to Calvary."
-  - - "Show me the tomb where Thou wast laid,"
-    - "Tenderly mourned and wept;"
-    - "Angels in robes of light arrayed"
-    - "Guarded Thee whilst Thou slept."
-  - - "Lest I forget Gethsemane,"
-    - "Lest I forget Thine agony;"
-    - "Lest I forget Thy love for me,"
-    - "Lead me to Calvary."
-  - - "Let me like Mary, through the gloom,"
-    - "Come with a gift to Thee;"
-    - "Show to me now the empty tomb,"
-    - "Lead me to Calvary."
-  - - "Lest I forget Gethsemane,"
-    - "Lest I forget Thine agony;"
-    - "Lest I forget Thy love for me,"
-    - "Lead me to Calvary."
-  - - "May I be willing, Lord, to bear"
-    - "Daily my cross for Thee;"
-    - "Even Thy cup of grief to share,"
-    - "Thou hast borne all for me."
-  - - "Lest I forget Gethsemane,"
-    - "Lest I forget Thine agony;"
-    - "Lest I forget Thy love for me,"
-    - "Lead me to Calvary."
 
-'kri37':
-  title: "I Believe in a Hill called Mount Calvary"
-  author: [Dale Oldham, Gloria & William J. Gaither]
-  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
-  kri_number: 37
+
+'kri209':
+  title: "I Know Who Holds Tomorrow"
+  author: [Ira F. Stanphill]
+  verse_number: [1, 1, "ref", 2, 2, "ref", 3, 3, "ref"]
+  kri_number: 209
   lyrics: 
-  - - "There are things as we travel this earth's shifting sands,"
-    - "that transcend all the reason of man;"
-    - "But the things that matter the most in this world"
-    - "they can never be held in our hand."
-  - - "I believe in a hill called Mount Calv'ry."
-    - "I believe whatever the cost;"
-    - "And when time has surrendered and earth is no more,"
-    - "I'll still cling to the old rugged cross."
-  - - "I believe that the Christ who was slain on that cross,"
-    - "has the power to change lives today;"
-    - "For He changed me completely, a new life is mine,"
-    - "that is why by the cross I will stay."
-  - - "I believe in a hill called Mount Calv'ry."
-    - "I believe whatever the cost;"
-    - "And when time has surrendered and earth is no more,"
-    - "I'll still cling to the old rugged cross."
-  - - "I believe that this life with its great mysteries,"
-    - "surely someday will come to an end;"
-    - "But faith will conquer the darkness and death,"
-    - "And will lead me at last to my Friend."
-  - - "I believe in a hill called Mount Calv'ry."
-    - "I believe whatever the cost;"
-    - "And when time has surrendered and earth is no more,"
-    - "I'll still cling to the old rugged cross."
+  - - "I don't know about tomorrow;"
+    - "I just live from day to day,"
+    - "I don't borrow from it's sunshine,"
+    - "For it's skies may turn to grey,"
+  - - "I don't worry o'er the future,"
+    - "For I know what Jesus said,"
+    - "And today I'll walk beside Him,"
+    - "For He knows what is ahead."
+  - - "Many things about tomorrow,"
+    - "I don't seem to understand,"
+    - "But I know who holds tomorrow,"
+    - "And I know who holds my hand."
+  - - "Every step is getting brighter,"
+    - "as the golden stairs I climb;"
+    - "Every burden's getting lighter,"
+    - "every cloud is silver-lined,"
+  - - "There the sun is always shining,"
+    - "there no tear will dim the eye;"
+    - "At the ending of the rainbow,"
+    - "where the mountains touch the sky."
+  - - "Many things about tomorrow,"
+    - "I don't seem to understand,"
+    - "But I know who holds tomorrow,"
+    - "And I know who holds my hand."
+  - - "I don't know about tomorrow;"
+    - "It may bring me poverty,"
+    - "But the one who feeds the sparrow,"
+    - "is the one who stands by me,"
+  - - "And the path that be my portion,"
+    - "may be through the flame or flood;"
+    - "But His presence goes before me,"
+    - "And I'm covered with His blood."
+  - - "Many things about tomorrow,"
+    - "I don't seem to understand,"
+    - "But I know who holds tomorrow,"
+    - "And I know who holds my hand."
+

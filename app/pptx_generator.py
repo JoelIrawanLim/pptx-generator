@@ -88,7 +88,7 @@ def add_first_song_title_slide():
     title.text = song_1['title']
     number_text = slide.placeholders[10]
     author_text = slide.placeholders[11]
-    author_text.text = song_1['author']
+    author_text.text = author_find(song_1_id)
     number_text.text = "1"
 
 def add_second_song_title_slide():
@@ -100,7 +100,7 @@ def add_second_song_title_slide():
     title.text = song_2['title']
     number_text = slide.placeholders[10]
     author_text = slide.placeholders[11]
-    author_text.text = song_2['author']
+    author_text.text = author_find(song_2_id)
     number_text.text = "2"
 
 def add_third_song_title_slide():
@@ -112,7 +112,7 @@ def add_third_song_title_slide():
     title.text = song_3['title']
     number_text = slide.placeholders[10]
     author_text = slide.placeholders[11]
-    author_text.text = song_3['author']
+    author_text.text = author_find(song_3_id)
     number_text.text = "3"
     
 def add_first_song_lyrics_slide(verse_number):
@@ -125,7 +125,7 @@ def add_first_song_lyrics_slide(verse_number):
     author_text = slide.placeholders[11]
     number_text = slide.placeholders[13]
     lyrics_text = slide.placeholders[12].text_frame
-    author_text.text = song_1['author']
+    author_text.text = author_find(song_1_id)
     # print(verse_number)
     lyrics_text.text = song_1['lyrics'][verse_number][0]
     number_text.text = generate_verse_number(song_1['verse_number'][verse_number])
@@ -143,7 +143,7 @@ def add_second_song_lyrics_slide(verse_number):
     author_text = slide.placeholders[11]
     number_text = slide.placeholders[13]
     lyrics_text = slide.placeholders[12].text_frame
-    author_text.text = song_2['author']
+    author_text.text = author_find(song_2_id)
     number_text.text = generate_verse_number(song_2['verse_number'][verse_number])
     lyrics_text.text = song_2['lyrics'][verse_number][0]
     for i in range(1, len(song_2['lyrics'][verse_number])):
@@ -160,7 +160,7 @@ def add_third_song_lyrics_slide(verse_number):
     author_text = slide.placeholders[11]
     number_text = slide.placeholders[13]
     lyrics_text = slide.placeholders[12].text_frame
-    author_text.text = song_3['author']
+    author_text.text = author_find(song_3_id)
     number_text.text = generate_verse_number(song_3['verse_number'][verse_number])
     lyrics_text.text = song_3['lyrics'][verse_number][0]
     for i in range(1, len(song_3['lyrics'][verse_number])):
