@@ -3,7 +3,7 @@ During Remaja sessions, while preparing slides, the AVs have to painstakingly go
 # The solution:
 We have come up with an app that generates powerpoint slides with music included. This can help to solve problems such having incomplete lyrics, inaccuracy and saves a lot of time.
 
-If you are not good with terminals and just want a simple and easy setup, We recommend you to use the [[Zero-setup Method](https://github.com/JoelIrawanLim/pptx-generator?tab=readme-ov-file#zero-setup-method). 
+If you are not good with terminals and just want a simple and easy setup, We recommend you to use the [Zero-setup Method](https://github.com/JoelIrawanLim/pptx-generator?tab=readme-ov-file#zero-setup-method). 
 
 Otherwise, if you want to use it offline, the steps to install it on your computer can be found here [Install Guide](https://github.com/JoelIrawanLim/pptx-generator?tab=readme-ov-file#dependencies)
 
