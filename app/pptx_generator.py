@@ -298,7 +298,7 @@ def search():
         if sys.argv[2] == "-a":
             for key in data:
                 for i in range(0, len(data[key]['author'])):
-                    if sys.argv[1].lower().replace(" ", "") == data[key]['author'][i].lower().replace(" ", ""):
+                    if sys.argv[1].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","") == data[key]['author'][i].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".",""):
                         table.add_row(key, data[key]['title'], author_find(key))
                         # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                         found = 1
@@ -308,7 +308,7 @@ def search():
                 console.print(table)
         elif sys.argv[2] == "-t":
             for key in data:
-                if sys.argv[1].lower().replace(" ", "") == data[key]['title'].lower().replace(" ", ""):
+                if sys.argv[1].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","") == data[key]['title'].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".",""):
                     table.add_row(key, data[key]['title'], author_find(key))
                     # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                     found = 1
