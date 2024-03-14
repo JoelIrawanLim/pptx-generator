@@ -320,7 +320,7 @@ def search():
             if sys.argv[1].isdigit():
                 for key in data:
                     if int(sys.argv[1]) == data[key]['kri_number']:
-                        table.add_row(key, data[key]['title'], data[key]['author'])
+                        table.add_row(key, data[key]['title'], author_find(key))
                         # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                         found = 1
                 if found != 1: 
