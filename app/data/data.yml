@@ -38,6 +38,123 @@
     - "Then sings my soul, my Saviour God to Thee"
     - "How great Thou art! How great Thou art!"
 
+'kri3':
+  title: "Terpujilah Nama Yesus"
+  author: ["Edward Perronet", "James Ellor"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: 3
+  lyrics: 
+  - - "Terpujilah nama Yesus,"
+    - "sujud malaikat-Nya, malaikat-Nya semua,"
+    - "sembahkan mahkota mulia."
+  - - "B'ri hor...mat, hormat, hormat!"
+    - "B'rilah hormat kepada-Nya."
+  - - "S'gala bangsa di atas bumi"
+    - "sujud dan berbakti, berbakti pada-Nya,"
+    - "berlutut dan muliakan Dia."
+  - - "B'ri hor...mat, hormat, hormat!"
+    - "B'rilah hormat kepada-Nya."
+  - - "Hormat, mulia, kuasa, hikmat"
+    - "bagi domba Allah yang menebus kita."
+    - "Terpujilah Penebus kita."
+  - - "B'ri hor...mat, hormat, hormat!"
+    - "B'rilah hormat kepada-Nya."
+  - - "Bersama umat-Nya yang kudus,"
+    - "kita pun bersujud, bersujud pada-Nya."
+    - "Terpujilah Penebus kita."
+  - - "B'ri hor...mat, hormat, hormat!"
+    - "B'rilah hormat kepada-Nya."
+
+'kri4':
+  title: "Terpujilah Nama Yesus"
+  author: ["Edward Perronet", "James Ellor"]
+  verse_number: [1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+  kri_number: 4
+  lyrics: 
+  - - "Crown Him with many crowns, the Lamb upon His throne."
+    - "Hark! How the heavenly anthem drowns all music but its own."
+    - "Awake, my soul, and sing of Him who died for thee,"
+    - "And hail Him as Thy matchless King through all eternity."
+  - - "Crown Him the virgin's Son, the God incarnate born,"
+    - "Whose arm those crimson trophies won which now His brow adorn;"
+    - "Fruit of the mystic rose, as of that rose the stem;"
+    - "The root whence mercy ever flows, the Babe of Bethlehem."
+  - - "Crown Him the Son of God, before the worlds began,"
+    - "And ye who tread where He hath trod, crown Him the Son of Man;"
+    - "Who every grief hath known that wrings the human breast,"
+    - "And takes and bears them for His own, that all in Him may rest."
+  - - "Crown Him the Lord of life, who triumphed oe'r the grave,"
+    - "And rose victorious in the strife for those He came to save."
+    - "His glories now we sing, who died, and rose on high,"
+    - "Who died eternal life to bring, and lives that death may die."
+  - - "Crown Him the Lord of peace, whose power a scepter sways"
+    - "From pole to pole, that wars may cease, and all be prayer and praise."
+    - "His reign shall know no end, and round His pierced feet"
+    - "Fair flow'rs of paradise extend their fragrance ever sweet."
+  - - "Crown Him the Lord of love, behold His hands and side,"
+    - "Those wounds, yet visible above, in beauty glorified."
+    - "No angel in the sky can fully bear that sight,"
+    - "But downward bends his burning eye at mysteries so bright."
+  - - "Crown Him the Lord of Heav'n, enthroned in worlds above,"
+    - "Crown Him the King to Whom is given the wondrous name of Love."
+    - "Crown Him with many crowns, as thrones before Him fall;"
+    - "Crown Him, ye kings, with many crowns, for He is King of all."
+  - - "Crown Him the Lord of lords, who over all doth reign,"
+    - "Who once on earth, the incarnate Word, for ransomed sinners slain,"
+    - "Now lives in realms of light, where saints with angels sing"
+    - "Their songs before Him day and night, their God, Redeemer, King."
+  - - "Crown Him the Lord of years, the Potentate of time,"
+    - "Creator of the rolling spheres, ineffably sublime."
+    - "All hail, Redeemer, hail! For Thou has died for me;"
+    - "Thy praise and glory shall not fail throughout eternity."
+
+'kri13':
+  title: "Terpujilah Nama Yesus"
+  author: ["Scottish Psalter, 1650", "Samuel A. Ward"]
+  verse_number: [1, 2, 3, 4, 5]
+  kri_number: 13
+  lyrics: 
+  - - "God is our refuge and our strength,"
+    - "our ever present aid."
+    - "And therefore, though the earth be moved,"
+    - "we will not be afraid;"
+    - "though hills into the seas be cast,"
+    - "though foaming waters roar,"
+    - "though all the mighty billows shake"
+    - "the mountains on the shore."
+  - - "A river flows whose streams make glad"
+    - "the city of our God,"
+    - "the holy place wherein the Lord"
+    - "Most High has His abode."
+    - "Since God is in the midst of her,"
+    - "unmoved her walls shall stand;"
+    - "for God will hasten to her aid"
+    - "when trouble is at hand."
+  - - "The nations rage, the kingdoms move,"
+    - "but when His voice is heard,"
+    - "earth melts with trembling fear before"
+    - "the thunder of His word."
+    - "The Lord of hosts is on our side,"
+    - "our safety to secure;"
+    - "the God of Jacob is for us"
+    - "a refuge strong and sure."
+  - - "O come and see that wondrous works"
+    - "the hand of God has done."
+    - "Come, see what desolation great"
+    - "he brings beneath the sun."
+    - "In every corner of the earth"
+    - "he causes wars to cease;"
+    - "the weapon of the strong destroyed,"
+    - "He makes abiding peace."
+  - - "Be still and know that I am God,"
+    - "the Lord whom all must claim."
+    - "And every nation of the earth"
+    - "shall magnify my name."
+    - "The Lord of Hosts is on our side,"
+    - "our safety to secure;"
+    - "the God of Jacob is for us"
+    - "a refuge strong and sure."
+
 'kri37':
   title: "I Believe in a Hill called Mount Calvary"
   author: [Dale Oldham, Gloria & William J. Gaither]
@@ -248,7 +365,7 @@
 
 'kri71':
   title: From Glory to Glory
-  author: ["2 Korintus 3:18"]
+  author: ["Tom Parsons"]
   verse_number: [1, 1]
   kri_number: 071
   lyrics: 
