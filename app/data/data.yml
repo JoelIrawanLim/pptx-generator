@@ -190,7 +190,7 @@
     - "Ever in joyful song!"
 'kri13':
   title: "Terpujilah Nama Yesus"
-  author: ["Scottish Psalter, 1650", "Samuel A. Ward"]
+  author: ["Scottish Psalter", "Samuel A. Ward"]
   verse_number: [1, 2, 3, 4, 5]
   kri_number: 13
   lyrics: 
@@ -234,6 +234,48 @@
     - "our safety to secure;"
     - "the God of Jacob is for us"
     - "a refuge strong and sure."
+
+'kri19':
+  title: "Tuntun Aku, Tuhan Allah"
+  author: ["William Williams", "John Hughes"]
+  verse_number: [1, 2, 3]
+  kri_number: 19
+  lyrics: 
+  - - "Tuntun aku Tuhan Allah lewat gurun dunia."
+    - "Kau perkasa dan setia, bimbing aku yang lemah."
+    - "Roti surga, Roti surga, puaskanlah jiwaku,"
+    - "puaskanlah jiwaku."
+  - - "Buka sumber Air Hidup, penyembuhan jiwaku,"
+    - "dan berjalanlah di depan dengan tiang awan-Mu."
+    - "Jurus'lamat, Jurus'lamat, Kau Perisai hidupku,"
+    - "Kau Perisai hidupku!"
+  - - "Pada tepi Sungai Yordan, hapuskanlah takutku."
+    - "Ya, Penumpas kuasa maut, tuntun aku serta-Mu."
+    - "Pujianku, pujianku bagi-Mu selamanya,"
+    - "bagi-Mu selamanya."
+
+'kri35':
+  title: "O Mighty Cross"
+  author: ["David Baroni", "John Chisum"]
+  verse_number: [1, "ref", 2, "ref" , 3, "ref", 4, "ref"]
+  kri_number: 35
+  lyrics: 
+  - - "O mighty cross, love lifted high;"
+    - "The Lord of life raised there to die."
+  - - "His sacrifice on Calvary"
+    - "has made the mighty cross a tree of life to me."
+  - - "O mighty cross, what throne of grace;"
+    - "He knew no sin, yet took my place."
+  - - "His sacrifice on Calvary"
+    - "has made the mighty cross a tree of life to me."
+  - - "O mighty cross, O Christ so pure;"
+    - "Love held Him there, such shame endured."
+  - - "His sacrifice on Calvary"
+    - "has made the mighty cross a tree of life to me."
+  - - "O mighty cross, my soul's release;"
+    - "The stripes He bore have brought me peace."
+  - - "His sacrifice on Calvary"
+    - "has made the mighty cross a tree of life to me."
 
 'kri37':
   title: "I Believe in a Hill called Mount Calvary"
@@ -304,6 +346,50 @@
     - "Lest I forget Thine agony;"
     - "Lest I forget Thy love for me,"
     - "Lead me to Calvary."
+
+'kri57':
+  title: "Amazing Grace"
+  author: ["John Newton"]
+  verse_number: [1, 2, 3, 4, 5, 6, 7]
+  kri_number: 57
+  lyrics: 
+  - - "Amazing grace! How sweet the sound that saved a wretch like me!"
+    - "I once was lost, but now am found, was blind, but now I see."
+  - - "'Twas grace that taught my heart to fear, and grace my fears relieved;"
+    - "How precious did that grace appear, the hour I first believed."
+  - - "Through many dangers, toils and snares, I have already come;"
+    - "'Tis grace has brought me safe thus far, and grace will lead me home."
+  - - "The Lord has promised good to me, His word my hope secures;"
+    - "He will my Shield and Portion be, as long as life endures."
+  - - "Yea, when this flesh and heart shall fail, and mortal life shall cease;"
+    - "I shall possess, within the veil, a life of joy and peace."
+  - - "The earth shall soon dissolve like snow, the sun forbear to shine;"
+    - "But God, who called me here below, Shall be forever mine."
+  - - "When we've been there ten thousand years, bright shining as the sun,"
+    - "We've no less days to sing God's praise, than when we'd first begun."
+
+'kri58':
+  title: "Grace Alone"
+  author: ["Scott Wesley Brown", "Jeff Nelson"]
+  verse_number: [1, 2, 3, 4, 5, 6, 7]
+  kri_number: 58
+  lyrics: 
+  - - "Ev'ry promise we can make, ev'ry prayer and step of faith,"
+    - "Ev'ry difference we will make, is only by His grace."
+    - "Ev'ry mountain we will climb, ev'ry ray of hope we shine,"
+    - "Ev'ry blessing left behind, is only by His grace."
+  - - "Grace alone which God supplies,"
+    - "strength unknown He will provide."
+    - "Christ in us, our cornerstone,"
+    - "we will go forth in grace alone."
+  - - "Ev'ry soul we long to reach, ev'ry heart we hope to teach,"
+    - "Ev'rywhere we share His peace, is only by His grace."
+    - "Ev'ry loving word we say, ev'ry tear we wipe away,"
+    - "Ev'ry sorrow turned to praise, is only by His grace."
+  - - "Grace alone which God supplies,"
+    - "strength unknown He will provide."
+    - "Christ in us, our cornerstone,"
+    - "we will go forth in grace alone."
 
 'kri67':
   title: "Why Have You Chosen Me?"
@@ -447,7 +533,7 @@
   title: From Glory to Glory
   author: ["Tom Parsons"]
   verse_number: [1, 1]
-  kri_number: 071
+  kri_number: 71
   lyrics: 
   - - "From glory to glory He's changing me,"
     - "changing me, changing me."
@@ -457,8 +543,6 @@
     - "from earthly things to the heavenly."
     - "His likeness and image to perfect in me"
     - "the love of God shown to the world."
-
-
 
 'kri209':
   title: "I Know Who Holds Tomorrow"
