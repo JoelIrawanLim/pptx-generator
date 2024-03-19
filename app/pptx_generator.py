@@ -66,6 +66,10 @@ def generate_verse_number(verse_num):
     else: 
         return 0
 
+# Adds a black blank slide. 
+def add_black_slide():
+    prs.slides.add_slide(prs.slide_layouts[7])
+
 # Adds the first silde which says "Welcome to Remaja"
 def add_welcome_slide():
     slide = prs.slides.add_slide(prs.slide_layouts[0])
@@ -75,6 +79,7 @@ def add_welcome_slide():
     title.text = "Welcome to Remaja"
     date_text.text = get_next_weekday(datetime.today().strftime('%d %B %Y'), 5)
     church_name.text = "Reformed Evangelical Church Singapore"
+    add_black_slide()
 
 # Adds the title slide for the first song, with the proper template and color
 def add_first_song_title_slide():
@@ -115,6 +120,9 @@ def add_first_song_lyrics_slide(verse_number):
     number_text = slide.placeholders[13]
     lyrics_text = slide.placeholders[12].text_frame
     author_text.text = author_find(song_1_id)
+    if (verse_number+1 > len(song_1['lyrics'])):
+        console.print(f"[red bold] An error occured. If you are seeing this, send a bug report. The song is {song_1_id}")
+        return 0
     lyrics_text.text = song_1['lyrics'][verse_number][0]
     number_text.text = generate_verse_number(song_1['verse_number'][verse_number])
     for i in range(1, len(song_1['lyrics'][verse_number])):
@@ -131,6 +139,9 @@ def add_second_song_lyrics_slide(verse_number):
     lyrics_text = slide.placeholders[12].text_frame
     author_text.text = author_find(song_2_id)
     number_text.text = generate_verse_number(song_2['verse_number'][verse_number])
+    if (verse_number+1 > len(song_2['lyrics'])):
+        console.print(f"[red bold] An error occured. If you are seeing this, send a bug report. The song is {song_2_id}")
+        return 0
     lyrics_text.text = song_2['lyrics'][verse_number][0]
     for i in range(1, len(song_2['lyrics'][verse_number])):
         p = lyrics_text.add_paragraph()
@@ -146,14 +157,13 @@ def add_third_song_lyrics_slide(verse_number):
     lyrics_text = slide.placeholders[12].text_frame
     author_text.text = author_find(song_3_id)
     number_text.text = generate_verse_number(song_3['verse_number'][verse_number])
+    if (verse_number+1 > len(song_3['lyrics'])):
+        console.print(f"[red bold] An error occured. If you are seeing this, send a bug report. The song is {song_3_id}")
+        return 0
     lyrics_text.text = song_3['lyrics'][verse_number][0]
     for i in range(1, len(song_3['lyrics'][verse_number])):
         p = lyrics_text.add_paragraph()
         p.text = song_3['lyrics'][verse_number][i]    
-
-# Adds a black blank slide. 
-def add_black_slide():
-    prs.slides.add_slide(prs.slide_layouts[7])
 
 # Add multiple slides in the announcement time. 
 # Includes the slide which says announcements, 

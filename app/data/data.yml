@@ -279,7 +279,7 @@
 
 'kri37':
   title: "I Believe in a Hill called Mount Calvary"
-  author: [Dale Oldham, Gloria & William J. Gaither]
+  author: ["Dale Oldham", "Gloria & William J. Gaither"]
   verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
   kri_number: 37
   lyrics: 
@@ -353,25 +353,39 @@
   verse_number: [1, 2, 3, 4, 5, 6, 7]
   kri_number: 57
   lyrics: 
-  - - "Amazing grace! How sweet the sound that saved a wretch like me!"
-    - "I once was lost, but now am found, was blind, but now I see."
-  - - "'Twas grace that taught my heart to fear, and grace my fears relieved;"
-    - "How precious did that grace appear, the hour I first believed."
-  - - "Through many dangers, toils and snares, I have already come;"
-    - "'Tis grace has brought me safe thus far, and grace will lead me home."
-  - - "The Lord has promised good to me, His word my hope secures;"
-    - "He will my Shield and Portion be, as long as life endures."
-  - - "Yea, when this flesh and heart shall fail, and mortal life shall cease;"
-    - "I shall possess, within the veil, a life of joy and peace."
-  - - "The earth shall soon dissolve like snow, the sun forbear to shine;"
-    - "But God, who called me here below, Shall be forever mine."
-  - - "When we've been there ten thousand years, bright shining as the sun,"
-    - "We've no less days to sing God's praise, than when we'd first begun."
+  - - "Amazing grace! How sweet the sound"
+    - "that saved a wretch like me!"
+    - "I once was lost, but now am found,"
+    - "was blind, but now I see."
+  - - "'Twas grace that taught my heart to fear, "
+    - "and grace my fears relieved;"
+    - "How precious did that grace appear," 
+    - "the hour I first believed."
+  - - "Through many dangers, toils and snares,"
+    - "I have already come;"
+    - "'Tis grace has brought me safe thus far,"
+    - "and grace will lead me home."
+  - - "The Lord has promised good to me," 
+    - "His word my hope secures;"
+    - "He will my Shield and Portion be, "
+    - "as long as life endures."
+  - - "Yea, when this flesh and heart shall fail, "
+    - "and mortal life shall cease;"
+    - "I shall possess, within the veil, "
+    - "a life of joy and peace."
+  - - "The earth shall soon dissolve like snow," 
+    - "the sun forbear to shine;"
+    - "But God, who called me here below, "
+    - "Shall be forever mine."
+  - - "When we've been there ten thousand years,"
+    - "bright shining as the sun,"
+    - "We've no less days to sing God's praise, "
+    - "than when we'd first begun."
 
 'kri58':
   title: "Grace Alone"
   author: ["Scott Wesley Brown", "Jeff Nelson"]
-  verse_number: [1, 2, 3, 4, 5, 6, 7]
+  verse_number: [1, "ref", 2, "ref"]
   kri_number: 58
   lyrics: 
   - - "Ev'ry promise we can make, ev'ry prayer and step of faith,"
