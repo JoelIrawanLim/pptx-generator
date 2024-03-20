@@ -558,9 +558,76 @@
     - "His likeness and image to perfect in me"
     - "the love of God shown to the world."
 
+'kri82':
+  title: "O Love That Will Not Let Me Go"
+  author: ["George Matheson", "Albert L. Peace"]
+  verse_number: [1, 2, 3, 4]
+  kri_number: 82
+  lyrics: 
+  - - "O Love that will not let me go,"
+    - "I rest my weary soul in Thee."
+    - "I give Thee back the life I owe,"
+    - "that in Thine ocean depths its flow"
+    - "may richer, fuller be."
+  - - "O Light that follow'st all my way,"
+    - "I yield my flick'ring torch to Thee."
+    - "My heart restores its borrowed ray,"
+    - "that in Thy sunshine's blaze its day"
+    - "may brighter, fairer be."
+  - - "O Joy that seekest me thro' pain,"
+    - "I cannot close my heart to Thee."
+    - "I trace the rainbow thro' the rain,"
+    - "and feel the promise is not vain"
+    - "That morn shall tearless be."
+  - - "O Cross that liftest up my head,"
+    - "I dare not ask to fly from Thee."
+    - "I lay in dust life's glory dead,"
+    - "and from the ground there blossoms red"
+    - "Life that shall endless be."
+
+'kri88':
+  title: "Lord of the Universe"
+  author: ["E. Margaret Clarkson"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: 88
+  lyrics: 
+  - - "Lord of the universe, hope of the world,"
+    - "Lord of the limitless reaches of space,"
+    - "here on this planet you put on our flesh,"
+    - "vastness confined in the womb of a maid,"
+    - "born in our likeness you ransomed our race."
+  - - "Savior, we worship You, praise and adore."
+    - "help us to honor you more and yet more,"
+    - "help us to honor you more and yet more!"
+  - - "Lord of the universe, hope of the world,"
+    - "Lord of the infinite eons of time,"
+    - "You came among us, lived our brief years,"
+    - "tasted our griefs, our aloneness, our fears,"
+    - "conquered our death, made eternity ours."
+  - - "Savior, we worship You, praise and adore."
+    - "help us to honor you more and yet more,"
+    - "help us to honor you more and yet more!"
+  - - "Lord of the universe, hope of the world,"
+    - "send out your light to the ends of the earth."
+    - "May we who know you obey your command,"
+    - "go with the grace of your gospel to all,"
+    - "bringing salvation and freedom and joy."
+  - - "Savior, we worship You, praise and adore."
+    - "help us to honor you more and yet more,"
+    - "help us to honor you more and yet more!"
+  - - "Lord of the universe, hope of the world,"
+    - "how Your creation cries out for release,"
+    - "looks for you, longs for you, watches and waits,"
+    - "prays for your kingdom of justice and peace!"
+    - "Maker, Redeemer, triumphant One, come!"
+  - - "Savior, we worship You, praise and adore."
+    - "help us to honor you more and yet more,"
+    - "help us to honor you more and yet more!"
+
+
 'kri209':
   title: "I Know Who Holds Tomorrow"
-  author: [Ira F. Stanphill]
+  author: ["Ira F. Stanphill"]
   verse_number: [1, 1, "ref", 2, 2, "ref", 3, 3, "ref"]
   kri_number: 209
   lyrics: 
