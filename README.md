@@ -11,6 +11,7 @@ Otherwise, if you want to use it offline, the steps to install it on your comput
 You can use google collab to run an easy to use an already setup version of this script. 
 
 Video Tutorial: WIP
+
 Text Tuitorial: [Google Collab Tuitorial](https://github.com/JoelIrawanLim/pptx-generator/blob/main/collab.md#google-collab-tutorial)
 
 Go to: [collab link](https://colab.research.google.com/drive/1lYKa7aeWkkQcBxrcUAk-ytR3sFIZ-Xew?usp=sharing)
