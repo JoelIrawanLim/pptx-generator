@@ -21,4 +21,4 @@ You can now input you searches inside the ui and click the run button
 
 ## Installing it Locally
 You can also install this script locally so that you don't require an internet connection to use it. 
-Steps to do this can be found in: 
+Steps to do this can be found in: [Installing pptx-generator locally as a cli tool](https://github.com/JoelIrawanLim/pptx-generator/blob/main/local.md#installing-pptx-generator-locally-as-a-cli-tool)
