@@ -188,6 +188,45 @@
     - "Tell of His excellent greatness."
     - "Praise Him! Praise Him!"
     - "Ever in joyful song!"
+
+'kri8':
+  title: "To God be the Glory"
+  author: ["Fanny J. Crosby","William H. Doane"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref"]
+  kri_number: 8
+  lyrics: 
+  - - "To God be the glory, great things He hath done;"
+    - "So loved He the world that He gave us His Son,"
+    - "Who yielded His life our redemption to win,"
+    - "And opened the life-gate that all may go in."
+  - - "Praise the Lord! praise the Lord!"
+    - "Let the earth hear His voice!"
+    - "Praise the Lord! Praise the Lord!"
+    - "Let the people rejoice!"
+    - "O come to the Father, through Jesus the Son,"
+    - "And give Him the glory, great things He hath done."
+  - - "O perfect redemption, the purchase of blood,"
+    - "To every believer the promise of God;"
+    - "The vilest offender who truly believes,"
+    - "That moment from Jesus a pardon receives."
+  - - "Praise the Lord! praise the Lord!"
+    - "Let the earth hear His voice!"
+    - "Praise the Lord! Praise the Lord!"
+    - "Let the people rejoice!"
+    - "O come to the Father, through Jesus the Son,"
+    - "And give Him the glory, great things He hath done."
+  - - "Great things He hath taught us, great things He hath done,"
+    - "And great our rejoicing through Jesus the Son;"
+    - "But purer, and higher, and greater will be"
+    - "Our wonder, our transport, when Jesus we see."
+  - - "Praise the Lord! praise the Lord!"
+    - "Let the earth hear His voice!"
+    - "Praise the Lord! Praise the Lord!"
+    - "Let the people rejoice!"
+    - "O come to the Father, through Jesus the Son,"
+    - "And give Him the glory, great things He hath done."
+
+
 'kri13':
   title: "Terpujilah Nama Yesus"
   author: ["Scottish Psalter", "Samuel A. Ward"]
@@ -253,6 +292,38 @@
     - "Ya, Penumpas kuasa maut, tuntun aku serta-Mu."
     - "Pujianku, pujianku bagi-Mu selamanya,"
     - "bagi-Mu selamanya."
+
+'kri20':
+  title: "Be Strong In The Lord"
+  author: ["Linda Lee Johnson","Tom Fettke"]
+  verse_number: [1, "ref", 2, "ref" , 3, "ref"]
+  kri_number: 20
+  lyrics: 
+  - - "Be strong in the Lord, and be of good courage;"
+    - "Your mighty Defender is always the same."
+    - "Mount up with wings, as the eagle ascending;"
+    - "Vict'ry is sure when you call on His name."
+  - - "Be strong, be strong, be strong in the Lord;"
+    - "And be of good courage, for He is your guide."
+    - "Be strong, be strong, be strong in the Lord;"
+    - "And rejoice for the vict'ry is yours."
+  - - "So put on the armour the Lord has provided;"
+    - "And place your defense in His unfailing care."
+    - "Trust Him, for He will be with you in battle;"
+    - "Lighting your path to avoid every snare."
+  - - "Be strong, be strong, be strong in the Lord;"
+    - "And be of good courage, for He is your guide."
+    - "Be strong, be strong, be strong in the Lord;"
+    - "And rejoice for the vict'ry is yours."
+  - - "Be strong in the Lord, and be of good courage;"
+    - "Your mighty commander will vanquish the foe."
+    - "Fear not the battle, for the vict'ry is always His;"
+    - "He will protect you wherever you go."
+  - - "Be strong, be strong, be strong in the Lord;"
+    - "And be of good courage, for He is your guide."
+    - "Be strong, be strong, be strong in the Lord;"
+    - "And rejoice for the vict'ry is yours."
+
 
 'kri35':
   title: "O Mighty Cross"
@@ -583,6 +654,69 @@
     - "His likeness and image to perfect in me"
     - "the love of God shown to the world."
 
+'kri79':
+  title: "The Church's One Foundation"
+  author: ["Samuel J. Stone", "Samuel S. Wesley"]
+  verse_number: [1, 2, 3, 4, 5, 6, 7]
+  kri_number: 79
+  lyrics: 
+  - - "The Church's one foundation"
+    - "Is Jesus Christ her Lord,"
+    - "She is His new creation"
+    - "By water and the Word."
+    - "From heav'n He came and sought her,"
+    - "To be His holy bride;"
+    - "With His own blood He bought her"
+    - "And for her life He died."
+  - - "Elect from every nation,"
+    - "Yet one o'er all the earth;"
+    - "Her charter of salvation,"
+    - "One Lord, one faith, one birth;"
+    - "One holy Name she blesses,"
+    - "Partakes one holy food,"
+    - "And to one hope she presses,"
+    - "With every grace endued."
+  - - "The Church shall never perish!"
+    - "Her dear Lord to defend,"
+    - "To guide, sustain, and cherish,"
+    - "Is with her to the end."
+    - "Though there be those that hate her,"
+    - "And false sons in her pale,"
+    - "Against or foe or traitor"
+    - "She ever shall prevail."
+  - - "Though with a scornful wonder"
+    - "Men see her sore oppressed,"
+    - "By schisms rent asunder,"
+    - "By heresies distressed:"
+    - "Yet saints their watch are keeping,"
+    - "Their cry goes up, “How long?”"
+    - "And soon the night of weeping"
+    - "Shall be the morn of song!"
+  - - "Mid toil and tribulation,"
+    - "And tumult of her war,"
+    - "She waits the consummation"
+    - "Of peace forevermore;"
+    - "Till, with the vision glorious,"
+    - "Her longing eyes are blest,"
+    - "And the great Church victorious"
+    - "Shall be the Church at rest."
+  - - "Yet she on earth hath union"
+    - "With God the Three in One,"
+    - "And mystic sweet communion"
+    - "With those whose rest is won,"
+    - "With all her sons and daughters"
+    - "Who, by the Master's hand"
+    - "Led through the deathly waters,"
+    - "Repose in Eden land."
+  - - "O happy ones and holy!"
+    - "Lord, give us grace that we"
+    - "Like them, the meek and lowly,"
+    - "On high may dwell with Thee:"
+    - "There, past the border mountains,"
+    - "Where in sweet vales the Bride"
+    - "With Thee by living fountains"
+    - "Forever shall abide!"
+
 'kri82':
   title: "O Love That Will Not Let Me Go"
   author: ["George Matheson", "Albert L. Peace"]
@@ -648,6 +782,78 @@
   - - "Savior, we worship You, praise and adore."
     - "help us to honor you more and yet more,"
     - "help us to honor you more and yet more!"
+
+'kri90':
+  title: "Turn Your Eyes Upon Jesus"
+  author: ["Hellen H. Lemmel"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref"]
+  kri_number: 90
+  lyrics: 
+  - - "O soul, are you weary and troubled?"
+    - "No light in the darkness you see?"
+    - "There's light for a look at the Savior,"
+    - "And life more abundant and free!"
+  - - "Turn your eyes upon Jesus,"
+    - "look full in His wonderful face."
+    - "And the things of earth will grow strangely dim"
+    - "In the light of His glory and grace."
+  - - "Through death into life everlasting,"
+    - "He passed, and we follow Him there."
+    - "O'er us sin no more hath dominion"
+    - "for more than conqu'rors we are!"
+  - - "Turn your eyes upon Jesus,"
+    - "look full in His wonderful face."
+    - "And the things of earth will grow strangely dim"
+    - "In the light of His glory and grace."
+  - - "His word shall not fail you, He promised;"
+    - "Believe Him and all will be well."
+    - "Then go to a world that is dying,"
+    - "His perfect salvation to tell!"
+  - - "Turn your eyes upon Jesus,"
+    - "look full in His wonderful face."
+    - "And the things of earth will grow strangely dim"
+    - "In the light of His glory and grace."
+
+
+'kri101':
+  title: "Living For Jesus"
+  author: ["Thomas O. Chisholm","C. Harold Lowden"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: 101
+  lyrics: 
+    - - "Living for Jesus, a life that is true,"
+    - "striving to please Him in all that I do."
+    - "Yielding allegiance, glad-hearted and free,"
+    - "This is the pathway of blessing for me."
+  - - "O Jesus, Lord and Savior, I give myself to Thee,"
+    - "For Thou, in Thy atonement, didst give Thyself for me."
+    - "I own no other Master, my heart shall be Thy throne;"
+    - "My life I give, henceforth to live, O Christ, for Thee alone."
+  - - "Living for Jesus Who died in my place,"
+    - "bearing on Calv'ry my sin and disgrace."
+    - "Such love constrains me to answer His call,"
+    - "Follow His leading and give Him my all."
+  - - "O Jesus, Lord and Savior, I give myself to Thee,"
+    - "For Thou, in Thy atonement, didst give Thyself for me."
+    - "I own no other Master, my heart shall be Thy throne;"
+    - "My life I give, henceforth to live, O Christ, for Thee alone."
+  - - "Living for Jesus, wherever I am,"
+    - "doing each duty in His holy name,"
+    - "Willing to suffer affliction and loss,"
+    - "Deeming each trial a part of my cross."
+  - - "O Jesus, Lord and Savior, I give myself to Thee,"
+    - "For Thou, in Thy atonement, didst give Thyself for me."
+    - "I own no other Master, my heart shall be Thy throne;"
+    - "My life I give, henceforth to live, O Christ, for Thee alone."
+  - - "Living for Jesus through earth's little while,"
+    - "my dearest treasure, the light of His smile."
+    - "Seeking the lost ones He died to redeem,"
+    - "Bringing the weary to find rest in Him."
+  - - "O Jesus, Lord and Savior, I give myself to Thee,"
+    - "For Thou, in Thy atonement, didst give Thyself for me."
+    - "I own no other Master, my heart shall be Thy throne;"
+    - "My life I give, henceforth to live, O Christ, for Thee alone."
+
 
 'kri118':
   title: "Make Me A Blessing"
