@@ -19,6 +19,7 @@ setup(
         'console_scripts': [
             'pptx-generator=app.pptx_generator:main',  # Creates a command named 'my-app' that calls the main function in my_app/main.py
             'pptx-generator-search=app.pptx_generator:search',
+            'pptx-generator-debug=app.pptx_generator:debug',
         ],
     },
     python_requires='>=3.7',

@@ -80,9 +80,10 @@
     - "Terpujilah Penebus kita."
   - - "B'ri hor...mat, hormat, hormat!"
     - "B'rilah hormat kepada-Nya."
-'inkri4':
-  title: "Terpujilah Nama Yesus"
-  author: ["Edward Perronet", "James Ellor"]
+
+'kri4':
+  title: "Crown Him with many crowns"
+  author: ["G. Thring"," Matthew Bridges", "G. J. Elvey"]
   verse_number: [1, 2, 3, 4, 5, 6, 7, 8, 9 ]
   kri_number: 4
   lyrics: 
@@ -814,6 +815,205 @@
     - "And the things of earth will grow strangely dim"
     - "In the light of His glory and grace."
 
+'kri92':
+  title: "Have Thine Own Way, Lord"
+  author: ["Adelaide A. Pollard", "George C. Stebbins"]
+  verse_number: [1, 2, 3, 4]
+  kri_number: 92
+  lyrics: 
+  - - "Have Thine own way, Lord! Have Thine own way!"
+    - "Thou art the Potter, I am the clay."
+    - "Mold me and make me after Thy will,"
+    - "While I am waiting, yielded and still."
+  - - "Have Thine own way, Lord! Have Thine own way!"
+    - "Search me and try me, Master, today!"
+    - "Whiter than snow, Lord, wash me just now,"
+    - "As in Thy presence humbly I bow."
+  - - "Have Thine own way, Lord! Have Thine own way!"
+    - "Wounded and weary, help me, I pray!"
+    - "Power, all power, surely is Thine!"
+    - "Touch me and heal me, Savior divine."
+  - - "Have Thine own way, Lord! Have Thine own way!"
+    - "Hold o'er my being absolute sway!"
+    - "Fill with Thy Spirit till all shall see"
+    - "Christ only, always, living in me."
+
+'inkri92':
+  title: "Kehendak Tuhan Jadikanlah"
+  author: ["Adelaide A. Pollard", "George C. Stebbins"]
+  verse_number: [1, 2, 3]
+  kri_number: 92
+  lyrics: 
+  - - "Kehendak Tuhan jadikanlah,"
+    - "ku tanah liat, Kau Penjunan."
+    - "Bentuklah aku sesuka-Mu,"
+    - "aku menunggu di kaki-Mu."
+  - - "Kehendak Tuhan jadikanlah,"
+    - "tilik hatiku dan sucikan."
+    - "Di hadirat-Mu ku berserah,"
+    - "Yesus Tuhanku, o t'rimalah."
+  - - "Kehendak Tuhan jadikanlah,"
+    - "pegang hidupku agar tahan."
+    - "Penuhi aku dengan Roh-Mu,"
+    - "hiduplah Yesus di hatiku."
+
+'kri96':
+  title: "Open My Eyes That I May See"
+  author: ["Clara H. F. Scott"]
+  verse_number: [1, "ref", 2, "ref" , 3 ,"ref", 4, "ref"]
+  kri_number: 96
+  lyrics: 
+  - - "Open my eyes, that I may see"
+    - "glimpses of truth Thou hast for me."
+    - "Place in my hands the wonderful key"
+    - "That shall unclasp and set me free."
+  - - "Silently now I wait for Thee,"
+    - "ready my God, Thy will to see."
+    - "Open my eyes, illumine me,"
+    - "Spirit divine!"
+  - - "Open my ears, that I may hear"
+    - "Voices of truth Thou sendest clear;"
+    - "And while the wave notes fall on my ear,"
+    - "Everything false will disappear."
+  - - "Silently now I wait for Thee,"
+    - "ready my God, Thy will to see."
+    - "Open my eyes, illumine me,"
+    - "Spirit divine!"
+  - - "Open my mind, that I may read"
+    - "more of Thy love in word and deed."
+    - "What shall I fear while yet Thou dost lead?"
+    - "Only for light from Thee I plead."
+  - - "Silently now I wait for Thee,"
+    - "ready my God, Thy will to see."
+    - "Open my eyes, illumine me,"
+    - "Spirit divine!"
+  - - "Open my mouth, and let me bear"
+    - "gladly the warm truth everywhere."
+    - "Open my heart and let me prepare,"
+    - "Love with Thy children thus to share."
+  - - "Silently now I wait for Thee,"
+    - "ready my God, Thy will to see."
+    - "Open my eyes, illumine me,"
+    - "Spirit divine!"
+
+'kri97':
+  title: "Wonderful Words of Life"
+  author: ["Philip P. Bliss"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref"]
+  kri_number: 97
+  lyrics:
+  - - "Sing them over again to me,"
+    - "wonderful words of life."
+    - "Let me more of their beauty see,"
+    - "wonderful words of life."
+    - "Words of life and beauty, teach me faith and duty."
+  - - "Beautiful words, wonderful words,"
+    - "wonderful words of life."
+    - "Beautiful words, wonderful words,"
+    - "wonderful words of life."
+  - - "Christ, the blessed One, gives to all"
+    - "wonderful words of life."
+    - "Sinner, list to the loving call,"
+    - "wonderful words of life."
+    - "all so freely given, wooing us to heaven."
+  - - "Beautiful words, wonderful words,"
+    - "wonderful words of life."
+    - "Beautiful words, wonderful words,"
+    - "wonderful words of life."
+  - - "Sweetly echo the Gospel call,"
+    - "wonderful words of life;"
+    - "offer pardon and peace to all,"
+    - "wonderful words of life."
+    - "Jesus, only Savior, sanctify us forever."
+  - - "Beautiful words, wonderful words,"
+    - "wonderful words of life."
+    - "Beautiful words, wonderful words,"
+    - "wonderful words of life."
+
+'inkri97':
+  title: "Ajaiblah Firman Hidup"
+  author: ["Philip P. Bliss"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref"]
+  kri_number: 97
+  lyrics:
+  - - "Nyanyikan lagu pujian tentang firman hidup."
+    - "Nyatakanlah keindahan dari firman hidup."
+    - "Firman hidup dan indah, kuatkanlah imanku."
+  - - "Firman indah, firman ajaib, firman memb'ri hidup."
+    - "Firman indah, Firman ajaib, Firman memb'ri hidup."
+  - - "Kristus yang t'lah diurapi memb'ri firman hidup."
+    - "Orang berdosa dengarlah suara Firman Hidup,"
+    - "yang memb'ri kelepasan dan membawa ke surga."
+  - - "Firman indah, firman ajaib, firman memb'ri hidup."
+    - "Firman indah, Firman ajaib, Firman memb'ri hidup."
+  - - "Bergema panggilan Injil tentang Firman Hidup,"
+    - "memberikan pengampunan serta kedamaian."
+    - "Hanya Yesus Jurus'lamat, menguduskan selamanya."
+  - - "Firman indah, firman ajaib, firman memb'ri hidup."
+    - "Firman indah, Firman ajaib, Firman memb'ri hidup."
+
+'kri99':
+  title: "Fill My Cup, Lord"
+  author: ["Richard Blanchard"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref"]
+  kri_number: 99
+  lyrics:
+  - - "Like the woman at the well, I was seeking"
+    - "for things that could not satisfy."
+    - "And then I heard my Savior speaking,"
+    - '"Draw from my well that never shall run dry."'
+  - - "Fill my cup, Lord; I lift it up, Lord."
+    - "Come and quench this thirsting of my soul."
+    - "Bread of heaven, feed me till I want no more."
+    - "Fill my cup, fill it up and make me whole."
+  - - "There are millions in this world who are seeking"
+    - "for pleasures earthly goods afford."
+    - "But none can match the wondrous treasure"
+    - "that I find in Jesus Christ, my Lord."
+  - - "Fill my cup, Lord; I lift it up, Lord."
+    - "Come and quench this thirsting of my soul."
+    - "Bread of heaven, feed me till I want no more."
+    - "Fill my cup, fill it up and make me whole."
+  - - "So my brother, if the things that this world gives you,"
+    - "leave hungers that won't pass away,"
+    - "My blessed Lord will come and save you,"
+    - "If you kneel to him and humbly pray."
+  - - "Fill my cup, Lord; I lift it up, Lord."
+    - "Come and quench this thirsting of my soul."
+    - "Bread of heaven, feed me till I want no more."
+    - "Fill my cup, fill it up and make me whole."
+
+'inkri99':
+  title: "Penuhi Cawanku"
+  author: ["Richard Blanchard"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref"]
+  kri_number: 99
+  lyrics:
+  - - "S'perti p'rempuan Samaria ku mencari"
+    - "hal yang tak puaskan hati."
+    - "Ku mendengar Yesus berkata,"
+    - '"Minum air hidup kau tak dahaga."'
+  - - "P'nuhi cawanku ini, Tuhan,"
+    - "Puaskan dahaga jiwaku!"
+    - "Roti surga kenyangkanlah hatiku!"
+    - "Inilah cawanku, p'nuhi, Tuhan."
+  - - "Tak terbilang orang yang merindukan"
+    - "nikmatnya dunia yang fana,"
+    - "tetapi tiada harta indah"
+    - "setara Yesus Kristus Tuhanku."
+  - - "P'nuhi cawanku ini, Tuhan,"
+    - "Puaskan dahaga jiwaku!"
+    - "Roti surga kenyangkanlah hatiku!"
+    - "Inilah cawanku, p'nuhi, Tuhan."
+  - - "Hai Saudara, bila jiwamu haus,"
+    - "jangan kau kejar yang fana."
+    - "Kau pasti dis'lamatkan Tuhan"
+    - "bila engkau berdoa pada-Nya."
+  - - "P'nuhi cawanku ini, Tuhan,"
+    - "Puaskan dahaga jiwaku!"
+    - "Roti surga kenyangkanlah hatiku!"
+    - "Inilah cawanku, p'nuhi, Tuhan."
+
 
 'kri101':
   title: "Living For Jesus"
@@ -821,7 +1021,7 @@
   verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
   kri_number: 101
   lyrics: 
-    - - "Living for Jesus, a life that is true,"
+  - - "Living for Jesus, a life that is true,"
     - "striving to please Him in all that I do."
     - "Yielding allegiance, glad-hearted and free,"
     - "This is the pathway of blessing for me."

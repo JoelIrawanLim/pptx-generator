@@ -351,3 +351,32 @@ def search():
 if __name__ == "__main__":
     # pptx_generator().run()
     main()
+
+# Debug Function which generates a pptx of all the songs in all slide forms
+def debug():
+    global song_1
+    global song_2 
+    global song_3
+    global output_presentation
+    global song_1_id
+    global song_2_id
+    global song_3_id
+    initialize()
+    # song_1_id = sys.argv[1]
+    # song_2_id = sys.argv[2]
+    # song_3_id = sys.argv[3]
+    add_welcome_slide()
+    for number in data:
+        if number != "empty":
+            song_1_id = number
+            song_2_id = number 
+            song_3_id = number
+            song_1 = data[number]
+            song_2 = data[number]
+            song_3 = data[number]
+            generate_first_song()
+            generate_second_song()
+            generate_third_song() 
+    add_announcements() 
+    prs.save(output_presentation)
+    console.print(f"[green]Done! Saved [/]{output_presentation}")
