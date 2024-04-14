@@ -329,24 +329,24 @@
 'kri35':
   title: "O Mighty Cross"
   author: ["David Baroni", "John Chisum"]
-  verse_number: [1, "ref", 2, "ref" , 3, "ref", 4, "ref"]
+  verse_number: [1, 2, 3, 4]
   kri_number: 35
   lyrics: 
   - - "O mighty cross, love lifted high;"
     - "The Lord of life raised there to die."
-  - - "His sacrifice on Calvary"
+    - "His sacrifice on Calvary"
     - "has made the mighty cross a tree of life to me."
   - - "O mighty cross, what throne of grace;"
     - "He knew no sin, yet took my place."
-  - - "His sacrifice on Calvary"
+    - "His sacrifice on Calvary"
     - "has made the mighty cross a tree of life to me."
   - - "O mighty cross, O Christ so pure;"
     - "Love held Him there, such shame endured."
-  - - "His sacrifice on Calvary"
+    - "His sacrifice on Calvary"
     - "has made the mighty cross a tree of life to me."
   - - "O mighty cross, my soul's release;"
     - "The stripes He bore have brought me peace."
-  - - "His sacrifice on Calvary"
+    - "His sacrifice on Calvary"
     - "has made the mighty cross a tree of life to me."
 
 'kri37':
@@ -1054,6 +1054,86 @@
     - "I own no other Master, my heart shall be Thy throne;"
     - "My life I give, henceforth to live, O Christ, for Thee alone."
 
+'kri102':
+  title: "Take My Life and Let It Be"
+  author: ["Frances R. Havergal","Henri A. Cesar Malan"]
+  verse_number: [1, 2, 3, 4, 5]
+  kri_number: 102
+  lyrics: 
+  - - "Take my life and let it be"
+    - "consecrated, Lord, to Thee."
+    - "Take my moments and my days;"
+    - "let them flow in endless praise,"
+    - "let them flow in endless praise."
+  - - "Take my hands and let them move"
+    - "at the impulse of Thy love."
+    - "Take my feet and let them be"
+    - "swift and beautiful for Thee,"
+    - "swift and beautiful for Thee."
+  - - "Take my voice and let me sing,"
+    - "always, only, for my King."
+    - "Take my lips and let them be"
+    - "filled with messages from Thee,"
+    - "filled with messages from Thee."
+  - - "Take my silver and my gold;"
+    - "not a mite would I withhold."
+    - "Take my intellect and use"
+    - "every power as Thou shalt choose,"
+    - "every power as Thou shalt choose."
+  - - "Take my will and make it Thine;"
+    - "it shall be no longer mine."
+    - "Take my heart, it is Thine own;"
+    - "it shall be Thy royal throne,"
+    - "it shall be Thy royal throne."
+
+'inkri102':
+  title: "Pakai Hidupku Ini"
+  author: ["Frances R. Havergal","Henri A. Cesar Malan"]
+  verse_number: [1, 2, 3, 4]
+  kri_number: 102
+  lyrics: 
+  - - "Pakai hidupku ini,"
+    - "s'luruh roh dan jiwaku."
+    - "Pakai tanganku ini,"
+    - "hatiku digerakkan,"
+    - "digerakkan kasih-Mu."
+  - - "Pakai kakiku ini,"
+    - "tiap langkah ikut-Mu."
+    - "Pakai suaraku ini,"
+    - "selamanya memuji,"
+    - "memuji Kristus Tuhan."
+  - - "Pakai mulutku ini,"
+    - "memb'ritakan Injil-Mu."
+    - "Pakai hartaku ini,"
+    - "seluruhnya bagi-Mu,"
+    - "bagi-Mu kurelalah."
+  - - "Pakai kasihku ini,"
+    - "kusembahkan pada-Mu."
+    - "Pakai diriku ini,"
+    - "selamanya bagi-Mu,"
+    - "bagi-Mu kusembahkan."
+
+'kri103':
+  title: "Let The Beauty of Jesus be Seen in Me"
+  author: ["Albert W. T. Orsborn", "Tom Jones"]
+  verse_number: [1]
+  kri_number: 103
+  lyrics: 
+  - - "Let the beauty of Jesus be seen in me;"
+    - "All His wonderful passion and purity."
+    - "O Thou Spirit Divine, all my nature refine,"
+    - "Till the beauty of Jesus be seen in me."
+
+'inkri103':
+  title: "Memancarkan Keindahan-Mu"
+  author: ["Albert W. T. Orsborn", "Tom Jones"]
+  verse_number: [1]
+  kri_number: 103
+  lyrics: 
+  - - "Tuhan, ku ingin dapat memancarkan"
+    - "Kasih-Mu indah penuh kemurnian."
+    - "Budi bahasaku dihaluskan Roh-Mu,"
+    - "Hingga memancarkan keindahan-Mu."
 
 'kri118':
   title: "Make Me A Blessing"
