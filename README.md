@@ -1,3 +1,6 @@
+# The Google Collab Link: [collab link](https://colab.research.google.com/drive/1lYKa7aeWkkQcBxrcUAk-ytR3sFIZ-Xew?usp=sharing) 
+(You should read the tuitorial if you never used it before: [Google Collab Tuitorial](https://github.com/JoelIrawanLim/pptx-generator/blob/main/collab.md#google-collab-tutorial))
+
 # The issue:
 During Remaja sessions, while preparing slides, the AVs have to painstakingly go about searching for scores. This is both inefficient and time-consuming, as the time spent on searching for songs is quite long. In addition, the version of the songs would not be accurate sometimes, or have incomplete/ invalid lyrics. 
 # The solution:
