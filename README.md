@@ -8,7 +8,7 @@ We have come up with an app that generates powerpoint slides with music included
 
 If you are not good with terminals and just want a simple and easy setup, We recommend you to use the [Zero-setup Method](https://github.com/JoelIrawanLim/pptx-generator?tab=readme-ov-file#zero-setup-method). 
 
-Otherwise, if you want to use it offline, the steps to install it on your computer can be found here [Install Guide](https://github.com/JoelIrawanLim/pptx-generator?tab=readme-ov-file#dependencies)
+Otherwise, if you want to use it offline, the steps to install it on your computer can be found here [Install Guide](https://github.com/JoelIrawanLim/pptx-generator?tab=readme-ov-file#installing-it-locally)
 
 ## Zero-setup method
 You can use google collab to run an easy to use an already setup version of this script. 
