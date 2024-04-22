@@ -15,7 +15,7 @@ You can use google collab to run an easy to use an already setup version of this
 
 Video Tutorial: WIP
 
-Text Tuitorial: [Google Collab Tuitorial](https://github.com/JoelIrawanLim/pptx-generator/blob/main/collab.md#google-collab-tutorial)
+Text Tuitorial: [Google Collab Tuitorial](https://github.com/JoelIrawanLim/pptx-generator/wiki/Google-Collab-Tutorial)
 
 Go to: [collab link](https://colab.research.google.com/drive/1lYKa7aeWkkQcBxrcUAk-ytR3sFIZ-Xew?usp=sharing)
 
