@@ -309,12 +309,23 @@ def search():
     if len(sys.argv) == 3: 
         found = 0
         if sys.argv[2] == "-a":
+            addresses = []
             for key in data:
                 for i in range(0, len(data[key]['author'])):
-                    if sys.argv[1].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","") == data[key]['author'][i].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".",""):
-                        table.add_row(key, data[key]['title'], author_find(key))
-                        # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
-                        found = 1
+                    for p in range(0, len(data[key]['author'][i].split(" "))):
+                        for w in range(0, len(sys.argv[1].split(" "))):
+                            if sys.argv[1].split(" ")[w].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","") == data[key]['author'][i].split(" ")[p].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".",""):
+                                already_done = False
+                                for done_addresses in range(0, len(addresses)):
+                                    if addresses[done_addresses] == key: 
+                                        already_done = True
+                                if already_done == False:
+                                    table.add_row(key, data[key]['title'], author_find(key))
+                                     # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
+                                    found = 1
+                                    addresses.append(key)
+                                    
+
             if found != 1: 
                 console.print(f"There is no author named [red underline bold]{sys.argv[1]}[/] in our song list.")
             else:
@@ -332,7 +343,6 @@ def search():
         elif sys.argv[2] == "-k":
             if sys.argv[1].isdigit():
                 for key in data:
-                    print(data[key]['kri_number'])
                     if int(sys.argv[1]) == data[key]['kri_number']:
                         table.add_row(key, data[key]['title'], author_find(key))
                         # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
