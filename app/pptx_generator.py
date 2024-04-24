@@ -332,6 +332,7 @@ def search():
         elif sys.argv[2] == "-k":
             if sys.argv[1].isdigit():
                 for key in data:
+                    print(data[key]['kri_number'])
                     if int(sys.argv[1]) == data[key]['kri_number']:
                         table.add_row(key, data[key]['title'], author_find(key))
                         # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
