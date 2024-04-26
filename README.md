@@ -8,21 +8,21 @@ We have come up with an app that generates powerpoint slides with music included
 
 If you are not good with terminals and just want a simple and easy setup, We recommend you to use the [Zero-setup Method](https://github.com/JoelIrawanLim/pptx-generator?tab=readme-ov-file#zero-setup-method). 
 
-Otherwise, if you want to use it offline, the steps to install it on your computer can be found here [Install Guide](https://github.com/JoelIrawanLim/pptx-generator?tab=readme-ov-file#installing-it-locally)
+Otherwise, if you want to use it offline, the steps to install it on your computer can be found here. [Install Guide](https://github.com/JoelIrawanLim/pptx-generator?tab=readme-ov-file#installing-it-locally)
 
 ## Zero-setup method
 You can use google collab to run an easy to use an already setup version of this script. 
 
-Video Tutorial: WIP
+Video Tutorial: (WIP)
 
-Text Tuitorial: [Google Collab Tuitorial](https://github.com/JoelIrawanLim/pptx-generator/wiki/Google-Collab-Tutorial)
+Text Tutorial: [Google Collab Tuitorial](https://github.com/JoelIrawanLim/pptx-generator/wiki/Google-Collab-Tutorial)
 
 Go to: [collab link](https://colab.research.google.com/drive/1lYKa7aeWkkQcBxrcUAk-ytR3sFIZ-Xew?usp=sharing)
 
 Click on the one in brackets ([1]). It will become a run button. Do this everytime you open the link. 
-Google will tell you that it is not authored by Google, click run anyway. 
+Google will tell you that it is not authorised by Google. However, the script has been tested and is safe. Click "Run anyway" to continue. 
 
-You can now input you searches inside the ui and click the run button
+You can now input your searches inside the UI and click the run button.
 
 ## Installing it Locally
 You can also install this script locally so that you don't require an internet connection to use it. 
