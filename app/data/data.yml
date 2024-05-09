@@ -1198,6 +1198,46 @@
     - "Be still for the power of the Lord"
     - "Is moving in this place."
 
+'kri159':
+  title: "'Tis So Sweet To Trust In Jesus"
+  author: ["Louisa M. R. Stead", "William J. Kirkpatrick"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: 159
+  lyrics: 
+  - - "'Tis so sweet to trust in Jesus,"
+    - "And to take Him at His Word;"
+    - "Just to rest upon His promise,"
+    - "And to know, “Thus says the Lord!”"
+  - - "Jesus, Jesus, how I trust Him!"
+    - "How I've proved Him o'er and o'er"
+    - "Jesus, Jesus, precious Jesus!"
+    - "O for grace to trust Him more!"
+  - - "O how sweet to trust in Jesus,"
+    - "Just to trust His cleansing blood;"
+    - "And in simple faith to plunge me"
+    - "'Neath the healing, cleansing flood!"
+  - - "Jesus, Jesus, how I trust Him!"
+    - "How I've proved Him o'er and o'er"
+    - "Jesus, Jesus, precious Jesus!"
+    - "O for grace to trust Him more!"
+  - - "Yes, 'tis sweet to trust in Jesus,"
+    - "Just from sin and self to cease;"
+    - "Just from Jesus simply taking"
+    - "Life and rest, and joy and peace."
+  - - "Jesus, Jesus, how I trust Him!"
+    - "How I've proved Him o'er and o'er"
+    - "Jesus, Jesus, precious Jesus!"
+    - "O for grace to trust Him more!"
+  - - "I'm so glad I learned to trust Thee,"
+    - "Precious Jesus, Savior, Friend;"
+    - "And I know that Thou art with me,"
+    - "Wilt be with me to the end."
+  - - "Jesus, Jesus, how I trust Him!"
+    - "How I've proved Him o'er and o'er"
+    - "Jesus, Jesus, precious Jesus!"
+    - "O for grace to trust Him more!"
+
+
 'kri209':
   title: "I Know Who Holds Tomorrow"
   author: ["Ira F. Stanphill"]
@@ -1279,3 +1319,69 @@
     - "Count your blessings, see what God hath done!"
     - "Count your blessings, name them one by one,"
     - "And it will surprise you what the Lord hath done."
+
+'kpri46':
+  title: "The Old Rugged Cross"
+  author: ["George Bennard"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: none
+  lyrics: 
+  - - "On a hill far away stood an old rugged cross,"
+    - "The emblem of suff'ring and shame;"
+    - "And I love that old cross where the dearest and best"
+    - "For a world of lost sinners was slain."
+  - - "So I'll cherish the old rugged cross,"
+    - "Till my trophies at last I lay down;"
+    - "I will cling to the old rugged cross,"
+    - "And exchange it some day for a crown."
+  - - "O that old rugged cross, so despised by the world,"
+    - "Has a wondrous attraction for me;"
+    - "For the dear Lamb of God left His glory above"
+    - "To bear it to dark Calvary."
+  - - "So I'll cherish the old rugged cross,"
+    - "Till my trophies at last I lay down;"
+    - "I will cling to the old rugged cross,"
+    - "And exchange it some day for a crown."
+  - - "In that old rugged cross, stained with blood so divine,"
+    - "A wondrous beauty I see,"
+    - "For 'twas on that old cross Jesus suffered and died,"
+    - "To pardon and sanctify me."
+  - - "So I'll cherish the old rugged cross,"
+    - "Till my trophies at last I lay down;"
+    - "I will cling to the old rugged cross,"
+    - "And exchange it some day for a crown."
+  - - "To the old rugged cross I will ever be true;"
+    - "Its shame and reproach gladly bear;"
+    - "Then He'll call me some day to my home far away,"
+    - "Where His glory forever I'll share."
+  - - "So I'll cherish the old rugged cross,"
+    - "Till my trophies at last I lay down;"
+    - "I will cling to the old rugged cross,"
+    - "And exchange it some day for a crown."
+  - - "So I'll cherish the old rugged cross,"
+    - "Till my trophies at last I lay down;"
+    - "I will cling to the old rugged cross,"
+    - "And exchange it some day for a crown."
+
+'inkpri46':
+  title: "Di Bukit Golgota"
+  author: ["George Bennard"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: none
+  lyrics: 
+  - - "Di bukit Golgota nampaklah salib Hu, matahari bersuramlah."
+    - "Yesus Anak Allah meninggalkan surga, mati bagiku yang berdosa."
+  - - "Maka ku tinggikan salib-Nya, sampai bertemu dengan Bapa,"
+    - "dengar kata-Nya, “Hamba setia, salib Kuganti dengan mahkota.”"
+  - - "Meski manusia menghina salib-Nya, namun bagiku lambang mulia."
+    - "Hatiku sungguh k'ras makin tak terg'raklah hanya kasih-Nya menghancurkan."
+  - - "Maka ku tinggikan salib-Nya, sampai bertemu dengan Bapa,"
+    - "dengar kata-Nya, “Hamba setia, salib Kuganti dengan mahkota.”"
+  - - "Salib di Golgota sudah tidak ada, namun jasanya tetap ada."
+    - "S'lamatkan manusia hapuskan dosa, hatiku pun boleh sucilah."
+  - - "Maka ku tinggikan salib-Nya, sampai bertemu dengan Bapa,"
+    - "dengar kata-Nya, “Hamba setia, salib Kuganti dengan mahkota.”"
+  - - "Maka ku tinggikan salib-Nya, sampai bertemu dengan Bapa,"
+    - "dengar kata-Nya, “Hamba setia, salib Kuganti dengan mahkota.”"
+  - - "Maka ku tinggikan salib-Nya, sampai bertemu dengan Bapa,"
+    - "dengar kata-Nya, “Hamba setia, salib Kuganti dengan mahkota.”"

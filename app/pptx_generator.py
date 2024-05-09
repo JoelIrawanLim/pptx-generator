@@ -311,10 +311,10 @@ def search():
         if sys.argv[2] == "-a":
             addresses = []
             for key in data:
-                for i in range(0, len(data[key]['author'])):
-                    for p in range(0, len(data[key]['author'][i].split(" "))):
-                        for w in range(0, len(sys.argv[1].split(" "))):
-                            if sys.argv[1].split(" ")[w].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","") == data[key]['author'][i].split(" ")[p].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".",""):
+                for index_of_all_authors in range(0, len(data[key]['author'])):
+                    for index_of_all_words_of_authors in range(0, len(data[key]['author'][index_of_all_authors].split(" "))):
+                        for index_of_all_userinput_words in range(0, len(sys.argv[1].split(" "))):
+                            if sys.argv[1].split(" ")[index_of_all_userinput_words].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","") == data[key]['author'][index_of_all_authors].split(" ")[index_of_all_words_of_authors].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".",""):
                                 already_done = False
                                 for done_addresses in range(0, len(addresses)):
                                     if addresses[done_addresses] == key: 
@@ -332,7 +332,7 @@ def search():
                 console.print(table)
         elif sys.argv[2] == "-t":
             for key in data:
-                if sys.argv[1].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","").replace(",","").replace(";","").replace(":","") == data[key]['title'].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","").replace(",","").replace(";","").replace(":",""):
+                if sys.argv[1].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","").replace(",","").replace(";","").replace(":","").replace("'","") == data[key]['title'].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","").replace(",","").replace(";","").replace(":","").replace("'",""):
                     table.add_row(key, data[key]['title'], author_find(key))
                     # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                     found = 1
