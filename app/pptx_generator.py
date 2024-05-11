@@ -206,19 +206,19 @@ def generate_third_song():
 # If it is only a k, it removes any 0 behind kri and removes it. And replaces k with kri. 
 def text_formater(text):
     text = text.lower().replace("_", "").replace("-", "")
-    if text[0] == "k":
-        if text[1] == "r" and text[2] == "i":
-            text_temporary = text.replace("kri", "")
-            while text_temporary[0] == "0": 
-                text_temporary = text_temporary[1:]
-            return "kri" + text_temporary
-        else:
-            text_temporary = text.replace("k", "")
-            while text_temporary[0] == "0": 
-                text_temporary = text_temporary[1:]
-            return "kri" + text_temporary
-    else:
-        return text
+  #  if text[0] == "k":
+  #      if text[1] == "r" and text[2] == "i":
+   #         text_temporary = text.replace("kri", "")
+    #        while text_temporary[0] == "0": 
+ #               text_temporary = text_temporary[1:]
+#            return "kri" + text_temporary
+#        else:
+  #          text_temporary = text.replace("k", "")
+  #          while text_temporary[0] == "0": 
+   #             text_temporary = text_temporary[1:]
+   #         return "kri" + text_temporary
+  #  else:
+    return text
 
 # Checks if the song id is a valid song id inside the song-list
 def song_id():
