@@ -205,7 +205,7 @@ def generate_third_song():
 # Checks if the first 3 letters are "kri", and if so, removes any 0 directly behind the kri text (K0000010 becones K10)
 # If it is only a k, it removes any 0 behind kri and removes it. And replaces k with kri. 
 def text_formater(text):
-    text = text.lower().replace("_", "").
+    text = text.lower().replace("_", "")
     return text
 
 # Checks if the song id is a valid song id inside the song-list
