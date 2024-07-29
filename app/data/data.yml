@@ -277,6 +277,35 @@
     - "a refuge strong and sure."
 
 'kri19':
+  title: "Guide me, O Thou great Jehovah"
+  author: ["William Williams", "John Hughes"]
+  verse_number: [1, 1, 2, 2, 3, 3]
+  kri_number: 19
+  lyrics: 
+  - - "Guide me, O my great Redeemer,"
+    - "pilgrim through this barren land;"
+    - "I am weak, but you are mighty;"
+    - "hold me with your powerful hand."
+  - - "Bread of heaven, bread of heaven,"
+    - "feed me now and evermore,"
+    - "feed me now and evermore."
+  - - "Open now the crystal fountain,"
+    - "where the healing waters flow."
+    - "Let the fire and cloudy pillar"
+    - "lead me all my journey through."
+  - - "Strong Deliverer, strong Deliverer,"
+    - "ever be my strength and shield,"
+    - "ever be my strength and shield."
+  - - "When I tread the verge of Jordan,"
+    - "bid my anxious fears subside."
+    - "Death of death, and hell's Destruction,"
+    - "land me safe on Canaan's side."
+  - - "Songs of praises, songs of praises"
+    - "I will ever sing to you,"
+    - "I will ever sing to you."
+
+
+'inkri19':
   title: "Tuntun Aku, Tuhan Allah"
   author: ["William Williams", "John Hughes"]
   verse_number: [1, 2, 3]
@@ -444,6 +473,77 @@
     - "Bring us safe through Jordan to Thy home above."
   - - "Thine is the glory, risen conqu'ring Son,"
     - "Endless is the vict'ry, Thou o'er death hast won."
+
+'kri47':
+  title: "He Keeps Me Singing"
+  author: ["Luther B. Bridgers"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref", 5, "ref"]
+  kri_number: 47
+  lyrics: 
+  - - "There's within my heart a melody;"
+    - "Jesus whispers sweet and low,"
+    - '"Fear not, I am with you, peace, be still,"'
+    - "in all of life's ebb and flow."
+  - - "Jesus, Jesus, Jesus,"
+    - "sweetest name I know,"
+    - "fills my every longing,"
+    - "keeps me singing as I go."
+  - - "All my life was wrecked by sin and strife,"
+    - "discord filled my heart with pain,"
+    - "Jesus swept across the broken strings,"
+    - "stirred the slumb'ring chords again."
+  - - "Jesus, Jesus, Jesus,"
+    - "sweetest name I know,"
+    - "fills my every longing,"
+    - "keeps me singing as I go."
+  - - "Feasting on the riches of His grace,"
+    - "resting 'neath His sheltering wing,"
+    - "always looking on His smiling face,"
+    - "that is why I shout and sing."
+  - - "Jesus, Jesus, Jesus,"
+    - "sweetest name I know,"
+    - "fills my every longing,"
+    - "keeps me singing as I go."
+  - - "Though sometimes He leads through waters deep,"
+    - "trials fall across the way;"
+    - "though sometimes the path seems rough and steep,"
+    - "see His footprints all the way."
+  - - "Jesus, Jesus, Jesus,"
+    - "sweetest name I know,"
+    - "fills my every longing,"
+    - "keeps me singing as I go."
+  - - "Soon He's coming back to welcome me"
+    - "far beyond the starry sky;"
+    - "I shall wing my flight to worlds unknown,"
+    - "I shall reign with Him on high."
+  - - "Jesus, Jesus, Jesus,"
+    - "sweetest name I know,"
+    - "fills my every longing,"
+    - "keeps me singing as I go."
+
+'inkri47':
+  title: "Ada Lagu Dalam Hatiku"
+  author: ["Luther B. Bridgers"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: 47
+  lyrics: 
+  - - "Ada lagu dalam hatiku, kudengar suara Yesus,"
+    - '"Jangan takut! Ku besertamu." Hidupku sentosa t’rus.'
+  - - "Yesus, Yesus, Yesus, nama yang merdu,"
+    - "Yang mengaruniakan lagu dalam hatiku."
+  - - "Amat hina dulu hidupku, jauh dari kesukaan."
+    - "Lalu dib'rikan-Nya ku lagu, kunyanyikan pujian."
+  - - "Yesus, Yesus, Yesus, nama yang merdu,"
+    - "Yang mengaruniakan lagu dalam hatiku."
+  - - "S'karang kualami kasih-Nya, kuberlindung pada Yesus."
+    - "Ku tetap memandang wajah-Nya, maka kumenyanyi t’rus."
+  - - "Yesus, Yesus, Yesus, nama yang merdu,"
+    - "Yang mengaruniakan lagu dalam hatiku."
+  - - "Tak kan lama lagi datang-Nya, ku disambut oleh Dia,"
+    - "ku diangkat turut serta-Nya, dan bertakhta di surga."
+  - - "Yesus, Yesus, Yesus, nama yang merdu,"
+    - "Yang mengaruniakan lagu dalam hatiku."
+
 
 'kri57':
   title: "Amazing Grace"
@@ -718,6 +818,39 @@
     - "Where in sweet vales the Bride"
     - "With Thee by living fountains"
     - "Forever shall abide!"
+
+'kri80':
+  title: "Thanks to God for My Redeemer"
+  author: ["August Ludvig Storm", "Carl E. Backstrom"]
+  verse_number: [1, 1, 2, 2, 3, 3]
+  kri_number: 80
+  lyrics: 
+  - - "Thanks to God for my Redeemer,"
+    - "Thanks for all Thou dost provide!"
+    - "Thanks for times now but a mem'ry,"
+    - "Thanks for Jesus by my side!"
+  - - "Thanks for pleasant, balmy springtime,"
+    - "Thanks for dark and stormy fall!"
+    - "Thanks for tears by now forgotten,"
+    - "Thanks for peace within my soul!"
+  - - "Thanks for prayers that Thou hast answered,"
+    - "Thanks for what Thou dost deny!"
+    - "Thanks for storms that I have weathered,"
+    - "Thanks for all Thou dost supply!"
+  - - "Thanks for pain, and thanks for pleasure,"
+    - "Thanks for comfort in despair!"
+    - "Thanks for grace that none can measure,"
+    - "Thanks for love beyond compare!"
+  - - "Thanks for roses by the wayside,"
+    - "Thanks for thorns their stems contain!"
+    - "Thanks for home and thanks for fireside,"
+    - "Thanks for hope, that sweet refrain!"
+  - - "Thanks for joy and thanks for sorrow,"
+    - "Thanks for heav'nly peace with Thee!"
+    - "Thanks for hope in the tomorrow,"
+    - "Thanks through all eternity!"
+
+
 
 'kri82':
   title: "O Love That Will Not Let Me Go"
@@ -1236,6 +1369,76 @@
     - "How I've proved Him o'er and o'er"
     - "Jesus, Jesus, precious Jesus!"
     - "O for grace to trust Him more!"
+
+'kri166':
+  title: "There Shall Be Showers Of Blessing"
+  author: ["Daniel W. Whittle", "James McGrahanan"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref", 5, "ref"]
+  kri_number: 166
+  lyrics: 
+  - - "There shall be showers of blessing,"
+    - "This is the promise of love;"
+    - "There shall be season refreshing,"
+    - "Sent from the Savior above."
+  - - "Showers of blessing,"
+    - "Showers of blessing we need;"
+    - "Mercy drops round us are falling,"
+    - "But for the showers we plead."
+  - - "There shall be showers of blessing,"
+    - "Precious reviving again;"
+    - "Over the hills and the valleys,"
+    - "Sound of abundance of rain."
+  - - "Showers of blessing,"
+    - "Showers of blessing we need;"
+    - "Mercy drops round us are falling,"
+    - "But for the showers we plead."
+  - - "There shall be showers of blessing,"
+    - "Send them upon us, O Lord;"
+    - "Grant to us now a refreshing,"
+    - "Come, and now honor Thy Word."
+  - - "Showers of blessing,"
+    - "Showers of blessing we need;"
+    - "Mercy drops round us are falling,"
+    - "But for the showers we plead."
+  - - "There shall be showers of blessing,"
+    - "Oh, that today they might fall;"
+    - "Now as to God we're confessing,"
+    - "Now as on Jesus we call!"
+  - - "Showers of blessing,"
+    - "Showers of blessing we need;"
+    - "Mercy drops round us are falling,"
+    - "But for the showers we plead."
+  - - "There shall be showers of blessing,"
+    - "If we but trust and obey;"
+    - "There shall be seasons refreshing,"
+    - "If we let God has His way."
+  - - "Showers of blessing,"
+    - "Showers of blessing we need;"
+    - "Mercy drops round us are falling,"
+    - "But for the showers we plead."
+
+'inkri166':
+  title: "Hujan Berkat"
+  author: ["Daniel W. Whittle", "James McGrahanan"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: 166
+  lyrics: 
+  - - "Hujan berkat 'kan tercurah, itulah janji kudus;"
+    - "Hidup segar dari sorga 'kan diberi Penebus."
+  - - "Hujan berkat-Mu itu yang kami perlu,"
+    - "Rahmat yang bergrimis turun, tapi hujan kurindu."
+  - - "Hujan berkat 'kan tercurah, hidup kembali segar."
+    - "Di atas bukit dan lembah bunyi derai terdengar."
+  - - "Hujan berkat-Mu itu yang kami perlu,"
+    - "Rahmat yang bergrimis turun, tapi hujan kurindu."
+  - - "Hujan berkat 'kan tercurah, kini kami berseru,"
+    - '"B’rilah dengan limpah ruah, agar genap sabda-Mu!"'
+  - - "Hujan berkat-Mu itu yang kami perlu,"
+    - "Rahmat yang bergrimis turun, tapi hujan kurindu."
+  - - "Hujan berkat 'kan tercurah, kami menantikannya."
+    - "Hati telah kami buka, Yesus Kau isi seg'ra!"
+  - - "Hujan berkat-Mu itu yang kami perlu,"
+    - "Rahmat yang bergrimis turun, tapi hujan kurindu."
 
 
 'kri209':

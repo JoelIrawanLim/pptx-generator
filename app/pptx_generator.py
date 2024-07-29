@@ -177,7 +177,44 @@ def add_announcements():
     prs.slides.add_slide(prs.slide_layouts[9])
     birthday = prs.slides.add_slide(prs.slide_layouts[10])
     birthday.shapes.title.text = "Birthday Song"
+    birthday_lyrics = birthday.placeholders[10].text_frame
+    birthday_lyrics_paragraph = birthday_lyrics.paragraphs[0]
+    birthday_lyrics_paragraph.text = "Selamat ulang tahun,"
+    birthday_lyrics_paragraph = birthday_lyrics.add_paragraph()
+    birthday_lyrics_paragraph.text = "Kami ucapkan padamu."
+    birthday_lyrics_paragraph = birthday_lyrics.add_paragraph()
+    birthday_lyrics_paragraph.text = "Selamat hari jadi,"
+    birthday_lyrics_paragraph = birthday_lyrics.add_paragraph()
+    birthday_lyrics_paragraph.text = "Tuhan Yesus memberkati."
+    birthday_lyrics_paragraph = birthday_lyrics.add_paragraph()
+    birthday_lyrics_paragraph = birthday_lyrics.add_paragraph()
+    birthday_lyrics_paragraph.text = "Kami s'lalu berdoa"
+    birthday_lyrics_paragraph = birthday_lyrics.add_paragraph()
+    birthday_lyrics_paragraph.text = "Agar kau tetap setia"
+    birthday_lyrics_paragraph = birthday_lyrics.add_paragraph()
+    birthday_lyrics_paragraph.text = "Pada Yesus Kristus, Tuhan dan Raja kita, oh."
+    birthday_lyrics_paragraph = birthday_lyrics.add_paragraph()
+    birthday_lyrics_paragraph.text = "Kami mengucap syukur"
+    birthday_lyrics_paragraph = birthday_lyrics.add_paragraph()
+    birthday_lyrics_paragraph.text = "Tuhan t'lah pimpin langkahmu"
+    birthday_lyrics_paragraph = birthday_lyrics.add_paragraph()
+    birthday_lyrics_paragraph.text = "Padamu [insert name], selamat ulang tahun!"
+    birthday_lyrics_paragraph = birthday_lyrics.add_paragraph()
     prs.slides.add_slide(prs.slide_layouts[11])
+
+
+# Selamat ulang tahun,
+# Kami ucapkan padamu.
+# Selamat hari jadi, 
+# Tuhan Yesus memberkati.
+
+# Kami s'lalu berdoa
+# Agar kau tetap setia
+# Pada Yesus Kristus, Tuhan dan Raja kita, oh.
+# Kami mengucap syukur
+# Tuhan t'lah pimpin langkahmu
+# Padamu [insert name], selamat ulang tahun!
+
 
 # Function which run the above functions for generating individual slides for the first slide. 
 # Runs the title slide, the appropiate number of lyric slides, and a blank black slide
