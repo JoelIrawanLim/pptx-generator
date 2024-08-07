@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replit Form</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
-<body
-   <h1>{{data.example_data}}</h1>
-   <h2>{{data.example_data2}}</h2>
+<body>
+    <div class="container">
+        <h1>Powerpoint Slides Generator</h1>
+        <form method="POST" action="/"> 
+            <div class="form-group">
+                <label for="searchquery">Search Query:</label>
+                <input type="text" id="searchquery" name="searchquery" required>
+            </div>
+            <div class="form-group">
+                <label for="input2">Input 2:</label>
+                <input type="text" id="input2" name="input2" required>
+            </div>
+            <div class="form-group">
+                <label for="input3">Input 3:</label>
+                <input type="text" id="input3" name="input3" required>
+            </div>
+            <div class="form-group">
+                <label for="input4">Input 4:</label>
+                <input type="text" id="input4" name="input4" required>
+            </div>
+            <div class="form-group">
+                <label for="input5">Input 5:</label>
+                <input type="text" id="input5" name="input5" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
-
