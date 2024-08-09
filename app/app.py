@@ -2,26 +2,32 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/')
 def home():
-    if request.method == 'POST':
-        # Get data from form
-        search_query = request.form['searchquery']
-        input2 = request.form['input2']
-        input3 = request.form['input3']
-        input4 = request.form['input4']
-        input5 = request.form['input5']
+   return render_template('index.html')
 
-        # Save or print for now
-        print(f"Input 1: {search_query}")
-        print(f"Input 2: {input2}")
-        print(f"Input 3: {input3}")
-        print(f"Input 4: {input4}")
-        print(f"Input 5: {input5}")
-
-        return render_template('index.html')
-    else:
-        return render_template('index.html')
-
-if __name__ == '__main__':
-    app.run(debug=True)
+@app.route('/pptx-search', methods=['GET','POST'])
+def search_function():
+   if request.method == 'POST':
+      search_query = request.form.get('searchquery')
+      # Insert code here, etc what you want to do with the variable
+      print(search_query)
+      return render_template('index.html', message="Search submitted")
+   else:
+      return render_template('index.html')
+@app.route('/generator-function', methods=['POST'])
+def generator_function():
+   if request.method == 'POST':
+      song1 = request.form.get('song1')
+      song2 = request.form.get('song2')
+      song3 = request.form.get('song3')
+      presentationtitle = request.form.get('pptxtitle')
+      print(song1)
+      print(song2)
+      print(song3)
+      print(presentationtitle)
+      return render_template('index.html', message="Other form submitted")
+   else:
+      return render_template('index.html')
+if __name__ == "__main__":
+   app.run(debug=True)

@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# ui side
+import app
 
 from pptx import Presentation
 from datetime import datetime, timedelta
