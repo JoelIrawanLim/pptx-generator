@@ -60,6 +60,7 @@ def id_to_song():
     song_3 = data[song_3_id]
 
 # Converts verse_number into a string, which is useable for the script
+# Takes in verse number... which is... (WHY DID I NAME SO MANY VARIABLES VERSE NUMBER)
 def generate_verse_number(verse_num): 
     if isinstance(verse_num, int):
         return str(verse_num)
@@ -114,6 +115,7 @@ def add_third_song_title_slide():
     number_text.text = "3"
     
 # Adds the lyric slides for the first song, with the proper template and color
+# Inputs is verse number, which is an array of the numbers written at the bottom of the slides. 
 def add_first_song_lyrics_slide(verse_number):
     slide = prs.slides.add_slide(prs.slide_layouts[4])
     title = slide.shapes.title
@@ -132,6 +134,7 @@ def add_first_song_lyrics_slide(verse_number):
         p.text = song_1['lyrics'][verse_number][i]
 
 # Adds the lyric slides for the second song, with the proper template and color
+# Inputs is verse number, which is an array of the numbers written at the bottom of the slides. 
 def add_second_song_lyrics_slide(verse_number):
     slide = prs.slides.add_slide(prs.slide_layouts[5])
     title = slide.shapes.title
@@ -150,6 +153,7 @@ def add_second_song_lyrics_slide(verse_number):
         p.text = song_2['lyrics'][verse_number][i]
 
 # Adds the lyric slides for the third song, with the proper template and color
+# Inputs is verse number, which is an array of the numbers written at the bottom of the slides. 
 def add_third_song_lyrics_slide(verse_number):
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     title = slide.shapes.title
@@ -172,6 +176,7 @@ def add_third_song_lyrics_slide(verse_number):
 #  A blank white slide for placing images of the announcement,
 # The birthday song,
 # And the "See you next week!" Slide
+# No inputs
 def add_announcements():
     prs.slides.add_slide(prs.slide_layouts[8])
     prs.slides.add_slide(prs.slide_layouts[9])
