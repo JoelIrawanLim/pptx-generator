@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Replit Form</title>
+    <title>PPTX generator</title>
    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
@@ -13,9 +13,17 @@
             <div class="form-group">
                 <label for="searchquery">Search Query:</label>
                 <input type="text" id="searchquery" name="searchquery" required>
-                </div>
-                <button type="submit">Submit</button>
+            </div>
+            <div class="form-group">
+            <label for="searchoption">Search Option:</label>
+            <select id="searchoption" name="searchoption">
+               <option value="-t">title</option>
+               <option value="-a">author</option>
+               <option value="-k">kri_number</option>
+                </select> </div>
+            <button type="submit">Submit</button>
         </form>
+        
         <form method="POST" action="/generator-function"> 
             <div class="form-group">
                 <label for="song1">Song 1:</label>
@@ -27,11 +35,11 @@
             </div>
             <div class="form-group">
                 <label for="song3">Song 3:</label>
-                <input type="text" id="song3" name="song3" value="kri"  required>
+                <input type="text" id="song3" name="song3" value="kri" required>
             </div>
             <div class="form-group">
                 <label for="pptxtitle">File Name:</label>
-                <input type="text" id="pptxtitle" name="pptxtitle" value="presentation" required>
+                <input type="text" id="pptxtitle" name="pptxtitle" value="presentation">
             </div>
             <button type="submit">Submit</button>
         </form>
