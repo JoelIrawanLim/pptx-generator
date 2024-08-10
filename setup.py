@@ -13,6 +13,7 @@ setup(
         'python-pptx',  # Required for working with PowerPoint files
         'pyyaml',       # Required for YAML file operations
         'rich',
+        'flask',
         # 'textual',
     ],
     entry_points={

@@ -15,7 +15,7 @@ You can use google collab to run an easy to use an already setup version of this
 
 Video Tutorial: (WIP)
 
-Text Tutorial: [Google Collab Tuitorial](https://github.com/JoelIrawanLim/pptx-generator/wiki/Google-Collab-Tutorial)
+Text Tutorial: [Google Collab Tutorial](https://github.com/JoelIrawanLim/pptx-generator/wiki/Google-Collab-Tutorial)
 
 Go to: [collab link](https://colab.research.google.com/drive/1lYKa7aeWkkQcBxrcUAk-ytR3sFIZ-Xew?usp=sharing)
 
@@ -27,3 +27,7 @@ You can now input your searches inside the UI and click the run button.
 ## Installing it Locally
 You can also install this script locally so that you don't require an internet connection to use it. 
 Steps to do this can be found in: [Installing pptx-generator locally as a cli tool](https://github.com/JoelIrawanLim/pptx-generator/wiki/Installing-pptx%E2%80%90generator-locally)
+
+## Running it Locally
+You can also run this script locally which provides a much better UI.
+Steps to do this can be found in: [Running pptx-generator locally](https://github.com/JoelIrawanLim/pptx-generator/wiki/Running-pptx%E2%80%90generator-locally-(WIP))
