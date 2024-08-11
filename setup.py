@@ -18,8 +18,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'pptx-generator=app.pptx_generator:main',  # Creates a command named 'my-app' that calls the main function in my_app/main.py
-            'pptx-generator-search=app.pptx_generator:search',
+            'pptx-generator=app.pptx_generator:pptx_generator',  # Creates a command named 'my-app' that calls the main function in my_app/main.py
+            'pptx-generator-search=app.pptx_generator:pptx_generator_search',
             'pptx-generator-debug=app.pptx_generator:debug',
         ],
     },

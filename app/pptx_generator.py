@@ -211,14 +211,14 @@ def text_formater(text):
     return text
 
 # Checks if the song id is a valid song id inside the song-list
-def song_id():
+def song_id(argv):
     global song_1_id
     global song_2_id
     global song_3_id
     global Fail
-    argv1=text_formater(sys.argv[1])
-    argv2=text_formater(sys.argv[2])
-    argv3=text_formater(sys.argv[3])
+    argv1=text_formater(argv[1])
+    argv2=text_formater(argv[2])
+    argv3=text_formater(argv[3])
     Fail = 0 
     if data.get(argv1):
         song_1_id = argv1
@@ -251,14 +251,14 @@ def author_find(key):
 #----------------------------- MAIN FUNCTION -----------------------------------------------------------------
 
 # This is the main function, which is run when activating pptx-generator
-def main():
+def main(argv):
     global output_presentation
     initialize()
-    if len(sys.argv) == 4:
+    if len(argv) == 4:
         # song_1_id = sys.argv[1]
         # song_2_id = sys.argv[2]
         # song_3_id = sys.argv[3]
-        song_id()
+        song_id(argv)
         id_to_song()
         add_welcome_slide()
         generate_first_song()
@@ -267,15 +267,15 @@ def main():
         add_announcements() 
         prs.save(output_presentation)
         console.print(f"[green]Done! Saved [/]{output_presentation}")
-    elif len(sys.argv) > 4: 
+    elif len(argv) > 4: 
         # song_1_id = sys.argv[1]
         # song_2_id = sys.argv[2]
         # song_3_id = sys.argv[3]
-        song_id()
-        if sys.argv[4].endswith(('.pptx')):
-            output_presentation = sys.argv[4]
+        song_id(argv)
+        if argv[4].endswith(('.pptx')):
+            output_presentation = argv[4]
         else:
-            output_presentation = sys.argv[4] + ".pptx"
+            output_presentation = argv[4] + ".pptx"
         id_to_song()
         add_welcome_slide()
         generate_first_song()
@@ -289,22 +289,22 @@ def main():
         console.print("[red bold]Not enough arguments provided. Requires at least 3 values")
 
 # This is the search function, which is run when doing pptx-generator-search
-def search():
+def search(argv):
     global output_presentation
     initialize()
     table = Table(title="Search Results")
     table.add_column("PPTX-Address", style="cyan")
     table.add_column("Title", style="blue")
     table.add_column("Author", style="green")
-    if len(sys.argv) == 3: 
+    if len(argv) == 3: 
         found = 0
-        if sys.argv[2] == "-a":
+        if argv[2] == "-a":
             addresses = []
             for key in data:
                 for index_of_all_authors in range(0, len(data[key]['author'])):
                     for index_of_all_words_of_authors in range(0, len(data[key]['author'][index_of_all_authors].split(" "))):
-                        for index_of_all_userinput_words in range(0, len(sys.argv[1].split(" "))):
-                            if sys.argv[1].split(" ")[index_of_all_userinput_words].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","") == data[key]['author'][index_of_all_authors].split(" ")[index_of_all_words_of_authors].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".",""):
+                        for index_of_all_userinput_words in range(0, len(argv[1].split(" "))):
+                            if argv[1].split(" ")[index_of_all_userinput_words].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","") == data[key]['author'][index_of_all_authors].split(" ")[index_of_all_words_of_authors].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".",""):
                                 already_done = False
                                 for done_addresses in range(0, len(addresses)):
                                     if addresses[done_addresses] == key: 
@@ -317,28 +317,28 @@ def search():
                                     
 
             if found != 1: 
-                console.print(f"There is no author named [red underline bold]{sys.argv[1]}[/] in our song list.")
+                console.print(f"There is no author named [red underline bold]{argv[1]}[/] in our song list.")
             else:
                 console.print(table)
-        elif sys.argv[2] == "-t":
+        elif argv[2] == "-t":
             for key in data:
-                if sys.argv[1].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","").replace(",","").replace(";","").replace(":","").replace("'","") == data[key]['title'].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","").replace(",","").replace(";","").replace(":","").replace("'",""):
+                if argv[1].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","").replace(",","").replace(";","").replace(":","").replace("'","") == data[key]['title'].lower().replace(" ", "").replace("?", "").replace("!", "").replace(".","").replace(",","").replace(";","").replace(":","").replace("'",""):
                     table.add_row(key, data[key]['title'], author_find(key))
                     # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                     found = 1
             if found != 1: 
-                console.print(f"There is no song named [red underline bold]{sys.argv[1]}[/] in our song list.")
+                console.print(f"There is no song named [red underline bold]{argv[1]}[/] in our song list.")
             else:
                 console.print(table)
-        elif sys.argv[2] == "-k":
-            if sys.argv[1].isdigit():
+        elif argv[2] == "-k":
+            if argv[1].isdigit():
                 for key in data:
-                    if int(sys.argv[1]) == data[key]['kri_number']:
+                    if int(argv[1]) == data[key]['kri_number']:
                         table.add_row(key, data[key]['title'], author_find(key))
                         # print( f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}")
                         found = 1
                 if found != 1: 
-                    console.print(f"There is no [red underline bold] KRI {sys.argv[1]}[/] in our song list.")
+                    console.print(f"There is no [red underline bold] KRI {argv[1]}[/] in our song list.")
                 else:
                     console.print(table)
             else:
@@ -381,3 +381,10 @@ def debug():
     add_announcements() 
     prs.save(output_presentation)
     console.print(f"[green]Done! Saved [/]{output_presentation}")
+
+# Functions that run when you use the cli commands
+def pptx_generator():
+    main(sys.argv)
+
+def pptx_generator_search():
+    search(sys.argv)
