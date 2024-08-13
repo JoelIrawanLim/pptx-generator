@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-# ui side
-import app
 
 from pptx import Presentation
 from datetime import datetime, timedelta
@@ -10,8 +8,10 @@ import yaml
 from importlib import resources
 from rich.console import Console
 from rich.table import Table
+
 # from textual.app import App, ComposeResult
 # from textual.widgets import Button, Digits
+
 
 # Puts values on all the gloabal variables
 def initialize():

@@ -10,4 +10,3 @@ def get_song():
     "name": "John",
     "email": "JohnDoe@gmail.com"
   }
-

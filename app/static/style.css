@@ -33,7 +33,7 @@ nav {
     padding: 1.5rem;
     background-color: #BFBD99;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -59,7 +59,7 @@ label {
 }
 
 .search_bar{
-  display: flex;
+   display: flex;
 }
 
 .search_bar div{
@@ -78,7 +78,7 @@ label {
 }
 
 .btn{
-  flex-grow:1;
+  flex-grow: 1;
   height: 2rem;
   border: 0;
 }
