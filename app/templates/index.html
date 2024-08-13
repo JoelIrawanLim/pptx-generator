@@ -18,23 +18,12 @@
                     <div class="form-group">
                         <input type="text" id="searchquery" placeholder="Search" name="searchquery" required>
                     </div>
-                    <button type="submit">Submit</button>
                 </div>
-                <!-- <div class="form-group">
-                <label for="searchoption">Search Option:</label>
-                <select id="searchoption" name="searchoption">
-                   <option value="-t">title</option>
-                   <option value="-a">author</option>
-                   <option value="-k">kri_number</option>
-                </select> </div> -->
-                <div class="buttons">
-                    <input type="hidden" name="searchoption" value="-t">
-                    <button class="btn clicked">title</button>
-                    <input type="hidden" name="searchoption" value="-a">
-                    <button class="btn" >author</button>
-                    <input type="hidden" name="searchoption" value="-k">
-                    <button class="btn" >kri number</button>
-                </div>
+               <div class="buttons">
+                   <button class="btn clicked" name="searchoption" value="-t">title</button>
+                   <button class="btn" name="searchoption" value="-a">author</button>
+                   <button class="btn" name="searchoption" value="-k">kri number</button>
+               </div>
             </form>
         </div>
         <div class="container">
