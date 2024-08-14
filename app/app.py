@@ -14,6 +14,7 @@ def search_function():
       search_query = request.form.get('searchquery')
       search_option = request.form.get('searchoption')
       pptx_generator_ui.searchvariables(search_query,search_option)
+      pptx_generator_ui.search()
       return render_template('index.html')
    else:
       return render_template('index.html')
@@ -28,6 +29,7 @@ def generator_function():
       if presentation_title == "":
          presentation_title = 'presentation'
       pptx_generator_ui.songvariables(song_1,song_2,song_3,presentation_title)
+      pptx_generator_ui.main()
       return render_template('index.html')
    else:
       return render_template('index.html')
