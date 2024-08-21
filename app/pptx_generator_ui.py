@@ -255,9 +255,9 @@ def song_id():
    global song_2
    global song_3
    global Fail
-   song_1 = text_formater(song_1)
-   song_2 = text_formater(song_2)
-   song_3 = text_formater(song_3)
+   song_1 = text_formater(song1)
+   song_2 = text_formater(song2)
+   song_3 = text_formater(song3)
    Fail = 0
    if data.get(song_1):
       Fail += 1
@@ -334,13 +334,12 @@ def search():
                         )
                         found = 1
                         addresses.append(key)
-
       if found != 1:
          print(f"There is no author named {searchquery} in our song list.")
-      else:
-         pass
+
          # Handle Output
    elif searchoption == "-t":
+      found = 0
       for key in data:
          if searchquery.lower().replace(" ", "").replace("?", "").replace(
              "!",
@@ -354,10 +353,9 @@ def search():
                 f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}"
             )
             found = 1
-         if found != 1:
-            print(f"There is no song named {searchquery} in our song list.")
-         else:
-            pass
+      if found != 1:
+         print(f"There is no song named {searchquery} in our song list.")
+         
             # Handle Output
    elif searchoption == "-k":
       if searchquery.isdigit():
