@@ -25,6 +25,10 @@
                    <button class="btn" name="searchoption" value="-k">kri number</button>
                </div>
             </form>
+           <h3>Search Results:</h3>
+           <p><b>Title</b>: {{title}}</p>
+           <p><b>Author</b>: {{author}}</p>
+           <p><b>Kri-Number</b>: {{key}}</p>
         </div>
         <div class="container">
             <h2>Generate</h2>
@@ -48,7 +52,6 @@
                 <button type="submit">Submit</button>
             </form>
         </div>
-    </div>
 </body>
 <script src="{{ url_for('static', filename='script.js') }}"></script>
 </html>

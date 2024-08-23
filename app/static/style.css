@@ -18,7 +18,7 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.main_container{
+.main_container {
   display: grid;
   grid-column-gap:2rem;
   grid-template-columns: 1fr 1fr;
@@ -29,7 +29,7 @@ nav {
 
 .container {
     box-sizing: border-box;
-    margin: 0 0;
+    margin: 10px 0 10px 0;
     padding: 1.5rem;
     background-color: #BFBD99;
     border-radius: 5px;

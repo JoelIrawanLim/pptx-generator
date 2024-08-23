@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 from pptx import Presentation
 import os
 import yaml
+import sys
 
 
 # variable initialization
@@ -259,21 +260,20 @@ def song_id():
    song_2 = text_formater(song2)
    song_3 = text_formater(song3)
    Fail = 0
-   if data.get(song_1):
+   if data.get(song1):
       Fail += 1
    else:
       print(f"{song_1} is not a valid song id")
-   if data.get(song_2):
+   if data.get(song2):
       Fail += 1
    else:
       print(f"{song_2} is not a valid song id")
-   if data.get(song_3):
+   if data.get(song3):
       Fail += 1
    else:
       print(f"{song_3} is not a valid song id")
    if Fail != 3:
-      pass
-      # Handle
+      sys.exit()
 
 
 def main():
@@ -291,17 +291,10 @@ def main():
    else:
       output_presentation = presentationtitle + ".pptx"
    prs.save(output_presentation)
-   id_to_song()
-   add_welcome_slide()
-   generate_first_song()
-   generate_second_song()
-   generate_third_song()
-   add_announcements()
-   prs.save(output_presentation)
-   # Handle
 
 
 def search():
+   global searchresult_key,searchresult_author,searchresult_title,searchresult_error,searchresult_invalid
    global output_presentation
    initialize()
    found = 0
@@ -329,15 +322,16 @@ def search():
                         if addresses[done_addresses] == key:
                            already_done = True
                      if not already_done:
-                        print(
-                            f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}"
-                        )
+                        searchresult_key = key
+                        searchresult_title = data[key]['title']
+                        searchresult_author = data[key]['author']
+                        searchresult_error = ""
+                        searchresult_invalid =""
                         found = 1
                         addresses.append(key)
       if found != 1:
-         print(f"There is no author named {searchquery} in our song list.")
+         searchresult_error = f"There is no author named {searchquery} in our song list."
 
-         # Handle Output
    elif searchoption == "-t":
       found = 0
       for key in data:
@@ -349,30 +343,30 @@ def search():
                      " ", "").replace("?", "").replace("!", "").replace(
                          ".", "").replace(",", "").replace(";", "").replace(
                              ":", "").replace("'", ""):
-            print(
-                f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}"
-            )
+            searchresult_key = key
+            searchresult_title = data[key]['title']
+            searchresult_author = data[key]['author']
+            searchresult_error = ""
+            searchresult_invalid =""
             found = 1
       if found != 1:
-         print(f"There is no song named {searchquery} in our song list.")
+         searchresult_error = f"There is no song named {searchquery} in our song list."
          
             # Handle Output
    elif searchoption == "-k":
       if searchquery.isdigit():
          for key in data:
             if int(searchquery) == data[key]['kri_number']:
-               print(
-                   f"PPTX-Adress: {key}, Title: {data[key]['title']}, Author: {data[key]['author']}"
-               )
+               searchresult_key = key
+               searchresult_title = data[key]['title']
+               searchresult_author = data[key]['author']
+               searchresult_error = ""
+               searchresult_invalid =""
                found = 1
-               if found != 1:
-                  print(f"There is no {searchquery} in our song list.")
-            else:
-               pass
-               # Handle Output
-         else:
-            print("That is not a valid KRI number")
-
+         if found != 1:
+            searchresult_error = f"There is no kri{searchquery} in our song list."
+      else:
+         searchresult_invalid = ("Invalid input, only accepts numbers.")
 
 def debug():
    global song_1
@@ -391,7 +385,7 @@ def debug():
          generate_third_song()
    add_announcements()
    prs.save(output_presentation)
-   print(f"Done! Saved {output_presentation}")
+   
 
 
 if __name__ == "__main__":
