@@ -228,6 +228,36 @@
     - "O come to the Father, through Jesus the Son,"
     - "And give Him the glory, great things He hath done."
 
+'kri10':
+  title: "This Is My Father's World"
+  author: ["Maltbie D. Babcock"]
+  verse_number: [1, 1, 2, 2, 3, 3]
+  kri_number: 10
+  lyrics: 
+  - - "This is my Father's world,"
+    - "And to my listening ears"
+    - "All nature sings, and round me rings"
+    - "The music of the spheres."
+  - - "This is my Father's world:"
+    - "I rest me in the thought"
+    - "Of rocks and trees, of skies and seas"
+    - "His hand the wonders wrought."
+  - - "This is my Father's world:"
+    - "The birds their carols raise,"
+    - "The morning light, the lily white,"
+    - "Declare their Maker's praise."
+  - - "This is my Father's world:"
+    - "He shines in all that's fair;"
+    - "In the rustling grass I hear Him pass,"
+    - "He speaks to me everywhere."
+  - - "This is my Father's world:"
+    - "O let me ne'er forget"
+    - "That though the wrong seems oft so strong,"
+    - "God is the Ruler yet."
+  - - "This is my Father's world:"
+    - "Why should my heart be sad?"
+    - "The Lord is King: let the heavens ring!"
+    - "God reigns; let earth be glad!"
 
 'kri13':
   title: "God Is Our Refuge And Our Strength"
@@ -1570,6 +1600,38 @@
     - "But I know who holds tomorrow,"
     - "And I know who holds my hand."
 
+'kri222':
+  title: "I Love to Tell the Story"
+  author: ["Kate Hankey", "William G. Fischer"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref"]
+  kri_number: 222
+  lyrics: 
+  - - "I love to tell the story of unseen things above,"
+    - "Of Jesus and His glory, of Jesus and His love."
+    - "I love to tell the story, because I know ’tis true;"
+    - "It satisfies my longings as nothing else can do."
+  - - "I love to tell the story, ’twill be my theme in glory,"
+    - "To tell the old, old story of Jesus and His love."
+  - - "I love to tell the story; more wonderful it seems"
+    - "Than all the golden fancies of all our golden dreams."
+    - "I love to tell the story, it did so much for me;"
+    - "And that is just the reason I tell it now to thee."
+  - - "I love to tell the story, ’twill be my theme in glory,"
+    - "To tell the old, old story of Jesus and His love."
+  - - "I love to tell the story; ’tis pleasant to repeat"
+    - "What seems, each time I tell it, more wonderfully sweet."
+    - "I love to tell the story, for some have never heard"
+    - "The message of salvation from God’s own holy Word."
+  - - "I love to tell the story, ’twill be my theme in glory,"
+    - "To tell the old, old story of Jesus and His love."
+  - - "I love to tell the story, for those who know it best"
+    - "Seem hungering and thirsting to hear it like the rest."
+    - "And when, in scenes of glory, I sing the new, new song,"
+    - "’Twill be the old, old story that I have loved so long."
+  - - "I love to tell the story, ’twill be my theme in glory,"
+    - "To tell the old, old story of Jesus and His love."
+
+
 'kri257':
   title: "Count Your Blessings"
   author: ["Johnson Oatman, Jr.", "Edwin O. Excell"]
@@ -1608,6 +1670,45 @@
     - "Count your blessings, see what God hath done!"
     - "Count your blessings, name them one by one,"
     - "And it will surprise you what the Lord hath done."
+
+'kri273':
+  title: "This World Is Not My Home"
+  author: ["Johnson Oatman, Jr.", "Edwin O. Excell"]
+  verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
+  kri_number: 273
+  lyrics: 
+  - - "This world is not my home, I'm just a passing through"
+    - "My treasures are laid up somewhere beyond the blue;"
+    - "The angels beckon me from heaven's open door,"
+    - "And I can't feel at home in this world anymore."
+  - - "O Lord, you know I have no friend like you,"
+    - "If heaven's not my home, then Lord what will I do?"
+    - "The angels beckon me from heaven's open door,"
+    - "And I can't feel at home in this world anymore."
+  - - "They're all expecting me, and that's one thing I know,"
+    - "My Savior pardoned me and now I onward go;"
+    - "I know He'll take me thro' tho' I am weak and poor,"
+    - "And I can't feel at home in this world anymore. "
+  - - "O Lord, you know I have no friend like you,"
+    - "If heaven's not my home, then Lord what will I do?"
+    - "The angels beckon me from heaven's open door,"
+    - "And I can't feel at home in this world anymore."
+  - - "I have a loving Savior up in glory-land,"
+    - "I don't expect to stop until I with Him stand,"
+    - "He's waiting now for me in heaven's open door,"
+    - "And I can't feel at home in this world anymore. "
+  - - "O Lord, you know I have no friend like you,"
+    - "If heaven's not my home, then Lord what will I do?"
+    - "The angels beckon me from heaven's open door,"
+    - "And I can't feel at home in this world anymore."
+  - - "Just up in glory-land we'll live eternally,"
+    - "The saints on every hand are shouting victory,"
+    - "Their songs of sweetest praise drift back from heaven's shore,"
+    - "And I can't feel at home in this world anymore. "
+  - - "O Lord, you know I have no friend like you,"
+    - "If heaven's not my home, then Lord what will I do?"
+    - "The angels beckon me from heaven's open door,"
+    - "And I can't feel at home in this world anymore."
 
 'kpri46':
   title: "The Old Rugged Cross"
