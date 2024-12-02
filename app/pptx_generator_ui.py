@@ -298,20 +298,21 @@ def search():
    global output_presentation
    initialize()
    found = 0
+   searchresult_key = []
+   searchresult_title = []
+   searchresult_author = []
+   searchresult_error = ""
+   searchresult_invalid =""
    if searchoption == "-a":
       addresses = []
       for key in data:
          for index_of_all_authors in range(0, len(data[key]['author'])):
             for index_of_all_words_of_authors in range(
                 0, len(data[key]['author'][index_of_all_authors].split(" "))):
-               for index_of_all_userinput_words in range(
-                   0, len(searchquery.split(" "))):
-                  if searchquery.split(
-                      " "
-                  )[index_of_all_userinput_words].lower(
+               for index_of_all_userinput_words in range(0, len(searchquery.split(" "))):
+                  if searchquery.split( " ")[index_of_all_userinput_words].lower(
                   ).replace(" ", "").replace("?", "").replace("!", "").replace(
-                      ".",
-                      "") == data[key]['author'][index_of_all_authors].split(
+                      ".", "") == data[key]['author'][index_of_all_authors].split(
                           " ")[index_of_all_words_of_authors].lower().replace(
                               " ",
                               "").replace("?",
@@ -322,11 +323,9 @@ def search():
                         if addresses[done_addresses] == key:
                            already_done = True
                      if not already_done:
-                        searchresult_key = key
-                        searchresult_title = data[key]['title']
-                        searchresult_author = data[key]['author']
-                        searchresult_error = ""
-                        searchresult_invalid =""
+                        searchresult_key.append(key)
+                        searchresult_title.append(data[key]['title'])
+                        searchresult_author.append(data[key]['author'])
                         found = 1
                         addresses.append(key)
       if found != 1:
