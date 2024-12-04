@@ -1,54 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        html {
+            color: #241e1e;
+            background-color: #F6EFDB;
+            font-family: helvetica;
+        }
+        .main_container {
+            display: grid;
+            grid-column-gap: 2rem;
+            grid-template-columns: 1fr 1fr;
+            margin: 1rem;
+        }
+        .container {
+            padding: 1.5rem;
+            background-color: #BFBD99;
+            border-radius: 5px;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+
+
+    <link rel="preload" href="{{ url_for('static', filename='style.css') }}" as="style">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PPTX generator</title>
-   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <nav>
         <h1>Powerpoint Slides Generator</h1>
     </nav>
-    <div class="main_container">
-        <div class="container">
-            <h2>Search</h2>
-            <form method="POST" action="/pptx-search">
-                <div class="search_bar">
-                    <div class="form-group">
-                        <input type="text" id="searchquery" placeholder="Search" name="searchquery" required>
+    <div id="root">
+        <div class="main_container">
+            <div class="container">
+                <h2>Search</h2>
+                <!-- <form method="POST" action="/pptx-search"> -->
+                    <div class="search_bar">
+                        <div class="form-group">
+                            <input type="text" id="searchquery" placeholder="Search" name="searchquery" required>
+                            <button class="submit" type="submit">Submit</button>
+                        </div>
                     </div>
+                <div class="buttons">
+                    <button class="btn clicked" name="searchoption" value="-t">title</button>
+                    <button class="btn" name="searchoption" value="-a">author</button>
+                    <button class="btn" name="searchoption" value="-k">kri number</button>
                 </div>
-               <div class="buttons">
-                   <button class="btn clicked" name="searchoption" value="-t">title</button>
-                   <button class="btn" name="searchoption" value="-a">author</button>
-                   <button class="btn" name="searchoption" value="-k">kri number</button>
-               </div>
-            </form>
-        </div>
-        <div class="container">
-            <h2>Generate</h2>
-            <form method="POST" action="/generator-function">
-                <div class="form-group">
-                    <label for="song1">Song 1:</label>
-                    <input type="text" id="song1" name="song1" placeholder="kri" required>
+                <div id="search-results">
                 </div>
-                <div class="form-group">
-                    <label for="song2">Song 2:</label>
-                    <input type="text" id="song2" name="song2" placeholder="kri" required>
-                </div>
-                <div class="form-group">
-                    <label for="song3">Song 3:</label>
-                    <input type="text" id="song3" name="song3"placeholder="kri" required>
-                </div>
-                <div class="form-group">
-                    <label for="pptxtitle">File Name:</label>
-                    <input type="text" id="pptxtitle" name="pptxtitle" placeholder="presentation">
-                </div>
-                <button type="submit">Submit</button>
-            </form>
+                <!-- </form> -->
+            </div>
+            <div class="container">
+                <h2>Generate</h2>
+                <form method="POST" action="/generator-function">
+                    <div class="form-group">
+                        <label for="song1">Song 1:</label>
+                        <input type="text" id="song1" name="song1" placeholder="kri" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="song2">Song 2:</label>
+                        <input type="text" id="song2" name="song2" placeholder="kri" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="song3">Song 3:</label>
+                        <input type="text" id="song3" name="song3"placeholder="kri" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pptxtitle">File Name:</label>
+                        <input type="text" id="pptxtitle" name="pptxtitle" placeholder="presentation">
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </div>
     </div>
 </body>
-<script src="{{ url_for('static', filename='script.js') }}"></script>
+<!-- Dynamically load the hashed JS file -->
+<script type="module" defer src="{{ url_for('static', filename=js_file) }}"></script>
 </html>

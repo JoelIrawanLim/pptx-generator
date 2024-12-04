@@ -12,22 +12,30 @@ button.forEach(btn => {
 
 console.log("hhi")
 
+let searchOption = ""
+
 document.addEventListener("DOMContentLoaded", () => {
     const buttons = document.querySelectorAll(".buttons .btn");
 
     buttons.forEach(button => {
         button.addEventListener("click", async (event) => {
             event.preventDefault();
+            searchOption = button.value;
+            }
+        )
+    }
+)
+    const submitButton = document.querySelector(".submit"); 
+        submitButton.addEventListener("click", async (event) => {
+        event.preventDefault();
 
-            const searchQuery = document.getElementById("searchquery").value;
-            const searchOption = button.value;
-
-            if (!searchQuery) {
+        const searchQuery = document.getElementById("searchquery").value;
+        if (!searchQuery) {
                 alert("Please enter a search query.");
                 return;
-            }
+        }
 
-            try {
+        try {
                 const response = await fetch("/pptx-search", {
                     method: "POST",
                     headers: {
@@ -54,4 +62,3 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
-});
