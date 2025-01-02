@@ -5,27 +5,37 @@ import ReactDOM from "react-dom/client";
 let result
 let root
 
-// Define a React component for rendering the results
-const SearchResults = ({ authors }) => {
+const SearchResults = ({ results }) => {
   return (
-      <div>
-          <h3>Search Results:</h3>
-          <ul>
-              {authors.map((author, index) => (
-                  <li key={index}>{author}</li>
+    <div>
+      <h3>Search Results:</h3>
+      <ul>
+        {results.key.map((key, index) => (
+
+          <li key={key}>
+            <div className="result">
+              <strong>Key:</strong> {results.key[index]}
+              <br />
+              <strong>Title:</strong> {results.title[index]}
+              <br />
+              <strong>Authors:</strong>{" "}
+              {results.author[index].map((author, authorIndex) => (
+              <span key={`${key}-${authorIndex}`}>{author}</span>
               ))}
-          </ul>
-      </div>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 };
 
 // Function to activate React and render content into `search-results`
-const activateReact = (authors) => {
+const activateReact = (results) => {
   const container = document.getElementById("search-results");
   root = ReactDOM.createRoot(container);
-  root.render(<SearchResults authors={authors} />);
+  root.render(<SearchResults authors={results} />);
 };
-
 
 // Vanilla JavaScript logic
 const button = Array.from(document.getElementsByClassName("btn"));
@@ -81,7 +91,7 @@ submitButton.addEventListener("click", async (event) => {
             // alert(result.message);
             if (result.author && Array.isArray(result.author)) {
               // Call React to render results
-              activateReact(result.author);
+              activateReact(result);
             }
         } else {
             console.error("Error:", response.status, response.statusText);

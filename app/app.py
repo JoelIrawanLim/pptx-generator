@@ -51,10 +51,10 @@ def search_function():
 
     search_query = request.form.get('searchquery')
     search_option = request.form.get('searchoption')
-
+   
 
     pptx_generator_ui.search(search_query, search_option)
-
+    result = {}
     result = {
         'query': search_query,
         'option': search_option,
@@ -65,8 +65,9 @@ def search_function():
         'error': pptx_generator_ui.searchresult_error,
         'invalid': pptx_generator_ui.searchresult_invalid,
     }
-
+    print(result)
     if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+        print(result)
         return jsonify(result)
     else:
         return render_template(

@@ -333,9 +333,9 @@ def search(search_query, search_option, searchresult_key=searchresult_key, searc
                      " ", "").replace("?", "").replace("!", "").replace(
                          ".", "").replace(",", "").replace(";", "").replace(
                              ":", "").replace("'", ""):
-            searchresult_key = key
-            searchresult_title = data[key]['title']
-            searchresult_author = data[key]['author']
+            searchresult_key.append(key)
+            searchresult_title.append(data[key]['title'])
+            searchresult_author.append(data[key]['author'])
             searchresult_error = ""
             searchresult_invalid =""
             found = 1
@@ -346,9 +346,9 @@ def search(search_query, search_option, searchresult_key=searchresult_key, searc
       if search_query.isdigit():
          for key in data:
             if int(search_query) == data[key]['kri_number']:
-               searchresult_key = key
-               searchresult_title = data[key]['title']
-               searchresult_author = data[key]['author']
+               searchresult_key.append(key)
+               searchresult_title.append(data[key]['title'])
+               searchresult_author.append(data[key]['author'])
                searchresult_error = ""
                searchresult_invalid =""
                found = 1
