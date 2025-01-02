@@ -1600,6 +1600,37 @@
     - "But I know who holds tomorrow,"
     - "And I know who holds my hand."
 
+'kri216':
+  title: "More Love To Thee"
+  author: ["Elizabeth Prentiss"]
+  verse_number: [1, 1, 2, 2, 3, 3]
+  kri_number: 216
+  lyrics: 
+  - - "More love to Thee, O Christ,"
+    - "More love to Thee!"
+    - "Hear Thou the prayer I make"
+    - "On bended knee;"
+  - - "This is my earnest plea:"
+    - "More love, O Christ, to Thee,"
+    - "More love to Thee,"
+    - "More love to Thee!"
+  - - "Once earthly joy I craved,"
+    - "Sought peace and rest;"
+    - "Now Thee alone I seek,"
+    - "Give what is best;"
+  - - "This all my prayer shall be:"
+    - "More love, O Christ, to Thee,"
+    - "More love to Thee,"
+    - "More love to Thee!"
+  - - "Then shall my latest breath"
+    - "Whisper Thy praise;"
+    - "This be the parting cry"
+    - "My heart shall raise;"
+  - - "This still its prayer shall be:"
+    - "More love, O Christ, to Thee,"
+    - "More love to Thee,"
+    - "More love to Thee!"
+
 'kri222':
   title: "I Love to Tell the Story"
   author: ["Kate Hankey", "William G. Fischer"]
@@ -1709,6 +1740,37 @@
     - "If heaven's not my home, then Lord what will I do?"
     - "The angels beckon me from heaven's open door,"
     - "And I can't feel at home in this world anymore."
+
+'kri277':
+  title: "Day By Day"
+  author: ["A. L. Skoog", "Carolina Sandell"]
+  verse_number: [1, 1, 2, 2, 3, 3]
+  kri_number: 277
+  lyrics: 
+  - - "Day by day, God’s gracious love surrounds me"
+    - "As a balm to soothe my troubled heart."
+    - "Countless cares and worries that confound me"
+    - "Fade away or quietly depart,"
+  - - "For His heart is kind beyond all measure,"
+    - "And He comforts us as He knows best."
+    - "Ev’ry day, with all its pain and pleasure,"
+    - "Mingles tears with peace and rest."
+  - - "Day by day, the Lord is ever near me,"
+    - "Granting loving mercies for each hour,"
+    - "And my care He gladly bears, and cheers me"
+    - "With His counsel pure and holy pow’r."
+  - - "I’ll not fear for what may come tomorrow,"
+    - "Though the path ahead I cannot see."
+    - "He assures that in all joy or sorrow,"
+    - "“As thy days, thy strength shall be.”"
+  - - "Help me rest in quiet consolation."
+    - "Help me trust Thy promises, O Lord."
+    - "When I’m faced with daily tribulation,"
+    - "Help me find the strength to live Thy word."
+  - - "Then, dear Lord, when toil and trouble find me,"
+    - "Hold me steadfast in Thy pow’rful hand."
+    - "Day by day, Thy strength will bear me kindly"
+    - "Till I reach the promised land."
 
 'kpri46':
   title: "The Old Rugged Cross"
