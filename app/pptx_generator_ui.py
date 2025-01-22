@@ -8,10 +8,10 @@ import sys
 search_query = ""  #user input
 search_option = "" # -a, -t or -k
 searchresult_key = []
-searchresult_title = []
-searchresult_author = []
-searchresult_error = ""
-searchresult_invalid = ""
+searchresult_title= []
+searchresult_author= []
+searchresult_error= ""
+searchresult_invalid= ""
 
 # global variables for generate
 first_song = [] 
@@ -291,7 +291,17 @@ def main(first_song_id, second_song_id, third_song_id, presentation_title):
    prs.save(script_dir + "/"  + output_presentation)
 
 
-def search(search_query, search_option, searchresult_key=searchresult_key, searchresult_title=searchresult_title, searchresult_author=searchresult_author, searchresult_error=searchresult_error):
+def search(search_query, search_option):
+   global searchresult_key
+   global searchresult_title 
+   global searchresult_author
+   global searchresult_invalid 
+   global searchresult_error
+   searchresult_key = []
+   searchresult_title = []
+   searchresult_author = []
+   searchresult_invalid = []
+   searchresult_error = []
    initialize()
    found = 0
    if search_option == "-a":
@@ -301,14 +311,8 @@ def search(search_query, search_option, searchresult_key=searchresult_key, searc
             for index_of_all_words_of_authors in range(
                 0, len(data[key]['author'][index_of_all_authors].split(" "))):
                for index_of_all_userinput_words in range(0, len(search_query.split(" "))):
-                  if search_query.split( " ")[index_of_all_userinput_words].lower(
-                  ).replace(" ", "").replace("?", "").replace("!", "").replace(
-                      ".", "") == data[key]['author'][index_of_all_authors].split(
-                          " ")[index_of_all_words_of_authors].lower().replace(
-                              " ",
-                              "").replace("?",
-                                          "").replace("!",
-                                                      "").replace(".", ""):
+                  if search_query.split( " ")[index_of_all_userinput_words].lower().replace(" ", "").replace("?", "").replace("!", "").replace(
+                      ".", "") == data[key]['author'][index_of_all_authors].split(" ")[index_of_all_words_of_authors].lower().replace(" ","").replace("?", "").replace("!","").replace(".", ""):
                      already_done = False
                      for done_addresses in range(0, len(addresses)):
                         if addresses[done_addresses] == key:
@@ -356,6 +360,8 @@ def search(search_query, search_option, searchresult_key=searchresult_key, searc
             searchresult_error = f"There is no kri{search_query} in our song list."
       else:
          searchresult_invalid = ("Invalid input, only accepts numbers.")
+
+   
 
 
 if __name__ == "__main__":

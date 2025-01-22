@@ -51,8 +51,6 @@ def search_function():
 
     search_query = request.form.get('searchquery')
     search_option = request.form.get('searchoption')
-   
-
     pptx_generator_ui.search(search_query, search_option)
     result = {}
     result = {

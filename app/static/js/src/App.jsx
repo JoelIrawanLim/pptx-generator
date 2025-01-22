@@ -20,7 +20,7 @@ const SearchResults = ({ results }) => {
               <br />
               <strong>Authors:</strong>{" "}
               {results.author[index].map((author, authorIndex) => (
-              <span key={`${key}-${authorIndex}`}>{author}</span>
+              <span key={`${results.key[index]}-${authorIndex}`}>{author}</span>
               ))}
             </div>
           </li>
@@ -32,9 +32,21 @@ const SearchResults = ({ results }) => {
 
 // Function to activate React and render content into `search-results`
 const activateReact = (results) => {
+  console.log("activated react")
+  console.log(root)
   const container = document.getElementById("search-results");
   root = ReactDOM.createRoot(container);
-  root.render(<SearchResults authors={results} />);
+  console.log(container);
+  if (!results) {
+    console.error("Results is undefined or null");
+    return;
+  }else{
+    console.log("actived react results")
+    console.log(results);
+    root.render(<SearchResults results={results} />);
+    results = []
+  }
+  console.log("finishd React")
 };
 
 // Vanilla JavaScript logic
