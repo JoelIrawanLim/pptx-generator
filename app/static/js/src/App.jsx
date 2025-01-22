@@ -20,7 +20,7 @@ const SearchResults = ({ results }) => {
               <br />
               <strong>Authors:</strong>{" "}
               {results.author[index].map((author, authorIndex) => (
-              <span key={`${results.key[index]}-${authorIndex}`}>{author}</span>
+              <span key={`${results.key[index]}-${authorIndex}`}>{author} </span>
               ))}
             </div>
           </li>
