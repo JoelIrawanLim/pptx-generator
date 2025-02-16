@@ -5,23 +5,20 @@ let pptx = new PptxGenJS();
 // global variables
 let nextSaturday = getNextSaturday();
 
-
-
-
 // Define a slide master
 pptx.defineSlideMaster({
     title: "SONG_SLIDE_LAYOUT",
     background: {color: "FFFFFF"},
     objects: [
-        {text: { text: "Title Text", options: {x: 5 , y: 1, fontSize: 18, color: "000000"}}},
-        {text: { text: "testing",  options: {x: 1, y: 3, fontSize: 12, color: "000000" }}}
+        {text: { text: "Title Text", options: {x: 0 , y: 1, w: 10, h: 2 , fontSize: 24, align: "center", color: "000000", autofit: true}}},
+        {text: { text: "testing",  options: {x: 1, y: 3, w: 9, h, 1, fontSize: 12, color: "000000" , autofit: true}}}
     ],
 })
 
 
 // Slide initializers
 let addDarkSlide = () => {let slide = pptx.addSlide();slide.background = { color: "000000" };};
-let addWelcomeSlide = createWelcomeSlide();
+let addWelcomeSlide = () => {createWelcomeSlide()};
 
 // Helper Functions
 function getNextSaturday() {
@@ -33,9 +30,12 @@ function getNextSaturday() {
 }
 
 function createWelcomeSlide() {
-    let slide = pptx.addSlide();
-    slide.addText(getNextSaturday(), {x: 1, y: 2.5, fontSize: 12, color: "FFFFFF"})
+    let slide = pptx.addSlide({
+       background: { path: "/welcome_slide.jpeg"}
+    });
+    slide.addText(nextSaturday, {x: 1, y: 2.5, fontSize: 12, color: "FFFFFF"})
     slide.addText("Welcome to Remaja"), {x: 1, y: 2.8, fontSize: 28, color: "FFFFFF"}
+    
 }
 
 
