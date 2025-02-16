@@ -1,7 +1,68 @@
 const PptxGenJS = require("pptxgenjs");
 
 let pptx = new PptxGenJS();
-let slide = pptx.addSlide();
 
-slide.addText("Hello World!", {x : 1, y: 1, fontSize: 18, color: "363636"});
-pptx.writeFile("SamplePresentation.pptx");
+// global variables
+let nextSaturday = getNextSaturday();
+
+
+
+
+// Define a slide master
+pptx.defineSlideMaster({
+    title: "SONG_SLIDE_LAYOUT",
+    background: {color: "FFFFFF"},
+    objects: [
+        {text: { text: "Title Text", options: {x: 5 , y: 1, fontSize: 18, color: "000000"}}},
+        {text: { text: "testing",  options: {x: 1, y: 3, fontSize: 12, color: "000000" }}}
+    ],
+})
+
+
+// Slide initializers
+let addDarkSlide = () => {let slide = pptx.addSlide();slide.background = { color: "000000" };};
+let addWelcomeSlide = createWelcomeSlide();
+
+// Helper Functions
+function getNextSaturday() {
+    let today = new Date();
+    let nextSaturday = new Date();
+    nextSaturday.setDate(today.getDate() + (6 - today.getDay() + 7) % 7);
+    nextSaturday = nextSaturday.toLocaleDateString('en-GB',{ day: 'numeric', month: 'long', year: 'numeric' });
+    return nextSaturday;
+}
+
+function createWelcomeSlide() {
+    let slide = pptx.addSlide();
+    slide.addText(getNextSaturday(), {x: 1, y: 2.5, fontSize: 12, color: "FFFFFF"})
+    slide.addText("Welcome to Remaja"), {x: 1, y: 2.8, fontSize: 28, color: "FFFFFF"}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Slide Layouts
+addDarkSlide();
+addWelcomeSlide();
+pptx.addSlide({ masterName: "SONG_SLIDE_LAYOUT"});
+
+
+// save function (for debug purposes, for now saves locally)
+pptx.writeFile({ fileName: "presentation.pptx"}).then(fileName => {console.log(`created file: ${fileName}`)});
