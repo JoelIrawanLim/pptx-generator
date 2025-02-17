@@ -20,7 +20,7 @@ async function loadSongs(url) {
          throw new Error(`HTTP error! Status: ${response.status}`);
       }
       const fileContent = await response.text();
-      const data = yaml.load(fileContent);
+      const data = jsyaml.load(fileContent);
       console.log("YAML file loaded.")
       return data;
    } catch (error) {
@@ -33,13 +33,24 @@ async function loadSongs(url) {
 function searchSongByTitle(searchTitle, songsData) {
    for (const key in songsData) {
       if (Object.prototype.hasOwnProperty.call(songsData, key)) {
-      const song = songsData[key];
+         const song = songsData[key];
          if (song.title && song.title.toLowerCase() === searchTitle.toLowerCase()) {
-         return song;
+            return song;
          }
       }
    }
 return null;
+}
+
+function searchSongByAuthor(searchTitle, songsData) {
+   for (const key in songsData) {
+      if (Object.prototype.hasOwnProperty.call(songsData, key)) {
+         const song = songsData[key];
+         if (song.author && song.author.toLowerCase() === searchTitle.toLowerCase()) {
+            return song;
+         }
+      }
+   }
 }
 
 function searchByTitle(searchTerm) {
@@ -48,59 +59,45 @@ function searchByTitle(searchTerm) {
       if (songsData) {
          const foundSong = searchSongByTitle(searchTerm, songsData);
             if (foundSong) {
-            console.log('Songs found:', foundSong);
+            console.log("Songs found:", foundSong);
             } else {
-            console.log('Song not found.');
+            console.log("Song not found.");
          }
       }
    });
 };
 
+function searchByAuthor(searchTerm) {
+   loadSongs("https://raw.githubusercontent.com/JoelIrawanLim/pptx-generator/refs/heads/main/app/data/data.yml")
+   .then(songsData => {
+      if (songsData) {
+         const foundSong = searchSongByAuthor(searchTerm, songsData);
+         if (foundSong) {
+            console.log("Song found:", foundSong);
+         } else {
+            console.log("Song not found.");
+         }
+      }
+   })
+}
+
 
 // DOM section
 const searchBar = document.getElementById("search-bar");
-const searchButton = document.getElementById("search-button");
-searchButton.addEventListener("click", () => {
+const searchTitleButton = document.getElementById("search-title-button");
+const searchAuthorButton = document.getElementById("search-author-button");
+const searchKRIButton = document.getElementById("search-kri-button");
+
+// Button Event Listeners
+searchTitleButton.addEventListener("click", () => {
    const searchTerm = searchBar.value;
-   const result = searchByTitle(searchTerm);
-   console.log(result);
+   searchByTitle(searchTerm);
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+searchAuthorButton.addEventListener("click", () => {
+   const searchTerm = searchBar.value;
+   searchByAuthor(searchTerm);
+});
 
 
 
