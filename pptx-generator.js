@@ -27,9 +27,8 @@ async function loadSongs(url) {
       console.error('Error fetching or parsing the YAML file:', error);
       return null;
    }
-}
+};
 
-// Searches the song by its title and returns the song data.
 function searchSongByTitle(searchTitle, songsData) {
    for (const key in songsData) {
       if (Object.prototype.hasOwnProperty.call(songsData, key)) {
@@ -39,19 +38,34 @@ function searchSongByTitle(searchTitle, songsData) {
          }
       }
    }
-return null;
-}
+ return null;
+};
 
 function searchSongByAuthor(searchTitle, songsData) {
    for (const key in songsData) {
       if (Object.prototype.hasOwnProperty.call(songsData, key)) {
          const song = songsData[key];
-         if (song.author && song.author.toLowerCase() === searchTitle.toLowerCase()) {
-            return song;
-         }
+         for (let i = 0; i < song.author.length; i++) {
+            if (song.author[i] && song.author[i].toLowerCase() === searchTitle.toLowerCase()) {
+              return song;
+            } 
+          }
+        }
+     }
+  return null;
+};
+
+function searchSongByKRI(searchTitle, songsData) {
+   for (const key in songsData) {
+   if (Object.prototype.hasOwnProperty.call(songsData, key)) {
+     const song = songsData[key];
+     if (parseInt(song.kri_number) && parseInt(song.kri_number) === parseInt(searchTitle)) {
+      return song;
       }
-   }
-}
+    }
+  }
+  return null;
+};
 
 function searchByTitle(searchTerm) {
    loadSongs("https://raw.githubusercontent.com/JoelIrawanLim/pptx-generator/refs/heads/main/app/data/data.yml")
@@ -59,7 +73,7 @@ function searchByTitle(searchTerm) {
       if (songsData) {
          const foundSong = searchSongByTitle(searchTerm, songsData);
             if (foundSong) {
-            console.log("Songs found:", foundSong);
+            console.log(foundSong);
             } else {
             console.log("Song not found.");
          }
@@ -73,7 +87,7 @@ function searchByAuthor(searchTerm) {
       if (songsData) {
          const foundSong = searchSongByAuthor(searchTerm, songsData);
          if (foundSong) {
-            console.log("Song found:", foundSong);
+            console.log(foundSong);
          } else {
             console.log("Song not found.");
          }
@@ -81,8 +95,21 @@ function searchByAuthor(searchTerm) {
    })
 }
 
-
-// DOM section
+function searchByKRI(searchTerm) {
+  loadSongs("https://raw.githubusercontent.com/JoelIrawanLim/pptx-generator/refs/heads/main/app/data/data.yml")
+    .then(songsData => {
+      if (songsData) {
+        const foundSong = searchSongByKRI(searchTerm, songsData);
+        if (foundSong) {
+          console.log(foundSong);
+        } else {
+          console.log("Song not found.");
+        }
+      }
+    })
+}
+    
+// DOM section (change if you wanna change which buttons trigger search function)
 const searchBar = document.getElementById("search-bar");
 const searchTitleButton = document.getElementById("search-title-button");
 const searchAuthorButton = document.getElementById("search-author-button");
@@ -99,6 +126,10 @@ searchAuthorButton.addEventListener("click", () => {
    searchByAuthor(searchTerm);
 });
 
+searchKRIButton.addEventListener("click", () => {
+   const searchTerm = searchBar.value;
+   searchByKRI(searchTerm);
+})
 
 
 
