@@ -7,6 +7,15 @@
   - - ""
     - ""
 
+'placeholder':
+  title: ""
+  author: []
+  verse_number: []
+  kri_number: 'none'
+  lyrics:
+  - - ""
+    - ""
+    
 'kri1':
   title: "How Great Thou Art"
   author: [Carl Rob]
