@@ -1,7 +1,4 @@
 
-const PptxGenJS = require("pptxgenjs");
-const yaml = require('js-yaml');
-
 let pptx = new PptxGenJS();
 
 // global variables
@@ -17,50 +14,56 @@ let songLyrics;
 // Uses a web API to fetch the data.yml file by its URL.
 // Joel if you are reading this, another npm package required to parse files does not have a CDN. Hence, we have to use this method to get our files so it does not require nodejs
 async function loadSongs(url) {
-try {
-const response = await fetch(url);
-if (!response.ok) {
-throw new Error(`HTTP error! Status: ${response.status}`);
-}
-const fileContent = await response.text();
-const data = yaml.load(fileContent);
-return data;
-} catch (error) {
-console.error('Error fetching or parsing the YAML file:', error);
-return null;
-}
+   try {
+      const response = await fetch(url);
+      if (!response.ok) {
+         throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      const fileContent = await response.text();
+      const data = yaml.load(fileContent);
+      console.log("YAML file loaded.")
+      return data;
+   } catch (error) {
+      console.error('Error fetching or parsing the YAML file:', error);
+      return null;
+   }
 }
 
 // Searches the song by its title and returns the song data.
 function searchSongByTitle(searchTitle, songsData) {
-for (const key in songsData) {
-if (Object.prototype.hasOwnProperty.call(songsData, key)) {
-const song = songsData[key];
-if (song.title && song.title.toLowerCase() === searchTitle.toLowerCase()) {
-return song;
-}
-}
-}
+   for (const key in songsData) {
+      if (Object.prototype.hasOwnProperty.call(songsData, key)) {
+      const song = songsData[key];
+         if (song.title && song.title.toLowerCase() === searchTitle.toLowerCase()) {
+         return song;
+         }
+      }
+   }
 return null;
 }
 
-loadSongs("https://raw.githubusercontent.com/JoelIrawanLim/pptx-generator/refs/heads/main/app/data/data.yml").then(songsData => {
-if (songsData) {
-const titleToSearch = 'How Great Thou Art';
-const foundSong = searchSongByTitle(titleToSearch, songsData);
-if (foundSong) {
-console.log('Songs found:', foundSong);
-} else {
-console.log('Song not found.');
-}
-}
-});
+function searchByTitle(searchTerm) {
+   loadSongs("https://raw.githubusercontent.com/JoelIrawanLim/pptx-generator/refs/heads/main/app/data/data.yml")
+      .then(songsData => {
+      if (songsData) {
+         const foundSong = searchSongByTitle(searchTerm, songsData);
+            if (foundSong) {
+            console.log('Songs found:', foundSong);
+            } else {
+            console.log('Song not found.');
+         }
+      }
+   });
+};
+
 
 // DOM section
 const searchBar = document.getElementById("search-bar");
 const searchButton = document.getElementById("search-button");
 searchButton.addEventListener("click", () => {
-const searchTerm = searchBar.value;
+   const searchTerm = searchBar.value;
+   const result = searchByTitle(searchTerm);
+   console.log(result);
 });
 
 
