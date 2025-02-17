@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "http-server": "^14.1.1",
-    "js-yaml": "^4.1.0",
-    "pptxgenjs": "^3.12.0"
-  }
-}
