@@ -72,9 +72,11 @@ function searchByTitle(searchTerm) {
       if (songsData) {
          const foundSong = searchSongByTitle(searchTerm, songsData);
             if (foundSong) {
-            console.log(foundSong);
+            console.log(`Song Name: ${foundSong.title}, Song Author(s): ${foundSong.author}, KRI Number: ${foundSong.kri_number}`);
+            displayOnScreen(foundSong.title, foundSong.author, foundSong.kri_number);
             } else {
             console.log("Song not found.");
+            alert("Song not found.");
          }
       }
    });
@@ -86,9 +88,11 @@ function searchByAuthor(searchTerm) {
       if (songsData) {
          const foundSong = searchSongByAuthor(searchTerm, songsData);
          if (foundSong) {
-            console.log(foundSong);
+            console.log(`Song Name: ${foundSong.title}, Song Author(s): ${foundSong.author}, KRI Number: ${foundSong.kri_number}`);
+            displayOnScreen(foundSong.title, foundSong.author, foundSong.kri_number);
          } else {
             console.log("Song not found.");
+            alert("Song not found.");
          }
       }
    })
@@ -100,7 +104,8 @@ function searchByKRI(searchTerm) {
       if (songsData) {
         const foundSong = searchSongByKRI(searchTerm, songsData);
         if (foundSong) {
-          console.log(foundSong);
+          console.log(`Song Name: ${foundSong.title}, Song Author(s): ${foundSong.author}, KRI Number: ${foundSong.kri_number}`);
+          displayOnScreen(foundSong.title, foundSong.author, foundSong.kri_number);
         } else {
           console.log("Song not found.");
         }
@@ -130,6 +135,28 @@ searchKRIButton.addEventListener("click", () => {
    searchByKRI(searchTerm);
 })
 
+function displayOnScreen(title,author,kri_number) {
+  const card = document.createElement("div");
+  card.classList.add("card");
+  const h4 = document.createElement("h4");
+  h4.textContent = title;
+  const h5 = document.createElement("h5");
+  h5.textContent = author;
+  const h6 = document.createElement("h6");
+  h6.textContent = `KRI ${kri_number}`;
+  const dragContainer = document.createElement("div");
+  dragContainer.classList.add("drag-container");
+  for (let i = 0; i < 10; i++) {
+    const circle = document.createElement("div");
+    circle.classList.add("circle");
+    dragContainer.appendChild(circle);
+  }
+  card.appendChild(h4);
+  card.appendChild(h5);
+  card.appendChild(h6);
+  card.appendChild(dragContainer);
+  document.getElementById("card-container").appendChild(card);
+}
 
 
 
@@ -189,7 +216,6 @@ searchKRIButton.addEventListener("click", () => {
 
 
 
-/*
 // Define layout templates
 pptx.defineSlideMaster({
 title: "SONG_SLIDE_TITLE_LAYOUT",
@@ -338,4 +364,3 @@ lastSlide();
 // generateSlides();
 // save function (for debug purposes, for now saves locally)
 // pptx.writeFile({ fileName: "presentation.pptx"}).then(fileName => {console.log(`created file: ${fileName}`)});
-*/

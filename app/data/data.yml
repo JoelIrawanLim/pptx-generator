@@ -1776,7 +1776,7 @@
   title: "The Old Rugged Cross"
   author: ["George Bennard"]
   verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
-  kri_number: none
+  kri_number: 'none'
   lyrics: 
   - - "On a hill far away stood an old rugged cross,"
     - "The emblem of suff'ring and shame;"
@@ -1819,7 +1819,7 @@
   title: "Di Bukit Golgota"
   author: ["George Bennard"]
   verse_number: [1, "ref", 2, "ref", 3, "ref", 4, "ref"]
-  kri_number: none
+  kri_number: 'none'
   lyrics: 
   - - "Di bukit Golgota nampaklah salib Hu, matahari bersuramlah."
     - "Yesus Anak Allah meninggalkan surga, mati bagiku yang berdosa."
@@ -1904,7 +1904,7 @@
   title: "O Jesus, I have promised"
   author: ["John Ernest Bode"]
   verse_number: [1, 1, 2, 2, 3, 3, 4, 4]
-  kri_number: none
+  kri_number: 'none'
   lyrics: 
   - - "O Jesus, I have promised"
     - "to serve Thee to the end;"
@@ -1943,7 +1943,7 @@
   title: "Now Thank We All Our God"
   author: ["Martin Rinkart", "Catherine Winkworth"]
   verse_number: [1, 1, 2, 2, 3, 3]
-  kri_number: none
+  kri_number: 'none'
   lyrics: 
   - - "Now thank we all our God"
     - "with heart and hands and voices,"
