@@ -2,12 +2,43 @@ html {
   font-family: "SF Pro Display", sans-serif;
   overflow: hidden;
   background: #7f678d;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::webkit-scrollbar {
+  display: none;
 }
 
 .main-container {
   display: flex;
   flex-direction: row;
   height: 110vh;
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    overflow-y: scroll !important;
+  }
+  .search-container {
+    width: 90%  !important;
+    padding: 20px 10px 0px 10px !important;
+  }
+  .card-container {
+    min-height: 10vh;
+  }
+  .generator-container {
+    width: 90% !important;
+    padding: 0;
+    min-height: 80vh;
+  }
+  
+  .choice-container {
+    padding: 0 !important;
+  }
+  
+  
 }
 
 .search-container {
@@ -81,6 +112,8 @@ html {
   background: #6c517b;
   border-radius: 30px;
   min-height: 150px;
+  min-width: 360px;
+  max-width: 360px;
 }
 
 .card h4 {
@@ -160,6 +193,7 @@ html {
   border: 6px dashed #6c517b;
   border-radius: 30px;
   align-items: center;
+  width: 360px;
 }
 
 #one::before {
@@ -193,3 +227,16 @@ html {
   background: #ffffff;
   transition: color 0.5s ease-in, background 0.5s ease-in;
 }
+
+input {
+  height: 2rem;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: #6c517b;
+}
+
+input:hover {
+  outline: none;
+}
+

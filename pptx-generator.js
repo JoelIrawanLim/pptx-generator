@@ -2,15 +2,8 @@ let pptx = new PptxGenJS();
 
 // global variables
 let nextSaturday = getNextSaturday();
-const colors = ["548135","2E75B6","C55A11"];
-let songTitle;
-let songAuthor;
-let songNumber; // Note: songNumber and kri_number are NOT the same!! can only be 1,2, or 3
-let verseNumber;
-let songLyrics;
 
 // Uses a web API to fetch the data.yml file by its URL.
-// Joel if you are reading this, another npm package required to parse files does not have a CDN. Hence, we have to use this method to get our files so it does not require nodejs
 async function loadSongs(url) {
    try {
       const response = await fetch(url);
@@ -171,6 +164,8 @@ function displayOnScreen(foundSong,number_of_songs) {
   }
 }
 
+
+
 // Define layout templates
 pptx.defineSlideMaster({
 title: "SONG_SLIDE_TITLE_LAYOUT",
@@ -251,27 +246,39 @@ let addDarkSlide = () => {let slide = pptx.addSlide();slide.background = { color
 
 let addWelcomeSlide = () => {pptx.addSlide({ masterName: "WELCOME_SLIDE_LAYOUT"});};
 
-let addSongTitleSlide = () => {
-let slide = pptx.addSlide({ masterName: "SONG_SLIDE_TITLE_LAYOUT"});
-slide.addText(songNumber, {placeholder: "song_number"});
-slide.addText(songTitle, {placeholder: "song_title"});
-slide.addText(songAuthor, {placeholder: "song_author"});
+let addSongTitleSlide = (title, author, number, colorsChoice) => {
+  let slide = pptx.addSlide({ masterName: "SONG_SLIDE_TITLE_LAYOUT" });
+  slide.addText(number, { placeholder: "song_number", color: colorsChoice });
+  slide.addText(title, { placeholder: "song_title", color: colorsChoice });
+  if (Array.isArray(author)) {
+    slide.addText(author.join(", "), { placeholder: "song_author" });
+  } else {
+    slide.addText(author, { placeholder: "song_author" });
+  }
 };
 
-let addSongSlide = () => {
+let addSongSlide = (title,author,verse_number,lyrics,colorsChoice) => {
 let slide = pptx.addSlide({ masterName: "SONG_SLIDE_LAYOUT"});
-slide.addText(songTitle, {placeholder: "song_title"});
-slide.addText(songAuthor, {placeholder: "song_author"});
-slide.addText(songLyrics, {placeholder: "song_lyrics"});
-slide.addText(verseNumber, {placeholder:"verse_number"});
+slide.addText(title, {placeholder: "song_title", color: colorsChoice});
+if (Array.isArray(author)) {
+  slide.addText(author.join(", "), { placeholder: "song_author" });
+} else {
+  slide.addText(author, { placeholder: "song_author" });
+}
+slide.addText(lyrics, {placeholder: "song_lyrics"});
+slide.addText(verse_number, {placeholder:"verse_number", color: colorsChoice});
 };
 
-let offeringSongSlide = () => {
+let offeringSongSlide = (title,author,verse_number,lyrics,colorsChoice) => {
 let slide = pptx.addSlide({ masterName: "OFFERING_SONG_SLIDE_LAYOUT"});
-slide.addText(songTitle, {placeholder: "song_title"})
-slide.addText(songAuthor,{placeholder: "song_author"});
-slide.addText(songLyrics, {placeholder: "song_lyrics"});
-slide.addText(verseNumber, {placeholder:"verse_number"});
+slide.addText(title, {placeholder: "song_title", color: colorsChoice})
+if (Array.isArray(author)) {
+  slide.addText(author.join(", "), { placeholder: "song_author" });
+} else {
+  slide.addText(author, { placeholder: "song_author" });
+}
+slide.addText(lyrics, {placeholder: "song_lyrics"});
+slide.addText(verse_number, {placeholder:"verse_number", color: colorsChoice});
 };
 
 let announcementsSlide = () => {
@@ -303,18 +310,4 @@ nextSaturday = nextSaturday.toLocaleDateString('en-GB',{ day: 'numeric', month: 
 return nextSaturday;
 }
 
-
-function generateSlides() {
-addDarkSlide();
-addWelcomeSlide();
-addSongTitleSlide();
-addSongSlide();
-offeringSongSlide();
-announcementsSlide();
-birthdaySlide();
-lastSlide();
-}
-
-// generateSlides();
-// save function (for debug purposes, for now saves locally)
-// pptx.writeFile({ fileName: "presentation.pptx"}).then(fileName => {console.log(`created file: ${fileName}`)});
+"C55A11"
