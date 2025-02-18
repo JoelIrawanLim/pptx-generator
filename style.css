@@ -1,3 +1,6 @@
+html {
+  font-family: "SF Pro Display", sans-serif;
+}
 
 .main-container {
   display: flex;
@@ -28,6 +31,7 @@
   height: 2rem;
   width: 100%;
   color: #ffffff;
+  font-family: "SF Pro Display", sans-serif;
 }
 
 #search-bar:hover {
@@ -52,6 +56,7 @@
   font-size: 18px;
   font-weight: 700;
   transition: color 1s ease-out, background 1s ease-out;
+  font-family: "SF Pro Display", sans-serif;
 }
 
 .btn:hover {
@@ -60,6 +65,69 @@
   transition: color 1s ease-in, background 1s ease-in;
 }
 
+.card-container {
+  padding: 20px 30px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card {
+  height: 80px;
+  background: #6c517b;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.card h4 {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.card h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-top: 30px;
+}
+
+.card h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  position: relative;
+  color: #ffffff;
+  opacity: 0.5;
+  text-align: right;
+  top: -25px;
+  left: -50px;
+}
+
+.drag-container {
+  width: 34px;
+  position: relative;
+  left: 260px;
+  height: 88px;
+  top: -107px;
+  display: grid;
+  grid-template-columns: repeat(2, 16px);
+  grid-template-rows: repeat(5, 16px);
+  grid-row-gap: 2px;
+  grid-column-gap: 2px;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background: #333333;
+  opacity: 0.5;
+  z-index: 1;
+}
 
 
 .generator-container {

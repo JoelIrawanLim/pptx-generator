@@ -1,4 +1,3 @@
-
 let pptx = new PptxGenJS();
 
 // global variables
@@ -190,6 +189,7 @@ searchKRIButton.addEventListener("click", () => {
 
 
 
+/*
 // Define layout templates
 pptx.defineSlideMaster({
 title: "SONG_SLIDE_TITLE_LAYOUT",
@@ -338,3 +338,4 @@ lastSlide();
 // generateSlides();
 // save function (for debug purposes, for now saves locally)
 // pptx.writeFile({ fileName: "presentation.pptx"}).then(fileName => {console.log(`created file: ${fileName}`)});
+*/
