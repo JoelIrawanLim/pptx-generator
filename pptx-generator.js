@@ -29,41 +29,44 @@ async function loadSongs(url) {
 };
 
 function searchSongByTitle(searchTitle, songsData) {
-   for (const key in songsData) {
-      if (Object.prototype.hasOwnProperty.call(songsData, key)) {
-         const song = songsData[key];
-         if (song.title && song.title.toLowerCase() === searchTitle.toLowerCase()) {
-            return song;
-         }
+  let songs = [];
+  for (const key in songsData) {
+    if (Object.prototype.hasOwnProperty.call(songsData, key)) {
+      const song = songsData[key];
+      if (song.title && song.title.toLowerCase() === searchTitle.toLowerCase()) {
+        songs.push(song);
       }
-   }
- return null;
-};
+    }
+  }
+  return songs.length > 0 ? songs : null;
+}
 
 function searchSongByAuthor(searchTitle, songsData) {
+  let songs = [];
    for (const key in songsData) {
       if (Object.prototype.hasOwnProperty.call(songsData, key)) {
          const song = songsData[key];
          for (let i = 0; i < song.author.length; i++) {
             if (song.author[i] && song.author[i].toLowerCase() === searchTitle.toLowerCase()) {
-              return song;
+              songs.push(song);
             } 
           }
         }
      }
-  return null;
+  return songs.length > 0 ? songs : null;
 };
 
 function searchSongByKRI(searchTitle, songsData) {
+   let songs = [];
    for (const key in songsData) {
    if (Object.prototype.hasOwnProperty.call(songsData, key)) {
      const song = songsData[key];
      if (parseInt(song.kri_number) && parseInt(song.kri_number) === parseInt(searchTitle)) {
-      return song;
+        songs.push(song);
       }
     }
   }
-  return null;
+  return songs.length > 0 ? songs: null;
 };
 
 function searchByTitle(searchTerm) {
@@ -72,8 +75,9 @@ function searchByTitle(searchTerm) {
       if (songsData) {
          const foundSong = searchSongByTitle(searchTerm, songsData);
             if (foundSong) {
-            console.log(`Song Name: ${foundSong.title}, Song Author(s): ${foundSong.author}, KRI Number: ${foundSong.kri_number}`);
-            displayOnScreen(foundSong.title, foundSong.author, foundSong.kri_number);
+              console.log(foundSong);
+              const number_of_songs = foundSong.length;
+              displayOnScreen(foundSong,number_of_songs);
             } else {
             console.log("Song not found.");
             alert("Song not found.");
@@ -88,8 +92,9 @@ function searchByAuthor(searchTerm) {
       if (songsData) {
          const foundSong = searchSongByAuthor(searchTerm, songsData);
          if (foundSong) {
-            console.log(`Song Name: ${foundSong.title}, Song Author(s): ${foundSong.author}, KRI Number: ${foundSong.kri_number}`);
-            displayOnScreen(foundSong.title, foundSong.author, foundSong.kri_number);
+           console.log(foundSong);
+          const number_of_songs = foundSong.length;
+          displayOnScreen(foundSong,number_of_songs);
          } else {
             console.log("Song not found.");
             alert("Song not found.");
@@ -104,8 +109,9 @@ function searchByKRI(searchTerm) {
       if (songsData) {
         const foundSong = searchSongByKRI(searchTerm, songsData);
         if (foundSong) {
-          console.log(`Song Name: ${foundSong.title}, Song Author(s): ${foundSong.author}, KRI Number: ${foundSong.kri_number}`);
-          displayOnScreen(foundSong.title, foundSong.author, foundSong.kri_number);
+          console.log(foundSong);
+          const number_of_songs = foundSong.length;
+          displayOnScreen(foundSong,number_of_songs);
         } else {
           console.log("Song not found.");
         }
@@ -135,32 +141,34 @@ searchKRIButton.addEventListener("click", () => {
    searchByKRI(searchTerm);
 })
 
-function displayOnScreen(title,author,kri_number) {
+function displayOnScreen(foundSong,number_of_songs) {
   const cardContainer = document.getElementById("card-container");
   const cards = cardContainer.querySelectorAll(".card");
   cards.forEach(card => {
     cardContainer.removeChild(card);
-  }) 
-  const card = document.createElement("div");
-  card.classList.add("card");
-  const h4 = document.createElement("h4");
-  h4.textContent = title;
-  const h5 = document.createElement("h5");
-  h5.textContent = author;
-  const h6 = document.createElement("h6");
-  h6.textContent = `KRI ${kri_number}`;
-  const dragContainer = document.createElement("div");
-  dragContainer.classList.add("drag-container");
-  for (let i = 0; i < 4; i++) {
-    const circle = document.createElement("div");
-    circle.classList.add("circle");
-    dragContainer.appendChild(circle);
+  })
+  for (let i = 0; i < number_of_songs; i++) {
+    const card = document.createElement("div");
+    card.classList.add("card");
+    const h4 = document.createElement("h4");
+    h4.textContent = foundSong[i].title;
+    const h5 = document.createElement("h5");
+    h5.textContent = foundSong[i].author;
+    const h6 = document.createElement("h6");
+    h6.textContent = `KRI ${foundSong[i].kri_number}`;
+    const dragContainer = document.createElement("div");
+    dragContainer.classList.add("drag-container");
+    for (let i = 0; i < 4; i++) {
+      const circle = document.createElement("div");
+      circle.classList.add("circle");
+      dragContainer.appendChild(circle);
+    }
+    card.appendChild(h4);
+    card.appendChild(h5);
+    card.appendChild(h6);
+    card.appendChild(dragContainer);
+    cardContainer.appendChild(card);
   }
-  card.appendChild(h4);
-  card.appendChild(h5);
-  card.appendChild(h6);
-  card.appendChild(dragContainer);
-  cardContainer.appendChild(card);
 }
 
 
