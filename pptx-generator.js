@@ -3,7 +3,6 @@ let pptx = new PptxGenJS();
 // global variables
 let nextSaturday = getNextSaturday();
 const colors = ["548135","2E75B6","C55A11"];
-let colorsChoice = colors[0];
 let songTitle;
 let songAuthor;
 let songNumber; // Note: songNumber and kri_number are NOT the same!! can only be 1,2, or 3
@@ -114,6 +113,7 @@ function searchByKRI(searchTerm) {
           displayOnScreen(foundSong,number_of_songs);
         } else {
           console.log("Song not found.");
+          alert("Song not found.");
         }
       }
     })
@@ -151,11 +151,11 @@ function displayOnScreen(foundSong,number_of_songs) {
     const card = document.createElement("div");
     card.classList.add("card");
     const h4 = document.createElement("h4");
-    h4.textContent = foundSong[i].title;
+    h4.innerHTML = foundSong[i].title;
     const h5 = document.createElement("h5");
-    h5.textContent = foundSong[i].author;
+    h5.innerHTML = foundSong[i].author.toString().split(",").join("<br>");
     const h6 = document.createElement("h6");
-    h6.textContent = `KRI ${foundSong[i].kri_number}`;
+    h6.innerHTML = `KRI ${foundSong[i].kri_number}`;
     const dragContainer = document.createElement("div");
     dragContainer.classList.add("drag-container");
     for (let i = 0; i < 4; i++) {
@@ -170,64 +170,6 @@ function displayOnScreen(foundSong,number_of_songs) {
     cardContainer.appendChild(card);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Define layout templates
 pptx.defineSlideMaster({
@@ -371,7 +313,6 @@ offeringSongSlide();
 announcementsSlide();
 birthdaySlide();
 lastSlide();
-
 }
 
 // generateSlides();

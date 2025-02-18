@@ -1,16 +1,19 @@
 html {
   font-family: "SF Pro Display", sans-serif;
+  overflow: hidden;
+  background: #7f678d;
 }
 
 .main-container {
   display: flex;
   flex-direction: row;
+  height: 110vh;
 }
 
 .search-container {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 45vw;
   padding: 30px;
   background: #7f678d;
   gap: 15px;
@@ -51,40 +54,40 @@ html {
   height: 2rem;
   background: #6c517b;
   text-align: center;
-  min-width: 120px;
+  min-width: 130px;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
-  transition: color 1s ease-out, background 1s ease-out;
+  transition: color 0.5s ease-out, background 0.5s ease-out;
   font-family: "SF Pro Display", sans-serif;
 }
 
 .btn:hover {
   color: #000000;
   background: #ffffff;
-  transition: color 1s ease-in, background 1s ease-in;
+  transition: color 0.5s ease-in, background 0.5s ease-in;
 }
 
 .card-container {
-  padding: 20px 20px 0px 20px;
+  padding: 20px 40px 0px 40px;
   display: flex;
   flex-direction: column;
   gap: 30px;
+  overflow-y: scroll !important; /* not sure why this does not work lele please help */
 }
 
 .card {
-  height: auto;
   position: relative;
   background: #6c517b;
   border-radius: 30px;
-  min-height: 180px;
+  min-height: 150px;
 }
 
 .card h4 {
   margin: 0;
-  padding: 30px 0 0 30px;
+  padding: 20px 0 0 20px;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.2rem;
   max-width: 250px;
   text-wrap: wrap;
 }
@@ -92,12 +95,12 @@ html {
 .card h5 {
   position: absolute;
   margin: 0;
-  padding: 0 0 30px 30px;
-  font-size: 20px;
+  padding: 0 0 20px 20px;
+  font-size: 1rem;
   color: #ffffff;
   opacity: 0.7;
   max-width: 200px;
-  text-wrap: nowrap;
+  text-wrap: wrap;
   left: 0;
   bottom: 0;
   margin-top: 100px;
@@ -106,8 +109,8 @@ html {
 .card h6 {
   position: absolute;
   margin: 0;
-  padding: 30px 30px 0 0;
-  font-size: 20px;
+  padding: 20px 20px 0 0;
+  font-size: 1.2rem;
   color: #ffffff;
   opacity: 0.5;
   top: 0;
@@ -117,7 +120,7 @@ html {
 
 .drag-container {
   position: absolute;
-  padding: 0 30px 30px 0;
+  padding: 0 20px 20px 0;
   display: grid;
   grid-template-columns: repeat(2, 16px);
   grid-template-rows: repeat(2, 16px);
@@ -136,7 +139,57 @@ html {
   z-index: 1;
 }
 
-
 .generator-container {
-  width: 60%;
+  width: 55vw;
+  text-align: center;
+  padding: 5px;
+}
+
+.choice-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px 90px 0px 90px;
+}
+
+.card-placeholder {
+  display: flex;
+  flex-direction: row;
+  height: 140px;
+  background: #d3d3d3;
+  border: 6px dashed #6c517b;
+  border-radius: 30px;
+  align-items: center;
+}
+
+#one::before {
+  content: "1st";
+  font-size: 2rem;
+  font-weight: 700;
+  transform: translateX(-75px);
+}
+
+#two::before {
+  content: "2nd";
+  font-size: 1.9rem;
+  font-weight: 700;
+  transform: translateX(-78px);
+}
+
+#three::before {
+  content: "3rd";
+  font-size: 2rem;
+  font-weight: 700;
+  transform: translateX(-75px);
+}
+
+.gen-btn {
+  height: 3rem;
+  font-size: 1.5rem;
+}
+
+.gen-btn:hover {
+  color: #000000;
+  background: #ffffff;
+  transition: color 0.5s ease-in, background 0.5s ease-in;
 }
