@@ -136,6 +136,11 @@ searchKRIButton.addEventListener("click", () => {
 })
 
 function displayOnScreen(title,author,kri_number) {
+  const cardContainer = document.getElementById("card-container");
+  const cards = cardContainer.querySelectorAll(".card");
+  cards.forEach(card => {
+    cardContainer.removeChild(card);
+  }) 
   const card = document.createElement("div");
   card.classList.add("card");
   const h4 = document.createElement("h4");
@@ -146,7 +151,7 @@ function displayOnScreen(title,author,kri_number) {
   h6.textContent = `KRI ${kri_number}`;
   const dragContainer = document.createElement("div");
   dragContainer.classList.add("drag-container");
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 4; i++) {
     const circle = document.createElement("div");
     circle.classList.add("circle");
     dragContainer.appendChild(circle);
@@ -155,7 +160,7 @@ function displayOnScreen(title,author,kri_number) {
   card.appendChild(h5);
   card.appendChild(h6);
   card.appendChild(dragContainer);
-  document.getElementById("card-container").appendChild(card);
+  cardContainer.appendChild(card);
 }
 
 

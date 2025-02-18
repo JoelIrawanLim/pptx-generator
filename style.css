@@ -73,51 +73,56 @@ html {
 }
 
 .card {
-  height: 80px;
+  position: relative;
   background: #6c517b;
   border-radius: 30px;
-  padding: 30px;
+  min-height: 160px;
 }
 
 .card h4 {
   margin: 0;
-  padding: 0;
+  padding: 30px 0 0 30px;
   color: #ffffff;
   font-size: 20px;
+  max-width: 200px;
+  text-wrap: wrap;
 }
 
 .card h5 {
+  position: absolute;
   margin: 0;
-  padding: 0;
+  padding: 0 0 30px 30px;
   font-size: 20px;
   color: #ffffff;
-  opacity: 0.5;
-  margin-top: 30px;
+  opacity: 0.7;
+  max-width: 150px;
+  text-wrap: nowrap;
+  left: 0;
+  bottom: 0;
 }
 
 .card h6 {
+  position: absolute;
   margin: 0;
-  padding: 0;
+  padding: 30px 30px 0 0;
   font-size: 20px;
-  position: relative;
   color: #ffffff;
   opacity: 0.5;
+  top: 0;
+  right: 0;
   text-align: right;
-  top: -25px;
-  left: -50px;
 }
 
 .drag-container {
-  width: 34px;
-  position: relative;
-  left: 260px;
-  height: 88px;
-  top: -107px;
+  position: absolute;
+  padding: 0 30px 30px 0;
   display: grid;
   grid-template-columns: repeat(2, 16px);
-  grid-template-rows: repeat(5, 16px);
+  grid-template-rows: repeat(2, 16px);
   grid-row-gap: 2px;
   grid-column-gap: 2px;
+  right: 0;
+  bottom: 0;
 }
 
 .circle {
