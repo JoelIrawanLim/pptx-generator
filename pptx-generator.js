@@ -310,4 +310,35 @@ nextSaturday = nextSaturday.toLocaleDateString('en-GB',{ day: 'numeric', month: 
 return nextSaturday;
 }
 
-"C55A11"
+function generateSlides() {
+  const song1 = document.getElementById("song-1").value; 
+  const song2 = document.getElementById("song-2").value; 
+  const song3 = document.getElementById("song-3").value;
+  loadSongs("https://raw.githubusercontent.com/JoelIrawanLim/pptx-generator/refs/heads/main/app/data/data.yml").then (songsData => { if (songsData) { const firstSong = songsData[song1]; const secondSong = songsData[song2]; const thirdSong = songsData[song3]; } });
+  addDarkSlide();
+  addWelcomeSlide();
+  addDarkSlide();
+  addSongTitleSlide(title=firstSong.title,author=firstSong.author,number=1,colorsChoice="C55A11");
+  const firstSongLength = firstSong.verse_number.length;
+  for (let i = 0; i < firstSongLength; i++) {
+    addSongSlide(title=firstSong.title,author=firstSong.author,verse_number=firstSong.verse_number[i],lyrics=firstSong.lyrics[i], colorsChoice="C55A11");
+  }
+  addSongTitleSlide(title = secondSong.title, author = secondSong.author, number = 2, colorsChoice = "2E75B6");
+  const secondSongLength = secondSong.verse_number.length;
+  for (let i = 0; i < secondSongLength; i++) {
+    addSongSlide(title = secondSong.title, author = secondSong.author, verse_number = secondSong.verse_number[i], lyrics = secondSong.lyrics[i], colorsChoice = "C55A11");
+  }
+  addDarkSlide();
+  addSongTitleSlide(title = thirdSong.title, author = thirdSong.author, number = 3, colorsChoice = "548135");
+  const thirdSongLength = thirdSong.verse_number.length;
+  for (let i = 0; i < thirdSongLength; i++) {
+    addSongSlide(title = thirdSong.title, author = thirdSong.author, verse_number = thirdSong.verse_number[i], lyrics = thirdSong.lyrics[i], colorsChoice = "548135");
+  }
+  addDarkSlide();
+  announcementsSlide();
+  addDarkSlide();
+  birthdaySlide();
+  lastSlide();
+  pptx.writeFile({ fileName: "presentation.pptx"}).then(fileName => {console.log(`created file: ${fileName}`)});
+}
+  
