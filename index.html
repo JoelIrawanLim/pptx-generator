@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>pptx-generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-    <input type="text" id="search-bar" placeholder="Search...">
-    <button id="search-title-button">Title</button>
-    <button id="search-author-button">Author</button>
-    <button id="search-kri-button">KRI Number</button>
+    <div class="main-container">
+      <div class="search-container">
+        <div class="searchbar-container">
+          <input type="text" id="search-bar" placeholder="Search...">
+        </div>
+      <div class="button-container">
+        <button class="btn" id="search-title-button">Title</button>
+        <button class="btn" id="search-author-button">Author</button>
+        <button class="btn" id="search-kri-button">KRI Number</button>
+      </div>
+      </div>
+      <div class="generator-container"></div>
    </div>
 
    <script src="https://unpkg.com/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
